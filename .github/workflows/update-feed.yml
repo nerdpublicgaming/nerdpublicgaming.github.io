@@ -1,7 +1,8 @@
 name: Videos, Clips und Live-Status aktualisieren
 
-# Holt alle 20 Minuten die neuesten Videos, Clips und den Live-Status
-# und veröffentlicht die Seite. Läuft außerdem bei jedem Upload (push) auf main.
+# Holt alle 20 Minuten die neuesten Videos, Clips und den Live-Status (alle 4 Stunden
+# auch Instagram) und speichert sie im Repository. Veröffentlicht wird die Seite dann
+# automatisch von GitHub Pages ("Deploy from a branch", main / root).
 on:
   push:
     branches: [main]
@@ -13,19 +14,14 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: feed
   cancel-in-progress: false
 
 jobs:
   update-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -80,19 +76,3 @@ jobs:
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-
-      # Seite veröffentlichen: bei Uploads, beim manuellen Start und wenn es Neues gibt
-      - name: Pages vorbereiten
-        if: github.event_name != 'schedule' || steps.save.outputs.changed == 'true'
-        uses: actions/configure-pages@v5
-
-      - name: Seite packen
-        if: github.event_name != 'schedule' || steps.save.outputs.changed == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-      - name: Seite veröffentlichen
-        id: deploy
-        if: github.event_name != 'schedule' || steps.save.outputs.changed == 'true'
-        uses: actions/deploy-pages@v4
