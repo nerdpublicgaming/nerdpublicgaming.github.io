@@ -1,21 +1,63 @@
 {
-  "sample": true,
-  "updated": "2026-11-22T14:00:00Z",
-  "live": { "isLive": false, "lastSeen": "2026-11-20T21:30:00Z" },
+  "updated": "2026-11-22T15:28:27.934Z",
+  "live": null,
   "videos": [
-    { "id": "", "title": "Power Weaver Raid-Guide – Rotation, Ausrüstung und Tipps", "published": "2026-11-19T17:00:00Z", "thumb": "" },
-    { "id": "", "title": "Raid-Abend mit der Gilde – Wing 7 Clear", "published": "2026-11-15T19:00:00Z", "thumb": "" },
-    { "id": "", "title": "Bladesworn für Einsteiger", "published": "2026-11-10T17:00:00Z", "thumb": "" },
-    { "id": "", "title": "Wochen-Stream: Ihr habt abgestimmt!", "published": "2026-11-06T19:00:00Z", "thumb": "" },
-    { "id": "", "title": "Unboxing: Neues Headset im Test", "published": "2026-11-01T15:00:00Z", "thumb": "" },
-    { "id": "", "title": "Vindicator Power DPS – Snow Crows Rotation erklärt", "published": "2026-10-27T17:00:00Z", "thumb": "" },
-    { "id": "", "title": "Let's Play – Folge 1", "published": "2026-10-20T17:00:00Z", "thumb": "" }
+    {
+      "id": "wkM2IC_H8p8",
+      "title": "[ger/eng] [SC]-Supremecommanders!  No Caps, Just Progress 👑 | Endless Summer Farm und Dailys!",
+      "published": "2026-11-01T07:38:23+00:00",
+      "views": 53,
+      "thumb": "data/thumbs/yt-wkM2IC_H8p8.jpg"
+    },
+    {
+      "id": "7jwQBjsGSK4",
+      "title": "[ger/eng] [SC]-Supremecommanders!  No Caps, Just Progress 👑 | Raiding :D!",
+      "published": "2026-10-25T01:51:59+00:00",
+      "views": 139,
+      "thumb": "data/thumbs/yt-7jwQBjsGSK4.jpg"
+    },
+    {
+      "id": "Lz7jGb75cb8",
+      "title": "Das BESTE Addon für Guild Wars 2! Pie UI Tutorial",
+      "published": "2026-10-17T15:20:30+00:00",
+      "views": 185,
+      "thumb": "data/thumbs/yt-Lz7jGb75cb8.jpg"
+    },
+    {
+      "id": "N8H4KxIxZJc",
+      "title": "[ger/eng] [SC]-Supremecommanders!  No Caps, Just Progress 👑 | Interface bauen und Achievement Hunt!",
+      "published": "2026-10-10T19:43:55+00:00",
+      "views": 58,
+      "thumb": "data/thumbs/yt-N8H4KxIxZJc.jpg"
+    },
+    {
+      "id": "hGNI68697wg",
+      "title": "[ger/eng] [SC]-Supremecommanders!  No Caps, Just Progress 👑 | Endless Summer Ring Vorbereitung.",
+      "published": "2026-10-09T22:41:39+00:00",
+      "views": 83,
+      "thumb": "data/thumbs/yt-hGNI68697wg.jpg"
+    },
+    {
+      "id": "ofgHML7sNdY",
+      "title": "[ger/eng] No Caps, Just Progress 👑 | Endless Summer Ring Vorbereitung!",
+      "published": "2026-10-04T20:31:54+00:00",
+      "views": 84,
+      "thumb": "data/thumbs/yt-ofgHML7sNdY.jpg"
+    },
+    {
+      "id": "FGdnvshdhz4",
+      "title": "[ger/eng] No Caps, Just Progress 👑 | Regalia & Raid Night!",
+      "published": "2026-09-19T19:55:22+00:00",
+      "views": 75,
+      "thumb": "data/thumbs/yt-FGdnvshdhz4.jpg"
+    },
+    {
+      "id": "7CBbt8q63TU",
+      "title": "[ger/eng] Grinding Legendaries until I lose my mind 💎",
+      "published": "2026-08-30T19:05:38+00:00",
+      "views": 68,
+      "thumb": "data/thumbs/yt-7CBbt8q63TU.jpg"
+    }
   ],
-  "clips": [
-    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Wipe bei 1 %", "views": 42, "created": "2026-11-20T21:10:00Z", "duration": 28, "creator": "Zuschauer", "thumb": "" },
-    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Der perfekte Dodge", "views": 31, "created": "2026-11-18T20:40:00Z", "duration": 15, "creator": "Zuschauer", "thumb": "" },
-    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Chat entscheidet den Build", "views": 27, "created": "2026-11-13T20:05:00Z", "duration": 45, "creator": "Zuschauer", "thumb": "" },
-    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Erster Kill!", "views": 19, "created": "2026-11-08T21:55:00Z", "duration": 33, "creator": "Zuschauer", "thumb": "" },
-    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Mechanik? Welche Mechanik?", "views": 12, "created": "2026-11-02T20:20:00Z", "duration": 22, "creator": "Zuschauer", "thumb": "" }
-  ]
+  "clips": []
 }
