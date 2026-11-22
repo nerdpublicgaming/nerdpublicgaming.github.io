@@ -3,10 +3,10 @@
 /* Dropdown im Menü (gilt für alle Seiten, wird auch von index.html genutzt) */
 .dd{position:relative;flex:none}
 .dd-btn{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:12px;background:none;border:0;border-radius:4px;color:var(--text);font:600 15px var(--head);cursor:pointer}
-.dd-btn:hover,.dd.open .dd-btn{color:var(--gold);background:rgba(227,183,90,.08)}
+.dd-btn:hover,.dd.is-open .dd-btn{color:var(--gold);background:rgba(227,183,90,.08)}
 .dd-menu{position:absolute;right:0;top:calc(100% + 8px);min-width:250px;padding:10px;display:none;flex-direction:column;
   background:#1c1612;border:1px solid var(--gold2);box-shadow:0 0 0 1px #000,0 20px 40px rgba(0,0,0,.6);z-index:30}
-.dd.open .dd-menu{display:flex}
+.dd.is-open .dd-menu{display:flex}
 .dd-menu a{padding:10px 12px;color:var(--text);text-decoration:none;font:500 15px var(--body);border-radius:3px}
 .dd-menu a:hover,.dd-menu a[aria-current]{background:rgba(227,183,90,.12);color:var(--gold)}
 .dd-head{margin:2px 12px 6px;font:700 13px var(--head);color:var(--gold)}
