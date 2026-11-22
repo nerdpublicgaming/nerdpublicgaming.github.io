@@ -10,7 +10,7 @@ die eine GitHub Action alle 20 Minuten neu schreibt. Guides stehen in `data/guid
    - Client-ID kopieren, „New Secret“ erzeugen und kopieren.
 3. Im Repository: **Settings → Secrets and variables → Actions → New repository secret**
    - `TWITCH_CLIENT_ID` und `TWITCH_CLIENT_SECRET` eintragen.
-4. **Settings → Pages:** Source „Deploy from a branch“, Branch `main`, Ordner `/ (root)`.
+4. **Settings → Pages:** bei Source „GitHub Actions“ wählen.
 5. **Actions → „Videos, Clips und Live-Status aktualisieren“ → Run workflow** – einmal manuell starten.
 
 ## Inhalte pflegen
@@ -22,3 +22,8 @@ die eine GitHub Action alle 20 Minuten neu schreibt. Guides stehen in `data/guid
 - Die Texte stehen in `content/fraktale/<name>.json`. Nach einer Änderung im Hauptordner
   `python scripts/build-guides.py` ausführen, dann werden die Seiten neu erzeugt.
 - Die PDFs liegen weiter unter `guides/fraktale/` und sind auf jeder Guide-Seite als Download verlinkt.
+
+## Seite aktualisieren (GitHub Desktop)
+1. Zuerst **Fetch origin** und dann **Pull origin** klicken – die Automatik speichert regelmäßig neue Videos/Clips, die müssen erst geholt werden.
+2. Dateien im Repository-Ordner ändern.
+3. Summary eintragen → **Commit to main** → **Push origin**. Die Seite ist 1–2 Minuten später aktuell.

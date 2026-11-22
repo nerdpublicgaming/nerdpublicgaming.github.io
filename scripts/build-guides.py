@@ -65,9 +65,6 @@ def page(title, desc, prefix, body, active=""):
 <title>{e(title)} – NerdPublic Gaming</title>
 <meta name="description" content="{e(desc)}">
 <link rel="icon" href="{prefix}assets/favicon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{prefix}style.css">
 <link rel="stylesheet" href="{prefix}guide.css">
 </head>

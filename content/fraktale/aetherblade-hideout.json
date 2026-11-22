@@ -186,7 +186,7 @@
     },
     {
      "t": "li",
-     "html": "<strong>Spiral-Orbs:</strong> tödlich mit Exposed. Hardstuck-Empfehlungen: Corrosive Poison Cloud (Nekro) · „Aftershock!“ / Magnetic Aura (Ele) · Protective Solace (Wächter) · Valiant Bulwark (Firebrand) · Zealot's Defense (Wächter)"
+     "html": "<strong>Spiral-Orbs:</strong> tödlich mit Exposed. Hardstuck-Empfehlungen: Corrosive Poison Cloud (Nekro) · „Aftershock!“ / Magnetic Aura (Ele) · Protective Solace (Widergänger) · Valiant Bulwark (Firebrand) · Zealot's Defense (Wächter)"
     },
     {
      "t": "li",
@@ -406,7 +406,7 @@
     "name": "Wächter",
     "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
     "items": [
-     "Beste <strong>Orb-Konter:</strong> Protective Solace, Valiant Bulwark (Kap. 3), Zealot's Defense – absprechen, wer wann deckt.",
+     "Beste <strong>Orb-Konter:</strong> Valiant Bulwark (Kap. 3), Zealot's Defense – absprechen, wer wann deckt.",
      "Willbender: viele Dashes – nicht versehentlich in fremde Tether-AoEs oder ins Green dashen.",
      "Als Support vorne bleiben, damit beide DPS-Gruppen Boons bekommen."
     ]
@@ -442,6 +442,7 @@
     "name": "Widergänger",
     "specs": "Renegade · Vindicator · Herald · Conduit",
     "items": [
+     "<strong>Orb-Konter:</strong> Protective Solace (Legendary Centaur / Ventari) blockt die Spiral-Orbs – absprechen, wer wann deckt.",
      "Vindicator: Ausweichen ist ein Sprung – perfekt, um die Slam-Welle zu überspringen.",
      "Renegade/Vindicator im Top-10-DPS – Uptime in Bewegungsphasen halten.",
      "Hammer-/Ranged-Optionen helfen bei Abstand zu Tether-AoEs."

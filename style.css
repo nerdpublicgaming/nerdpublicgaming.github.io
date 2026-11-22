@@ -1,3 +1,11 @@
+/* Schriften lokal (keine Verbindung zu Google) */
+@font-face{font-family:"Cinzel";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/cinzel-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Cinzel";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/cinzel-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Cinzel";font-style:normal;font-weight:800;font-display:swap;src:url(assets/fonts/cinzel-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"Fira Sans";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/fira-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Fira Sans";font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/fira-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Fira Sans";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/fira-sans-latin-600-normal.woff2) format("woff2")}
+@font-face{font-family:"Fira Sans";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/fira-sans-latin-700-normal.woff2) format("woff2")}
 /*
 VOICE: Guild Wars 2 Launcher trifft Streamer-Kanal – episch, aber gemütlich.
 IDEA: Die Seite verhält sich wie das GW2-Heldenpanel: Tinte, Pergament, rote Pinselstriche, goldene Rahmen.
