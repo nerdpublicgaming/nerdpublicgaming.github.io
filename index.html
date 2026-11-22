@@ -25,31 +25,24 @@
 </svg>
 
 <header class="nav">
-  <a class="brand" href="#top" aria-label="NerdPublic Gaming – Start">
+  <a class="brand" href="index.html" aria-label="NerdPublic Gaming – Start">
     <img src="assets/logo-round.png" alt="" width="44" height="44">
     <span>NerdPublic <b>Gaming</b></span>
   </a>
   <nav class="links" aria-label="Hauptmenü">
-    <a href="#stream">Stream</a>
-    <a href="#videos">Videos</a>
-    <a href="#clips">Clips</a>
+    <a href="index.html#stream">Stream</a>
+    <a href="index.html#videos">Videos</a>
+    <a href="index.html#clips">Clips</a>
     <div class="dd">
       <button type="button" class="dd-btn" aria-expanded="false" aria-controls="ddMenu">GW2 Guides <span aria-hidden="true">▾</span></button>
       <div class="dd-menu" id="ddMenu">
-        <p class="dd-head">Fraktal-CMs</p>
-        <a class="dd-all" href="fraktale/index.html">Alle Fraktal-Guides</a>
-        <a href="fraktale/aetherblade-hideout.html">Ätherklingen-Versteck CM</a>
-        <a href="fraktale/nightmare.html">Nightmare CM</a>
-        <a href="fraktale/shattered-observatory.html">Shattered Observatory CM</a>
-        <a href="fraktale/sunqua-peak.html">Sunqua Peak CM</a>
-        <a href="fraktale/silent-surf.html">Silent Surf CM</a>
-        <a href="fraktale/lonely-tower.html">Lonely Tower CM</a>
-        <a href="fraktale/kinfall.html">Kinfall CM</a>
+        <a class="dd-all" href="guides/index.html">Alle GW2-Guides</a>
+        <div class="dd-groups"><div class="dd-group"><a class="dd-head" href="fraktale/index.html">Fraktale</a><a href="fraktale/nightmare.html">Nightmare CM</a><a href="fraktale/shattered-observatory.html">Shattered Observatory CM</a><a href="fraktale/sunqua-peak.html">Sunqua Peak CM</a><a href="fraktale/silent-surf.html">Silent Surf CM</a><a href="fraktale/lonely-tower.html">Lonely Tower CM</a><a href="fraktale/kinfall.html">Kinfall CM</a></div><div class="dd-group"><a class="dd-head" href="strikes/index.html">Strikes</a><a href="strikes/aetherblade-hideout.html">Ätherklingen-Versteck CM</a></div><div class="dd-group"><a class="dd-head" href="raids/index.html">Raids</a><span class="dd-empty">kommt bald</span></div></div>
       </div>
     </div>
-    <a href="#about">Über mich</a>
+    <a class="lock-link" href="sc-logs/index.html"><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3H9z"/></svg>SC-Logs</a>
+    <a href="index.html#about">Über mich</a>
   </nav>
-  <span class="status" id="navStatus" hidden><i></i>Live</span>
 </header>
 
 <main id="top">
@@ -109,12 +102,10 @@
   <section class="band" id="guides">
     <div class="sec-head">
       <h2 class="brush">Guild Wars 2 Guides</h2>
-      <a class="more" href="fraktale/index.html">Alle Fraktal-CM-Guides →</a>
-      <div class="filters" id="guideFilters" role="group" aria-label="Guides filtern"></div>
+      <a class="more" href="guides/index.html">Alle GW2-Guides →</a>
     </div>
-    <p class="intro">Fraktal-CMs auf einen Blick: Jeder Guide beginnt mit dem, was im Challenge Mode neu ist. Du kennst den Normal Mode? Dann reicht das schon.
-      Darunter kommen alle Mechaniken im Detail, Klassen-Statistiken und Tipps für jede Klasse.</p>
-    <div class="guides" id="guideGrid"></div>
+    <p class="guide-lead"><span>Kompakte Guides zu Fraktalen, Strikes und Raids: erst das, was im Challenge Mode neu ist, dann alle Mechaniken und Klassentipps.</span></p>
+    <div id="guideGrid"></div>
     <p class="fine credit">Mechaniken nach den Guides von <a href="https://hardstuck.gg/gw2/guides/" rel="noopener">Hardstuck</a>,
       Klassendaten von <a href="https://gw2wingman.nevermindcreations.de/" rel="noopener">GW2 Wingman</a>.</p>
   </section>

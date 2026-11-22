@@ -2,7 +2,7 @@
   {
     "title": "Ätherklingen-Versteck CM",
     "bosses": "Mai Trin · Echo of Scarlet Briar",
-    "mode": "Fraktal-CM",
+    "mode": "Strike-CM",
     "summary": "Cleave gibt Exposed, im 33-%-Split Greens für drei Spieler, ab 60 % Deathray-Bomben mit Safe Spot.",
     "tags": [
       "Exposed vermeiden",
@@ -10,10 +10,11 @@
       "Deathray-Bomben"
     ],
     "pages": 3,
-    "pdf": "guides/fraktale/aetherblade-hideout-cm.pdf",
+    "pdf": "guides/strikes/aetherblade-hideout-cm.pdf",
     "cover": "assets/guides/aetherblade-hideout.jpg",
     "updated": "2026-11-21",
-    "url": "fraktale/aetherblade-hideout.html"
+    "url": "strikes/aetherblade-hideout.html",
+    "cat": "strikes"
   },
   {
     "title": "Nightmare CM",
@@ -29,7 +30,8 @@
     "pdf": "guides/fraktale/nightmare-cm.pdf",
     "cover": "assets/guides/nightmare.jpg",
     "updated": "2026-11-21",
-    "url": "fraktale/nightmare.html"
+    "url": "fraktale/nightmare.html",
+    "cat": "fraktale"
   },
   {
     "title": "Shattered Observatory CM",
@@ -45,7 +47,8 @@
     "pdf": "guides/fraktale/shattered-observatory-cm.pdf",
     "cover": "assets/guides/shattered-observatory.jpg",
     "updated": "2026-11-21",
-    "url": "fraktale/shattered-observatory.html"
+    "url": "fraktale/shattered-observatory.html",
+    "cat": "fraktale"
   },
   {
     "title": "Sunqua Peak CM",
@@ -61,7 +64,8 @@
     "pdf": "guides/fraktale/sunqua-peak-cm.pdf",
     "cover": "assets/guides/sunqua-peak.jpg",
     "updated": "2026-11-21",
-    "url": "fraktale/sunqua-peak.html"
+    "url": "fraktale/sunqua-peak.html",
+    "cat": "fraktale"
   },
   {
     "title": "Silent Surf CM",
@@ -77,7 +81,8 @@
     "pdf": "guides/fraktale/silent-surf-cm.pdf",
     "cover": "assets/guides/silent-surf.jpg",
     "updated": "2026-11-21",
-    "url": "fraktale/silent-surf.html"
+    "url": "fraktale/silent-surf.html",
+    "cat": "fraktale"
   },
   {
     "title": "Lonely Tower CM",
@@ -93,7 +98,8 @@
     "pdf": "guides/fraktale/lonely-tower-cm.pdf",
     "cover": "assets/guides/lonely-tower.jpg",
     "updated": "2026-11-21",
-    "url": "fraktale/lonely-tower.html"
+    "url": "fraktale/lonely-tower.html",
+    "cat": "fraktale"
   },
   {
     "title": "Kinfall CM",
@@ -109,6 +115,7 @@
     "pdf": "guides/fraktale/kinfall-cm.pdf",
     "cover": "assets/guides/kinfall.jpg",
     "updated": "2026-11-21",
-    "url": "fraktale/kinfall.html"
+    "url": "fraktale/kinfall.html",
+    "cat": "fraktale"
   }
 ]

@@ -1,16 +1,30 @@
 #!/usr/bin/env python3
-"""Erzeugt die Fraktal-CM-Guide-Seiten aus content/fraktale/*.json.
+"""Erzeugt die GW2-Guide-Seiten (Fraktale, Strikes, Raids) aus content/fraktale/*.json.
 
 Aufruf (im Hauptordner der Seite):  python scripts/build-guides.py
 Texte ändern: in content/fraktale/<name>.json bearbeiten und das Skript neu starten.
+Neuen Guide einer Kategorie zuordnen: Namen unten in CATS eintragen.
+Das Skript aktualisiert außerdem das Menü in index.html, impressum.html, datenschutz.html und sc-logs/index.html.
 """
 import json, html, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content", "fraktale")
-OUT = os.path.join(ROOT, "fraktale")
 
-ORDER = ["aetherblade-hideout", "nightmare", "shattered-observatory", "sunqua-peak", "silent-surf", "lonely-tower", "kinfall"]
+# Kategorien: Ordner, Name, Schild auf den Karten, Untertitel, Guides
+CATS = [
+    {"key": "fraktale", "name": "Fraktale", "label": "Fraktal-CM", "mode": "Fraktal Challenge Mode", "players": "5 Spieler",
+     "intro": "Die Challenge Modes der Fraktale (5 Spieler).",
+     "guides": ["nightmare", "shattered-observatory", "sunqua-peak", "silent-surf", "lonely-tower", "kinfall"]},
+    {"key": "strikes", "name": "Strikes", "label": "Strike-CM", "mode": "Strike Challenge Mode", "players": "10 Spieler",
+     "intro": "Die Challenge Modes der Strike Missions (10 Spieler).",
+     "guides": ["aetherblade-hideout"]},
+    {"key": "raids", "name": "Raids", "label": "Raid", "mode": "Raid", "players": "10 Spieler",
+     "intro": "Guides zu den Raid-Bossen (10 Spieler).",
+     "guides": []},
+]
+CAT_OF = {g: c for c in CATS for g in c["guides"]}
+ORDER = [g for c in CATS for g in c["guides"]]
 SHORT = {"aetherblade-hideout": "Ätherklingen-Versteck", "nightmare": "Nightmare", "shattered-observatory": "Shattered Observatory",
          "sunqua-peak": "Sunqua Peak", "silent-surf": "Silent Surf", "lonely-tower": "Lonely Tower", "kinfall": "Kinfall"}
 PROF_COLOR = {"Wächter": "#72c1d9", "Widergänger": "#d16e5a", "Krieger": "#ffd166", "Ingenieur": "#d09c59", "Waldläufer": "#8cdc82",
@@ -27,7 +41,11 @@ def webify(h):
 
 def header(prefix, active=""):
     cur = ' aria-current="page"'
-    items = "".join(f'<a href="{prefix}fraktale/{s}.html"{cur if s == active else ""}>{e(SHORT[s])} CM</a>' for s in ORDER)
+    groups = ""
+    for c in CATS:
+        links = "".join(f'<a href="{prefix}{c["key"]}/{s}.html"{cur if s == active else ""}>{e(SHORT[s])} CM</a>' for s in c["guides"])
+        if not links: links = '<span class="dd-empty">kommt bald</span>'
+        groups += f'<div class="dd-group"><a class="dd-head" href="{prefix}{c["key"]}/index.html">{e(c["name"])}</a>{links}</div>'
     return f'''<header class="nav">
   <a class="brand" href="{prefix}index.html" aria-label="NerdPublic Gaming – Start">
     <img src="{prefix}assets/logo-round.png" alt="" width="44" height="44">
@@ -40,11 +58,11 @@ def header(prefix, active=""):
     <div class="dd">
       <button type="button" class="dd-btn" aria-expanded="false" aria-controls="ddMenu">GW2 Guides <span aria-hidden="true">▾</span></button>
       <div class="dd-menu" id="ddMenu">
-        <p class="dd-head">Fraktal-CMs</p>
-        <a class="dd-all" href="{prefix}fraktale/index.html">Alle Fraktal-Guides</a>
-        {items}
+        <a class="dd-all" href="{prefix}guides/index.html">Alle GW2-Guides</a>
+        <div class="dd-groups">{groups}</div>
       </div>
     </div>
+    <a class="lock-link" href="{prefix}sc-logs/index.html"><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3H9z"/></svg>SC-Logs</a>
     <a href="{prefix}index.html#about">Über mich</a>
   </nav>
 </header>'''
@@ -100,7 +118,8 @@ def table_html(t, kind):
 def guide_html(g, prev, nxt):
     s = g["slug"]; P = "../"
     img = lambda n: f"{P}assets/fraktale/{n}"
-    pdf = f"{P}guides/fraktale/{s}-cm.pdf"
+    cat = CAT_OF[s]
+    pdf = f"{P}guides/{cat['key']}/{s}-cm.pdf"
     hard = next((x["url"] for x in g["sources"] if "hardstuck" in x["url"]), "")
     chips = "".join(f"<li>{e(c)}</li>" for c in g["chips"])
     tl = "".join(f'<li style="--c:{t["color"]}"><b>{e(t["label"])}</b><span>{e(t["desc"])}</span></li>' for t in g["timeline"])
@@ -141,10 +160,10 @@ def guide_html(g, prev, nxt):
     else: pn += "<span></span>"
     if nxt: pn += f'<a class="pn next" href="{nxt}.html"><small>Nächster Guide</small>{e(SHORT[nxt])} CM</a>'
     body = f'''
-<div class="crumbs band"><a href="../index.html">Start</a> › <a href="index.html">Fraktal-CMs</a> › <span>{e(g["title"])}</span></div>
+<div class="crumbs band"><a href="../index.html">Start</a> › <a href="../guides/index.html">GW2 Guides</a> › <a href="index.html">{e(cat["name"])}</a> › <span>{e(g["title"])}</span></div>
 <section class="g-hero band">
   <div class="g-hero-in">
-    <p class="kick">Guild Wars 2 · Fraktal Challenge Mode</p>
+    <p class="kick">Guild Wars 2 · {e(cat["mode"])} · {e(cat["players"])}</p>
     <h1>{e(g["title"])}</h1>
     <p class="sub">{e(webify(g["subtitle"]))}</p>
     <ul class="chips">{chips}</ul>
@@ -193,46 +212,104 @@ def guide_html(g, prev, nxt):
 </section>'''
     return page(g["title"] + " Guide", f'{g["title"]}: was im Challenge Mode neu ist, alle Mechaniken und Klassentipps – kompakt auf Deutsch.', P, body, s)
 
-def overview(guides):
-    cards = ""
-    for g in guides:
-        s = g["slug"]
-        cards += f'''<a class="ov parchment" href="{s}.html">
-  <div class="cover"><img src="../assets/guides/{s}.jpg" alt="" loading="lazy"></div>
-  <div class="ov-top"><p class="kicker">Fraktal-CM</p><h3>{e(g["title"])}</h3><p class="sub">{e(g["bosses"])}</p></div>
+def card(g, href):
+    c = CAT_OF[g["slug"]]
+    return f'''<a class="ov parchment" href="{href}">
+  <div class="cover"><img src="../assets/guides/{g["slug"]}.jpg" alt="" loading="lazy"></div>
+  <div class="ov-top"><p class="kicker">{e(c["label"])}</p><h3>{e(g["title"])}</h3><p class="sub">{e(g["bosses"])}</p></div>
   <p>{e(g["summary"])}</p>
-  <ul class="chips dark">{"".join(f"<li>{e(c)}</li>" for c in g["chips"])}</ul>
+  <ul class="chips dark">{"".join(f"<li>{e(x)}</li>" for x in g["chips"])}</ul>
   <span class="open">Guide öffnen →</span>
 </a>'''
+
+SRC_NOTE = '''<p class="fine srcs">Mechaniken nach den Guides von <a href="https://hardstuck.gg/gw2/guides/" rel="noopener">Hardstuck</a>,
+    Klassendaten von <a href="https://gw2wingman.nevermindcreations.de/" rel="noopener">GW2 Wingman</a>.</p>'''
+
+def empty_note(c):
+    one = {"fraktale": "Fraktal", "strikes": "Strike", "raids": "Raid"}.get(c["key"], c["name"])
+    return f'<p class="empty-cat parchment">Noch keine {e(one)}-Guides – die kommen bald.</p>'
+
+def overview(c, gs):
+    cards = "".join(card(g, f'{g["slug"]}.html') for g in gs) or empty_note(c)
+    tabs = "".join(f'<a href="../{x["key"]}/index.html"{" aria-current=\"page\"" if x is c else ""}>{e(x["name"])}</a>' for x in CATS)
     body = f'''
-<div class="crumbs band"><a href="../index.html">Start</a> › <span>Fraktal-CMs</span></div>
+<div class="crumbs band"><a href="../index.html">Start</a> › <a href="../guides/index.html">GW2 Guides</a> › <span>{e(c["name"])}</span></div>
 <section class="g-hero band">
   <div class="g-hero-in">
     <p class="kick">Guild Wars 2 · Guides</p>
-    <h1>Fraktal-CM-Guides</h1>
-    <p class="sub">Für alle, die den Normal Mode kennen und nur wissen wollen, was im Challenge Mode neu ist.
-      Jeder Guide beginnt mit dem Wichtigsten auf einen Blick, danach kommen alle Mechaniken im Detail und Klassentipps.</p>
+    <h1>{e(c["name"])}</h1>
+    <p class="sub">{e(c["intro"])} Für alle, die den Normal Mode kennen: Jeder Guide beginnt mit dem, was im Challenge Mode neu ist, danach kommen alle Mechaniken im Detail und Klassentipps.</p>
   </div>
 </section>
+<nav class="toc scroll band cat-tabs" aria-label="Kategorien">{tabs}</nav>
 <section class="band">
   <div class="ovs">{cards}</div>
-  <p class="fine srcs">Mechaniken nach den Guides von <a href="https://hardstuck.gg/gw2/guides/" rel="noopener">Hardstuck</a>,
-    Klassendaten von <a href="https://gw2wingman.nevermindcreations.de/" rel="noopener">GW2 Wingman</a>.</p>
+  {SRC_NOTE if gs else ""}
 </section>'''
-    return page("Fraktal-CM-Guides", "Alle Guild Wars 2 Fraktal-CMs kompakt auf Deutsch: Was ist neu im Challenge Mode, Mechaniken, Klassentipps.", "../", body)
+    return page(f'{c["name"]} – GW2 Guides', f'Guild Wars 2 {c["name"]}: kompakte Guides auf Deutsch – was im Challenge Mode neu ist, Mechaniken, Klassentipps.', "../", body)
+
+def hub(by_cat):
+    secs = ""
+    for c in CATS:
+        gs = by_cat[c["key"]]
+        cards = "".join(card(g, f'../{c["key"]}/{g["slug"]}.html') for g in gs) or empty_note(c)
+        secs += f'''<section class="band" id="{c["key"]}">
+  <div class="sec-head"><h2 class="brush">{e(c["name"])}</h2><a class="more" href="../{c["key"]}/index.html">Alle {e(c["name"])} →</a></div>
+  <p class="cat-intro">{e(c["intro"])}</p>
+  <div class="ovs">{cards}</div>
+</section>'''
+    tabs = "".join(f'<a href="#{c["key"]}">{e(c["name"])} ({len(by_cat[c["key"]])})</a>' for c in CATS)
+    body = f'''
+<div class="crumbs band"><a href="../index.html">Start</a> › <span>GW2 Guides</span></div>
+<section class="g-hero band">
+  <div class="g-hero-in">
+    <p class="kick">Guild Wars 2</p>
+    <h1>GW2 Guides</h1>
+    <p class="sub">Kompakte Guides auf Deutsch – sortiert nach Fraktalen, Strikes und Raids.</p>
+  </div>
+</section>
+<nav class="toc scroll band cat-tabs" aria-label="Kategorien">{tabs}</nav>
+{secs}
+<section class="band">{SRC_NOTE}</section>'''
+    return page("GW2 Guides", "Guild Wars 2 Guides auf Deutsch: Fraktale, Strikes und Raids.", "../", body)
+
+def redirect(target):
+    return f'''<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><title>Weitergeleitet</title>
+<meta http-equiv="refresh" content="0; url={target}"><link rel="canonical" href="{target}"></head>
+<body><p>Diese Seite ist umgezogen: <a href="{target}">{target}</a></p></body></html>
+'''
+
+def sync_headers():
+    """Menü in den übrigen Seiten auf den aktuellen Stand bringen."""
+    for f, prefix in [("index.html", ""), ("impressum.html", ""), ("datenschutz.html", ""), ("sc-logs/index.html", "../")]:
+        p = os.path.join(ROOT, f)
+        if not os.path.exists(p): continue
+        t = open(p, encoding="utf-8").read()
+        t2 = re.sub(r'<header class="nav">.*?</header>', lambda m: header(prefix), t, count=1, flags=re.S)
+        if t2 != t: open(p, "w", encoding="utf-8").write(t2)
 
 if __name__ == "__main__":
-    os.makedirs(OUT, exist_ok=True)
     meta = {x["pdf"].split("/")[-1].replace("-cm.pdf", ""): x for x in json.load(open(os.path.join(ROOT, "data", "guides.json"), encoding="utf-8"))}
-    gs = []
-    for s in ORDER:
-        g = json.load(open(os.path.join(CONTENT, s + ".json"), encoding="utf-8"))
-        g["bosses"] = meta.get(s, {}).get("bosses", "")
-        g["summary"] = meta.get(s, {}).get("summary", "")
-        gs.append(g)
-    for i, g in enumerate(gs):
-        prev = ORDER[i - 1] if i > 0 else None
-        nxt = ORDER[i + 1] if i + 1 < len(ORDER) else None
-        open(os.path.join(OUT, g["slug"] + ".html"), "w", encoding="utf-8").write(guide_html(g, prev, nxt))
-    open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(overview(gs))
-    print("OK:", len(gs), "Guides + Übersicht")
+    by_cat = {c["key"]: [] for c in CATS}
+    for c in CATS:
+        os.makedirs(os.path.join(ROOT, c["key"]), exist_ok=True)
+        for s in c["guides"]:
+            g = json.load(open(os.path.join(CONTENT, s + ".json"), encoding="utf-8"))
+            g["bosses"] = meta.get(s, {}).get("bosses", "")
+            g["summary"] = meta.get(s, {}).get("summary", "")
+            by_cat[c["key"]].append(g)
+        gs = by_cat[c["key"]]
+        for i, g in enumerate(gs):
+            prev = gs[i - 1]["slug"] if i > 0 else None
+            nxt = gs[i + 1]["slug"] if i + 1 < len(gs) else None
+            open(os.path.join(ROOT, c["key"], g["slug"] + ".html"), "w", encoding="utf-8").write(guide_html(g, prev, nxt))
+        open(os.path.join(ROOT, c["key"], "index.html"), "w", encoding="utf-8").write(overview(c, gs))
+    os.makedirs(os.path.join(ROOT, "guides"), exist_ok=True)
+    open(os.path.join(ROOT, "guides", "index.html"), "w", encoding="utf-8").write(hub(by_cat))
+    # alte Adressen von Guides, die die Kategorie gewechselt haben, weiterleiten
+    for c in CATS:
+        if c["key"] == "fraktale": continue
+        for s in c["guides"]:
+            open(os.path.join(ROOT, "fraktale", s + ".html"), "w", encoding="utf-8").write(redirect(f"../{c['key']}/{s}.html"))
+    sync_headers()
+    print("OK:", ", ".join(f'{c["name"]} {len(by_cat[c["key"]])}' for c in CATS), "+ Übersichten, Menü aktualisiert")

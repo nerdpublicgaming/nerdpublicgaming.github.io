@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SC-Logs – NerdPublic Gaming</title>
+<meta name="description" content="Geschützter Bereich der Static.">
+<link rel="icon" href="../assets/favicon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../guide.css">
+<link rel="stylesheet" href="../logs.css">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="guide-page">
+<header class="nav">
+  <a class="brand" href="../index.html" aria-label="NerdPublic Gaming – Start">
+    <img src="../assets/logo-round.png" alt="" width="44" height="44">
+    <span>NerdPublic <b>Gaming</b></span>
+  </a>
+  <nav class="links" aria-label="Hauptmenü">
+    <a href="../index.html#stream">Stream</a>
+    <a href="../index.html#videos">Videos</a>
+    <a href="../index.html#clips">Clips</a>
+    <div class="dd">
+      <button type="button" class="dd-btn" aria-expanded="false" aria-controls="ddMenu">GW2 Guides <span aria-hidden="true">▾</span></button>
+      <div class="dd-menu" id="ddMenu">
+        <a class="dd-all" href="../guides/index.html">Alle GW2-Guides</a>
+        <div class="dd-groups"><div class="dd-group"><a class="dd-head" href="../fraktale/index.html">Fraktale</a><a href="../fraktale/nightmare.html">Nightmare CM</a><a href="../fraktale/shattered-observatory.html">Shattered Observatory CM</a><a href="../fraktale/sunqua-peak.html">Sunqua Peak CM</a><a href="../fraktale/silent-surf.html">Silent Surf CM</a><a href="../fraktale/lonely-tower.html">Lonely Tower CM</a><a href="../fraktale/kinfall.html">Kinfall CM</a></div><div class="dd-group"><a class="dd-head" href="../strikes/index.html">Strikes</a><a href="../strikes/aetherblade-hideout.html">Ätherklingen-Versteck CM</a></div><div class="dd-group"><a class="dd-head" href="../raids/index.html">Raids</a><span class="dd-empty">kommt bald</span></div></div>
+      </div>
+    </div>
+    <a class="lock-link" href="../sc-logs/index.html"><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3H9z"/></svg>SC-Logs</a>
+    <a href="../index.html#about">Über mich</a>
+  </nav>
+</header>
+<main>
+
+<section class="band gate" id="gate">
+  <div class="parchment gate-in">
+    <div class="lock"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3H9z"/></svg></div>
+    <h1>SC-Logs</h1>
+    <p>Geschützter Bereich für die Static. Bitte Passwort eingeben.</p>
+    <form id="loginForm" autocomplete="on">
+      <input type="text" name="username" value="SC-Logs" autocomplete="username" hidden>
+      <label for="pw">Passwort</label>
+      <input id="pw" name="password" type="password" autocomplete="current-password" required>
+      <label class="stay"><input id="stay" type="checkbox"> Auf diesem Gerät angemeldet bleiben</label>
+      <button id="loginBtn" class="btn btn-red" type="submit"><svg class="btn-bg" aria-hidden="true" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M6 34 C40 14 90 10 150 12 C230 8 300 6 352 14 C380 18 396 26 392 36 C386 48 330 52 260 50 C190 52 110 54 50 50 C20 48 2 44 6 34Z"/></svg>Öffnen</button>
+      <p id="loginMsg" class="msg" role="status" aria-live="polite"></p>
+    </form>
+    <p class="fine">Die Auswertungen sind verschlüsselt gespeichert und werden erst nach der Eingabe in deinem Browser lesbar.</p>
+  </div>
+</section>
+<div id="app" hidden></div>
+</main>
+<footer class="foot band">
+  <p>© <span class="year">2026</span> NerdPublic Gaming · <a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></p>
+  <p class="fine">Guild Wars 2 ist eine Marke von ArenaNet, LLC. Diese Seite ist ein Fanprojekt und steht in keiner Verbindung zu ArenaNet oder NCSOFT.</p>
+</footer>
+<script src="../nav.js"></script>
+<script src="../logs.js"></script>
+</body>
+</html>

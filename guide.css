@@ -159,3 +159,21 @@ figcaption{margin-top:6px;font-size:14px;color:var(--muted)}
 .legal-in dd{margin:0}
 .legal-in .fine{color:var(--brown2)}
 @media(max-width:600px){.legal-in dl{grid-template-columns:minmax(0,1fr)}.legal-in dd{margin-bottom:8px}}
+
+/* Menüpunkt SC-Logs */
+.links .lock-link{display:inline-flex;align-items:center;gap:6px}
+.lock-link .lk{width:14px;height:14px;fill:currentColor;opacity:.85}
+
+/* Menü mit Kategorien */
+.dd-menu{min-width:min(92vw,560px)}
+.dd-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 10px}
+.dd-group{display:flex;flex-direction:column}
+.dd-group .dd-head{margin:6px 0 2px;padding:6px 12px;font:700 15px var(--head);color:var(--gold);border-bottom:1px solid rgba(227,183,90,.25);border-radius:0}
+.dd-group .dd-head:hover{background:rgba(227,183,90,.12)}
+.dd-empty{padding:10px 12px;font-size:14px;color:var(--muted);font-style:italic}
+.dd-menu .dd-all{border-bottom:0;margin-bottom:0}
+@media(max-width:700px){.dd-groups{grid-template-columns:minmax(0,1fr)}}
+/* Kategorie-Seiten */
+.cat-tabs a[aria-current]{background:var(--gold);color:var(--brown);border-color:var(--gold)}
+.cat-intro{margin:-10px 0 18px;color:var(--muted)}
+.empty-cat{padding:22px;color:var(--brown);font-style:italic;max-width:520px}

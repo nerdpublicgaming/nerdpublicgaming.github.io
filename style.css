@@ -196,3 +196,31 @@ h2{font:700 clamp(26px,3.2vw,36px)/1.1 var(--head);margin:0}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 .yt-note{margin-top:14px}
+
+/* Guides auf der Startseite: kompakte Vorschau */
+.guide-lead{margin:-6px auto 22px}
+.guide-lead span{display:block;max-width:70ch;font-size:17px;color:var(--muted)}
+.guides.mini{grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:16px}
+.guide-mini{display:flex;flex-direction:column;text-decoration:none;color:var(--brown);transition:transform .2s}
+.guide-mini:hover{transform:translateY(-3px);color:var(--brown)}
+.guide-mini .cover{aspect-ratio:640/156;overflow:hidden;background:#1d1a17;border-bottom:3px solid var(--gold2)}
+.guide-mini .cover img{width:100%;height:100%;object-fit:cover;object-position:top}
+.guide-mini .gbody{padding:10px 14px 12px}
+.guide-mini h3{margin:0;font:700 17px/1.2 var(--head)}
+.guide-mini .sub{margin:3px 0 0;font-size:13px;color:var(--brown2)}
+.guide-mini:hover h3{color:var(--red2)}
+.filters:empty{display:none}
+@media(max-width:600px){
+  .guides.mini{gap:8px}
+  .guide-mini{flex-direction:row;align-items:center;border-left:4px solid var(--red)}
+  .guide-mini .cover{display:none}
+  .guide-mini .gbody{padding:10px 14px}
+  .guide-mini h3{font-size:16px}
+}
+
+/* Startseite: Guides nach Kategorie */
+.gcat+.gcat{margin-top:26px}
+.gcat-h{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 12px;font:700 22px var(--head)}
+.gcat-h a{color:var(--gold);text-decoration:none}
+.gcat-h a:hover{color:var(--yellow);text-decoration:underline}
+.gcat-h span{font:500 14px var(--body);color:var(--muted)}

@@ -1,0 +1,118 @@
+/* SC-Logs – baut auf style.css und guide.css auf */
+
+/* Anmeldung */
+.gate{display:grid;place-items:center;min-height:calc(100vh - 220px)}
+.gate-in{width:min(100%,460px);padding:clamp(22px,4vw,36px);color:var(--brown);text-align:center}
+.gate-in .lock{width:56px;height:56px;margin:0 auto 10px;display:grid;place-items:center;border-radius:50%;background:var(--red);box-shadow:0 0 0 3px var(--gold2)}
+.gate-in .lock svg{width:26px;height:26px;fill:#fff}
+.gate-in h1{margin:0 0 6px;font-size:clamp(30px,5vw,40px);color:var(--red2);text-shadow:none}
+.gate-in p{margin:0 0 18px}
+.gate-in form{display:flex;flex-direction:column;gap:12px;text-align:left}
+.gate-in label{font-weight:600;font-size:15px}
+.gate-in input[type=password]{width:100%;min-height:48px;padding:10px 14px;font:16px var(--body);color:var(--brown);background:#fffaf0;border:2px solid var(--brown2);border-radius:3px}
+.gate-in input[type=password]:focus{outline:2px solid var(--red);outline-offset:1px}
+.gate-in .stay{display:flex;align-items:center;gap:10px;font-weight:500;min-height:44px}
+.gate-in .stay input{width:20px;height:20px;accent-color:var(--red)}
+.gate-in .btn{align-self:center;margin-top:6px}
+.gate-in .msg{min-height:1.5em;margin:4px 0 0;text-align:center;font-weight:600;color:var(--brown2)}
+.gate-in .msg.err{color:var(--red2)}
+.gate-in .fine{margin-top:14px;color:var(--brown2)}
+.loading{color:var(--muted);font:600 18px var(--head);text-align:center;padding:60px 0}
+.ghost{background:none;border:0;cursor:pointer;color:var(--gold);min-height:44px}
+.ghost.small{float:right;font:600 14px var(--head);padding:0 4px;min-height:32px}
+
+/* Übersicht */
+.logcard .mini-tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}
+.mini-tiles div{padding:6px 8px;background:rgba(43,31,20,.08);border-left:3px solid var(--gold2)}
+.mini-tiles span{display:block;font-size:11px;font-weight:600;color:var(--brown2);line-height:1.2}
+.mini-tiles b{font:700 18px var(--head)}
+.mini-tiles .red b{color:#b91c1c}.mini-tiles .green b{color:#15803d}
+.guidecard{border-top:4px solid var(--red)}
+@media(max-width:420px){.logcard .mini-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Kacheln & Karten */
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:18px}
+.tile{display:flex;flex-direction:column;padding:14px 16px;color:var(--brown)}
+.tile .tl{font-size:13px;font-weight:600;color:var(--brown2)}
+.tile .tv{font:800 clamp(26px,3.4vw,36px)/1.1 var(--head);margin:4px 0}
+.tile .ts{font-size:14px}
+.tile.red .tv{color:#b91c1c}.tile.green .tv{color:#15803d}
+@media(max-width:760px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.lead-note{margin:0 0 20px;padding:12px 16px;border-left:4px solid var(--gold2);background:rgba(227,183,90,.1);max-width:100ch}
+.lead-note.dark{color:var(--text)}
+.lead-note strong{color:var(--gold)}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+@media(max-width:760px){.two{grid-template-columns:minmax(0,1fr)}}
+.card{padding:18px 20px;color:var(--brown)}
+.card h3{margin:0 0 10px;font:700 19px var(--head);color:var(--red2)}
+.card p{margin:0 0 8px}.card p:last-child{margin:0}
+.card ol,.card ul{margin:0;padding-left:20px}
+.card li{margin-bottom:6px}
+.card .goal{margin-top:12px;padding-top:10px;border-top:1px dashed var(--brown2)}
+.card strong{color:var(--brown)}
+.shame li strong{color:#b91c1c}
+.mt{margin-top:34px}
+.sub-h{margin:28px 0 10px;font:700 20px var(--head);color:var(--gold)}
+.facts{margin:0;padding-left:20px;max-width:100ch}
+.facts li{margin-bottom:10px}
+.facts strong{color:var(--gold)}
+.facts a,.lt a{color:var(--gold)}
+
+/* Tabellen */
+.lt td small{display:block;font-size:13px;color:var(--muted)}
+.lt td b{font-weight:600}
+.lt .nw{white-space:nowrap}
+.lt .bold td{font-weight:700}
+.legend{margin:10px 0 0;font-size:13px;color:var(--muted)}
+.muted{color:var(--muted)}
+.up{color:#4ade80}.down{color:#f87171}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;font:700 12px var(--body);white-space:nowrap}
+.pill.top{background:#dcfce7;color:#166534}.pill.okay{background:#fef3c7;color:#92400e}.pill.bau{background:#fee2e2;color:#991b1b}
+.medc{min-width:190px}
+.mbar{position:relative;display:inline-block;vertical-align:middle;width:84px;height:12px;margin-right:8px;background:rgba(255,255,255,.12);border-radius:2px}
+.mbar i{position:absolute;inset:0 auto 0 0;border-radius:2px}
+.mbar i.g{background:#22a35a}.mbar i.y{background:#d4a12a}.mbar i.r{background:#d9483b}
+.mbar.pot i{background:#8b93a3}
+.mbar b{position:absolute;top:-3px;bottom:-3px;width:2px;background:#f4ead2}
+.mv{white-space:nowrap;font-variant-numeric:tabular-nums}
+.mp{display:flex;align-items:center;gap:6px;margin:2px 0}
+.mp .lab{width:62px;font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--muted);text-transform:uppercase}
+.dev td.num{min-width:72px}
+.dev td.best{background:rgba(34,163,90,.28);font-weight:700}
+.dev td.worst{background:rgba(217,72,59,.28)}
+.det td:last-child{max-width:28ch}
+
+/* Abschluss */
+.kobold{margin:34px auto 16px;max-width:560px}
+.kobold img{width:100%;aspect-ratio:2/1;object-fit:cover;border:2px solid var(--gold2)}
+.thanks{max-width:760px;margin:0 auto 14px;padding:14px 18px;background:#1f2a44;border-left:4px solid var(--gold);color:#e9eefb}
+.thanks strong{color:var(--gold)}
+.center{text-align:center}
+
+/* Lese-Guide */
+.kick{margin:0 0 4px;font:600 14px var(--body);color:#fdba74}
+.lg-intro{max-width:80ch;font-size:17px;margin:0 0 18px}
+.lgfig{margin:0 0 22px;background:#fff;padding:8px;border:2px solid var(--gold2);max-width:980px}
+.lgfig img{width:100%;height:auto;aspect-ratio:auto;border:0}
+.numlist,.steps{counter-reset:n;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px;max-width:1100px}
+.steps{grid-template-columns:minmax(0,1fr);max-width:90ch}
+.numlist li,.steps li{counter-increment:n;position:relative;padding-left:40px;min-height:28px}
+.numlist li::before,.steps li::before{content:counter(n);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#c2410c;color:#fff;font:700 14px var(--body)}
+.steps li::before{background:var(--gold2)}
+.numlist strong,.steps strong{color:var(--gold)}
+@media(max-width:700px){.numlist{grid-template-columns:minmax(0,1fr)}}
+.sw{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:middle;margin:0 2px 0 6px}
+.sw.g{background:#22a35a}.sw.y{background:#d4a12a}.sw.r{background:#d9483b}
+.gloss td:first-child{white-space:nowrap}
+
+/* Tabellen am Handy als Karten */
+@media(max-width:700px){
+  .stack thead{display:none}
+  .stack tr{display:grid;padding-block:10px;border-bottom:1px solid rgba(227,183,90,.18)}
+  .stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:8.5em;text-align:start;min-width:0;max-width:none}
+  .stack td::before{content:attr(data-l);float:inline-start;width:8em;margin-inline-start:-8.5em;color:var(--muted);font-size:13px}
+  .stack td.num{text-align:start}
+  .gloss td:first-child{white-space:normal}
+}
+.lt th{text-align:left!important}.lt th:last-child{text-align:left}.dev th:not(:first-child),.lt td.num{text-align:right}.dev th:not(:first-child){text-align:right!important}
+.logcard{padding:18px 0 20px!important}.logcard .ov-top .kicker{margin-bottom:2px}

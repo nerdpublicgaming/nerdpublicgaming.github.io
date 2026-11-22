@@ -92,30 +92,27 @@
       </a>`).join('');
   }
 
-  // ---- Guides ----
-  let guides = [], filter = 'Alle';
+  // ---- Guides (nach Kategorie gruppiert) ----
+  const CATS = [
+    {key: 'fraktale', name: 'Fraktale', note: '5 Spieler'},
+    {key: 'strikes', name: 'Strikes', note: '10 Spieler'},
+    {key: 'raids', name: 'Raids', note: '10 Spieler'}
+  ];
+  let guides = [];
   function renderGuides() {
-    const cats = ['Alle', ...new Set(guides.map(g => g.mode))];
-    // Filter nur zeigen, wenn es mehr als eine Kategorie gibt
-    $('guideFilters').innerHTML = cats.length > 2 ? cats.map(c => `<button type="button" aria-pressed="${c === filter}" data-f="${esc(c)}">${esc(c)}</button>`).join('') : '';
-    const list = guides.filter(g => filter === 'Alle' || g.mode === filter);
-    $('guideGrid').innerHTML = list.length ? list.map(g => `
-      <a class="guide parchment" href="${esc(g.url || g.pdf || '#guides')}">
-        ${g.cover ? `<div class="cover"><img src="${esc(g.cover)}" alt="" loading="lazy"></div>` : ''}
-        <div class="gbody">
-          <p class="kicker">${esc(g.mode)}</p>
-          <h3>${esc(g.title)}</h3>
-          <p class="sub">${esc(g.bosses)}</p>
-          <p>${esc(g.summary)}</p>
-          <div class="tags">${(g.tags || []).map(t => `<span>${esc(t)}</span>`).join('')}</div>
-          <span class="open">Guide öffnen →</span>
-        </div>
-      </a>`).join('') : '<p class="empty">Keine Guides in dieser Kategorie.</p>';
+    $('guideGrid').innerHTML = CATS.map(c => {
+      const list = guides.filter(g => g.cat === c.key);
+      const cards = list.map(g => `
+        <a class="guide-mini parchment" href="${esc(g.url || g.pdf || '#guides')}">
+          ${g.cover ? `<div class="cover"><img src="${esc(g.cover)}" alt="" loading="lazy"></div>` : ''}
+          <div class="gbody"><h3>${esc(g.title)}</h3><p class="sub">${esc(g.bosses)}</p></div>
+        </a>`).join('');
+      return `<div class="gcat">
+        <h3 class="gcat-h"><a href="${c.key}/index.html">${c.name}</a> <span>${list.length ? list.length + ' Guide' + (list.length > 1 ? 's' : '') : 'kommt bald'} · ${c.note}</span></h3>
+        ${cards ? `<div class="guides mini">${cards}</div>` : ''}
+      </div>`;
+    }).join('');
   }
-  $('guideFilters').addEventListener('click', e => {
-    const b = e.target.closest('button'); if (!b) return;
-    filter = b.dataset.f; renderGuides();
-  });
 
   // ---- Daten laden ----
   const get = p => fetch(p, {cache: 'no-cache'}).then(r => r.ok ? r.json() : Promise.reject(r.status));
