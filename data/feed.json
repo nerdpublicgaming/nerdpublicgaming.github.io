@@ -1,6 +1,8 @@
 {
-  "updated": "2026-11-22T18:41:48.685Z",
-  "live": null,
+  "updated": "2026-11-22T19:12:46.622Z",
+  "live": {
+    "isLive": false
+  },
   "videos": [
     {
       "id": "wkM2IC_H8p8",
