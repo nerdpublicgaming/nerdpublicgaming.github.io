@@ -1,0 +1,432 @@
+{
+ "slug": "lonely-tower",
+ "kicker": "GW2 · FRAKTALCHALLENGEMODE · NURDASNEUE",
+ "title": "Lonely Tower CM",
+ "subtitle": "Cerus & Deimos · Eparch – du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "Emotionen permanent",
+  "Viel CC",
+  "Stall-Spieler",
+  "Stabi/Stealth"
+ ],
+ "timeline": [
+  {
+   "label": "Gang",
+   "desc": "Despair-AoEs (Agony, Torment)",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Puzzle",
+   "desc": "Avatars of Spite unterbrechen",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Cerus & Deimos",
+   "desc": "Fixierung · getrennt halten",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "Eparch",
+   "desc": "Emotionen sind permanent",
+   "color": "#ea580c"
+  },
+  {
+   "label": "65 %",
+   "desc": "2 Rifts (Nord + Süd)",
+   "color": "#ea580c"
+  },
+  {
+   "label": "35 %",
+   "desc": "3 Rifts",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Eparch: Emotionen (Orbs) sind permanent",
+   "html": "Die Breakbar <strong>entfernt sie nicht mehr</strong> – sie verhindert nur, dass Eparch weitere Buffs bekommt und eure Emotionen „aufsaugt“. Alle 6 <strong>Angriffsmuster</strong> kommt die Bar → <strong>sofort mit viel CC</strong> brechen.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Orbs aufteilen",
+   "html": "Eine fremde Farbe hebt andere auf → am besten 1 <strong>Spieler = 1 Farbe</strong> (z. B. DPS Rot, Heiler Blau) oder feste Reihenfolge, wer welche Welle sammelt.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Angriffe & Farben",
+   "html": "<strong>Fire Shockwave</strong> überspringen (Rot) · <strong>Spiral-AoE</strong> meiden (Blau) · <strong>Arrow Wave</strong> in 4 Richtungen (Grün) · <strong>Spin Pull</strong> (Orange) · <strong>Shard-AoE</strong> (Lila, selten).",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Rifts 65 % (2) & 35 % (3)",
+   "html": "<strong>Fokus-Gruppe</strong> tötet den Champion, <strong>Stall-Gruppe</strong> (1–2 Spieler) hält Avatars of Spite auf. Erreicht ein Avatar Eparch → <strong>permanenter Buff.</strong>",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Rift schließen",
+   "html": "Nach dem Champion-Kill bleibt einer zum <strong>Schließen</strong> → Avatare despawnen. Beim <strong>letzten</strong> Rift saugt Eparch die Avatare stattdessen auf.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Vor Eparch: Puzzle & Cerus/Deimos",
+   "html": "<strong>Puzzle:</strong> Avatars of Spite unterbrechen das Reinigen → <strong>Stabi</strong> oder <strong>Stealth</strong> für den Reiniger. <strong>Cerus &amp; Deimos:</strong> der nächste Spieler wird fixiert – Bosse <strong>getrennt halten</strong>, sonst Buff. Deimos-Öl nicht betreten, Hände wegkiten; Cerus-Schatten töten, Orbs außen ablegen.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "lonely-tower-1.jpg",
+   "caption": "③ Fire Shockwave – überspringen"
+  },
+  {
+   "img": "lonely-tower-2.jpg",
+   "caption": "② Emotions-Orbs sammeln"
+  },
+  {
+   "img": "lonely-tower-3.jpg",
+   "caption": "④ Rift-Phase"
+  },
+  {
+   "img": "lonely-tower-4.jpg",
+   "caption": "① Breakbar sofort brechen"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Lonely Tower (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/fractal-cms/lonely-tower-cm/"
+  },
+  {
+   "text": "Wingman – Eparch",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/eparch"
+  }
+ ],
+ "details": [
+  {
+   "title": "Gang & Puzzle",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Erster Gang:</strong> Despair-Globule-AoEs mit Agony und Torment – vorsichtig durch, konstant heilen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Astral Purifier:</strong> Knopf-Puzzle; im CM greifen Avatars of Spite an und explodieren am Spieler → Stabi oder Stealth für den Reiniger, oder Avatare schnell töten."
+    },
+    {
+     "t": "li",
+     "html": "Sind alle Knoten gereinigt, verschwinden die AoEs im Gang."
+    }
+   ]
+  },
+  {
+   "title": "Cerus & Deimos",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "Nächster Spieler wird je Boss fixiert – Bosse auseinanderhalten, sonst Schadensbuff."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Deimos:</strong> schwarzes Öl breitet sich aus, wenn man reintritt · Hände unter dem entferntesten Spieler wegkiten · großer Smash mit Knockback ausweichen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Cerus:</strong> Malice-Schatten (Klon eines Spielers) vor Erreichen töten · Cry of Rage ausweichen/blocken · Orbs abseits der Gruppe ablegen."
+    }
+   ]
+  },
+  {
+   "title": "Eparch",
+   "imgs": [
+    {
+     "img": "lonely-tower-5.jpg",
+     "caption": "Emotions-Orbs nach einem Angriff"
+    },
+    {
+     "img": "lonely-tower-6.jpg",
+     "caption": "Rift mit Champion Kryptis"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Emotionen permanent</strong> – Breakbar entfernt sie nicht, verhindert nur weitere Buffs und das „Aufsaugen“ eurer Emotionen."
+    },
+    {
+     "t": "li",
+     "html": "Breakbar alle 6 Angriffsmuster; dabei permanente Barrier und er frisst alle liegenden Orbs."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Rot (Rage):</strong> mehr Schaden, mehr erlittener Schaden · <strong>Blau (Despair):</strong> weniger Schaden genommen und gemacht · <strong>Grün (Envy):</strong> Zustandsschaden + Boon-Dauer, bei Eparch Boon-Korruption · <strong>Lila (Malice):</strong> mehr CC, aber Zustände · <strong>Orange (Gluttony):</strong> Heilung über Zeit, aber periodischer Schaden."
+    },
+    {
+     "t": "li",
+     "html": "65 %: 2 Rifts (meist Nord/Süd) mit Champion Kryptis + Avatars of Spite."
+    },
+    {
+     "t": "li",
+     "html": "35 %: 3 Rifts – gleiche Taktik, ein Rift nach dem anderen."
+    },
+    {
+     "t": "li",
+     "html": "Fokus-Gruppe (Großteil DPS + CC) räumt einen Rift, Stall-Gruppe (1–2 Spieler) hält am anderen Avatare per CC/Schaden auf."
+    },
+    {
+     "t": "li",
+     "html": "Nach Champion-Kill Rift schließen. Hardstuck zeigt das Stallen mit Heal Scourge."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Willbender",
+      "20,4 %"
+     ],
+     [
+      "Troubadour",
+      "12,2 %"
+     ],
+     [
+      "Amalgam",
+      "10,1 %"
+     ],
+     [
+      "Scrapper",
+      "8,9 %"
+     ],
+     [
+      "Mechanist",
+      "5,3 %"
+     ],
+     [
+      "Chronomancer",
+      "4,7 %"
+     ],
+     [
+      "Dragonhunter",
+      "4,4 %"
+     ],
+     [
+      "Reaper",
+      "3,8 %"
+     ],
+     [
+      "Ritualist",
+      "3,5 %"
+     ],
+     [
+      "Renegade",
+      "3,3 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Catalyst",
+      "25.367",
+      "25.372"
+     ],
+     [
+      "Holosmith",
+      "22.594",
+      "25.421"
+     ],
+     [
+      "Bladesworn",
+      "20.933",
+      "28.835"
+     ],
+     [
+      "Weaver",
+      "20.674",
+      "32.614"
+     ],
+     [
+      "Scrapper",
+      "19.505",
+      "36.362"
+     ],
+     [
+      "Daredevil",
+      "19.245",
+      "28.258"
+     ],
+     [
+      "Virtuoso",
+      "18.830",
+      "31.324"
+     ],
+     [
+      "Soulbeast",
+      "18.823",
+      "32.644"
+     ],
+     [
+      "Galeshot",
+      "18.752",
+      "23.640"
+     ],
+     [
+      "Dragonhunter",
+      "18.590",
+      "34.877"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Mechanist, Ritualist, Soulbeast, Luminary",
+      "Am häufigsten in erfolgreichen CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Catalyst, Holosmith, Bladesworn, Weaver, Scrapper, Daredevil, Virtuoso",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Willbender, Amalgam, Scrapper, Dragonhunter, Reaper, Renegade",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Chronomancer",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Willbender: meistgespielt (20 %) – mobil zwischen den Rifts.",
+     "Dragonhunter: zweithöchster Top-Wert, Fallen-CC gegen Avatare.",
+     "Stabi für den Reiniger im Puzzle."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Scrapper: höchster Top-Wert und sehr beliebt.",
+     "Sneak Gyro / Stealth-Optionen fürs Puzzle.",
+     "Hammer-CC für Eparchs Breakbar."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Viel Burst-CC – ideal für Breakbar und Avatare.",
+     "Veil/Mass Invisibility als Stealth fürs Puzzle.",
+     "Troubadour: häufigster Heiler."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver hoher Ø-DPS.",
+     "Fire Shockwave überspringen – auch mit Channels.",
+     "Mit Rot sammeln vorsichtig: mehr erlittener Schaden."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Heal Scourge ist Hardstucks Stall-Beispiel für Rifts.",
+     "Reaper: hoher Ø-DPS.",
+     "Fear/Pulls halten Avatars of Spite auf."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Renegade solide – Staff 5 für Breakbar.",
+     "Jalis-Stabi für Puzzle oder Champion.",
+     "Vindicator-Sprung-Dodge über die Shockwave."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Berserker/Bladesworn hoher Ø-DPS.",
+     "Hammer/Mace: viel CC für Bar und Stall.",
+     "Balanced Stance gegen Spin Pull."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Soulbeast: solider Ø-DPS.",
+     "Dolyak Stance = Gruppen-Stabi.",
+     "Longbow-Knockback zum Stallen der Avatare."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Daredevil: hoher Ø-DPS, viele Dodges.",
+     "Shadow Refuge / Blinding Powder als Stealth fürs Puzzle.",
+     "Basilisk Venom als Breakbar-Hilfe."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 21.11.2026 · Eparch: Erfolgsquote 72,1 %, Median-Kill 3:41 <strong>min</strong>",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman ist <strong>Willbender</strong> hier mit 20 % am beliebtesten. Wichtig: sehr viel <strong>CC</strong> für die Breakbars und ein zuverlässiger <strong>Stall-Spieler</strong> für die Rifts (z. B. Heal Scourge wie im Hardstuck-Video).",
+  "intro": "Mechanik-Bezug aus dem Hardstuck-Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

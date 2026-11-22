@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Ätherklingen-Versteck CM",
+    "bosses": "Mai Trin · Echo of Scarlet Briar",
+    "mode": "Fraktal-CM",
+    "summary": "Cleave gibt Exposed, im 33-%-Split Greens für drei Spieler, ab 60 % Deathray-Bomben mit Safe Spot.",
+    "tags": [
+      "Exposed vermeiden",
+      "Greens für genau 3",
+      "Deathray-Bomben"
+    ],
+    "pages": 3,
+    "pdf": "guides/fraktale/aetherblade-hideout-cm.pdf",
+    "cover": "assets/guides/aetherblade-hideout.jpg",
+    "updated": "2026-11-21",
+    "url": "fraktale/aetherblade-hideout.html"
+  },
+  {
+    "title": "Nightmare CM",
+    "bosses": "M.A.M.A. · Siax · Ensolyss",
+    "mode": "Fraktal-CM",
+    "summary": "Breakbars bei allen drei Bossen, Siax-Veteranen N/O/S/W und Ensolyss' Bullet-Hell bis zum Schild bei 15 %.",
+    "tags": [
+      "Breakbars Pflicht",
+      "Stabi + Aegis",
+      "Bullet-Hell"
+    ],
+    "pages": 3,
+    "pdf": "guides/fraktale/nightmare-cm.pdf",
+    "cover": "assets/guides/nightmare.jpg",
+    "updated": "2026-11-21",
+    "url": "fraktale/nightmare.html"
+  },
+  {
+    "title": "Shattered Observatory CM",
+    "bosses": "Skorvald · Artsariiv · Arkk",
+    "mode": "Fraktal-CM",
+    "summary": "Augen-Fear, Skorvalds Anomalien und Solar Cyclone, Arkks Reaktor und die wegbrechenden Plattformen.",
+    "tags": [
+      "Auge = wegschauen",
+      "Anomalien im Zeitlimit",
+      "Hypernova"
+    ],
+    "pages": 3,
+    "pdf": "guides/fraktale/shattered-observatory-cm.pdf",
+    "cover": "assets/guides/shattered-observatory.jpg",
+    "updated": "2026-11-21",
+    "url": "fraktale/shattered-observatory.html"
+  },
+  {
+    "title": "Sunqua Peak CM",
+    "bosses": "Ai, Keeper of the Peak",
+    "mode": "Fraktal-CM",
+    "summary": "Härtere Lichtphase mit Meteor-Wellen, Reset per /gg, dann Fears, Sorrows und Guilt-Tether.",
+    "tags": [
+      "8 Wolken statt 6",
+      "/gg vor Dunkel",
+      "Sorrow-Breakbar"
+    ],
+    "pages": 3,
+    "pdf": "guides/fraktale/sunqua-peak-cm.pdf",
+    "cover": "assets/guides/sunqua-peak.jpg",
+    "updated": "2026-11-21",
+    "url": "fraktale/sunqua-peak.html"
+  },
+  {
+    "title": "Silent Surf CM",
+    "bosses": "Dolus · Kanaxai",
+    "mode": "Fraktal-CM",
+    "summary": "Dread Visage wegschauen, römische Zahlen verteilen und beim World Cleaver per Grappling Hook rüber.",
+    "tags": [
+      "Fallen = Tod",
+      "Spreaden",
+      "Grappling Hook"
+    ],
+    "pages": 3,
+    "pdf": "guides/fraktale/silent-surf-cm.pdf",
+    "cover": "assets/guides/silent-surf.jpg",
+    "updated": "2026-11-21",
+    "url": "fraktale/silent-surf.html"
+  },
+  {
+    "title": "Lonely Tower CM",
+    "bosses": "Cerus & Deimos · Eparch",
+    "mode": "Fraktal-CM",
+    "summary": "Eparchs Emotionen bleiben, Orbs nach Farben aufteilen, Rifts bei 65 % und 35 % mit Stall-Gruppe.",
+    "tags": [
+      "Emotionen permanent",
+      "Stall-Spieler",
+      "Viel CC"
+    ],
+    "pages": 3,
+    "pdf": "guides/fraktale/lonely-tower-cm.pdf",
+    "cover": "assets/guides/lonely-tower.jpg",
+    "updated": "2026-11-21",
+    "url": "fraktale/lonely-tower.html"
+  },
+  {
+    "title": "Kinfall CM",
+    "bosses": "Whispering Shadow",
+    "mode": "Fraktal-CM",
+    "summary": "Frost Wisps klauen Life-Fire, Cryoflash tötet sofort, Spikes alle 0,5 s ab 80 %.",
+    "tags": [
+      "Cryoflash = Tod",
+      "Wisps CCen",
+      "Hailstorm verteilen"
+    ],
+    "pages": 3,
+    "pdf": "guides/fraktale/kinfall-cm.pdf",
+    "cover": "assets/guides/kinfall.jpg",
+    "updated": "2026-11-21",
+    "url": "fraktale/kinfall.html"
+  }
+]

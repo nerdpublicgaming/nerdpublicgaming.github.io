@@ -1,0 +1,424 @@
+{
+ "slug": "sunqua-peak",
+ "kicker": "GW2 · FRAKTALCHALLENGEMODE · NURDASNEUE",
+ "title": "Sunqua Peak CM",
+ "subtitle": "Ai, Keeper of the Peak – Licht- und Dunkelphase. Du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "Nur Endboss",
+  "Cleanse",
+  "CC für Sorrow",
+  "/gg vor Dunkel"
+ ],
+ "timeline": [
+  {
+   "label": "Licht · Luft",
+   "desc": "8 Wolken statt 6",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Licht · Feuer",
+   "desc": "Meteore 3/3/4/2 + Tether",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Licht · Wasser",
+   "desc": "2 Greens gleichzeitig",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Dunkel 100–66 %",
+   "desc": "Fears · Torment/Confusion",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "Dunkel 66–33 %",
+   "desc": "Sorrow-Breakbar in 10 s",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Dunkel 33–1 %",
+   "desc": "Guilt-Tether + 2 Sorrows",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Licht-Phase: Luft & Feuer härter",
+   "html": "<strong>Luft: 8 statt</strong> 6 Wolken zerstören, bevor die erste Welle des großen Angriffs kommt – sonst Wipe; Angriff exakt ausweichen. <strong>Feuer:</strong> Meteore in Wellen 3/3/4/2, Tether auf Spieler. Beim Arena-Angriff hinter den <strong>sicheren Meteor</strong> – immer <strong>rechts</strong>, wenn man zur Arenamitte schaut.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Licht-Phase: Wasser",
+   "html": "<strong>Zwei Greens</strong> können gleichzeitig spawnen → aufteilen. Dunkelblaue Orbs spawnen <strong>im Uhrzeigersinn ab Nord</strong>. Tidal Bargain kann zusammen mit einem weiteren Debuff Spieler festsetzen – Tether sauber managen.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Dunkelphase: /gg & Cleanse",
+   "html": "Während des Rollenspiels vor der Dunkelphase <strong>/gg</strong> zum Resetten. Ab jetzt stacken <strong>Torment + Confusion</strong> schnell → viel Cleanse nötig.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Fears (100–66 %)",
+   "html": "Nach 2 min ohne Phase: 4 <strong>unverwundbare Fears</strong> fixieren zufällige Spieler → wegkiten. Erreicht dich einer: 6 s Stun + großer Gruppenschaden.",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Sorrow (ab 66 %)",
+   "html": "Stationärer Sorrow mit Breakbar → in 10 <strong>s brechen</strong>, sonst schwerer Gruppenschaden. Ab 33 %: <strong>zwei</strong> Sorrows gleichzeitig.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Guilt (ab 33 %) & Split-AoE",
+   "html": "Guilt tethert den nächsten Spieler und stackt <strong>Crushing Guilt</strong> bis 10 → down. Tether <strong>zwischen Spielern weitergeben</strong>; geht er an Ai, wird sie stärker und nimmt weniger Schaden. <strong>Split-AoE:</strong> Ziel läuft aus der Gruppe raus.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "sunqua-peak-1.jpg",
+   "caption": "⑤ Sorrow – Breakbar in 10 s"
+  },
+  {
+   "img": "sunqua-peak-2.jpg",
+   "caption": "⑥ Split-AoE: Ziel raus aus der Gruppe"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Sunqua Peak (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/fractal-cms/sunqua-peak-cm/"
+  },
+  {
+   "text": "Wingman – Ai (ganzer Kampf)",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/ai"
+  }
+ ],
+ "details": [
+  {
+   "title": "Überblick",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "Der CM überspringt die frühen Encounter – nur Ai. Erst Lichtphase (100–1 %), dann setzt sie sich zurück und startet die Dunkelphase (100–1 %)."
+    },
+    {
+     "t": "li",
+     "html": "Mehr Schaden, neue Mechaniken, komplett neue Dunkelphase."
+    }
+   ]
+  },
+  {
+   "title": "Lichtphase",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Luft:</strong> 8 Energiequellen (Wolken) statt 6, engeres Timing. Nicht rechtzeitig weg = Wipe. Den großen Angriff genau ausweichen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Feuer:</strong> Meteore in Wellen 3, 3, 4, 2 mit Tethers auf zufällige Spieler – Überlappungen vermeiden. Beim arenaweiten Angriff hinter einen Meteor; nur einer ist sicher: rechts, mit Blick zur Arenamitte."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Wasser:</strong> zwei Greens gleichzeitig möglich, dunkelblaue Orbs im Uhrzeigersinn ab Nord. Tidal Bargain kann zusammen mit einem weiteren Debuff Spieler festsetzen."
+    }
+   ]
+  },
+  {
+   "title": "Dunkelphase",
+   "imgs": [
+    {
+     "img": "sunqua-peak-3.jpg",
+     "caption": "Sorrow mit Breakbar"
+    },
+    {
+     "img": "sunqua-peak-4.jpg",
+     "caption": "Split-AoE auf mehreren Spielern"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Ab jetzt <strong>Torment + Confusion</strong> auf allen Angriffen – Cleanse ist entscheidend."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Fears</strong> (100–66 %): nach 2 min ohne Phase teleportiert Ai in die Mitte, 4 Fears fixieren Spieler – kiten und Ais AoEs ausweichen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Sorrow</strong> (66–33 %): Split-Channel, Sorrow mit Breakbar (10 s). Fears kommen weiter."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Guilt</strong> (33–1 %): Tether stackt bis 10× Crushing Guilt → down. Weitergeben! An Ai = Buff für sie. Zwei Sorrows gleichzeitig."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Split-AoE:</strong> Ziel entfernt sich von der Gruppe – Überlappung ist verheerend."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Dark Line:</strong> Linie fegt über die Plattform – ausweichen oder Defensiv-Skill."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Dark Dash:</strong> Dash mit Knockback, kann dich von der Plattform werfen – Position halten."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Dark Breakbar:</strong> schnell brechen, sonst Buffs oder massiver Schaden."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Troubadour",
+      "16,7 %"
+     ],
+     [
+      "Mechanist",
+      "16,7 %"
+     ],
+     [
+      "Tempest",
+      "11,7 %"
+     ],
+     [
+      "Scourge",
+      "8,3 %"
+     ],
+     [
+      "Willbender",
+      "6,7 %"
+     ],
+     [
+      "Firebrand",
+      "6,7 %"
+     ],
+     [
+      "Harbinger",
+      "6,7 %"
+     ],
+     [
+      "Reaper",
+      "5,0 %"
+     ],
+     [
+      "Berserker",
+      "5,0 %"
+     ],
+     [
+      "Antiquary",
+      "5,0 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Firebrand",
+      "21.111",
+      "21.223"
+     ],
+     [
+      "Chronomancer",
+      "21.021",
+      "21.022"
+     ],
+     [
+      "Antiquary",
+      "19.565",
+      "19.615"
+     ],
+     [
+      "Mechanist",
+      "17.320",
+      "18.793"
+     ],
+     [
+      "Harbinger",
+      "16.237",
+      "20.723"
+     ],
+     [
+      "Willbender",
+      "15.232",
+      "19.999"
+     ],
+     [
+      "Tempest",
+      "12.132",
+      "16.158"
+     ],
+     [
+      "Scourge",
+      "10.586",
+      "17.702"
+     ],
+     [
+      "Berserker",
+      "10.227",
+      "22.285"
+     ],
+     [
+      "Reaper",
+      "7.945",
+      "10.549"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Mechanist, Tempest, Scourge, Willbender",
+      "Am häufigsten in erfolgreichen CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Firebrand, Chronomancer, Antiquary, Harbinger, Berserker, Reaper",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Berserker",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Firebrand: Top-Ø in den wenigen Logs.",
+     "Aegis/Blocks gegen Dark Dash und Line.",
+     "Willbender: Dashes nicht von der Plattform."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Chrono hoher Ø-DPS in den Logs.",
+     "Viel Burst-CC für die 10-s-Sorrow-Bars.",
+     "Troubadour: häufigster Heiler – Cleanse-Druck beachten."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Mechanist: meistgespielter DPS hier.",
+     "Mech hält Uptime, während du Fears kitest.",
+     "Hammer-CC für Sorrow einplanen."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Tempest sehr beliebt – Cleanse und Support.",
+     "Lange Channels nicht vor Dark Dash starten.",
+     "Wenig HP → Split-AoE nie überlappen."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Scourge: beliebt, starke Cleanse/Barrier.",
+     "Harbinger hoher Ø-DPS – Blight senkt Max-HP.",
+     "Guilt-Tether bewusst übernehmen und weitergeben."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Staff 5 / Hammer als Sorrow-CC.",
+     "Vindicator-Sprung-Dodge gegen Dark Line.",
+     "Herald/Conduit: auf Cleanse-Bedarf achten."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Berserker: höchster Top-Wert in den Logs.",
+     "Hammer/Mace: Sorrow-Bars schnell brechen.",
+     "Spellbreaker: Full Counter gegen gezielte Angriffe."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Kaum Ranger in den Logs – trotzdem spielbar.",
+     "Longbow-Knockback als CC für Sorrow.",
+     "Dolyak Stance gegen Dash-Knockbacks."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Antiquary hoher Ø-DPS in den Logs.",
+     "Daredevil-Dodges für Line/Dash.",
+     "Fears mit Shadowstep sicher kiten."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 21.11.2026 · Ai (ganzer Kampf): Erfolgsquote 45,7 %, Median-Kill 7:42 <strong>min</strong> · Für diese Ansicht gibt es nur wenige Logs – Zahlen mit Vorsicht lesen.",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman dominieren hier <strong>Troubadour</strong> und <strong>Mechanist</strong>, dazu Tempest und Scourge. Mindestens eine starke <strong>Cleanse</strong>-Quelle (Torment/Confusion) und viel <strong>CC</strong> für die Sorrows einplanen.",
+  "intro": "Mechanik-Bezug aus dem Hardstuck-Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

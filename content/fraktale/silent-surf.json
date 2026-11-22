@@ -1,0 +1,425 @@
+{
+ "slug": "silent-surf",
+ "kicker": "GW2 · FRAKTALCHALLENGEMODE · NURDASNEUE",
+ "title": "Silent Surf CM",
+ "subtitle": "Corrupted First Mate Dolus & Kanaxai – du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "Auge = wegschauen",
+  "Spreaden",
+  "Fallen = Tod",
+  "Grappling Hook"
+ ],
+ "timeline": [
+  {
+   "label": "Start",
+   "desc": "Matrosen + Dolus",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Kanaxai 100–66 %",
+   "desc": "Auge auf allen Aspekten",
+   "color": "#ea580c"
+  },
+  {
+   "label": "66 %",
+   "desc": "World Cleaver",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "66–33 %",
+   "desc": "Kanaxai auf Außenplattform",
+   "color": "#ea580c"
+  },
+  {
+   "label": "33 %",
+   "desc": "World Cleaver",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "33–0 %",
+   "desc": "Speed + Antlitz gleichzeitig",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Dread Visage (Auge): wegschauen – Fallen ist im CM Tod",
+   "html": "Beim Aufblitzen der Augen hinschauen = Tod oder <strong>Fear über den Rand</strong>. 100–66 %: alle Aspekte haben Augen → <strong>über den Plattformrand hinaus</strong> schauen. 66–33 %: Kanaxai porte auf eine Außenplattform → Minimap checken; am sichersten <strong>nach Osten</strong> schauen. 33–0 %: Antlitz kommt mit Frightening Speed → <strong>stillstehen</strong>, vom Rand weg schauen.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Römische Zahlen: sofort verteilen",
+   "html": "<strong>Frightening Speed</strong> markiert die Dash-Reihenfolge. <strong>Start-AoE</strong> oder mehrere Treffer = <strong>Tod</strong>. Vortex anderer Spieler meiden.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Dolus (vor dem Boss)",
+   "html": "Wirft Captain Thess per Dread Visage runter – <strong>wegschauen</strong>. Römische Zahlen wie bei Kanaxai: verteilen, Start-Bereich meiden.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Boon Steal",
+   "html": "Zwei orange Kreise: <strong>Ausweichen hilft nicht</strong> – rausgehen. Treffer = Boons weg, Buffs für Kanaxai.",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Breakbars",
+   "html": "Über 50 % alle 10 %, darunter alle 5 %. Nicht gebrochen = zusätzlicher <strong>Aspekt</strong> auf einer Außenplattform → Kanaxai macht viel mehr Schaden.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "World Cleaver (66 % & 33 %)",
+   "html": "Kanaxai tethert Spieler, die <strong>Aspekte auf den Außenplattformen</strong> töten müssen – sonst <strong>Wipe</strong>. DPS vorher passend positionieren, mit dem <strong>Grappling Hook</strong> rüber und sicher zurück.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "silent-surf-1.jpg",
+   "caption": "③ Dolus: Auge – wegschauen"
+  },
+  {
+   "img": "silent-surf-2.jpg",
+   "caption": "② Römische Zahlen: verteilen"
+  },
+  {
+   "img": "silent-surf-3.jpg",
+   "caption": "⑥ World Cleaver: Grappling Hook"
+  },
+  {
+   "img": "silent-surf-4.jpg",
+   "caption": "② Kanaxai: Speed-Kreise"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Silent Surf (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/fractal-cms/silent-surf-cm/"
+  },
+  {
+   "text": "Wingman – Kanaxai",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/kana"
+  }
+ ],
+ "details": [
+  {
+   "title": "Eröffnung",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "Der CM überspringt das Höhlen-Segment und startet direkt vor dem Endkampf. Erst Corrupted Luxon Sailors und Corrupted First Mate Dolus besiegen."
+    }
+   ]
+  },
+  {
+   "title": "Corrupted First Mate Dolus",
+   "imgs": [
+    {
+     "img": "silent-surf-5.jpg",
+     "caption": "Frightening Speed: verteilen"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Wirft Captain Thess sofort per <strong>Dread Visage</strong> von der Plattform – nicht hinschauen, sonst Fear über den Rand (= Tod)."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Frightening Speed:</strong> Zahlen zeigen die Dash-Reihenfolge. Startbereich wird tödlich, danach bleibt ein Vortex. Verteilen, nicht stacken."
+    },
+    {
+     "t": "li",
+     "html": "Danach öffnet sich ein Schattenportal zur Plattform mit Kanaxai."
+    }
+   ]
+  },
+  {
+   "title": "Kanaxai, Scythe of House Aurkus",
+   "imgs": [
+    {
+     "img": "silent-surf-6.jpg",
+     "caption": "Dread Visage über Kanaxai"
+    },
+    {
+     "img": "silent-surf-7.jpg",
+     "caption": "World Cleaver – Tether zur Außenplattform"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Dread Visage</strong> den ganzen Kampf: helle Augen über Kanaxai und Aspekten. Beim Aufblitzen hinschauen = Tod oder Fear."
+    },
+    {
+     "t": "li",
+     "html": "100–66 %: alle Aspekte mit Auge → über den Rand schauen. 66–33 %: Kanaxai auf Außenplattform, Minimap – Osten ist am sichersten. 33–0 %: bei Frightening Speed auch Antlitz → stillstehen, vom Rand weg schauen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Boon Steal:</strong> zwei orange Kreise, Ausweichen wirkt nicht."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Breakbar:</strong> alle 10 % über 50 %, alle 5 % darunter. Verpasst → Aspekt auf Außenplattform, Kanaxai macht mehr Schaden."
+    },
+    {
+     "t": "li",
+     "html": "<strong>World Cleaver</strong> (66/33 %): getetherte Spieler müssen Aspekte auf Außenplattformen töten, sonst Wipe. DPS vorpositionieren, Grappling Hook hin und zurück."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Frightening Speed:</strong> sofort verteilen; Startbereich oder Mehrfachtreffer = Tod."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Harbinger",
+      "21,3 %"
+     ],
+     [
+      "Troubadour",
+      "10,7 %"
+     ],
+     [
+      "Specter",
+      "9,2 %"
+     ],
+     [
+      "Mechanist",
+      "8,5 %"
+     ],
+     [
+      "Amalgam",
+      "5,6 %"
+     ],
+     [
+      "Firebrand",
+      "5,3 %"
+     ],
+     [
+      "Chronomancer",
+      "4,3 %"
+     ],
+     [
+      "Virtuoso",
+      "3,5 %"
+     ],
+     [
+      "Soulbeast",
+      "3,4 %"
+     ],
+     [
+      "Scourge",
+      "3,4 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Harbinger",
+      "22.702",
+      "32.300"
+     ],
+     [
+      "Antiquary",
+      "21.996",
+      "28.473"
+     ],
+     [
+      "Soulbeast",
+      "21.907",
+      "28.468"
+     ],
+     [
+      "Bladesworn",
+      "21.583",
+      "27.817"
+     ],
+     [
+      "Holosmith",
+      "21.323",
+      "32.781"
+     ],
+     [
+      "Weaver",
+      "20.805",
+      "27.229"
+     ],
+     [
+      "Firebrand",
+      "20.611",
+      "30.896"
+     ],
+     [
+      "Specter",
+      "20.253",
+      "30.718"
+     ],
+     [
+      "Berserker",
+      "20.127",
+      "25.744"
+     ],
+     [
+      "Virtuoso",
+      "19.850",
+      "28.025"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Harbinger, Specter, Mechanist, Amalgam",
+      "Am häufigsten in erfolgreichen CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Antiquary, Soulbeast, Bladesworn, Holosmith, Weaver, Firebrand, Berserker",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Chronomancer",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Firebrand: hoher Ø-DPS und Aegis gegen Dash-Treffer.",
+     "Aegis hilft bei Speed-Treffern – nicht bei Boon Steal.",
+     "Willbender: Dashes nie Richtung Rand."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Holosmith: höchster Top-Wert in diesem CM.",
+     "Mechanist beliebt – Mech hält Uptime beim Wegschauen.",
+     "Hammer-CC für die häufigen Breakbars."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Viel Burst-CC – wichtig bei Bars alle 5 %.",
+     "Portal kann den Cleaver-Weg absichern.",
+     "Troubadour: häufigster Heiler."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Tempest/Weaver solide DPS.",
+     "Lightning Flash: nie Richtung Plattformrand.",
+     "Wenig HP → Speed-Treffer vermeiden."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Harbinger: meistgespielter DPS (21 %) und höchster Ø-DPS.",
+     "Blight senkt Max-HP – bei Speed-Kreisen vorsichtig.",
+     "Scourge: hoher Ø-DPS und Barrier."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Staff 5 / Hammer-CC für die Breakbars.",
+     "Vindicator-Sprung-Dodge nicht Richtung Rand.",
+     "Renegade/Conduit: solide Optionen."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: Dragon Trigger nicht vor Dread Visage laden.",
+     "Hammer/Mace für Breakbars.",
+     "Shield Stance gegen gezielte Angriffe."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Soulbeast hoher Ø-DPS.",
+     "Druid kommt hier sogar als DPS in den Logs vor.",
+     "Longbow-Knockback als CC – Richtung beachten."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Specter: sehr beliebt (9 %), hoher Ø-DPS.",
+     "Shadowstep kann über den Rand führen – vorsichtig.",
+     "Antiquary: Top-10 Ø-DPS."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 21.11.2026 · Kanaxai: Erfolgsquote 66,1 %, Median-Kill 3:21 <strong>min</strong>",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman ist <strong>Harbinger</strong> hier mit 21 % der klar häufigste DPS, dazu Specter und Mechanist. Wichtig: verlässliche <strong>Breakbars</strong> und DPS, die den <strong>World Cleaver</strong> sicher übernehmen.",
+  "intro": "Mechanik-Bezug aus dem Hardstuck-Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

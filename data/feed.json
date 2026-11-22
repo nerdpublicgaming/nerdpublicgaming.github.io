@@ -1,0 +1,21 @@
+{
+  "sample": true,
+  "updated": "2026-11-22T14:00:00Z",
+  "live": { "isLive": false, "lastSeen": "2026-11-20T21:30:00Z" },
+  "videos": [
+    { "id": "", "title": "Power Weaver Raid-Guide – Rotation, Ausrüstung und Tipps", "published": "2026-11-19T17:00:00Z", "thumb": "" },
+    { "id": "", "title": "Raid-Abend mit der Gilde – Wing 7 Clear", "published": "2026-11-15T19:00:00Z", "thumb": "" },
+    { "id": "", "title": "Bladesworn für Einsteiger", "published": "2026-11-10T17:00:00Z", "thumb": "" },
+    { "id": "", "title": "Wochen-Stream: Ihr habt abgestimmt!", "published": "2026-11-06T19:00:00Z", "thumb": "" },
+    { "id": "", "title": "Unboxing: Neues Headset im Test", "published": "2026-11-01T15:00:00Z", "thumb": "" },
+    { "id": "", "title": "Vindicator Power DPS – Snow Crows Rotation erklärt", "published": "2026-10-27T17:00:00Z", "thumb": "" },
+    { "id": "", "title": "Let's Play – Folge 1", "published": "2026-10-20T17:00:00Z", "thumb": "" }
+  ],
+  "clips": [
+    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Wipe bei 1 %", "views": 42, "created": "2026-11-20T21:10:00Z", "duration": 28, "creator": "Zuschauer", "thumb": "" },
+    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Der perfekte Dodge", "views": 31, "created": "2026-11-18T20:40:00Z", "duration": 15, "creator": "Zuschauer", "thumb": "" },
+    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Chat entscheidet den Build", "views": 27, "created": "2026-11-13T20:05:00Z", "duration": 45, "creator": "Zuschauer", "thumb": "" },
+    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Erster Kill!", "views": 19, "created": "2026-11-08T21:55:00Z", "duration": 33, "creator": "Zuschauer", "thumb": "" },
+    { "url": "https://www.twitch.tv/nerdpublicgaming/clips", "title": "Mechanik? Welche Mechanik?", "views": 12, "created": "2026-11-02T20:20:00Z", "duration": 22, "creator": "Zuschauer", "thumb": "" }
+  ]
+}

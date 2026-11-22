@@ -1,0 +1,39 @@
+name: Videos, Clips und Live-Status aktualisieren
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'   # alle 20 Minuten (GitHub kann sich ein paar Minuten verspäten)
+  workflow_dispatch:          # manuell starten über "Actions" -> "Run workflow"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-feed
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Feed holen
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: node scripts/update-feed.mjs
+      - name: Änderungen speichern
+        run: |
+          git config user.name  "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add data
+          # nur committen, wenn sich mehr als der Zeitstempel geändert hat
+          if git diff --cached --quiet -- data/thumbs && \
+             [ "$(git diff --cached -U0 data/feed.json | grep -c '^[+-] ' )" -le 2 ]; then
+            echo "Nichts Neues."; git reset -q
+          else
+            git commit -m "Feed aktualisiert" && git push
+          fi

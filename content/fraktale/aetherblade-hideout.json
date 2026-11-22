@@ -1,0 +1,482 @@
+{
+ "slug": "aetherblade-hideout",
+ "kicker": "GW2 · CHALLENGEMODE · NURDASNEUE",
+ "title": "Ätherklingen-Versteck CM",
+ "subtitle": "Du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "CC Pflicht",
+  "10:00 Enrage = Wipe",
+  "Reflects mitnehmen",
+  "Vigor empfohlen"
+ ],
+ "timeline": [
+  {
+   "label": "Mai 100–50 %",
+   "desc": "Cleave gibt jetzt Exposed",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "50 % Split",
+   "desc": "wie NM – nichts Neues",
+   "color": "#ea580c"
+  },
+  {
+   "label": "33 % Split",
+   "desc": "NEU: Greens für 3 + große Tether-AoEs",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Scarlet",
+   "desc": "Slam: Exposed + Mitte = down",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "80 % / 40 %",
+   "desc": "Split wie 33 % · ab 80 %: 2× Blitz",
+   "color": "#ea580c"
+  },
+  {
+   "label": "60 % / 20 %",
+   "desc": "NEU: Deathray auf Bomben",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Exposed vermeiden – alles andere folgt daraus",
+   "html": "Jeder Stack = +25 <strong>% Schaden</strong>. Quellen: Mais <strong>Cleave</strong> (nur Tank vorne) · <strong>fremde Tether-AoE</strong> im Split (Abstand!) · <strong>Slam-Welle</strong> von Scarlet. Mit Stacks töten dich Orbs und Wellen. Cleanse in der Gruppe hilft.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Greens: genau 3, jeder nur 1×",
+   "html": "Wer im Green stand, hat <strong>Photon Saturation</strong> (10 Min.) → zweites Green = <strong>Tod</strong>. 4 Leute = Overstack (Orbs kreisen). <strong>NE-Phantom</strong> <strong>zuerst töten</strong> – zwei Greens im Split = zu wenig DPS.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Slam: Welle springen, Mitte meiden",
+   "html": "Welle <strong>springen, blocken, ausweichen</strong> – sie gibt Exposed. In der <strong>Mitte des Slams</strong> = sofort down.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Orbs: Reflects absprechen",
+   "html": "Spiral-Orbs sind für Spieler mit Exposed tödlich. Mehrere Reflect-Quellen mitnehmen:",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Blitze: 2 Ziele, am Rand stacken",
+   "html": "Ab 80 % treffen die blauen Blitze 2 <strong>Spieler,</strong> öfter als im NM. Beide <strong>übereinander am Rand zwischen Süd und West</strong> ablegen. <strong>Nie im NE</strong> (Green-Phantom).",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "60 % / 20 %: Deathray-Bomben",
+   "html": "2 Spieler bekommen ein Laser-Kreuz. ① <strong>Eine Bombe zerstören</strong> = einziger Safe Spot. ② <strong>Laser per Spezialaktionstaste</strong> an die anderen 2 Bomben hängen – so drehen, dass sie den Safe Spot <strong>nicht</strong> kreuzen. ③ <strong>Alle in den Safe Spot.</strong> Bomben spawnen immer gleich → Commander markiert die Safe-Bombe vorab.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "aetherblade-hideout-1.jpg",
+   "caption": "② Green: eine 3er-Gruppe nimmt es"
+  },
+  {
+   "img": "aetherblade-hideout-2.jpg",
+   "caption": "⑥ Eine Bombe weg, Laser ausrichten"
+  },
+  {
+   "img": "aetherblade-hideout-3.jpg",
+   "caption": "⑥ Laser abgelegt, Safe Spot frei"
+  },
+  {
+   "img": "aetherblade-hideout-4.jpg",
+   "caption": "⑤ Blitze am Rand abgelegt"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Aetherblade Hideout (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/fractal-cms/aetherblade-hideout-cm/"
+  },
+  {
+   "text": "GW2 Wingman – Captain Mai Trin",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/mai"
+  }
+ ],
+ "details": [
+  {
+   "title": "Phase 1 · Captain Mai Trin",
+   "imgs": [
+    {
+     "img": "aetherblade-hideout-5.jpg",
+     "caption": "Mais Cone – gelbe Linien = Kegel"
+    },
+    {
+     "img": "aetherblade-hideout-6.jpg",
+     "caption": "Buddy-Methode: 3 Gruppen am NE-Phantom (lila)"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Angriffsmuster identisch zum NM, alle Gegner mit mehr HP und größerer Defiance-Bar."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Cleave gibt Exposed</strong> → nur der Tank vorne, alle anderen seitlich/hinten."
+    },
+    {
+     "t": "li",
+     "html": "<strong>50 %-Split:</strong> wie NM – kleine Phantome schnell töten, dann ist Mai wieder angreifbar."
+    },
+    {
+     "t": "h",
+     "html": "<strong>33 %-Split</strong>"
+    },
+    {
+     "t": "li",
+     "html": "<strong>NE:</strong> Phantom mit viel HP (castet Greens) · <strong>SW:</strong> Phantom mit großer Defiance-Bar · dazu kleine Phantome."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Tether-AoEs</strong> sind riesig: in fremder AoE bei Detonation = viel Schaden + Exposed."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Green:</strong> genau 3 Spieler. Overstack → 2 Orbs kreisen ums Green. Photon Saturation (10 Min.) → zweites Green = Sofort-Tod."
+    },
+    {
+     "t": "box",
+     "html": "<strong>A</strong> – <strong>Reaktiv:</strong> Squad beobachten, spontan rein/raus. Flexibel, aber fehleranfällig."
+    },
+    {
+     "t": "box",
+     "html": "<strong>B</strong> – <strong>Buddy:</strong> 3 Seiten am NE-Phantom: 2 × 3 DPS gegenüber, 4 <strong>Supports vorne</strong> (Boon-Range)."
+    }
+   ]
+  },
+  {
+   "title": "Phase 2 · Echo of Scarlet Briar",
+   "imgs": [
+    {
+     "img": "aetherblade-hideout-7.jpg",
+     "caption": "Slam: oranger Kreis = Einschlag"
+    },
+    {
+     "img": "aetherblade-hideout-8.jpg",
+     "caption": "Blitz-AoEs am Rand abgelegt"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Muster wie NM, mehr Schaden, HP und Defiance."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Slam-Welle</strong> gibt Exposed → springen, blocken, ausweichen, evaden. Zu viele Stacks sind kaum rauszuheilen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Mitte des Slams:</strong> eigene AoE, sofort down."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Spiral-Orbs:</strong> tödlich mit Exposed. Hardstuck-Empfehlungen: Corrosive Poison Cloud (Nekro) · „Aftershock!“ / Magnetic Aura (Ele) · Protective Solace (Wächter) · Valiant Bulwark (Firebrand) · Zealot's Defense (Wächter)"
+    },
+    {
+     "t": "li",
+     "html": "<strong>80 % / 40 %-Split:</strong> Setup wie Mais 33 %. Durch Dauer-Slams und Cones ist Stacken schwer → Exposed vermeiden hat Priorität."
+    },
+    {
+     "t": "h",
+     "html": "<strong>Blue Lightning (ab 80 %)</strong>"
+    },
+    {
+     "t": "li",
+     "html": "Trifft im CM 2 <strong>Spieler</strong> und kommt öfter."
+    },
+    {
+     "t": "li",
+     "html": "Beide am <strong>Arenarand übereinander</strong> ablegen, am besten <strong>zwischen Süd und West.</strong>"
+    },
+    {
+     "t": "li",
+     "html": "<strong>NE meiden:</strong> dort spawnt das Green-Phantom – langsame Kills dort = mehrere Greens."
+    }
+   ]
+  },
+  {
+   "title": "60 % & 20 % · Deathray-Bomben",
+   "imgs": [
+    {
+     "img": "aetherblade-hideout-9.jpg",
+     "caption": "Bombe zerstört, ausrichten"
+    },
+    {
+     "img": "aetherblade-hideout-10.jpg",
+     "caption": "Laser abgelegt"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>2 Spieler</strong> bekommen statt eines Phantasmas einen Kreuz-Deathray. <strong>Spezialaktionstaste</strong> nahe einer Bombe hängt den Laser an die Bombe."
+    },
+    {
+     "t": "li",
+     "html": "<strong>3 Bomben</strong> an festen Positionen. Ist eine zerstört, werden die anderen zwei unverwundbar. Bei Detonation der Rays explodieren die restlichen Bomben."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Plan:</strong> 1 Bombe zerstören = Safe Spot → Rays so legen, dass sie ihn nicht kreuzen → alle rein. Commander kann die Safe-Bombe vorab markieren."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Mechanist",
+      "18,8 %"
+     ],
+     [
+      "Virtuoso",
+      "8,1 %"
+     ],
+     [
+      "Troubadour",
+      "8,1 %"
+     ],
+     [
+      "Ritualist",
+      "6,6 %"
+     ],
+     [
+      "Tempest",
+      "4,9 %"
+     ],
+     [
+      "Chronomancer",
+      "4,5 %"
+     ],
+     [
+      "Amalgam",
+      "4,3 %"
+     ],
+     [
+      "Firebrand",
+      "3,2 %"
+     ],
+     [
+      "Scourge",
+      "2,7 %"
+     ],
+     [
+      "Specter / Luminary",
+      "2,6 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Holosmith",
+      "17.976",
+      "19.052"
+     ],
+     [
+      "Soulbeast",
+      "17.126",
+      "20.771"
+     ],
+     [
+      "Daredevil",
+      "16.907",
+      "19.064"
+     ],
+     [
+      "Willbender",
+      "16.369",
+      "21.372"
+     ],
+     [
+      "Amalgam",
+      "16.225",
+      "22.975"
+     ],
+     [
+      "Berserker",
+      "16.066",
+      "19.470"
+     ],
+     [
+      "Spellbreaker",
+      "16.029",
+      "17.815"
+     ],
+     [
+      "Renegade",
+      "15.856",
+      "18.951"
+     ],
+     [
+      "Mechanist",
+      "15.709",
+      "19.844"
+     ],
+     [
+      "Vindicator",
+      "15.471",
+      "20.037"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Mechanist, Virtuoso, Ritualist, Amalgam",
+      "Mechanist ist mit Abstand am meisten gespielt – Mech macht weiter Schaden, während du Mechaniken läufst."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Soulbeast, Daredevil, Willbender, Berserker, Spellbreaker, Renegade, Vindicator, Holosmith",
+      "Ø über 15,5k; brauchen saubere Uptime trotz vieler Bewegungsphasen."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Chronomancer, Firebrand, Luminary, Tempest, Herald, Scourge",
+      "Große Spanne zwischen Ø und Top-DPS → werden als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Paragon, Specter, Catalyst, Druid",
+      "Ø-DPS unter 2k → in CM-Logs praktisch nur als Heiler. Troubadour ist der klar häufigste Heiler."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Holosmith · Scrapper",
+    "items": [
+     "<strong>Mechanist</strong> ist der fehlerverzeihendste DPS: Mech hält Uptime, du kümmerst dich um Greens/Blues.",
+     "Holosmith: Photon Wall kann Projektile reflektieren – nützlich bei Orbs.",
+     "Rocket Boots / Blocks für die Slam-Welle einplanen."
+    ]
+   },
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Beste <strong>Orb-Konter:</strong> Protective Solace, Valiant Bulwark (Kap. 3), Zealot's Defense – absprechen, wer wann deckt.",
+     "Willbender: viele Dashes – nicht versehentlich in fremde Tether-AoEs oder ins Green dashen.",
+     "Als Support vorne bleiben, damit beide DPS-Gruppen Boons bekommen."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Chrono: <strong>Feedback</strong> = Reflect-Blase genau für die Spiral-Orbs.",
+     "Virtuoso: Ranged – du kannst Abstand zu fremden AoEs halten; Blink zum schnellen Korrigieren im Split.",
+     "Troubadour (meistgespielter Heiler): Exposed-Spitzen nach Slams sofort gegenheilen."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Tempest: „<strong>Aftershock!</strong>“ gibt Magnetic Aura (Reflect) gegen die Orbs.",
+     "Wenig HP → Exposed tut doppelt weh. Slam-Welle immer springen/ausweichen.",
+     "Lange Channels nicht kurz vor Slam oder Green starten."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "<strong>Corrosive Poison Cloud</strong> zerstört Projektile – ideal gegen Orbs.",
+     "Schleier ist kein Freifahrtschein: Exposed verstärkt auch Schaden im Shroud.",
+     "Harbinger: Blight senkt die Max-HP – mit Exposed besonders riskant."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Vindicator: Ausweichen ist ein Sprung – perfekt, um die Slam-Welle zu überspringen.",
+     "Renegade/Vindicator im Top-10-DPS – Uptime in Bewegungsphasen halten.",
+     "Hammer-/Ranged-Optionen helfen bei Abstand zu Tether-AoEs."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Daredevil: 3 Ausweichbalken – sehr sicher gegen Slams, Ø-DPS Top 3.",
+     "Deadeye: Kneel macht dich stationär – vor Greens, Blues und Slam rechtzeitig aufstehen.",
+     "Specter: im CM fast nur als Heiler; Dieb hat wenig HP → Exposed-Stacks konsequent vermeiden."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Blocks (Shield Stance, Spellbreaker Full Counter) für Slam-Welle nutzen.",
+     "Bladesworn: Dragon Trigger ist stationär – nicht kurz vor Slam/Green laden.",
+     "Paragon wird im CM praktisch nur als Heal-Support gespielt."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Soulbeast = Top-2 Ø-DPS im CM.",
+     "Axt-Offhand <strong>Whirling Defense</strong> reflektiert Projektile – Orb-Hilfe.",
+     "Druid nur als Heiler in Logs – im CM selten."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, Captain Mai Trin <strong>Challenge Mote</strong>, „Balance Patch November 2026“, Stand 21.11.2026 · Erfolgsquote der CM-Logs: 63,9 % · Median-Kill ca. 6:10 <strong>min</strong> · schnellste Gruppe ca. 4:55 <strong>min</strong> · Specs mit wenigen Logs (z. B. Holosmith) sind weniger aussagekräftig.",
+  "tip": "<strong>Komp-Faustregel: 4 Supports + 6 DPS</strong> passt perfekt zum Buddy-System bei den Greens (2 × 3 DPS seitlich, Supports vorne).",
+  "intro": "Skill-Empfehlungen für die Orbs stammen aus dem Hardstuck-Guide; die übrigen Hinweise sind allgemeine Spieltipps zu den jeweiligen Klassen. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

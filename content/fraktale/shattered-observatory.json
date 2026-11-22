@@ -1,0 +1,479 @@
+{
+ "slug": "shattered-observatory",
+ "kicker": "GW2 · FRAKTALCHALLENGEMODE · NURDASNEUE",
+ "title": "Shattered Observatory CM",
+ "subtitle": "Skorvald · Artsariiv · Arkk – du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "3 Bosse",
+  "Auge = wegschauen",
+  "Stabi",
+  "Hypernova"
+ ],
+ "timeline": [
+  {
+   "label": "Skorvald Start",
+   "desc": "Breakbar · Laser mit Auge",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Skor 66/33 %",
+   "desc": "4 Anomalien im Zeitlimit",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Skor <33 %",
+   "desc": "Solar Cyclone 15 s",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "Artsariiv",
+   "desc": "Dreifach-Laser · 5 / 9 Klone",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Arkk 80/50/30 %",
+   "desc": "Reaktor · Start mit Auge",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Arkk <40 %",
+   "desc": "Plattformen verschwinden",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Auge über dem Boss = wegschauen",
+   "html": "Sonst <strong>Fear</strong>. <strong>Skorvald:</strong> Laser quer über die Plattform = One-Shot. <strong>Artsariiv:</strong> Dreifach-Laser zu Beginn und nach jeder Phase. <strong>Arkk:</strong> startet mit dem Auge, auch in der Archdiviner-Phase im <strong>Westen.</strong>",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Skorvald 66 % / 33 %: Anomalien",
+   "html": "<strong>4 Anomalien</strong> im Zeitlimit töten – sonst wiped der aufgeladene Angriff die Gruppe. <strong>Bomben-Icon</strong> über dir: er teleportiert zu dir → Ausweichen timen.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Skorvald: Solar Cyclone",
+   "html": "Kurz nach 33 % größer, dreht sich ~15 s mit harten Knockbacks → <strong>Stabi</strong> und <strong>nicht in seiner Hitbox</strong> stehen.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Artsariiv: Skull & Ball",
+   "html": "Bei Corporeal Reassignment <strong>Anomalie in der Mitte töten</strong> → Schutzkuppel. <strong>Ball verpasst = alle down.</strong> Side Slam: ausweichen oder Stabi. Nach jeder Phase werden alle belebt.",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Arkk: Reaktor, Green & Skull",
+   "html": "Reaktor bei 80 / 50 / 30 % schnell abschließen. Green: nur 1 <strong>weiterer Spieler</strong> nötig. Skull: Anomalie an <strong>zufälliger Stelle</strong> töten → Kuppel.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Arkk 70 % & letzte 40 %",
+   "html": "Bei 70 % verschwindet Arkk → <strong>Elite-Archdiviner</strong> + Mobs töten. In den letzten 40 % verschwinden Plattformen: Wer durchfällt, landet hoch in der Luft → <strong>Hypernova Launch</strong> nutzen, um ohne Fallschaden zu landen.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "shattered-observatory-1.jpg",
+   "caption": "① Skorvald-Laser – Auge = wegschauen"
+  },
+  {
+   "img": "shattered-observatory-2.jpg",
+   "caption": "③ Solar Cyclone"
+  },
+  {
+   "img": "shattered-observatory-3.jpg",
+   "caption": "④ Kuppel nach Anomalie-Kill"
+  },
+  {
+   "img": "shattered-observatory-4.jpg",
+   "caption": "⑥ Plattformen fallen weg"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Shattered Observatory (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/fractal-cms/shattered-observatory-cm/"
+  },
+  {
+   "text": "Wingman – Skorvald",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/skor"
+  },
+  {
+   "text": "Wingman – Artsariiv",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/arts"
+  },
+  {
+   "text": "Wingman – Arkk",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/arkk"
+  }
+ ],
+ "details": [
+  {
+   "title": "Start",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "Spieler mit allen SO-Erfolgen klickt die Challenge Mote → Harbinger of Woe fragt nach CM. Dann zur Plattform runterspringen und den Orb anklicken."
+    }
+   ]
+  },
+  {
+   "title": "Skorvald the Shattered",
+   "imgs": [
+    {
+     "img": "shattered-observatory-5.jpg",
+     "caption": "Solar Cyclone nach 33 %"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Alle NM-Mechaniken, aber schneller, größer, härter. Startet mit <strong>Defiance Bar.</strong>"
+    },
+    {
+     "t": "li",
+     "html": "<strong>Blinding Radiance:</strong> Laser über die Plattform (One-Shot), Auge über dem Kopf → wegschauen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Ab 66 %:</strong> fixiert und teleportiert sich über die Plattform, Angriff ähnlich wie „Surge of the Mists“."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Warp</strong> / <strong>Spiral Strike:</strong> Bomben-Icon über einem Spieler → Skorvald porte zu ihm, Ausweichen timen."
+    },
+    {
+     "t": "li",
+     "html": "66 % / 33 %: 4 Anomalien im Zeitlimit."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Solar Cyclone:</strong> enraged, wächst, dreht sich ~15 s mit Knockbacks – Stabi, raus aus der Hitbox. Solar Blooms und (danach) Augen spawnen."
+    }
+   ]
+  },
+  {
+   "title": "Artsariiv",
+   "imgs": [
+    {
+     "img": "shattered-observatory-6.jpg",
+     "caption": "Dreifach-Laser mit Auge"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Deutlich mehr AoEs als im NM."
+    },
+    {
+     "t": "li",
+     "html": "Dreifach-Laser mit Auge zu Beginn und nach jeder Phase – wegschauen (Fear)."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Side Slam:</strong> Sprung + Knockback – ausweichen oder Stabi."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Corporeal Reassignment:</strong> Anomalie in der Mitte töten → Schutzkuppel."
+    },
+    {
+     "t": "li",
+     "html": "Split-Phasen: erst 5 Klone (Ecken + Mitte), dann 9 Klone. Ball verpasst → sie wechselt die Ecke <strong>und alle werden gedownt</strong>. Nach jeder Phase Auto-Rez."
+    }
+   ]
+  },
+  {
+   "title": "Arkk",
+   "imgs": [
+    {
+     "img": "shattered-observatory-7.jpg",
+     "caption": "Skull + Auge gleichzeitig"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Arkk erscheint sofort in der Mitte, kein Reaktor zu Beginn – Start mit Auge."
+    },
+    {
+     "t": "li",
+     "html": "Reaktor bei 80 / 50 / 30 %. Green klebt an einem Spieler, braucht nur einen zweiten."
+    },
+    {
+     "t": "li",
+     "html": "Skull: Anomalie spawnt zufällig auf der Plattform – töten für die Kuppel."
+    },
+    {
+     "t": "li",
+     "html": "70 %: Elite-Archdiviner + Mobs; Arkk kann im Westen mit Auge auftauchen."
+    },
+    {
+     "t": "li",
+     "html": "Letzte 40 %: Plattformen verschwinden – Hypernova Launch zum sicheren Landen."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (Ø über alle Bosse)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Dragonhunter",
+      "13,2 %"
+     ],
+     [
+      "Troubadour",
+      "11,3 %"
+     ],
+     [
+      "Amalgam",
+      "11,1 %"
+     ],
+     [
+      "Soulbeast",
+      "9,9 %"
+     ],
+     [
+      "Scrapper",
+      "7,3 %"
+     ],
+     [
+      "Mechanist",
+      "6,8 %"
+     ],
+     [
+      "Renegade",
+      "6,2 %"
+     ],
+     [
+      "Reaper",
+      "4,4 %"
+     ],
+     [
+      "Chronomancer",
+      "4,3 %"
+     ],
+     [
+      "Luminary",
+      "3,0 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS je Boss (CM)",
+    "head": [
+     "Spec",
+     "Ø Skorvald",
+     "Ø Artsariiv",
+     "Ø Arkk"
+    ],
+    "rows": [
+     [
+      "Soulbeast",
+      "15.163",
+      "19.094",
+      "20.189"
+     ],
+     [
+      "Dragonhunter",
+      "13.262",
+      "18.166",
+      "20.939"
+     ],
+     [
+      "Holosmith",
+      "14.737",
+      "15.884",
+      "18.796"
+     ],
+     [
+      "Scrapper",
+      "12.283",
+      "18.390",
+      "18.442"
+     ],
+     [
+      "Bladesworn",
+      "12.432",
+      "16.388",
+      "20.163"
+     ],
+     [
+      "Amalgam",
+      "11.923",
+      "15.793",
+      "17.169"
+     ],
+     [
+      "Catalyst",
+      "10.508",
+      "17.201",
+      "16.072"
+     ],
+     [
+      "Virtuoso",
+      "11.817",
+      "15.201",
+      "16.151"
+     ],
+     [
+      "Weaver",
+      "10.584",
+      "14.997",
+      "17.062"
+     ],
+     [
+      "Renegade",
+      "11.692",
+      "14.465",
+      "15.241"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Dragonhunter, Amalgam, Soulbeast, Scrapper",
+      "Am häufigsten in erfolgreichen CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Holosmith, Bladesworn, Catalyst, Virtuoso, Weaver, Renegade",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Luminary",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Chronomancer",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Dragonhunter: meistgespielter DPS, höchster Top-Wert auf Artsariiv.",
+     "„Stand Your Ground!“ für Solar Cyclone.",
+     "Willbender: nicht in die Hitbox dashen."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Scrapper/Amalgam/Holosmith: starker Ø-DPS.",
+     "Schneller Burst für die Anomalien.",
+     "Mechanist: Mech hält Uptime beim Wegschauen."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Virtuoso: Fernkampf – Wegschauen kostet kaum DPS.",
+     "Portal/Blink zur Ball- und Kuppel-Positionierung.",
+     "Troubadour: häufigster Heiler."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver hoher Ø-DPS auf Arkk.",
+     "Channels pausieren, wenn das Auge erscheint.",
+     "Lightning Flash für schnelle Ball-Bounces."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Reaper/Harbinger solide.",
+     "Shroud hilft nicht gegen Fear – trotzdem wegschauen.",
+     "Necro-Fear/Pulls für Anomalien und Adds."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Renegade: sehr beliebt (ca. 6 %).",
+     "Jalis: Inspiring Reinforcement = Stabi-Quelle.",
+     "Vindicator-Sprung-Dodge über Side-Slam-AoEs."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: hoher Ø-DPS – Dragon Trigger nicht ins Auge laden.",
+     "Balanced Stance gegen Cyclone-Knockbacks.",
+     "Hammer-CC für die Skorvald-Breakbar."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Soulbeast: Top-Ø auf Skorvald.",
+     "Dolyak Stance = Gruppen-Stabi.",
+     "Longbow-Knockback für Adds/Anomalien."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Daredevil: Dodges für Warp/Spiral Strike.",
+     "Shadowstep für Ball und Kuppel.",
+     "Deadeye: Kneel stationär – Auge und Plattformen beachten."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 21.11.2026 · Skorvald: Erfolgsquote 85,7 %, Median-Kill 2:00 <strong>min</strong> · Artsariiv: Erfolgsquote 68,1 %, Median-Kill 1:44 <strong>min</strong> · Arkk: Erfolgsquote 82,4 %, Median-Kill 2:20 <strong>min</strong>",
+  "tip": "<strong>Komp-Tipp:</strong> Typische 5er-Fraktal-Komp: Heal-Support + Boon-DPS + 3 DPS. Wichtig in SO: genug <strong>Stabi</strong> (Solar Cyclone, Side Slam) und schneller DPS auf Anomalien.",
+  "intro": "Mechanik-Bezug aus dem Hardstuck-Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

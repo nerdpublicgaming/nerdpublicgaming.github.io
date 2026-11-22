@@ -1,0 +1,107 @@
+{
+  const CHANNEL = 'nerdpublicgaming';
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmtDate = iso => { try { return new Date(iso).toLocaleDateString('de-AT', {day:'numeric', month:'short', year:'numeric'}); } catch { return ''; } };
+  const ago = iso => {
+    const d = (Date.now() - new Date(iso)) / 864e5;
+    if (d < 1) return 'heute';
+    if (d < 2) return 'gestern';
+    if (d < 30) return `vor ${Math.floor(d)} Tagen`;
+    return fmtDate(iso);
+  };
+  const dur = s => { s = Math.round(s || 0); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
+  const num = n => new Intl.NumberFormat('de-AT').format(n || 0);
+  const thumb = (src, label) => src
+    ? `<img src="${esc(src)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'ph',textContent:'${esc(label)}'}))">`
+    : `<div class="ph">${esc(label)}</div>`;
+
+  $('year').textContent = new Date().getFullYear();
+
+  // ---- Twitch-Player erst nach Klick laden (DSGVO) ----
+  $('loadPlayer').addEventListener('click', () => {
+    const host = location.hostname || 'localhost';
+    const f = document.createElement('iframe');
+    f.src = `https://player.twitch.tv/?channel=${CHANNEL}&parent=${encodeURIComponent(host)}&muted=true&autoplay=true`;
+    f.allowFullscreen = true;
+    f.title = 'Twitch-Stream von NerdPublic Gaming';
+    $('player').replaceChildren(f);
+  });
+
+  // ---- Live-Status ----
+  function renderLive(live) {
+    const st = $('liveState');
+    if (live && live.isLive) {
+      st.textContent = `Jetzt live · ${num(live.viewers)} Zuschauer`;
+      st.classList.add('on');
+      $('liveTitle').textContent = [live.title, live.game && `(${live.game})`].filter(Boolean).join(' ');
+      $('navStatus').hidden = false;
+      $('playerHead').textContent = 'Gerade live auf Twitch!';
+    } else {
+      st.textContent = 'Gerade offline';
+      $('liveTitle').textContent = live && live.lastSeen ? `Zuletzt live: ${ago(live.lastSeen)}` : 'Folge auf Twitch, dann verpasst du keinen Stream.';
+    }
+  }
+
+  // ---- Videos ----
+  function renderVideos(videos) {
+    const g = $('videoGrid');
+    if (!videos || !videos.length) { g.innerHTML = '<p class="empty">Noch keine Videos geladen.</p>'; return; }
+    g.innerHTML = videos.slice(0, 6).map((v, i) => `
+      <a class="video parchment${i === 0 ? ' featured' : ''}" href="https://www.youtube.com/watch?v=${esc(v.id)}" rel="noopener">
+        <div class="thumb">${thumb(v.thumb, 'YouTube')}<span class="play" aria-hidden="true"></span></div>
+        <div class="body">
+          <h3>${esc(v.title)}</h3>
+          <span class="meta">${ago(v.published)}${v.views ? ' · ' + num(v.views) + ' Aufrufe' : ''}</span>
+        </div>
+      </a>`).join('');
+  }
+
+  // ---- Clips ----
+  function renderClips(clips) {
+    const r = $('clipRow');
+    if (!clips || !clips.length) { r.innerHTML = '<p class="empty">Noch keine Clips – erstell im nächsten Stream einen!</p>'; return; }
+    r.innerHTML = clips.slice(0, 10).map(c => `
+      <a class="clip" href="${esc(c.url)}" rel="noopener">
+        <div class="thumb">${thumb(c.thumb, 'Clip')}<span class="dur">${dur(c.duration)}</span></div>
+        <div class="body">
+          <h3>${esc(c.title)}</h3>
+          <span class="meta">${num(c.views)} Aufrufe · ${ago(c.created)}${c.creator ? ' · von ' + esc(c.creator) : ''}</span>
+        </div>
+      </a>`).join('');
+  }
+
+  // ---- Guides ----
+  let guides = [], filter = 'Alle';
+  function renderGuides() {
+    const cats = ['Alle', ...new Set(guides.map(g => g.mode))];
+    // Filter nur zeigen, wenn es mehr als eine Kategorie gibt
+    $('guideFilters').innerHTML = cats.length > 2 ? cats.map(c => `<button type="button" aria-pressed="${c === filter}" data-f="${esc(c)}">${esc(c)}</button>`).join('') : '';
+    const list = guides.filter(g => filter === 'Alle' || g.mode === filter);
+    $('guideGrid').innerHTML = list.length ? list.map(g => `
+      <a class="guide parchment" href="${esc(g.url || g.pdf || '#guides')}">
+        ${g.cover ? `<div class="cover"><img src="${esc(g.cover)}" alt="" loading="lazy"></div>` : ''}
+        <div class="gbody">
+          <p class="kicker">${esc(g.mode)}</p>
+          <h3>${esc(g.title)}</h3>
+          <p class="sub">${esc(g.bosses)}</p>
+          <p>${esc(g.summary)}</p>
+          <div class="tags">${(g.tags || []).map(t => `<span>${esc(t)}</span>`).join('')}</div>
+          <span class="open">Guide öffnen →</span>
+        </div>
+      </a>`).join('') : '<p class="empty">Keine Guides in dieser Kategorie.</p>';
+  }
+  $('guideFilters').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    filter = b.dataset.f; renderGuides();
+  });
+
+  // ---- Daten laden ----
+  const get = p => fetch(p, {cache: 'no-cache'}).then(r => r.ok ? r.json() : Promise.reject(r.status));
+  get('data/feed.json').then(d => {
+    renderLive(d.live); renderVideos(d.videos); renderClips(d.clips);
+    if (d.updated) $('updated').textContent = `Videos & Clips zuletzt aktualisiert: ${new Date(d.updated).toLocaleString('de-AT')}`;
+    if (d.sample) $('updated').textContent = 'Videos und Clips sind Beispieldaten – nach der Einrichtung kommen sie automatisch von YouTube und Twitch.';
+  }).catch(() => { renderLive(null); renderVideos([]); renderClips([]); });
+  get('data/guides.json').then(d => { guides = d; renderGuides(); }).catch(() => { guides = []; renderGuides(); });
+}

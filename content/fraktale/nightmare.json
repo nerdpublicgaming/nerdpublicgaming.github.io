@@ -1,0 +1,475 @@
+{
+ "slug": "nightmare",
+ "kicker": "GW2 · FRAKTALCHALLENGEMODE · NURDASNEUE",
+ "title": "Nightmare CM",
+ "subtitle": "Albtraum · M.A.M.A. · Siax · Ensolyss – du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "3 Bosse",
+  "CC Pflicht",
+  "Stabi + Aegis",
+  "/gg-Resets"
+ ],
+ "timeline": [
+  {
+   "label": "MAMA Start",
+   "desc": "Breakbar vor dem Knockback",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "MAMA je 25 %",
+   "desc": "Champion-Add töten",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Siax Start",
+   "desc": "Breakbar · Vile Spit = 100 % HP",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "Siax 66/33 %",
+   "desc": "4 Veteranen N/O/S/W",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Enso 66/33 %",
+   "desc": "Bullet-Hell + Breakbar",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Enso 15 %",
+   "desc": "Gift überall – Schild in der Mitte",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Breakbars sind Pflicht – bei allen drei Bossen",
+   "html": "<strong>M.A.M.A.</strong>: erste Bar vor Ende der Animation brechen, sonst Knockback + 7× Burning (ohne Aegis). <strong>Siax:</strong> Vile Spit macht 100 % deiner HP – Barrier rettet dich. <strong>Ensolyss:</strong> nach jeder Bullet-Hell – hier rettet <strong>Barrier nicht.</strong>",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "M.A.M.A.: Adds & rote Pfütze",
+   "html": "Alle 25 % <strong>Champion-Clockwork</strong> töten (2 große CC-AoEs → <strong>Stabi + Aegis</strong>). Bei ~33 % rote <strong>Gift-Pfütze:</strong> sofort raus, nicht tanken.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Siax: Halluzinationen",
+   "html": "Am Ende der wachsenden AoE <strong>Aegis oder Ausweichen</strong>, sonst spawnt eine Elite-Halluzination. Einer bleibt beim Tail-Swipe <strong>vor Siax</strong> (mit Aegis) → kein Toxic Blast.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Siax 66 % / 33 %: Veteranen",
+   "html": "4 Veteranen <strong>N/O/S/W</strong> – vorher per Minimap aufteilen (Supports zusammen, DPS je einen). Bei 33 % verschieben sich die Spawns <strong>im Uhrzeigersinn.</strong>",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Ensolyss: Gift-Rand & Charge",
+   "html": "Rand ist von Anfang an <strong>Gift</strong>. Seitlich/hinten stehen (Frontal-Cleave). Charge: <strong>ausweichen</strong>, nicht ins Gift knocken lassen; alle Mitte stacken, dann porte er zurück.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Ensolyss: Bullet-Hell (66/33 %) & letzte 15 %",
+   "html": "5 Punkte capturen – stirbt jemand, wird er belebt, sobald einer fertig macht. <strong>Ab 15 %:</strong> alle in den Schild in der Mitte, Mobs dashen rein → <strong>Stabi</strong>. Genug DPS von 33 → 15 % <strong>überspringt</strong> die Phase.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "nightmare-1.jpg",
+   "caption": "② M.A.M.A.: AoEs ausweichen"
+  },
+  {
+   "img": "nightmare-2.jpg",
+   "caption": "① Siax Vile Spit – Breakbar!"
+  },
+  {
+   "img": "nightmare-3.jpg",
+   "caption": "⑥ Ensolyss Bullet-Hell"
+  },
+  {
+   "img": "nightmare-4.jpg",
+   "caption": "① Ensolyss: in den Schild"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Nightmare (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/fractal-cms/nightmare-cm/"
+  },
+  {
+   "text": "Wingman – M.A.M.A.",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/mama"
+  },
+  {
+   "text": "Wingman – Siax",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/siax"
+  },
+  {
+   "text": "Wingman – Ensolyss",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/enso"
+  }
+ ],
+ "details": [
+  {
+   "title": "Start",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "CM über die Challenge Mote (alle Nightmare-Erfolge nötig). Krait unter der Mote <strong>nicht</strong> wie im NM töten – sonst kein CM."
+    },
+    {
+     "t": "li",
+     "html": "Viele Gruppen überspringen die erste Mob-Gruppe per Sprung übers Kraftfeld (Achtung: vertikales Holzstück am Rampenende umgehen)."
+    },
+    {
+     "t": "li",
+     "html": "Nach den 3 Champion-Clockworks vor M.A.M.A. üblich: <strong>/gg</strong> und Boons am Singularity neu stacken."
+    }
+   ]
+  },
+  {
+   "title": "M.A.M.A.",
+   "imgs": [
+    {
+     "img": "nightmare-5.jpg",
+     "caption": "Cannon Barrage – orange AoEs"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Spawnt ohne Vulnerability, mit Breakbar, die sie mehrfach regeneriert. Erste Bar vor dem großen Knockback brechen (sonst 7 Burning ohne Aegis)."
+    },
+    {
+     "t": "li",
+     "html": "Alle 25 % invulnerabel + <strong>Champion-Clockwork:</strong> zwei große CC-AoEs (Jump-Slam, Drag-in + Wirbel) → Stabi und Aegis sehr wertvoll."
+    },
+    {
+     "t": "li",
+     "html": "~33 %: große <strong>rote Gift-Pfütze</strong> – viel stärker als im NM, sofort raus."
+    },
+    {
+     "t": "li",
+     "html": "Weitere Angriffe: Cannon Barrage (orange AoEs), Slam im Uhrzeigersinn (startet gegenüber ihrer Blickrichtung), Jump Strike auf Spieler mit Pushback-Wellen, rote/grüne Orb-Reihen auf Fernkampf-Spieler."
+    }
+   ]
+  },
+  {
+   "title": "Siax the Corrupted",
+   "imgs": [
+    {
+     "img": "nightmare-6.jpg",
+     "caption": "Halluzinations-AoE: Aegis oder ausweichen"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Vor Siax: Kapturpunkte; Projektile am Mittelpunkt verschwinden, wenn die Seitenpunkte erledigt sind. Nach Spawn üblich: /gg + Boons stacken."
+    },
+    {
+     "t": "li",
+     "html": "Start: <strong>Breakbar</strong> gegen Vile Spit (Orbs in 4 Richtungen, 100 % HP-Schaden – Barrier verhindert Down)."
+    },
+    {
+     "t": "li",
+     "html": "Halluzinations-AoE: Aegis/Ausweichen am Ende, sonst Elite-Halluzination; Vomit Toxin trifft den entferntesten Spieler."
+    },
+    {
+     "t": "li",
+     "html": "Tail-Swipe: einer bleibt vorne (Aegis) → kein Toxic Blast mit 3 Giftfeldern."
+    },
+    {
+     "t": "li",
+     "html": "66 % und 33 %: 4 Veteranen N/O/S/W, bei 33 % im Uhrzeigersinn verschoben."
+    }
+   ]
+  },
+  {
+   "title": "Ensolyss of the Endless Torment",
+   "imgs": [
+    {
+     "img": "nightmare-7.jpg",
+     "caption": "Upswing: Slam + Halluzinations-AoEs"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Rand von Beginn an vergiftet. Start: kurze Breakbar → sofort brechen = Exposed vor der Schild-Attacke; sonst <strong>in den Schild</strong> (channelt schneller als im NM)."
+    },
+    {
+     "t": "li",
+     "html": "Frontal-Cleave mit 5 Bleeding → seitlich oder hinten stehen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Upswing:</strong> nach innen ausweichen und nochmal für den Halluzinations-Schlag – oder nach außen ausweichen, über die Welle und weiter raus."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Charge:</strong> ausweichen, nicht ins Gift knocken lassen; alle Mitte, dann teleportiert er zurück."
+    },
+    {
+     "t": "li",
+     "html": "66 % / 33 %: Bullet-Hell mit 5 Punkten, danach Breakbar mit tödlichem Channel (Barrier hilft nicht). Ab 66 % neuer Tail-Swipe (doppelter Knockback)."
+    },
+    {
+     "t": "li",
+     "html": "15 %: teleport nach Norden, Gift fast überall, Ensolyss permanent Exposed – alle in den Schild, Mobs dashen rein."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (Ø über alle Bosse)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Dragonhunter",
+      "12,3 %"
+     ],
+     [
+      "Amalgam",
+      "11,1 %"
+     ],
+     [
+      "Troubadour",
+      "10,8 %"
+     ],
+     [
+      "Soulbeast",
+      "9,3 %"
+     ],
+     [
+      "Scrapper",
+      "7,2 %"
+     ],
+     [
+      "Mechanist",
+      "7,2 %"
+     ],
+     [
+      "Renegade",
+      "5,9 %"
+     ],
+     [
+      "Reaper",
+      "4,7 %"
+     ],
+     [
+      "Chronomancer",
+      "4,5 %"
+     ],
+     [
+      "Luminary",
+      "3,1 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS je Boss (CM)",
+    "head": [
+     "Spec",
+     "Ø M.A.M.A.",
+     "Ø Siax",
+     "Ø Ensolyss"
+    ],
+    "rows": [
+     [
+      "Dragonhunter",
+      "27.791",
+      "32.032",
+      "25.066"
+     ],
+     [
+      "Bladesworn",
+      "28.982",
+      "28.519",
+      "24.208"
+     ],
+     [
+      "Soulbeast",
+      "27.616",
+      "29.563",
+      "24.287"
+     ],
+     [
+      "Scrapper",
+      "26.228",
+      "29.407",
+      "22.378"
+     ],
+     [
+      "Willbender",
+      "27.807",
+      "24.703",
+      "22.496"
+     ],
+     [
+      "Holosmith",
+      "24.209",
+      "26.711",
+      "23.382"
+     ],
+     [
+      "Catalyst",
+      "25.257",
+      "24.198",
+      "23.541"
+     ],
+     [
+      "Amalgam",
+      "24.127",
+      "26.118",
+      "22.468"
+     ],
+     [
+      "Harbinger",
+      "25.695",
+      "24.420",
+      "21.410"
+     ],
+     [
+      "Weaver",
+      "23.489",
+      "23.732",
+      "23.888"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Dragonhunter, Amalgam, Soulbeast, Scrapper",
+      "Am häufigsten in erfolgreichen CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Bladesworn, Willbender, Holosmith, Catalyst, Harbinger, Weaver",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Chronomancer",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Dragonhunter: meistgespielter DPS in allen 3 Kämpfen.",
+     "Aegis für M.A.M.A.-Knockback, Siax-Halluzination und Tail-Swipe.",
+     "„Stand Your Ground!“ gegen Champion-CC."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Scrapper/Amalgam sehr beliebt, hoher Ø-DPS.",
+     "Hammer- und Gyro-CC für die Breakbars einplanen.",
+     "Mechanist: Mech bleibt am Boss, während du ausweichst."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Viel Burst-CC – wichtig bei Siax und Ensolyss.",
+     "Mirage-Cloak/Distortion für Upswing und Charge.",
+     "Troubadour: häufigster Heiler."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver/Catalyst hoher Ø-DPS auf Ensolyss.",
+     "Wenig HP → rote M.A.M.A.-Pfütze sofort verlassen.",
+     "Lange Channels nicht kurz vor Charge oder Tail-Swipe."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Reaper/Harbinger solide DPS.",
+     "Fear und Pulls als CC-Beitrag.",
+     "Scourge-Barrier rettet bei Siax' Vile Spit vor dem Down."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Renegade: höchster Top-Wert auf M.A.M.A., sehr beliebt.",
+     "Staff 5 (Surge of the Mists) für Breakbars.",
+     "Vindicator-Sprung-Dodge gegen Upswing-Wellen."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: hoher Ø-DPS – Dragon Trigger nicht vor Charge laden.",
+     "Hammer/Mace für Breakbars.",
+     "Balanced Stance gegen Champion-CC."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Soulbeast: sehr beliebt und stark auf allen 3 Bossen.",
+     "Dolyak Stance = Gruppen-Stabi.",
+     "Longbow-Knockback/Hilt Bash als CC."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Daredevil: viele Ausweichbalken – sicher bei Upswing/Charge.",
+     "Basilisk Venom als Breakbar-Hilfe.",
+     "Deadeye: Kneel ist stationär – Gift-Rand bei Ensolyss beachten."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 21.11.2026 · M,A.M.A.: Erfolgsquote 60.4 %, Median-Kill 1:04 <strong>min</strong> · Siax: Erfolgsquote 71,3 %, Median-Kill 0:57 <strong>min</strong> · Ensolyss: Erfolgsquote 91,7 %, Median-Kill 2:35 <strong>min</strong>",
+  "tip": "<strong>Komp-Tipp:</strong> Typische 5er-Fraktal-Komp: Heal-Support + Boon-DPS + 3 DPS. In Nightmare zählen vor allem <strong>CC</strong> (3 Pflicht-Breakbars) sowie <strong>Stabi und Aegis</strong> gegen M.A.M.A.s Champions.",
+  "intro": "Mechanik-Bezug aus dem Hardstuck-Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

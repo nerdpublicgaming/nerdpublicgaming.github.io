@@ -1,0 +1,447 @@
+{
+ "slug": "kinfall",
+ "kicker": "GW2 · FRAKTALCHALLENGEMODE · NURDASNEUE",
+ "title": "Kinfall CM",
+ "subtitle": "Whispering Shadow · du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "Life-Fire halten",
+  "CC für Wisps",
+  "Stabi für Spikes",
+  "Cryoflash = Tod"
+ ],
+ "timeline": [
+  {
+   "label": "Weg",
+   "desc": "NEU: Frost Wisps klauen Life-Fire",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Svanir-Gruppen",
+   "desc": "wie NM – plus Wisps gleichzeitig",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Boss Start",
+   "desc": "Cryoflash tötet sofort",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "Ganzer Kampf",
+   "desc": "Hailstorm auf jedem Spieler",
+   "color": "#ea580c"
+  },
+  {
+   "label": "ab 80 %",
+   "desc": "NEU: Green (Wintry Orb)",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Spikes",
+   "desc": "alle 0,5 s statt seltener",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Cryoflash: sofortiger Tod – auch mit Rigorous Certainty",
+   "html": "<strong>Pfeil nach oben</strong> (Lofted) = <strong>rein</strong> in den Kreis und hochspringen. <strong>Rotes Kreuz</strong> (Terrestrial) = <strong>raus,</strong> komplett meiden. Die Kreise spawnen <strong>immer an derselben Stelle</strong> → an der Boss-Animation erkennen und vorlaufen.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Frost Wisps (neu)",
+   "html": "Kommen sie zu nah, <strong>stehlen sie Life-Fire.</strong> Sofort <strong>CCen</strong>, um die Buffs zurückzuholen, bevor sie weglaufen. Ohne Life-Fire stackt <strong>Deathly Rime</strong> (Schaden + Slow).",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Hailstorm: verteilen",
+   "html": "Jeder Spieler bekommt eine AoE. <strong>Nicht überlappen</strong> – jede Überlappung macht mehr Schaden.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Green ab 80 %",
+   "html": "<strong>Wintry Orb</strong> landet auf einem zufälligen Spieler → <strong>alle stacken</strong> im Green, sonst schwerer AoE-Schaden.",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Focused Spikes alle 0,5 s",
+   "html": "Viel mehr Druck als im NM: <strong>kiten</strong> oder <strong>Stabilität</strong> bereithalten.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Sicht ist eingeschränkt – eng zusammen bleiben",
+   "html": "Gefährlichste Trash-Stelle: <strong>Svanir-Gruppen + Wisps gleichzeitig</strong>. Wisps haben Vorrang, sonst fehlt euch beim Boss das Life-Fire.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "kinfall-1.jpg",
+   "caption": "② Frost Wisp nähert sich der Gruppe"
+  },
+  {
+   "img": "kinfall-2.jpg",
+   "caption": "① Links Kreuz = raus · rechts Pfeil = rein & springen"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Kinfall (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/fractal-cms/kinfall-cm/"
+  },
+  {
+   "text": "Wingman – Whispering Shadow",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/kinfall"
+  }
+ ],
+ "details": [
+  {
+   "title": "Start & Grundmechaniken",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "CM aktivieren: alle NM-Erfolge nötig, Challenge Mote <strong>vor dem ersten Tor</strong> anklicken."
+    },
+    {
+     "t": "li",
+     "html": "Ihr startet als Kodan-Bär – über das Fraktal-Interface könnt ihr wieder normal aussehen."
+    },
+    {
+     "t": "li",
+     "html": "Sicht stark eingeschränkt → als Gruppe eng koordinieren."
+    },
+    {
+     "t": "li",
+     "html": "Alle starten mit <strong>Life-Fire</strong>, das gegen <strong>Deathly Rime</strong> schützt (stackender Debuff: Dauerschaden + Slow)."
+    }
+   ]
+  },
+  {
+   "title": "Frost Wisps & Svanir-Gruppen",
+   "imgs": [
+    {
+     "img": "kinfall-3.jpg",
+     "caption": "Frost Wisp – sofort CCen"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Neu im CM:</strong> Frost Wisps stehlen das Life-Fire der Gruppe, wenn sie zu nah kommen."
+    },
+    {
+     "t": "li",
+     "html": "Schnell <strong>CCen</strong>, um die gestohlenen Buffs zurückzuholen, bevor die Wisps abhauen."
+    },
+    {
+     "t": "li",
+     "html": "Svanir-Gruppen (Fern- und Nahkampf gemischt) bleiben wie im NM – zusammen mit Wisps wird es aber schnell chaotisch."
+    }
+   ]
+  },
+  {
+   "title": "Whispering Shadow (Endboss)",
+   "imgs": [
+    {
+     "img": "kinfall-4.jpg",
+     "caption": "Ground (links) vs. Upward Cryoflash (rechts)"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Cryoflash</strong> tötet im CM sofort, auch mit Rigorous Certainty."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Lofted (nach oben):</strong> orange Kreise mit roten Pfeilen nach oben → rein und hochspringen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Terrestrial (Boden):</strong> orange Kreise mit roten Kreuzen → komplett meiden."
+    },
+    {
+     "t": "li",
+     "html": "Kreise kommen immer an derselben Stelle → anhand der Boss-Animation vorher hinlaufen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Hailstorm:</strong> AoE auf jedem Spieler – verteilen, jede Überlappung erhöht den Schaden."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Wintry Orb (Green) ab 80 %:</strong> Green auf zufälligem Spieler, alle stacken drauf."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Focused Spikes:</strong> spawnen alle 0,5 s – kiten oder Stabilität."
+    }
+   ]
+  },
+  {
+   "title": "Erfolge (CM)",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Undying Light:</strong> CM ohne Tod im Team, volle 5er-Gruppe von Anfang bis Ende."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Shatterstep:</strong> Boss besiegen, ohne von Cryoflash getroffen zu werden."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Unceasing Whispers:</strong> Kinfall CM 7× abschließen."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Scrapper",
+      "12,0 %"
+     ],
+     [
+      "Amalgam",
+      "11,5 %"
+     ],
+     [
+      "Troubadour",
+      "10,8 %"
+     ],
+     [
+      "Harbinger",
+      "8,4 %"
+     ],
+     [
+      "Mechanist",
+      "7,8 %"
+     ],
+     [
+      "Chronomancer",
+      "4,1 %"
+     ],
+     [
+      "Firebrand",
+      "3,6 %"
+     ],
+     [
+      "Specter",
+      "3,5 %"
+     ],
+     [
+      "Dragonhunter",
+      "3,4 %"
+     ],
+     [
+      "Ritualist",
+      "3,1 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Scrapper",
+      "44.952",
+      "59.645"
+     ],
+     [
+      "Bladesworn",
+      "44.114",
+      "59.743"
+     ],
+     [
+      "Conduit",
+      "40.567",
+      "46.219"
+     ],
+     [
+      "Antiquary",
+      "39.689",
+      "50.938"
+     ],
+     [
+      "Harbinger",
+      "39.668",
+      "56.764"
+     ],
+     [
+      "Holosmith",
+      "39.135",
+      "53.301"
+     ],
+     [
+      "Catalyst",
+      "37.900",
+      "46.875"
+     ],
+     [
+      "Amalgam",
+      "37.880",
+      "63.211"
+     ],
+     [
+      "Weaver",
+      "37.766",
+      "53.511"
+     ],
+     [
+      "Willbender",
+      "37.442",
+      "49.669"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Scrapper, Amalgam, Harbinger, Mechanist",
+      "Am häufigsten in erfolgreichen CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Bladesworn, Conduit, Antiquary, Holosmith, Catalyst, Weaver, Willbender",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Chronomancer",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Stabilität für die Spikes: z. B. „Stand Your Ground!“ – mit der Gruppe absprechen.",
+     "Dragonhunter: Fallen und Spear of Justice als CC gegen Wisps.",
+     "Willbender: Dashes nicht in Terrestrial-Kreise."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Scrapper ist hier der meistgespielte Spec (12 %).",
+     "Hammer- und Gyro-CC schnell auf Wisps legen.",
+     "Mechanist: Mech hält Uptime, während du Cryoflash-Kreise läufst."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Viel Burst-CC (Signets, Mantras) – ideal gegen Wisps.",
+     "Blink/Portal hilft, rechtzeitig in Lofted-Kreise zu kommen.",
+     "Troubadour: Heiler Nr. 1 in diesem CM."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Lange Channels nicht kurz vor Cryoflash starten.",
+     "Lightning Flash zum schnellen Umpositionieren.",
+     "Wenig HP → Hailstorm-Überlappung unbedingt vermeiden."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Harbinger: sehr beliebt (8 %), hoher Ø-DPS.",
+     "Blight senkt Max-HP – mit Hailstorm-Schaden vorsichtig sein.",
+     "Fear/Pull-Skills als CC gegen Wisps."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Vindicator: Ausweichen ist ein Sprung – praktisch für Lofted-Kreise.",
+     "Staff 5 / Hammer-CC gegen Wisps.",
+     "Conduit: hoher Ø-DPS in den Logs."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: Top-2 Ø-DPS – Dragon Trigger aber nicht vor Cryoflash laden.",
+     "Hammer/Mace bringen viel CC für Wisps.",
+     "Balanced Stance gibt dir eigene Stabilität."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Soulbeast/Galeshot solide DPS-Optionen.",
+     "Longbow 4 (Knockback) als Wisp-CC.",
+     "Dolyak Stance = Gruppen-Stabi gegen Spikes."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Daredevil: 3 Ausweichbalken, sicher gegen Spikes.",
+     "Basilisk Venom / Bandit's Defense als CC.",
+     "Deadeye: Kneel macht stationär – vor Cryoflash aufstehen."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 21.11.2026 · Whispering Shadow: Erfolgsquote 87,2 %, Median-Kill 1:29 <strong>min</strong>",
+  "tip": "<strong>Komp-Tipp:</strong> Kinfall ist der kürzeste CM (Median unter 1:30). Viel <strong>CC</strong> für die Wisps und mindestens eine gute <strong>Stabi-Quelle</strong> für die Spikes einplanen.",
+  "intro": "Mechanik-Bezug aus dem Hardstuck-Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}
