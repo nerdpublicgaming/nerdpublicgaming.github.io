@@ -110,8 +110,16 @@ h2{font:700 clamp(26px,3.2vw,36px)/1.1 var(--head);margin:0}
 
 /* VIDEOS */
 .videos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
-.video{display:flex;flex-direction:column;text-decoration:none;color:var(--brown);transition:transform .2s}
-.video:hover{transform:translateY(-4px);color:var(--brown)}
+.video{display:flex;flex-direction:column;color:var(--brown);transition:transform .2s}
+.video:hover{transform:translateY(-4px)}
+.video.playing{transform:none}
+.video button.thumb{display:block;width:100%;padding:0;border:0;cursor:pointer;font:inherit;color:inherit}
+.video button.thumb:hover .play{transform:scale(1.1)}
+.video .play{transition:transform .2s}
+.video .thumb iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video h3 a{color:inherit;text-decoration:none}
+.video h3 a:hover{text-decoration:underline}
+.video .meta a{color:var(--red2)}
 .video .thumb{position:relative;aspect-ratio:16/9;background:#2a211a;overflow:hidden;border-bottom:3px solid var(--gold2)}
 .video .thumb img{width:100%;height:100%;object-fit:cover}
 .video .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
@@ -179,9 +187,12 @@ h2{font:700 clamp(26px,3.2vw,36px)/1.1 var(--head);margin:0}
   .video:not(.featured) .thumb{flex:0 0 42%;border-bottom:0;border-right:3px solid var(--gold2)}
   .video:not(.featured) .play{width:40px;height:40px}
   .video:not(.featured) h3{font-size:15px}
+  .video.playing{flex-direction:column}
+  .video.playing .thumb{flex:none;border-right:0;border-bottom:3px solid var(--gold2)}
   .about{grid-template-columns:minmax(0,1fr);text-align:center}
   .about img{width:140px;margin:auto}
   .socials{justify-content:center}
   .links a{padding:12px 8px;font-size:14px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.yt-note{margin-top:14px}

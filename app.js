@@ -48,13 +48,34 @@
     const g = $('videoGrid');
     if (!videos || !videos.length) { g.innerHTML = '<p class="empty">Noch keine Videos geladen.</p>'; return; }
     g.innerHTML = videos.slice(0, 6).map((v, i) => `
-      <a class="video parchment${i === 0 ? ' featured' : ''}" href="https://www.youtube.com/watch?v=${esc(v.id)}" rel="noopener">
-        <div class="thumb">${thumb(v.thumb, 'YouTube')}<span class="play" aria-hidden="true"></span></div>
+      <article class="video parchment${i === 0 ? ' featured' : ''}">
+        <button class="thumb" type="button" data-id="${esc(v.id)}" aria-label="Video abspielen: ${esc(v.title)}">
+          ${thumb(v.thumb, 'YouTube')}<span class="play" aria-hidden="true"></span>
+        </button>
         <div class="body">
-          <h3>${esc(v.title)}</h3>
-          <span class="meta">${ago(v.published)}${v.views ? ' · ' + num(v.views) + ' Aufrufe' : ''}</span>
+          <h3><a href="https://www.youtube.com/watch?v=${esc(v.id)}" rel="noopener">${esc(v.title)}</a></h3>
+          <span class="meta">${ago(v.published)}${v.views ? ' · ' + num(v.views) + ' Aufrufe' : ''} · <a href="https://www.youtube.com/watch?v=${esc(v.id)}" rel="noopener">Auf YouTube öffnen</a></span>
         </div>
-      </a>`).join('');
+      </article>`).join('');
+  }
+
+  // Video direkt im Kasten abspielen (Verbindung zu YouTube erst nach Klick)
+  $('videoGrid').addEventListener('click', e => {
+    const b = e.target.closest('button.thumb'); if (!b || !b.dataset.id) return;
+    for (const p of document.querySelectorAll('.video.playing')) stopVideo(p);
+    const card = b.closest('.video');
+    const f = document.createElement('iframe');
+    f.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(b.dataset.id)}?autoplay=1&rel=0`;
+    f.title = card.querySelector('h3').textContent;
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    const box = document.createElement('div'); box.className = 'thumb'; box.append(f);
+    card._thumb = b; b.replaceWith(box); card.classList.add('playing');
+  });
+  function stopVideo(card) {
+    const box = card.querySelector('div.thumb');
+    if (box && card._thumb) box.replaceWith(card._thumb);
+    card.classList.remove('playing');
   }
 
   // ---- Clips ----
