@@ -74,7 +74,8 @@ async function twitch() {
     : { isLive: false, lastSeen: old.live?.isLive ? new Date().toISOString() : old.live?.lastSeen };
 
   const since = new Date(Date.now() - 180 * 864e5).toISOString();
-  const raw = (await api(`clips?broadcaster_id=${user.id}&started_at=${since}&first=50`)).data ?? [];
+  // Wichtig: ohne ended_at nimmt Twitch nur die erste Woche ab started_at!
+  const raw = (await api(`clips?broadcaster_id=${user.id}&started_at=${since}&ended_at=${new Date().toISOString()}&first=50`)).data ?? [];
   raw.sort((a, b) => b.created_at.localeCompare(a.created_at)); // neueste zuerst
   const clips = [];
   for (const c of raw.slice(0, 10)) {
