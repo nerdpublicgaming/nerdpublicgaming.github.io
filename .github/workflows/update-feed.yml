@@ -7,6 +7,8 @@ on:
     branches: [main]
   schedule:
     - cron: '*/20 * * * *'   # GitHub kann sich ein paar Minuten verspäten
+    - cron: '7 */4 * * *'    # alle 4 Stunden: auch Instagram abfragen
+    - cron: '43 3 * * 1'     # jeden Montag: Instagram-Schlüssel verlängern (nur beim Meta-Weg)
   workflow_dispatch:          # manuell: Actions -> "Run workflow"
 
 permissions:
@@ -31,10 +33,32 @@ jobs:
         with:
           node-version: 20
 
+      # Nur für den Meta-Weg (INSTAGRAM_TOKEN), beim Behold-Weg wird der Schritt übersprungen.
+      # Der Instagram-Schlüssel gilt 60 Tage. Einmal pro Woche wird er verlängert und der
+      # neue Schlüssel wieder als Secret gespeichert. Dafür braucht es das Secret
+      # GH_SECRETS_TOKEN (GitHub-Schlüssel mit Recht "Secrets: Read and write" für dieses Repo).
+      - name: Instagram-Schlüssel verlängern
+        if: github.event.schedule == '43 3 * * 1' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        env:
+          IG: ${{ secrets.INSTAGRAM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_SECRETS_TOKEN }}
+        run: |
+          if [ -z "$IG" ] || [ -z "$GH_TOKEN" ]; then echo "Instagram- oder GitHub-Schlüssel fehlt – übersprungen."; exit 0; fi
+          NEW=$(curl -sf "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$IG" | jq -r '.access_token // empty') || true
+          if [ -z "$NEW" ]; then echo "::warning::Instagram-Schlüssel konnte nicht verlängert werden (geht erst, wenn er mindestens 24 h alt ist)."; exit 0; fi
+          echo "::add-mask::$NEW"
+          gh secret set INSTAGRAM_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW"
+          echo "Instagram-Schlüssel verlängert."
+
       - name: Feed holen
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          BEHOLD_FEED_URL: ${{ secrets.BEHOLD_FEED_URL }}
+          # Instagram nur alle 4 Stunden, bei Uploads und beim manuellen Start abfragen
+          FETCH_INSTA: ${{ github.event_name != 'schedule' || github.event.schedule == '7 */4 * * *' }}
         run: node scripts/update-feed.mjs
 
       - name: Änderungen speichern
@@ -44,7 +68,7 @@ jobs:
           git config user.email "feed-bot@users.noreply.github.com"
           git add data
           # nur speichern, wenn sich mehr als der Zeitstempel geändert hat
-          if git diff --cached --quiet -- data/thumbs && \
+          if git diff --cached --quiet -- data/thumbs data/insta data/insta.json && \
              [ "$(git diff --cached -U0 data/feed.json | grep -c '^[+-] ')" -le 2 ]; then
             echo "Nichts Neues."
             git reset -q

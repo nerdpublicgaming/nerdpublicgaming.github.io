@@ -63,6 +63,7 @@ def header(prefix, active=""):
       </div>
     </div>
     <a class="lock-link" href="{prefix}sc-logs/index.html"><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3H9z"/></svg>SC-Logs</a>
+    <a href="{prefix}insta.html"{cur if active == "insta" else ""}><span class="nav-long">Phils </span>Insta<span class="nav-long"> inc. Dog-Pics!</span></a>
     <a href="{prefix}index.html#about">Über mich</a>
   </nav>
 </header>'''
@@ -281,11 +282,11 @@ def redirect(target):
 
 def sync_headers():
     """Menü in den übrigen Seiten auf den aktuellen Stand bringen."""
-    for f, prefix in [("index.html", ""), ("impressum.html", ""), ("datenschutz.html", ""), ("sc-logs/index.html", "../")]:
+    for f, prefix in [("index.html", ""), ("impressum.html", ""), ("datenschutz.html", ""), ("insta.html", ""), ("sc-logs/index.html", "../")]:
         p = os.path.join(ROOT, f)
         if not os.path.exists(p): continue
         t = open(p, encoding="utf-8").read()
-        t2 = re.sub(r'<header class="nav">.*?</header>', lambda m: header(prefix), t, count=1, flags=re.S)
+        t2 = re.sub(r'<header class="nav">.*?</header>', lambda m: header(prefix, "insta" if f == "insta.html" else ""), t, count=1, flags=re.S)
         if t2 != t: open(p, "w", encoding="utf-8").write(t2)
 
 if __name__ == "__main__":

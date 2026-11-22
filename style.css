@@ -224,3 +224,18 @@ h2{font:700 clamp(26px,3.2vw,36px)/1.1 var(--head);margin:0}
 .gcat-h a{color:var(--gold);text-decoration:none}
 .gcat-h a:hover{color:var(--yellow);text-decoration:underline}
 .gcat-h span{font:500 14px var(--body);color:var(--muted)}
+
+/* Instagram-Seite */
+.insta-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:14px}
+.insta{position:relative;display:block;aspect-ratio:1;overflow:hidden;background:var(--ink3);border:1px solid rgba(227,183,90,.25);color:var(--text);text-decoration:none}
+.insta img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.insta:hover,.insta:focus-visible{border-color:var(--gold);color:var(--text)}
+.insta:hover img,.insta:focus-visible img{transform:scale(1.04)}
+.insta-type{position:absolute;top:8px;right:8px;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.65);font-size:14px}
+.insta-cap{position:absolute;inset:auto 0 0;display:flex;flex-direction:column;gap:2px;padding:28px 12px 10px;background:linear-gradient(transparent,rgba(0,0,0,.85));font-size:14px;line-height:1.35}
+.insta-cap time{color:var(--gold);font-size:13px}
+.insta-cap span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+@media(hover:hover){.insta-cap{opacity:0;transition:opacity .2s}.insta:hover .insta-cap,.insta:focus-visible .insta-cap{opacity:1}}
+.g-hero .btn{margin-top:4px}
+@media(max-width:600px){.insta-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.insta-cap{display:none}}
+.ig-hero{padding-bottom:0}.empty-cat a{color:var(--red2)}
