@@ -183,7 +183,7 @@ figcaption{margin-top:6px;font-size:14px;color:var(--muted)}
 
 /* ---------- Raid-Guides (ein Guide pro Wing, mehrere Bosse) ---------- */
 @media(min-width:901px){.timeline.n{grid-template-columns:repeat(var(--n),minmax(0,1fr))}}
-.boss{scroll-margin-top:130px}
+.boss{scroll-margin-top:170px}
 .boss-head{margin-bottom:22px}
 .boss-head .kick{margin-bottom:10px}
 .boss-head h2{margin:0 0 14px}
