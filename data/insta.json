@@ -1,6 +1,14 @@
 {
-  "updated": "2026-11-22T18:26:18.968Z",
+  "updated": "2026-11-23T14:22:54.334Z",
   "posts": [
+    {
+      "id": "18135325321785789",
+      "type": "IMAGE",
+      "caption": "Der frühe Wurm, vogelt den fängt oder irgendwie so. Aber zur Arbeit",
+      "permalink": "https://www.instagram.com/p/DgEm7rtoeLS/",
+      "date": "2026-11-23T05:16:32+0000",
+      "img": "data/insta/ig-18135325321785789.jpg"
+    },
     {
       "id": "18046845275490424",
       "type": "IMAGE",
@@ -40,14 +48,6 @@
       "permalink": "https://www.instagram.com/p/C-F4JsRMqXH/",
       "date": "2024-07-31T15:18:46+0000",
       "img": "data/insta/ig-18234960025279942.jpg"
-    },
-    {
-      "id": "18064955164586081",
-      "type": "CAROUSEL_ALBUM",
-      "caption": "Au Mann. Ich bin so fertig, die Migräne kickt halt so stark gerade. Bin stolz auf mein Weibi. Sie hat das Regal alleine aufgebaut und ich bin glücklich üner ihre Unterstützung. Aber jetzt ist erstmal Schluss für heute. Ich kann nicht mehr und sehe teilweise nichts und das macht mich fertig. Danke an alle und für euer Verständnis. Gute Nacht.",
-      "permalink": "https://www.instagram.com/p/C-BQ_R3MWQU/",
-      "date": "2024-07-29T20:19:36+0000",
-      "img": "data/insta/ig-18064955164586081.jpg"
     }
   ]
 }
