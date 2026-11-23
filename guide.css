@@ -180,3 +180,34 @@ figcaption{margin-top:6px;font-size:14px;color:var(--muted)}
 /* langer Menüname „Phils Insta inc. Dog-Pics!“ – auf schmaleren Bildschirmen nur „Insta“ */
 @media(max-width:1259px){.nav-long{display:none}}
 @media(min-width:701px) and (max-width:1100px){.links a,.dd-btn{padding-inline:8px}.nav{gap:12px}}
+
+/* ---------- Raid-Guides (ein Guide pro Wing, mehrere Bosse) ---------- */
+@media(min-width:901px){.timeline.n{grid-template-columns:repeat(var(--n),minmax(0,1fr))}}
+.boss{scroll-margin-top:130px}
+.boss-head{margin-bottom:22px}
+.boss-head .kick{margin-bottom:10px}
+.boss-head h2{margin:0 0 14px}
+.boss-sub{max-width:75ch;margin:0 0 14px;font-size:17px;color:var(--text)}
+.boss-head .chips{margin-bottom:0}
+.chips li.cool{background:transparent;border-color:rgba(227,183,90,.45);color:var(--text);font-weight:500}
+.cm-tag{display:inline-block;margin-left:6px;padding:2px 8px;font:700 .55em/1.2 var(--body);vertical-align:middle;background:#fff;color:var(--red);letter-spacing:.04em}
+.boss-src{margin:18px 0 0}
+.boss-det{padding-top:clamp(26px,4vw,40px)}
+.det-title{margin:0 0 16px;font:700 22px/1.2 var(--head);color:var(--gold)}
+.det-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+@media(max-width:760px){.det-cols{grid-template-columns:minmax(0,1fr)}}
+.det-cols .det>h3{font-size:19px;margin-bottom:10px}
+.raid-bosses td b{display:block}
+.raid-bosses td small{display:block;color:var(--muted);font-size:13px}
+.raid-bosses th:not(:first-child){text-align:left}
+.panel+.panel{margin-top:22px}
+.roles td b{font-weight:600}
+@media(max-width:700px){
+  .raid-bosses thead{display:none}
+  .raid-bosses tr{display:grid;padding-block:8px;border-bottom:1px solid rgba(227,183,90,.15)}
+  .raid-bosses td{border:0;padding:3px 0}
+  .raid-bosses td::before{content:attr(data-l);display:block;color:var(--muted);font-size:13px}
+  .raid-bosses td:first-child::before{display:none}
+}
+/* langes Guide-Menü: auf niedrigen Bildschirmen scrollbar statt abgeschnitten */
+@media(min-width:701px){.dd-menu{max-height:calc(100vh - 80px);overflow-y:auto}}

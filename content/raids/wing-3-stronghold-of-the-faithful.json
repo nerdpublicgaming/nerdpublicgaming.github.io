@@ -1,0 +1,834 @@
+{
+ "slug": "wing-3-stronghold-of-the-faithful",
+ "bosses": [
+  {
+   "kicker": "GW2 · RAID WING 3 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Escort",
+   "cm": false,
+   "subtitle": "Wing 3 · Stronghold of the Faithful – Event 1. Glenna zur Burg bringen, 4 Türme einnehmen, am Ende McLeod töten.",
+   "chips": [
+    {
+     "text": "Glenna darf nicht sterben",
+     "hot": true
+    },
+    {
+     "text": "Tower-Mesmer",
+     "hot": true
+    },
+    {
+     "text": "Pilz · Waters · Ley-Line",
+     "hot": false
+    },
+    {
+     "text": "Stabi gegen Knockbacks",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Brücke",
+     "desc": "Glenna in den Kreis → Ley-Line · Tor sprengen",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Route",
+     "desc": "Minen · Glenna-Babysitter",
+     "color": "#ea580c"
+    },
+    {
+     "label": "4 Türme",
+     "desc": "Mesmer portet Gruppe rein",
+     "color": "#1e40af"
+    },
+    {
+     "label": "nach jedem Turm",
+     "desc": "2 Wargs auf Glenna",
+     "color": "#b45309"
+    },
+    {
+     "label": "McLeod",
+     "desc": "Splits bei 75/50/25 %",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Glenna-Babysitter",
+     "html": "Jeder in ihrer Nähe hat eine Sonder-Taste, die sie herruft. <strong>Ein Spieler</strong> (oft Druide) führt sie weg von Gegnern und in die <strong>weißen Kreise</strong> (dort Ley-Lines). Sie hat 15 Stacks Surveilled: ist niemand in <strong>1.000 Reichweite</strong>, fallen sie – bei 0 stirbt sie = Wipe.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Minen",
+     "html": "Erst angreifbar, wenn jemand den <strong>großen weißen Kreis</strong> betritt; der <strong>kleine rote Kreis</strong> tötet Spieler und Glenna sofort. Am Rand bleiben, von weit weg schießen. Minen respawnen – auch hinter euch.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Türme: Tower-Mesmer",
+     "html": "Turm gehört euch, wenn mehr Spieler als Gegner im Kreis stehen. Standard: <strong>Portal Entre</strong> auf den Turm, zurück gleiten, Mobs am Boden töten, <strong>Mass Invisibility</strong>, Portal (Mimic) → Gruppe capt unsichtbar. Unsichtbar <strong>nicht angreifen</strong>.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Höhle (Tunnel)",
+     "html": "Der Turm-Spieler läuft durch die Gift-Höhle von <strong>Wasser zu Wasser</strong> (Thicket-Waters-Mastery), weicht Pilz-Angriffen aus, dann per Bounce-Pilz auf Turm 1.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Wargs",
+     "html": "Nach jedem Turm 2 Wargs (vorne + hinten), die <strong>Glenna fixieren</strong> und hart treffen. <strong>Immob, Cripple, Chill, Float</strong>, <strong>Blind</strong>. Oft bleibt 1 DPS hinten für den hinteren Warg.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "McLeod",
+     "html": "Glenna auf der Treppe unter der Plattform parken. Boss + Kopien teleportieren zum Weitesten → <strong>eng am Boss, zwischen den Kopien</strong> stehen. 75/50/25 %: Split in rot/weiß – nur die Kopie mit <strong>deiner Farbe</strong> schlagen; Warg cleaven. Tote können hier (langsam) wiederbelebt werden.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-3-stronghold-of-the-faithful-1.jpg",
+     "caption": "Mine: kleiner roter Kreis = tot"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-2.jpg",
+     "caption": "Turm einnehmen"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-3.jpg",
+     "caption": "Warg vor Glenna stoppen"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-4.jpg",
+     "caption": "McLeod-Splits"
+    }
+   ],
+   "details": [
+    {
+     "title": "Voraussetzungen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Fast jede Gruppe nutzt einen <strong>Mesmer mit Portal Entre</strong> (Tower-Chrono). Alternative: DPS + Support als Duo mit Stabi, Schaden, Sustain."
+      },
+      {
+       "t": "li",
+       "html": "Masteries: Bouncing Mushroom, Forsaken Thicket Waters, Ley-Line Gliding."
+      },
+      {
+       "t": "li",
+       "html": "Viele Gegner werfen Spieler in Abgründe → <strong>geteilte Stability</strong> lohnt sich. Immob/Chill/Cripple halten Adds von Glenna fern."
+      }
+     ]
+    },
+    {
+     "title": "Tower-Chrono Kurzablauf",
+     "items": [
+      {
+       "t": "li",
+       "html": "Portal Entre auf Turm → zur Gruppe gleiten → Boden-Mobs töten → Mass Invisibility → Mimic + Portal Exeunt → capten."
+      },
+      {
+       "t": "li",
+       "html": "Danach Kanone auf dem Turm nutzen oder auf die nächste Ley-Line warten."
+      },
+      {
+       "t": "li",
+       "html": "Solo-Cap möglich: Mobs mit Focus 4 + Greatsword 5 an den Rand Richtung nächster Ley-Line schieben (unzuverlässig, Portal trotzdem mitnehmen)."
+      },
+      {
+       "t": "li",
+       "html": "Beim Töten der Turm-Mobs <strong>einen am Leben lassen</strong> – sonst respawnen sie."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Escort",
+     "url": "https://hardstuck.gg/gw2/guides/w3-stronghold-of-the-faithful/escort/"
+    },
+    {
+     "text": "Wingman – Escort",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/esc"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Escort · Klassendaten: Wingman – Escort · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 3 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Keep Construct",
+   "cm": false,
+   "subtitle": "Wing 3 · Boss 2. Power-Burst-Boss: Statuen-Adds auf den Boss ziehen, Breakbar brechen, Kern durch Ley Rifts schieben, dann Burn.",
+   "chips": [
+    {
+     "text": "Enrage 10:00",
+     "hot": true
+    },
+    {
+     "text": "Toughness-Tank",
+     "hot": true
+    },
+    {
+     "text": "Power-Burst",
+     "hot": false
+    },
+    {
+     "text": "CM = Mote vor der Arena",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "2 Stacks entfernen (Projections)",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Breakbar",
+     "desc": "brechen → Exposed Core",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Core",
+     "desc": "3 Grünkreise · Kern schieben",
+     "color": "#047857"
+    },
+    {
+     "label": "Burn",
+     "desc": "20 s Stun + Orb-Stacks",
+     "color": "#be123c"
+    },
+    {
+     "label": "66 % / 33 %",
+     "desc": "Magic Blast: Farb-Orbs blocken",
+     "color": "#1e40af"
+    },
+    {
+     "label": "danach",
+     "desc": "Klingen-Kegel · Statue-Sprung",
+     "color": "#b45309"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Projections NICHT verschmelzen lassen",
+     "html": "An 2 leuchtenden Statuen spawnen Adds, die 2 Spieler <strong>fixieren</strong>. Fixierte ziehen ihr Add <strong>auf den Boss</strong> (Tod dort = 1 Stack weniger) und halten die beiden <strong>voneinander fern</strong> – verschmolzen wird es ein rotes Insidious-Add (Boonstrip, kein Stack). Oft Reset.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Exposed Core: 3 grüne Kreise",
+     "html": "Nach der Breakbar: in <strong>jedem Kreis mind. 2 Spieler</strong>, sonst Wipe. Üblich: 2 Supports in 2 Kreisen, alle DPS im dritten. Wird ein Support fixiert, tauscht ein DPS mit ihm.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Kern schieben",
+     "html": "Pinker Kern in der Mitte, <strong>5 Ley Rifts</strong> am Rand: jeder Rift = +75 % Schaden im Burn. Ein Support schiebt (Angriffe/Pushes/Pulls). <strong>Pets nicht auf den Orb hauen lassen</strong>! 5 Rifts = sicher, 3 reichen meist. Burn muss 66/33 % schaffen.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Zufalls-Mechaniken",
+     "html": "<strong>Xera’s Fury (Spread</strong>): alle außer Fixates <strong>&amp;</strong> Tank verteilen sich (20 % HP pro Kreis). <strong>Attuned Phantasms</strong>: rot/weiß markierte Adds – nur deine Farbe schlagen, schnell töten, sonst Wipe-Explosion. <strong>Hail of Fury (&lt; 33</strong> %): Boss fliegt hoch, normal weitermachen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Magic Blast (66 % / 33 %)",
+     "html": "Boss unverwundbar, rote und weiße Kugeln rollen zu ihm. <strong>Kugeln deiner Markierung abfangen</strong>, dich von gleichfarbigen Spielern verteilen, dein Segment halten. Ab 15 Stacks wird die Explosion brutal, ab 20 droht ein Wipe.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Phantasmal Blades & Neustart",
+     "html": "Pinker Pool unter dem Boss (nicht reinstehen, Conditions cleansen) + <strong>Kegel</strong> seitlich ausweichen. Danach alle zur <strong>östlichen Statue</strong> – Boss springt auf einen Spieler (dodge/Aegis/Stabi). Dann alles von vorn.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-3-stronghold-of-the-faithful-5.jpg",
+     "caption": "Projection auf den Boss ziehen"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-6.jpg",
+     "caption": "Kern durch Rifts schieben"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-7.jpg",
+     "caption": "Magic Blast: Farb-Orbs"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-8.jpg",
+     "caption": "Klingen-Kegel ausweichen"
+    }
+   ],
+   "details": [
+    {
+     "title": "Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Niedrige Toughness + kurze Burns → <strong>Power-Burst</strong> (Bladesworn, Soulbeast, Weaver sind typisch)."
+      },
+      {
+       "t": "li",
+       "html": "Tank ist einfach – fast jeder Support kann es; am Rand warten, bis der Boss kommt."
+      }
+     ]
+    },
+    {
+     "title": "Fixate-Tipps",
+     "items": [
+      {
+       "t": "li",
+       "html": "Nahe Fixate: auf der gegenüberliegenden Bossseite stehen, damit das Add durch den Boss in den Cleave läuft."
+      },
+      {
+       "t": "li",
+       "html": "Ferne Fixate: auf die HP des ersten Adds achten, eigenes Add leicht abseits halten, dann durch den Boss ziehen."
+      },
+      {
+       "t": "li",
+       "html": "Beim Spread bleiben Fixates <strong>am Boss</strong>."
+      }
+     ]
+    },
+    {
+     "title": "„CM“ (Down, Down, Downed)",
+     "items": [
+      {
+       "t": "li",
+       "html": "Mote außerhalb der Arena aktivieren = Erfolg mit Extra-Wochenbelohnung."
+      },
+      {
+       "t": "li",
+       "html": "<strong>Einzige Änderung</strong>: der pulsierende Rand aus der Core-Phase ist <strong>den ganzen Kampf</strong> aktiv. Taktik bleibt gleich – Platz am Rand meiden."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Keep Construct",
+     "url": "https://hardstuck.gg/gw2/guides/w3-stronghold-of-the-faithful/keep-construct/"
+    },
+    {
+     "text": "Wingman – Keep Construct",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/kc"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Keep Construct · Klassendaten: Wingman – Keep Construct · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 3 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Twisted Castle",
+   "cm": false,
+   "subtitle": "Wing 3 · Event 3. 5 von 7 Knöpfen aktivieren, dann die Glocke läuten. Kein Gleiten – Runterfallen ist der häufigste Tod.",
+   "chips": [
+    {
+     "text": "Madness 99 = Tod",
+     "hot": true
+    },
+    {
+     "text": "5 Knöpfe",
+     "hot": true
+    },
+    {
+     "text": "Druide für Skip",
+     "hot": false
+    },
+    {
+     "text": "Stabi gegen Knockdowns",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "erste Gegner töten",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Knopf 1",
+     "desc": "„links/weit“ · Portal NO",
+     "color": "#b45309"
+    },
+    {
+     "label": "Knopf 2",
+     "desc": "Skip-Sprung (Druide)",
+     "color": "#b45309"
+    },
+    {
+     "label": "Hauptgruppe",
+     "desc": "Treppe · U-Plattform · Drop",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Knöpfe 3 + 4",
+     "desc": "direkt nach dem Drop",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Knopf 5",
+     "desc": "am Statuen-Gang → Glocke",
+     "color": "#047857"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Madness – nicht ins Zentrum schauen",
+     "html": "Alle 3 s +1 Stack, beim <strong>Blick auf die rotierende Statue in der Mitte</strong> +2. Alle 10 Stacks neue Effekte, <strong>bei 99 sofort tot</strong>. An Brunnen „Hände ins Wasser tauchen“ = –10 Stacks (Mastery nötig).",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Kein Gleiten, viele Knockdowns",
+     "html": "Fallen = Tod. White-Mantle-Gegner haben Fear, Knockback, Knockdown → <strong>Stabi</strong> (Inspiring Reinforcement, „Stand Your Ground!“). Gegner töten öffnet Portale.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Spukstatuen anstarren",
+     "html": "Statuen laufen dir nach, <strong>solange niemand sie ansieht</strong>. Berühren = Teleport zum Start. Knockdown/Pull/Push geht, Schaden nicht. Einer schaut hin, die anderen laufen.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Knopf 1 & 2 (Solo-Spieler)",
+     "html": "<strong>K1:</strong> nach den ersten zwei Portalen das NO-Portal → Knopf, Portal zurück zum Start. <strong>K2 (Skip</strong>): Sprung über eine Lücke – Druide Staff 3, alternativ Ele Dagger 4, Mirage Sword 1, Reaper Shroud 2, Leap of Faith, Rocket Boots. Danach in die große Statue = zurück.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Hauptgruppe & Drop",
+     "html": "Links das Portal, Treppe runter (tickt), Plattform clearen, <strong>SW-Portal</strong> zur U-Plattform. An der inneren linken Ecke <strong>mit vollem Leben</strong> auf den Bogen darunter dodgen – oder Mesmer-Portal.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Knöpfe 3, 4, 5",
+     "html": "<strong>K3</strong> direkt an der Treppe, <strong>K4</strong> nach einem Mob-Pack über schwebende Mauerteile. <strong>K5:</strong> ein Spieler nimmt das linke Portal der U-Plattform, vorbei an 3 Statuen. Dort gibt es noch einen <strong>Ersatzknopf</strong>.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-3-stronghold-of-the-faithful-9.jpg",
+     "caption": "Brunnen: –10 Madness"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-10.jpg",
+     "caption": "Spukstatue"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-11.jpg",
+     "caption": "Drop auf den Bogen"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-12.jpg",
+     "caption": "Knöpfe 3 & 4"
+    }
+   ],
+   "details": [
+    {
+     "title": "Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Fast alle Gruppen nutzen Skips: <strong>Mesmer mit Portal Entre</strong> für Plattformwechsel, <strong>Druide</strong> (Staff 3) für den Sprung zu Knopf 2."
+      },
+      {
+       "t": "li",
+       "html": "Die 1–2 Solo-Spieler machen nacheinander Knopf 1, 2 und 5."
+      }
+     ]
+    },
+    {
+     "title": "Madness-Stufen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Wasser trinken pausiert nur die Effekte – <strong>Hände eintauchen</strong> (Stacks entfernen) ist besser."
+      },
+      {
+       "t": "li",
+       "html": "Kamera vom Zentrum wegdrehen, wo es geht."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Twisted Castle",
+     "url": "https://hardstuck.gg/gw2/guides/w3-stronghold-of-the-faithful/twisted-castle/"
+    },
+    {
+     "text": "Wingman – Twisted Castle",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/tc"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Twisted Castle · Klassendaten: Wingman – Twisted Castle · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 3 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Xera",
+   "cm": false,
+   "subtitle": "Wing 3 · Endboss. Pre-Event mit zwei Minispielen pro Gruppe, zwei Bossphasen, dazwischen ein Gleit-Rundflug. Derangement-Stacks klein halten.",
+   "chips": [
+    {
+     "text": "Enrage 11:00",
+     "hot": true
+    },
+    {
+     "text": "Toughness-Tank",
+     "hot": true
+    },
+    {
+     "text": "Ley-Line-Gliding",
+     "hot": false
+    },
+    {
+     "text": "Forsaken-Magic-Mastery",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Pre-Event",
+     "desc": "2 Subgruppen · Schieben + Knöpfe",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Boss 100–50 %",
+     "desc": "Shards · Laser · Gravity Well · Bubble 75 %",
+     "color": "#ea580c"
+    },
+    {
+     "label": "50 % Intermission",
+     "desc": "Rundflug, Shards zerstören",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Boss 50–0 %",
+     "desc": "40 % / 20 %: 5 Spieler zu Minispielen · Bubble 35/15/10 %",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Ambient Magic = Bubble zur richtigen Zeit",
+     "html": "Ein Spieler bekommt die Sonder-Taste <strong>Intervention</strong> (Meldung <strong>„…</strong> has harnessed ambient magic“). <strong>Nicht sofort drücken</strong>! Warten, bis die Phantasme zurückziehen, dann auf die Gruppe setzen – sonst Wipe. Geht auch im Down. Bei 75 % und 35/15/10 %.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Derangement",
+     "html": "Viele AoEs geben Stacks: alle 10 stärkere Conditions, 90 = <strong>5 s Fear, 99 = tot</strong>. Mit Forsaken-Magic-Mastery Shards zerstören → Stacks weg. Beste Lösung: gar nicht erst reinstehen.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Pre-Event: Minispiele",
+     "html": "<strong>Schieben</strong>: 3 Kugeln in 3 Ley Rifts (im Uhrzeigersinn), nicht in orange Kreise; einer pro Kugel, Pets/Minions/Fallen weg. <strong>Knöpfe</strong>: 3 Ranged/Supports auf den Knöpfen, bei 9–10 Stacks <strong>im Uhrzeigersinn</strong> wechseln (11 = down). Dann den Shard töten – nicht direkt drunter stehen.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Bloodstone Fragments (Shards)",
+     "html": "Alle 10 s in einem der 12 Segmente. Reinstehen = Schaden + Stacks; steht <strong>Xera</strong> drin, macht sie doppelten Schaden. Auf Ansage des Tanks <strong>2 Shards neben dem Marker</strong> zerstören – auch Melee hilft mit.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Laser, Gravity Well, Frenzy",
+     "html": "<strong>Laser</strong> in der Mitte + explodierende Orbs → vorher aus der Mitte. <strong>Gravity Well</strong> über einer halben Arena (Float, 25 Stacks) – P1 gegen, P2 im Uhrzeigersinn. <strong>Blurred Frenzy</strong>: Schnitte nach vorn – Gruppe immer <strong>hinter</strong> ihr.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Phase 2: Minispiele mitten im Kampf",
+     "html": "Bei 40 % (Schieben) und 20 % (Knöpfe) werden 5 Spieler (nie der Tank) weggeportet. Ports Healer: Portal am Minispiel zurück nutzen. Zurückkehrende kurz immun – mit Cleanse/Swiftness schnell zum Stack.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-3-stronghold-of-the-faithful-13.jpg",
+     "caption": "Intervention auf die Gruppe"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-14.jpg",
+     "caption": "Schiebe-Minispiel"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-15.jpg",
+     "caption": "Shards zerstören"
+    },
+    {
+     "img": "wing-3-stronghold-of-the-faithful-16.jpg",
+     "caption": "Gravity Well meiden"
+    }
+   ],
+   "details": [
+    {
+     "title": "Tank",
+     "items": [
+      {
+       "t": "li",
+       "html": "Robuster Tank empfohlen (Firebrand, viele aktive Defensiven). Beide Bossphasen <strong>in der Mitte</strong> starten – früh gleiten, sobald die kleinen Plattformen verschwinden."
+      },
+      {
+       "t": "li",
+       "html": "P1: leicht westlich der Mitte; kein Laser bei hohem DPS → bis 50 % bleiben. Sonst Rand OSO (4 Uhr), nach dem Laser zurück nach NO."
+      },
+      {
+       "t": "li",
+       "html": "P2: leicht NO starten, nach Gravity Well/Bubble an den West-Rand, nach dem Laser NW der Mitte. Muster hängen stark vom Gruppen-DPS ab."
+      }
+     ]
+    },
+    {
+     "title": "Breakbar & Adds",
+     "items": [
+      {
+       "t": "li",
+       "html": "Bei 90 % Breakbar: <strong>sofort brechen</strong> – sonst –80 % Schaden und mehr Shards (60 s Cooldown)."
+      },
+      {
+       "t": "li",
+       "html": "Zusatz-Adds mit Pulls unter den Boss ziehen und mitcleaven."
+      }
+     ]
+    },
+    {
+     "title": "Intermission",
+     "items": [
+      {
+       "t": "li",
+       "html": "Gemeinsam im Uhrzeigersinn über Ley-Lines, Shards auf jeder Plattform töten."
+      },
+      {
+       "t": "li",
+       "html": "Orange Kreise dodgen oder blocken – <strong>nicht von der Plattform dodgen</strong>. Nicht zu früh zur noch „eingewickelten“ Plattform gleiten."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Xera",
+     "url": "https://hardstuck.gg/gw2/guides/w3-stronghold-of-the-faithful/xera/"
+    },
+    {
+     "text": "Wingman – Xera",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/xera"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Xera · Klassendaten: Wingman – Xera · Klassentipps auf der letzten Seite."
+  }
+ ],
+ "classes": {
+  "meta": "Daten: GW2 Wingman, Classic-Boss-Ansicht, Era „Balance Patch November 2026“, Stand 23.11.2026. Escort und Twisted Castle sind Events: DPS-Werte dort sind nicht aussagekräftig (TC hat kein Ranking). KC hat zusätzlich die „CM“-Werte.",
+  "tables": [
+   {
+    "title": "Bosse",
+    "head": [
+     "Boss · Modus · Erfolgsquote",
+     "Am häufigsten gespielt (Top 5)",
+     "Höchster Ø-DPS (Top 5, Specs ≥ 0,8 % Anteil)"
+    ],
+    "rows": [
+     [
+      {
+       "name": "Escort",
+       "sub": "NM · Erfolg 89,68 %"
+      },
+      "Chronomancer 12,53 %, Scrapper 9,86 %, Luminary 8,89 %, Reaper 8,3 %, Mechanist 8,11 %",
+      "Vindicator 698, Reaper 617, Renegade 531, Daredevil 518, Conduit 483"
+     ],
+     [
+      {
+       "name": "Keep Construct",
+       "sub": "NM · Erfolg 63,67 %"
+      },
+      "Mechanist 9,31 %, Amalgam 8,56 %, Soulbeast 8,25 %, Luminary 8,18 %, Ritualist 7,8 %",
+      "Willbender 31.816, Antiquary 31.354, Amalgam 31.060, Deadeye 30.603, Vindicator 30.583"
+     ],
+     [
+      {
+       "name": "Keep Construct",
+       "sub": "CM · Erfolg 72,15 %"
+      },
+      "Mechanist 13,45 %, Troubadour 8,82 %, Chronomancer 6,89 %, Ritualist 6,62 %, Amalgam 6,35 %",
+      "Soulbeast 26.838, Conduit 26.758, Antiquary 25.559, Willbender 25.179, Amalgam 24.674"
+     ],
+     [
+      {
+       "name": "Twisted Castle",
+       "sub": "NM · Erfolg 71,73 %"
+      },
+      "Mechanist 11,93 %, Troubadour 7,51 %, Chronomancer 5,96 %, Scrapper 5,78 %, Ritualist 5,7 %",
+      ""
+     ],
+     [
+      {
+       "name": "Xera",
+       "sub": "NM · Erfolg 78,55 %"
+      },
+      "Mechanist 14,28 %, Troubadour 8,09 %, Chronomancer 7,85 %, Ritualist 7,76 %, Tempest 5,17 %",
+      "Spellbreaker 13.770, Harbinger 13.755, Soulbeast 13.621, Willbender 13.575, Deadeye 13.352"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "Tower-Mesmer",
+       "text": ""
+      },
+      "<strong>Chronomancer (Heal-Boon</strong>), <strong>Troubadour</strong>",
+      "Escort: Portal Entre + Mass Invisibility; TC: Portal für den Drop. Chrono ist auf Escort der meistgespielte Spec."
+     ],
+     [
+      {
+       "badge": "Glenna / Skip",
+       "text": ""
+      },
+      "<strong>Druide, Scrapper, Luminary</strong>",
+      "Druide heilt Glenna und macht den TC-Skip (Staff 3). Scrapper/Luminary auf Escort beliebt."
+     ],
+     [
+      {
+       "badge": "Quickness / Alac",
+       "text": ""
+      },
+      "<strong>Mechanist, Troubadour</strong>, <strong>Chronomancer, Tempest</strong>",
+      "Meistgespielte Supports auf KC und Xera; Firebrand als robuster Xera-Tank."
+     ],
+     [
+      {
+       "badge": "KC-Burst",
+       "text": ""
+      },
+      "<strong>Soulbeast, Willbender, Antiquary</strong>, <strong>Amalgam, Conduit, Bladesworn</strong>",
+      "KC belohnt Power-Burst – Soulbeast ist dort auch sehr beliebt."
+     ],
+     [
+      {
+       "badge": "Xera-DPS",
+       "text": ""
+      },
+      "<strong>Spellbreaker, Harbinger, Soulbeast</strong>, <strong>Willbender, Deadeye</strong>",
+      "Sehr eng beieinander – mechanisch sauberes Spielen zählt mehr als die Klasse."
+     ]
+    ]
+   }
+  ],
+  "tip": "<strong>Komp-Tipp</strong>: Escort: 1 Tower-Mesmer + 1 Glenna-Babysitter fest einteilen. KC: 2 Fixate-Reaktionen + 1 Kern-Schieber (Support). TC: 1–2 Solo-Spieler für Knöpfe 1/2/5. Xera: Subgruppen für die Minispiele vorab klären (Ranged/Supports auf die Knöpfe).",
+  "intro": "Mechanik-Bezug aus den Hardstuck-Guides, Spielweise als allgemeine Tipps. Bei den neuesten Elite-Specs (Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüf die konkreten Skills im aktuellen Build.",
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Dragonhunter · Willbender · Luminary",
+    "items": [
+     "Firebrand: robuster Xera-Tank, Stabi für TC.",
+     "Leap of Faith schafft den TC-Skip zu Knopf 2.",
+     "Aegis vor dem KC-Statuensprung."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Scrapper · Holosmith · Amalgam",
+    "items": [
+     "<strong>Mechanist-Pet nicht auf den KC-Kern</strong> hauen lassen!",
+     "Rocket Boots: TC-Skip möglich.",
+     "Amalgam: Top-DPS auf KC."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Chronomancer · Virtuoso · Mirage · Troubadour",
+    "items": [
+     "Portal Entre + Mass Invisibility = Escort-Türme.",
+     "Mirage Sword 1 für den TC-Skip.",
+     "Focus 4 + GS 5 für Turm-Solo-Cap."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver: klassischer KC-Burst-DPS.",
+     "Ride the Lightning (Dagger 4) für den TC-Skip.",
+     "Bei Xera nicht von der Plattform dodgen."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Scourge · Reaper · Harbinger · Ritualist",
+    "items": [
+     "Reaper Shroud 2: TC-Skip-Option.",
+     "Harbinger: Top-DPS auf Xera.",
+     "Minions schieben Xera-Kugeln falsch – wegschicken."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Inspiring Reinforcement = Stabi für TC <strong>&amp;</strong> Escort.",
+     "Vindicator: höchster DPS-Anteil bei Escort-Adds.",
+     "Conduit: starker KC-Burst."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: klassischer KC-Burst.",
+     "Spellbreaker: Top-Ø-DPS auf Xera.",
+     "Viel CC für KC- und Xera-Breakbar."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Druid · Soulbeast · Untamed · Galeshot",
+    "items": [
+     "Druide: Glenna-Babysitter + TC-Skip (Staff 3).",
+     "Soulbeast: KC-Burst und Top-Xera-DPS.",
+     "<strong>Pet passiv</strong> bei KC-Kern und Xera-Schiebespiel!"
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Antiquary: Top-DPS auf KC.",
+     "Deadeye: guter Xera-DPS, Shards schnell töten.",
+     "Viel Mobilität – guter Solo-Knopf-Spieler in TC."
+    ]
+   }
+  ],
+  "title1": "Klassen & Rollen – was laut Wingman funktioniert",
+  "title2": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)"
+ },
+ "wing": 3,
+ "name": "Stronghold of the Faithful"
+}

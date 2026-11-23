@@ -1,0 +1,880 @@
+{
+ "slug": "wing-5-hall-of-chains",
+ "bosses": [
+  {
+   "kicker": "GW2 · RAID WING 5 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Soulless Horror",
+   "cm": false,
+   "subtitle": "Wing 5 · Hall of Chains – Boss 1. Keine Invuln-Phasen, aber viel Bewegung: tödliche Wände, schrumpfende Arena und Tormented Dead, die vom Rand geschoben werden.",
+   "chips": [
+    {
+     "text": "Enrage 8:00",
+     "hot": true
+    },
+    {
+     "text": "2 Tanks (Runen)",
+     "hot": true
+    },
+    {
+     "text": "Druide als Pusher",
+     "hot": false
+    },
+    {
+     "text": "Modell-Limit ≥ Mittel",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "8 Flesh Wurms · Tanks wechseln",
+     "color": "#9a3412"
+    },
+    {
+     "label": "90 %",
+     "desc": "Rand bricht · ab dann Tormented Dead",
+     "color": "#b45309"
+    },
+    {
+     "label": "ab 7:50 / 7:30",
+     "desc": "Wände · 4er-Kegel",
+     "color": "#ea580c"
+    },
+    {
+     "label": "66 %",
+     "desc": "Rand bricht · 8er-Kegel + Breakbar",
+     "color": "#be123c"
+    },
+    {
+     "label": "33 %",
+     "desc": "Rand bricht zum letzten Mal",
+     "color": "#1e40af"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Wände (Surging Souls) = Sofort-Tod",
+     "html": "Ab 7:50 wandern Wände über die Arena – nicht dodgebar, blockbar oder invulnerbar. Lücken sind zufällig: <strong>früh reagieren</strong>, nichts auswendig lernen. <strong>Modell-Limit mindestens „Mittel“</strong>, sonst sind Wände unsichtbar!",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Tank-Wechsel (Necrosis)",
+     "html": "Zwei Spieler nehmen vor dem Kampf die Runen → Sonder-Taste <strong>Issue Challenge</strong> (45 s CD). Der Fixierte bekommt alle 12 s Necrosis (+40 % Schaden pro Stack) – <strong>etwa jede Minute tauschen</strong>. Boss am Rand des inneren Kreises halten, von der Gruppe weg.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Tormented Dead wegschieben",
+     "html": "Ab 90 % alle 20 s ein Golem in der Mitte, fixiert den inaktiven Tank. Tot hinterlässt er ein großes rotes Feld (Boon-Korruption). <strong>Druide schiebt ihn vom Rand</strong> (Glyph of the Tides + Point-Blank Shot) <strong>Richtung Boss</strong>, Ranged-Cleave tötet ihn dort.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Donut (Vortex Slash)",
+     "html": "Innerer oranger Kreis, danach ein äußerer Ring. <strong>Den inneren Kreis seitlich dodgen</strong>, damit du nicht im Ring landest. Aegis/Protection helfen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Kegel & Breakbar",
+     "html": "4<strong>er-Kegel</strong> (ab 7:30): seitlich ausweichen, sie drehen sich noch einmal. 8<strong>er-Kegel</strong> (ab 66 %): etwas <strong>zurück</strong> in eine Lücke – nah am Boss treffen mehrere. Jedem zweiten 8er folgt eine <strong>Breakbar</strong> – sonst Fear von der Plattform = Wipe.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Arena schrumpft",
+     "html": "Bei 90/66/33 % fällt der Rand weg (wer dort steht, stirbt). Sensen verwandeln Boons in Conditions, Hammer-Spin und Finger korrumpieren Boons. Mehrfach-CC-Skills erst nach dem Push zünden, sonst stoppt der Golem nah an der Gruppe.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-5-hall-of-chains-1.jpg",
+     "caption": "Wände: Lücke suchen"
+    },
+    {
+     "img": "wing-5-hall-of-chains-2.jpg",
+     "caption": "Golem vom Rand schieben"
+    },
+    {
+     "img": "wing-5-hall-of-chains-3.jpg",
+     "caption": "Donut seitlich dodgen"
+    },
+    {
+     "img": "wing-5-hall-of-chains-4.jpg",
+     "caption": "8er-Kegel"
+    }
+   ],
+   "details": [
+    {
+     "title": "Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Kein Toughness-Tank: Tanks tragen trotzdem defensive Werte (Giver/Minstrel) wegen Necrosis. Neuere Gruppen: zwei Heal-Tanks (z. B. Heal-Quickness-Firebrand)."
+      },
+      {
+       "t": "li",
+       "html": "Confusion + Mobilität sind stark → Condi-Mirage und ähnliche Builds sind beliebt. Ranged-Cleave (Condi-Scourge, Virtuoso) für Golems."
+      },
+      {
+       "t": "li",
+       "html": "Klassen mit langen Animationssperren meiden. <strong>Stabi</strong>, <strong>Superspeed, Rezz-Skills</strong> helfen bei Wänden."
+      }
+     ]
+    },
+    {
+     "title": "Tipps",
+     "items": [
+      {
+       "t": "li",
+       "html": "Bei jeder Wand den Boss gegen den Uhrzeigersinn drehen – so cleavt Ranged die Flesh Wurms nebenbei."
+      },
+      {
+       "t": "li",
+       "html": "Epidemic auf den Boss erst, wenn der Golem draußen ist (sonst Immob/Chill auf dem Golem)."
+      },
+      {
+       "t": "li",
+       "html": "Fehlgeschlagener Push: sein Feld meiden, außer eine Wand zwingt dich."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Soulless Horror",
+     "url": "https://hardstuck.gg/gw2/guides/w5-hall-of-chains/soulless-horror/"
+    },
+    {
+     "text": "Wingman – Soulless Horror",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/sh"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Soulless Horror · Klassendaten: Wingman – Soulless Horror · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 5 · CHALLENGE MOTE · NUR DAS NEUE",
+   "title": "Soulless Horror",
+   "cm": true,
+   "subtitle": "Keine Extra-HP und keine neuen Mechaniken – aber drei Änderungen, die den Kampf deutlich chaotischer machen.",
+   "chips": [
+    {
+     "text": "gleiche HP",
+     "hot": true
+    },
+    {
+     "text": "Rand bricht schon am Start",
+     "hot": true
+    },
+    {
+     "text": "Necrosis schneller",
+     "hot": false
+    },
+    {
+     "text": "Wurms respawnen",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "Arena bricht sofort einmal",
+     "color": "#be123c"
+    },
+    {
+     "label": "90/66/33 %",
+     "desc": "weitere Brüche → am Ende nur innerer Kreis",
+     "color": "#b45309"
+    },
+    {
+     "label": "ganzer Kampf",
+     "desc": "Flesh Wurms kommen wieder",
+     "color": "#ea580c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Arena bricht gleich zu Beginn",
+     "html": "Ein Bruch passiert schon beim Start. Nach dem letzten Bruch bei 33 % bleibt <strong>nur noch der innere Kreis</strong> – schlechte Golem-Pushes machen die Endphase fast unmöglich.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Necrosis baut sich schneller auf",
+     "html": "Beide Tanks nehmen deutlich mehr Schaden, auch beim frühestmöglichen Tausch. <strong>Giver/Minstrel-Ausrüstung</strong> ist Pflicht, Healer müssen die Tanks im Blick haben.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Flesh Wurms respawnen",
+     "html": "Die 8 Elite-Wurms vom Anfang kommen zurück und spucken weiter Projektile – etwas mehr Schaden auf alle. Ranged räumt sie bei Wand-Rotationen weiter ab.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Pushes müssen sitzen",
+     "html": "Je kleiner die Fläche, desto wichtiger: Golem <strong>immer Richtung Boss</strong> und <strong>über den Rand</strong> schieben, keine Golem-Felder im inneren Kreis.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-5-hall-of-chains-5.jpg",
+     "caption": "Push muss sitzen"
+    },
+    {
+     "img": "wing-5-hall-of-chains-6.jpg",
+     "caption": "Wände auf kleiner Fläche"
+    }
+   ],
+   "details": [],
+   "sources": [
+    {
+     "text": "Hardstuck – Soulless Horror (Challenge Mode)",
+     "url": "https://hardstuck.gg/gw2/guides/w5-hall-of-chains/soulless-horror/#challenge-mode"
+    },
+    {
+     "text": "Wingman – Soulless Horror",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/sh"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Soulless Horror (Challenge Mode) · Klassendaten: Wingman – Soulless Horror (Reiter Challenge Mote) · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 5 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "River of Souls",
+   "cm": false,
+   "subtitle": "Wing 5 · Event 2. Desmina über den Fluss eskortieren: eine Vorhut räumt den Weg frei, eine kleine Eskorte hält Desmina am Leben und schnell.",
+   "chips": [
+    {
+     "text": "Desmina darf nicht sterben",
+     "hot": true
+    },
+    {
+     "text": "2 Gruppen",
+     "hot": true
+    },
+    {
+     "text": "viel Heilung",
+     "hot": false
+    },
+    {
+     "text": "Superspeed auf Desmina",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "Eskorte spricht Desmina an",
+     "color": "#9a3412"
+    },
+    {
+     "label": "laufend",
+     "desc": "Enervators · Bomber · Risse",
+     "color": "#ea580c"
+    },
+    {
+     "label": "ab 25 %",
+     "desc": "Spirit Horde (Skelette)",
+     "color": "#1e40af"
+    },
+    {
+     "label": "ab 33 %",
+     "desc": "Wände wie bei SH",
+     "color": "#be123c"
+    },
+    {
+     "label": "Ende",
+     "desc": "Desmina erreicht das Ziel",
+     "color": "#b45309"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Der Fluss tickt",
+     "html": "Auf dem Wasser nimmst du ständig viel Schaden (blockbar/dodgebar), <strong>runterfallen = Tod</strong>. Desminas Kuppel schützt vor dem Fluss. Erster voller Tod = <strong>Geisterzustand</strong>: 5 lila Orbs einsammeln → zurück.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Vorhut: Enervators töten",
+     "html": "Enervators schalten Desminas Kuppel ab und frieren sie ein. Die Vorhut (z. B. 3 Heals + 5 DPS, gern Heal-Scourge mit Sand Swell) springt voraus und tötet sie, bevor Desmina ankommt.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Eskorte: Desmina pflegen",
+     "html": "Meist 2 Spieler: <strong>Heal-Firebrand + Superspeed-Quelle</strong> (Scrapper-Gyros, Holo Leap). Desmina wie einen Spieler behandeln: heilen, Aegis, Superspeed.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Hollowed Bombers",
+     "html": "Laufen zu Desmina und sprengen 20 % ihrer HP. <strong>Breakbar brechen</strong> oder vorab <strong>Aegis auf Desmina</strong> – oder Treffer kassieren und schnell nachheilen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Risse & Skelette",
+     "html": "<strong>Spectral Rifts</strong> ziehen Spieler an – 10 Treffer schalten sie kurz ab. Ab 25 % kommen <strong>Spirit Hordes</strong> aus den Rissen: einzeln harmlos, in Masse tödlich für die Eskorte.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Wände & Time Bombs",
+     "html": "Ab 33 % Wände wie bei SH (Treffer = Geisterzustand). <strong>Time Bombs</strong> auf der Eskorte: wenn der Ring den inneren Kreis erreicht, ist sie fest – <strong>hinten an Desminas Kuppel</strong> ablegen, sie trifft auch Skelette.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-5-hall-of-chains-7.jpg",
+     "caption": "Vorhut am Enervator"
+    },
+    {
+     "img": "wing-5-hall-of-chains-8.jpg",
+     "caption": "Aegis gegen Bomber"
+    }
+   ],
+   "details": [
+    {
+     "title": "Komposition",
+     "items": [
+      {
+       "t": "li",
+       "html": "Keine harten Voraussetzungen; Standard ist <strong>Stabi + viel Direktheilung</strong> für Desmina und Vorhut."
+      },
+      {
+       "t": "li",
+       "html": "Dauer-<strong>Superspeed</strong> auf Desmina spart enorm Zeit (Scrapper mit Gyroscopic Acceleration, Holosmith mit Holo Leap + Zephyr)."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – River of Souls",
+     "url": "https://hardstuck.gg/gw2/guides/w5-hall-of-chains/river-of-souls/"
+    },
+    {
+     "text": "Wingman – River of Souls",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/river"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – River of Souls · Klassendaten: Wingman – River of Souls · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 5 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Statues of Grenth",
+   "cm": false,
+   "subtitle": "Wing 5 · Event 3. Drei unabhängige Mini-Bosse in beliebiger Reihenfolge – üblich zuerst Broken King. Kontrollierter DPS ist wichtiger als maximaler.",
+   "chips": [
+    {
+     "text": "3 Statuen",
+     "hot": true
+    },
+    {
+     "text": "DPS dosieren",
+     "hot": true
+    },
+    {
+     "text": "Mounts / Gleiten",
+     "hot": false
+    },
+    {
+     "text": "Eyes: kein Hard-CC",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Broken King",
+     "desc": "Eis · Enrage 3:30",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Eater of Souls",
+     "desc": "Fackeln anzünden",
+     "color": "#b45309"
+    },
+    {
+     "label": "Eyes",
+     "desc": "Licht werfen · Augen stunnen",
+     "color": "#6d28d9"
+    },
+    {
+     "label": "Erfolg",
+     "desc": "2 Statuen < 5 Min.",
+     "color": "#047857"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Broken King: Greens + DPS-Tempo",
+     "html": "Alle 2 % HP neue grüne Eiskreise – fällt einer <strong>ohne Spieler</strong>, gibt es massiven Schaden für alle. Ziel ~75<strong>k Gruppen-DPS</strong> (zu viel = Kreis-Flut, <strong>&lt; 60</strong>k = Enrage). Pro Kreis 1 Frozen-Wind-Stack; <strong>beim 4. eingefroren</strong> (10 s) → rechtzeitig ablösen lassen.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Broken King: Risse",
+     "html": "Stab-Slam erzeugt leuchtende Eisrisse, die pulsieren – seitlich raus. Auto-Angriffe tun spürbar weh. Hinflug: von Death<strong>’</strong>s Landing links (Lean Techniques oder Fly-Mount).",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Eater: Orbs auf das Rechteck",
+     "html": "Spinnen-Geist am Rand töten → 5 Energie-Orbs. Mit der Sonder-Taste auf das <strong>leuchtende Rechteck</strong> werfen (nicht auf den Boss zielen!). Tank stellt Eater drauf; Kill dort = 10 rote Orbs in der Luft.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Eater: in die Luft",
+     "html": "Lost Spirit (ab 40 s, dann alle 50 s) mit Green: wer drin steht, fliegt hoch, ein Spieler wird eingesaugt („Opfer“, landet down). Oben <strong>30 s für 5 Orbs</strong>, sonst tot. 20 Orbs = alle 6 Fackeln → Eater stirbt endgültig.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Eyes: Werfer & Stunner",
+     "html": "2 Werfer auf der erhöhten Plattform werfen Lichtkugeln nach links/rechts. Pro Seite <strong>1 Stunner</strong> (oft Druide, Moment of Clarity) + 3 DPS. Auge <strong>bei</strong> <strong>85/70/55/40/25/10 % gestunnt halten</strong>, sonst Teleport (bei 70 % zusätzlich Minotaurus).",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Eyes: gleichzeitig töten",
+     "html": "Beide Augen müssen <strong>innerhalb von 8 s</strong> sterben, sonst regenerieren sie. Ist eine Seite schneller, DPS drosseln. <strong>Kein Hard-CC</strong> wie Knockback/Launch/Pull – überschreibt den langen Stun.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-5-hall-of-chains-9.jpg",
+     "caption": "Broken King: Greens"
+    },
+    {
+     "img": "wing-5-hall-of-chains-10.jpg",
+     "caption": "Eater: Orbs werfen"
+    },
+    {
+     "img": "wing-5-hall-of-chains-11.jpg",
+     "caption": "Eyes: Lichtkugel"
+    }
+   ],
+   "details": [
+    {
+     "title": "Eater – gängige Taktik",
+     "items": [
+      {
+       "t": "li",
+       "html": "Den ersten Lost Spirit auslassen (Schockwelle danach überspringen), zwei Spinnen-Phasen machen → 20 Orbs oben."
+      },
+      {
+       "t": "li",
+       "html": "Beim zweiten Green 5 Spieler hoch: einer fliegt direkt als Opfer in Eater, 4 sammeln je 5 Orbs."
+      },
+      {
+       "t": "li",
+       "html": "Skelette nebenbei mitcleaven."
+      }
+     ]
+    },
+    {
+     "title": "Allgemein",
+     "items": [
+      {
+       "t": "li",
+       "html": "Neuere Spieler: lieber <strong>Power</strong> – Schaden lässt sich leichter dosieren."
+      },
+      {
+       "t": "li",
+       "html": "Nach jeder Statue per /gg oder Jackal-Portal zurück nach Death<strong>’</strong>s Landing."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Statues of Grenth",
+     "url": "https://hardstuck.gg/gw2/guides/w5-hall-of-chains/statues-of-grenth/"
+    },
+    {
+     "text": "Wingman – Statue of Darkness (Eyes)",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/eyes"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Statues of Grenth · Klassendaten: Wingman – Statue of Darkness (Eyes) · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 5 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Dhuum",
+   "cm": false,
+   "subtitle": "Wing 5 · Endboss. 7 verbündete Reaper beschützen. Der Kampf ist gut planbar – Wipes kommen meist davon, dass Routine-Mechaniken nicht aufgefangen werden.",
+   "chips": [
+    {
+     "text": "Enrage 10:00 + 1:45",
+     "hot": true
+    },
+    {
+     "text": "Messenger-Kiter",
+     "hot": true
+    },
+    {
+     "text": "Boonstrip",
+     "hot": false
+    },
+    {
+     "text": "Toughness-Tank",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Pre-Event 2:00",
+     "desc": "Skelette · Messenger · Greens · ab 9:00 Bomben",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Boss",
+     "desc": "Risse · Death Mark",
+     "color": "#ea580c"
+    },
+    {
+     "label": "6:30 …",
+     "desc": "Soulsplit (Greater Death Mark)",
+     "color": "#be123c"
+    },
+    {
+     "label": "ab 60 %",
+     "desc": "+ Shackles",
+     "color": "#1e40af"
+    },
+    {
+     "label": "ab 30 %",
+     "desc": "+ Slash",
+     "color": "#b45309"
+    },
+    {
+     "label": "10 %",
+     "desc": "alle hoch · 7 Siegel",
+     "color": "#6d28d9"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Greens = Reaper-Leben",
+     "html": "Alle 30 s greift Dhuum nach einem Reaper (großer grüner Kreis). <strong>Ein lebender Spieler muss drinstehen</strong>, sonst Wipe. Oben in 15 s <strong>5 rote Orbs</strong> holen (inkl. großem Enforcer-Orb im Uhrzeigersinn). Danach 2 Greens Pause → feste <strong>G1 / G2 / G3</strong> (z. B. DPS, Kiter, Tank).",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Bombe (Affliction)",
+     "html": "Ab 9:00: Sonder-Taste + Symbol. <strong>Raus aus dem Stack</strong>, Bombe explodiert nach 13 s. Im Pre-Event darfst du früh zünden, im Bosskampf <strong>auslaufen lassen</strong> (sonst verrutscht der Takt). Vor Soulsplits: Bomben kurz vor 6:35/5:15/3:55/2:35/1:15 früh zünden.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Messenger-Kiter",
+     "html": "Messenger fixieren den ersten Angreifer und sterben nach 15 s. Kiter zieht sie <strong>weg von Gruppe und Reapern</strong>, blaue Orbs geben Tempo. Wer versehentlich einen hat, kitet ihn selbst.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Death Mark („Dip“)",
+     "html": "Nach Riss-Angriff + 3 Autos: eng stacken, warten bis er einen Ort wählt, <strong>raus aus dem orangen Kreis</strong>. Erwischt = Seele getrennt → in 10 s zu einer Lichtsäule. Grünes Feuer danach tötet – <strong>weg von Reapern</strong> ködern.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Soulsplit (Greater Death Mark)",
+     "html": "Ab 6:30: er erscheint in der Mitte und schleudert alle aus dem Körper. <strong>Zurück zur eigenen Seele</strong> (Lichtsäule), sonst tot. <strong>Mit dem Rücken zur sicheren Wand</strong>, Blick zur Mitte (nie Thron!). Seine Boons strippen, nicht in den orangen Kreis ziehen lassen.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Shackles, Slash & 10 %",
+     "html": "<strong>Shackles</strong> (ab 60 %): die 2 Nächsten (nicht Tank) sind verkettet – <strong>in entgegengesetzte Richtungen</strong> laufen („Thron“/„Tür“ ansagen). <strong>Slash</strong> (ab 30 %): Kegel mit Pull – seitlich. 10 %: alle holen Orbs, dann <strong>alle 7 Siegel innerhalb von 10 s</strong> kanalisieren.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-5-hall-of-chains-12.jpg",
+     "caption": "Green: Orbs sammeln"
+    },
+    {
+     "img": "wing-5-hall-of-chains-13.jpg",
+     "caption": "Soulsplit: zur Seele"
+    },
+    {
+     "img": "wing-5-hall-of-chains-14.jpg",
+     "caption": "Shackles trennen"
+    }
+   ],
+   "details": [
+    {
+     "title": "Arena & Tank",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Grüner Schatten um den Thron = Sofort-Tod</strong>, durch die Lichtsäule in der Mitte nicht fliegen."
+      },
+      {
+       "t": "li",
+       "html": "Tank hält Dhuum von der Gruppe weg, ködert Death Marks, führt zu Enforcern und den Greens. Start NO, dann zum NW-Green; nach Soulsplit Mitte, Richtung SO."
+      },
+      {
+       "t": "li",
+       "html": "Deathlings (Spinnen) an den Reapern mitcleaven – besonders am <strong>Stern-Reaper</strong>."
+      }
+     ]
+    },
+    {
+     "title": "10 %-Phase",
+     "items": [
+      {
+       "t": "li",
+       "html": "Timer springt auf 1:45. Vor dem Rausgehen Boons stacken (Stabi, Protection, Quickness <strong>…)</strong> – außerhalb der Kuppel tut es weh."
+      },
+      {
+       "t": "li",
+       "html": "Siegel vorab verteilen; Tote sofort Ready-Check bestätigen. Kein Kill in 20 s → Siegel nochmal."
+      }
+     ]
+    },
+    {
+     "title": "Challenge Mode",
+     "items": [
+      {
+       "t": "li",
+       "html": "Hardstuck hat <strong>keinen CM-Abschnitt</strong>. Laut GW2-Wiki: Dhuum hat im CM <strong>40 statt 32 Mio. HP</strong>, dazu kommt ein zusätzlicher Gegner <strong>Ender’s Echo (≈ 19</strong> Mio. HP, 2.000<strong>er Breakbar</strong>)."
+      },
+      {
+       "t": "li",
+       "html": "Wingman: nur 22,6 % Erfolgsquote im CM – einer der härtesten Raid-CMs. Taktik vorab mit dem Squad abstimmen."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Dhuum",
+     "url": "https://hardstuck.gg/gw2/guides/w5-hall-of-chains/dhuum/"
+    },
+    {
+     "text": "Wingman – Dhuum",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/dhuum"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Dhuum · Klassendaten: Wingman – Dhuum · Klassentipps auf der letzten Seite."
+  }
+ ],
+ "classes": {
+  "meta": "Daten: GW2 Wingman, Classic-Boss-Ansicht, Era „Balance Patch November 2026“, Stand 23.11.2026 · River ist ein Event (kein DPS-Ranking), bei den Statuen steht hier „Eyes“.",
+  "tables": [
+   {
+    "title": "Bosse",
+    "head": [
+     "Boss · Modus · Erfolgsquote",
+     "Am häufigsten gespielt (Top 4)",
+     "Höchster Ø-DPS (Top 4, Specs ≥ 0,8 % Anteil)"
+    ],
+    "rows": [
+     [
+      {
+       "name": "Soulless Horror",
+       "sub": "NM · 28,51 %"
+      },
+      "Mechanist 17,86 %, Harbinger 8,11 %, Druid 7,79 %, Scourge 7,63 %",
+      "Harbinger 31.567, Willbender 30.215, Renegade 29.955, Berserker 27.270"
+     ],
+     [
+      {
+       "name": "Soulless Horror",
+       "sub": "CM · 41,28 %"
+      },
+      "Mechanist 14,09 %, Harbinger 11,4 %, Scourge 10,5 %, Chronomancer 7,52 %",
+      "Antiquary 35.538, Harbinger 34.978, Weaver 34.671, Renegade 33.254"
+     ],
+     [
+      {
+       "name": "River of Souls",
+       "sub": "NM · 83,67 %"
+      },
+      "Scrapper 12,07 %, Troubadour 9,49 %, Mechanist 8,46 %, Chronomancer 7,28 %",
+      ""
+     ],
+     [
+      {
+       "name": "Statues (Eyes)",
+       "sub": "NM · 58,18 %"
+      },
+      "Mechanist 11,9 %, Chronomancer 9,93 %, Reaper 9,33 %, Troubadour 6,34 %",
+      "Reaper 19.591, Weaver 19.206, Daredevil 17.774, Dragonhunter 17.534"
+     ],
+     [
+      {
+       "name": "Dhuum",
+       "sub": "NM · 35,78 %"
+      },
+      "Mechanist 18,53 %, Troubadour 8,93 %, Scourge 6,36 %, Virtuoso 6,08 %",
+      "Weaver 22.133, Harbinger 19.967, Willbender 18.822, Daredevil 18.269"
+     ],
+     [
+      {
+       "name": "Dhuum",
+       "sub": "CM · 22,6 %"
+      },
+      "Mechanist 14,93 %, Troubadour 12,39 %, Scourge 10,57 %, Harbinger 7,76 %",
+      "Firebrand 22.329, Weaver 22.224, Antiquary 21.133, Harbinger 20.881"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "Pusher / Stunner",
+       "text": ""
+      },
+      "<strong>Druide</strong>",
+      "SH: Golems vom Rand schieben (Hardstuck-Standard); Eyes: Stunner mit Moment of Clarity. Auf SH sehr beliebt."
+     ],
+     [
+      {
+       "badge": "Condi + Ranged-Cleave",
+       "text": ""
+      },
+      "<strong>Scourge, Harbinger, Virtuoso, Mirage</strong>",
+      "SH-Golems und Dhuum-Adds; Scourge/Harbinger bringen auch Boonstrip."
+     ],
+     [
+      {
+       "badge": "Supports",
+       "text": ""
+      },
+      "<strong>Mechanist, Troubadour</strong>, <strong>Chronomancer, Firebrand</strong>",
+      "Mechanist auf allen W5-Bossen der meistgespielte Spec; Firebrand als SH-Heal-Tank."
+     ],
+     [
+      {
+       "badge": "Event-Spezialisten",
+       "text": ""
+      },
+      "<strong>Scrapper (River-Superspeed), Reaper</strong> (<strong>Eyes-DPS</strong>)",
+      "Scrapper auf River am häufigsten gespielt; Reaper Top-DPS auf Eyes."
+     ],
+     [
+      {
+       "badge": "Dhuum-Jobs",
+       "text": ""
+      },
+      "<strong>Kiter = mobiler Support · G1–G3 fest</strong>",
+      "Kiter mit viel Sustain/Mobilität; erfahrene Gruppen nehmen den Main-Healer."
+     ]
+    ]
+   }
+  ],
+  "tip": "<strong>Komp-Tipp</strong>: SH: 2 Tanks + Druide + 2 Ranged-Cleaver. River: Vorhut ~8, Eskorte 2 (Heal-FB + Superspeed). Statues: Eyes-Werfer/Stunner vorab einteilen. Dhuum: Kiter, G1/G2/G3 und Siegel für 10 % festlegen.",
+  "intro": "",
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Dragonhunter · Willbender · Luminary",
+    "items": [
+     "Heal-Quickness-Firebrand: zweiter SH-Tank und River-Eskorte.",
+     "Aegis auf Desmina gegen Bomber.",
+     "Dhuum-CM: Firebrand mit Top-Ø-DPS."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Scrapper · Holosmith · Amalgam",
+    "items": [
+     "Scrapper-Gyros / Holo Leap = Superspeed für Desmina.",
+     "Mechanist: Jade Mortar erst nach dem Golem-Push.",
+     "Mechanist meistgespielt auf SH und Dhuum."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Chronomancer · Virtuoso · Mirage · Troubadour",
+    "items": [
+     "Condi-Mirage: Hardstuck-Empfehlung für SH.",
+     "Virtuoso: Ranged-Cleave für Golems.",
+     "Distortion gegen Broken-King-Einfrieren."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver: Top-Ø-DPS auf Dhuum NM.",
+     "SH: lange Casts nur, wenn keine Wand kommt.",
+     "Eyes: Knockbacks/Launches vermeiden."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Scourge · Reaper · Harbinger · Ritualist",
+    "items": [
+     "Condi-Scourge: Ranged-Cleave + Boonstrip (SH, Dhuum).",
+     "Sand Swell bei SH-Wand-Problemen statt Epidemic.",
+     "Reaper: Top-DPS auf Eyes."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Renegade: starker Condi-DPS auf SH und Dhuum.",
+     "Viel Mobilität für Wände nutzen.",
+     "Boonstrip über Banish Enchantment."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Berserker: guter DPS auf SH-CM.",
+     "Viel CC für SH-Breakbar.",
+     "Bei Eyes Hard-CC weglassen."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Druid · Soulbeast · Untamed · Galeshot",
+    "items": [
+     "Druide: Golem-Push (Glyph of the Tides + Point-Blank Shot).",
+     "Eyes-Stunner mit Moment of Clarity.",
+     "Soulbeast: solider DPS auf SH/Dhuum."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Antiquary: Top-DPS auf SH-CM.",
+     "Daredevil: stark auf Eyes und Dhuum.",
+     "Viel Mobilität – guter Dhuum-Kiter."
+    ]
+   }
+  ],
+  "title1": "Klassen & Rollen – was laut Wingman funktioniert",
+  "title2": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)"
+ },
+ "wing": 5,
+ "name": "Hall of Chains"
+}

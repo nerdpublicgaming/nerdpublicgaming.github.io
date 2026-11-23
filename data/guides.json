@@ -117,5 +117,141 @@
     "updated": "2026-11-21",
     "url": "fraktale/kinfall.html",
     "cat": "fraktale"
+  },
+  {
+    "title": "Wing 1 · Spirit Vale",
+    "bosses": "Vale Guardian · Gorseval · Sabetha",
+    "mode": "Raid",
+    "summary": "Blues und Splits beim Vale Guardian, World Eater als DPS-Check bei Gorseval, Kanoniere und Flamewall bei Sabetha.",
+    "tags": [
+      "Blues ausweichen",
+      "DPS-Check Gorseval",
+      "Kanoniere festlegen"
+    ],
+    "pages": 4,
+    "pdf": "guides/raids/wing-1-spirit-vale.pdf",
+    "cover": "assets/guides/wing-1-spirit-vale.jpg",
+    "updated": "2026-11-23",
+    "url": "raids/wing-1-spirit-vale.html",
+    "cat": "raids"
+  },
+  {
+    "title": "Wing 2 · Salvation Pass",
+    "bosses": "Slothasor · Bandit Trio · Matthias Gabrel",
+    "mode": "Raid",
+    "summary": "Giftfelder und Pilze bei Slothasor, Käfig schützen im Bandit Trio, Reflects und Corruption bei Matthias.",
+    "tags": [
+      "Gift nie in die Gruppe",
+      "Käfig schützen",
+      "Reflects bei Matthias"
+    ],
+    "pages": 4,
+    "pdf": "guides/raids/wing-2-salvation-pass.pdf",
+    "cover": "assets/guides/wing-2-salvation-pass.jpg",
+    "updated": "2026-11-23",
+    "url": "raids/wing-2-salvation-pass.html",
+    "cat": "raids"
+  },
+  {
+    "title": "Wing 3 · Stronghold of the Faithful",
+    "bosses": "Escort · Keep Construct · Twisted Castle · Xera",
+    "mode": "Raid",
+    "summary": "Glenna durchbringen, Keep Construct mit Burst auf den Kern, Madness im Twisted Castle und Bubble-Timing bei Xera.",
+    "tags": [
+      "Glenna schützen",
+      "Kern-Burst",
+      "Bubble bei Xera"
+    ],
+    "pages": 5,
+    "pdf": "guides/raids/wing-3-stronghold-of-the-faithful.pdf",
+    "cover": "assets/guides/wing-3-stronghold-of-the-faithful.jpg",
+    "updated": "2026-11-23",
+    "url": "raids/wing-3-stronghold-of-the-faithful.html",
+    "cat": "raids"
+  },
+  {
+    "title": "Wing 4 · Bastion of the Penitent",
+    "bosses": "Cairn · Mursaat Overseer · Samarog · Deimos",
+    "mode": "Raid",
+    "summary": "Celestial Dash bei Cairn, Spikes und Rollen bei Mursaat Overseer, CC bei Samarog, Hand-Kiter bei Deimos – plus was in den CMs neu ist.",
+    "tags": [
+      "inkl. CMs",
+      "Dash & Stabi",
+      "Hand-Kiter"
+    ],
+    "pages": 8,
+    "pdf": "guides/raids/wing-4-bastion-of-the-penitent.pdf",
+    "cover": "assets/guides/wing-4-bastion-of-the-penitent.jpg",
+    "updated": "2026-11-23",
+    "url": "raids/wing-4-bastion-of-the-penitent.html",
+    "cat": "raids"
+  },
+  {
+    "title": "Wing 5 · Hall of Chains",
+    "bosses": "Soulless Horror · River of Souls · Statues of Grenth · Dhuum",
+    "mode": "Raid",
+    "summary": "Wände und Tank-Wechsel beim Soulless Horror, Desmina eskortieren, drei Statuen und Greens bei Dhuum – plus Soulless Horror CM.",
+    "tags": [
+      "Wände = Tod",
+      "Desmina eskortieren",
+      "Greens bei Dhuum"
+    ],
+    "pages": 6,
+    "pdf": "guides/raids/wing-5-hall-of-chains.pdf",
+    "cover": "assets/guides/wing-5-hall-of-chains.jpg",
+    "updated": "2026-11-23",
+    "url": "raids/wing-5-hall-of-chains.html",
+    "cat": "raids"
+  },
+  {
+    "title": "Wing 6 · Mythwright Gambit",
+    "bosses": "Conjured Amalgamate · Twin Largos · Qadim",
+    "mode": "Raid",
+    "summary": "Schwerter und Schilde bei der Conjured Amalgamate, Zeitlimit bei den Twin Largos, Kiter, Lampe und Pyres bei Qadim – plus Largos CM.",
+    "tags": [
+      "Power-Burst",
+      "Zeitlimit Largos",
+      "Kiter & Lampe"
+    ],
+    "pages": 5,
+    "pdf": "guides/raids/wing-6-mythwright-gambit.pdf",
+    "cover": "assets/guides/wing-6-mythwright-gambit.jpg",
+    "updated": "2026-11-23",
+    "url": "raids/wing-6-mythwright-gambit.html",
+    "cat": "raids"
+  },
+  {
+    "title": "Wing 7 · Key of Ahdashim",
+    "bosses": "Cardinal Adina · Cardinal Sabir · Qadim the Peerless",
+    "mode": "Raid",
+    "summary": "Säulen und Blindness bei Adina, Flash Discharge als CC bei Sabir, Pylone brechen bei Qadim the Peerless.",
+    "tags": [
+      "Projektil-Schutz",
+      "CC zur richtigen Zeit",
+      "Pylon-Kiter"
+    ],
+    "pages": 4,
+    "pdf": "guides/raids/wing-7-key-of-ahdashim.pdf",
+    "cover": "assets/guides/wing-7-key-of-ahdashim.jpg",
+    "updated": "2026-11-23",
+    "url": "raids/wing-7-key-of-ahdashim.html",
+    "cat": "raids"
+  },
+  {
+    "title": "Wing 8 · Mount Balrior",
+    "bosses": "Decima · Greer · Ura",
+    "mode": "Raid",
+    "summary": "Sparks und Pfeile bei Decima, Power oder Condi bei Greer, Bloodstone-Splitter und viel CC bei Ura.",
+    "tags": [
+      "Sparks = Wipe",
+      "Power oder Condi",
+      "viel CC bei Ura"
+    ],
+    "pages": 4,
+    "pdf": "guides/raids/wing-8-mount-balrior.pdf",
+    "cover": "assets/guides/wing-8-mount-balrior.jpg",
+    "updated": "2026-11-23",
+    "url": "raids/wing-8-mount-balrior.html",
+    "cat": "raids"
   }
 ]

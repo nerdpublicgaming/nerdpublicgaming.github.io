@@ -1,0 +1,666 @@
+{
+ "slug": "wing-2-salvation-pass",
+ "bosses": [
+  {
+   "kicker": "GW2 · RAID WING 2 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Slothasor",
+   "cm": false,
+   "subtitle": "Wing 2 · Salvation Pass – Boss 1. Eine lange Phase: Boden freiessen, Fixate wechselt alle 30 s, viele Breakbars mit Fear danach.",
+   "chips": [
+    {
+     "text": "Enrage 7:00",
+     "hot": true
+    },
+    {
+     "text": "Fixate = Tank",
+     "hot": true
+    },
+    {
+     "text": "Stabi / Aegis / Stunbreak",
+     "hot": false
+    },
+    {
+     "text": "Pulls für Adds",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "Einer isst den blauen Pilz → Kampf beginnt",
+     "color": "#9a3412"
+    },
+    {
+     "label": "alle 20 %",
+     "desc": "Schlaf + Breakbar → danach 10 s Fear",
+     "color": "#ea580c"
+    },
+    {
+     "label": "laufend",
+     "desc": "Tantrum · Fire Breath · Giftfeld",
+     "color": "#1e40af"
+    },
+    {
+     "label": "ab 50 %",
+     "desc": "+ Spore Release („Shake“)",
+     "color": "#be123c"
+    },
+    {
+     "label": "10 %",
+     "desc": "letzte Breakbar",
+     "color": "#b45309"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Giftfeld (Volatile Poison) – nie in die Gruppe",
+     "html": "Alle 25 s: grüner Totenkopf, gelber Rand, Sonder-Taste. Feld wächst auf ein Drittel der Arena und tötet die Gruppe. <strong>Weg vom Stack ablegen</strong> (Ecke des letzten Imbued-Pilzes oder Wand hinter der Gruppe). Nach 8 s / im Down / beim Pilz-Essen fällt es automatisch.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Pilze: 4 Spieler verwandeln sich",
+     "html": "Blauer Pilz = Verwandlung in einen Slubling, mit Skill 1 rote Giftpilze essen (2–4 Richtung Mitte/nächster Spawn). Neuer blauer Pilz jede Minute, 4 Min. Sperre → <strong>4 feste Esser</strong>. Eigenen Slubling <strong>nicht</strong> cleaven/pullen/stunnen!",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Fixate (wechselnder Tank)",
+     "html": "Lila Raute + Sound: du hast den Boss. Sofort zum <strong>entferntesten sicheren Feld</strong>, dann stillstehen. Ziel: zuletzt freigegessener Pilz. Vorsicht vor <strong>Fire Breath</strong> – nicht zu viel laufen.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Breakbar → Fear",
+     "html": "Bei 80/60/40/20/10 % schläft er ein. Nach dem Brechen <strong>10 s Fear</strong> auf alle → <strong>Stability</strong> („Stand Your Ground!“, Inspiring Reinforcement), Aegis oder Stunbreak. Wartet ggf. auf Spieler, die gerade weg sind.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Tantrum & Fire Breath",
+     "html": "<strong>Tantrum</strong>: 3 dunkelblaue Kreise unter jedem – stehenbleiben, beim dritten <strong>dodgen</strong>, sonst 5 s Knockdown. <strong>Fire Breath</strong>: Boss steht auf und speit vorn – seitlich raus, dodge oder block.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Shake ab 50 % & Adds",
+     "html": "Er stoppt und wackelt → Sporen mit Conditions. <strong>Weg-dodgen, kurz warten, zurück-dodgen</strong> oder invuln, danach cleansen. Gegner-Slublings mit Pulls/Ranged-Cleave töten, sonst werden sie „Evolved“ und korrumpieren Boons.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-2-salvation-pass-1.jpg",
+     "caption": "Giftfeld-Ziel: weg vom Stack"
+    },
+    {
+     "img": "wing-2-salvation-pass-2.jpg",
+     "caption": "Beispiel-Esspfad"
+    },
+    {
+     "img": "wing-2-salvation-pass-3.jpg",
+     "caption": "Fixate: lila Raute"
+    },
+    {
+     "img": "wing-2-salvation-pass-4.jpg",
+     "caption": "Shake: raus & rein dodgen"
+    }
+   ],
+   "details": [
+    {
+     "title": "Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Viel <strong>CC</strong> und Gruppen-<strong>Stabi</strong> nötig – Power-Alac-Renegade (Inspiring Reinforcement) passt perfekt; oft 2 Wächter mit „Stand Your Ground!“."
+      },
+      {
+       "t": "li",
+       "html": "Für Adds: Pulls (Mesmer Focus 4 Into the Void / Temporal Curtain, Firebrand Axe 3) und Ranged-Cleave (Epidemic)."
+      }
+     ]
+    },
+    {
+     "title": "Ablauf",
+     "items": [
+      {
+       "t": "li",
+       "html": "Vorher den Weg mit Slublings clearen. Kampf startet mit dem ersten Pilz-Esser."
+      },
+      {
+       "t": "li",
+       "html": "Mitte freiessen → Boss steht still, Adds spawnen dort und werden mitgecleavt."
+      },
+      {
+       "t": "li",
+       "html": "Im Zweifel: <strong>zusammen in sicheren Feldern bleiben</strong>, Adds cleaven, eigenen Slubling schonen."
+      }
+     ]
+    },
+    {
+     "title": "Häufige Wipes",
+     "items": [
+      {
+       "t": "li",
+       "html": "Giftfeld im Stack oder durchs Gift laufen."
+      },
+      {
+       "t": "li",
+       "html": "Eigenen Slubling getötet."
+      },
+      {
+       "t": "li",
+       "html": "Fear ohne Stabi nach dem Breakbar."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Slothasor",
+     "url": "https://hardstuck.gg/gw2/guides/w2-salvation-pass/slothasor/"
+    },
+    {
+     "text": "Wingman – Slothasor",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/sloth"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Slothasor · Klassendaten: Wingman – Slothasor · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 2 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Bandit Trio",
+   "cm": false,
+   "subtitle": "Wing 2 · Boss 2. Gefängnis-Camp verteidigen: Event nach Timer, drei Bosse nacheinander (Berg, Zane, Narella) plus Saboteure und Mörser.",
+   "chips": [
+    {
+     "text": "Timer 9:00",
+     "hot": true
+    },
+    {
+     "text": "Käfig schützen",
+     "hot": true
+    },
+    {
+     "text": "Nuhoch Stealth Detection",
+     "hot": false
+    },
+    {
+     "text": "Gleiten + Pilze",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "9:00 Setup",
+     "desc": "Camp clearen · Bienen & Öl sammeln",
+     "color": "#9a3412"
+    },
+    {
+     "label": "6:50 Berg",
+     "desc": "Bienen-Debuff drauf",
+     "color": "#b45309"
+    },
+    {
+     "label": "6:03 / 5:05",
+     "desc": "Saboteur · Mörser",
+     "color": "#ea580c"
+    },
+    {
+     "label": "4:50 Zane",
+     "desc": "Südtor · Wargs vorher frei",
+     "color": "#1e40af"
+    },
+    {
+     "label": "2:47 Narella",
+     "desc": "Westtor · Öl-Fässer werfen",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Saboteur = Käfig-Bombe",
+     "html": "Ab 6:03 läuft ein (nur mit <strong>Nuhoch-Mastery</strong> sichtbarer) Saboteur zum Käfig: Bombe = 55 % Käfig-HP. <strong>Breakbar brechen</strong>, während er legt. Ein fester Spieler mit CC + Mastery (oft Banner-Krieger).",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Setup: Bienen & Öl",
+     "html": "Gruppe teilt sich: oben Brücken, unten Camp. <strong>Bienenstöcke</strong> aus Bäumen schießen → ans <strong>Osttor. Öl-Fässer</strong> → Grasvorsprung im <strong>Norden</strong>. Ablegen mit Waffenwechsel, nicht benutzen! Dann am Osttor stacken, Sniper kommen in den Cleave.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Berg (6:50, Osttor)",
+     "html": "Ein Spieler gibt ihm mit Bienen einen Debuff (stackt nicht – Rest aufheben). Frontal-Smash nur gefährlich, wenn er den Käfig trifft; Breakbar bricht ihn ab.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Mörser (ab 5:05)",
+     "html": "Ein Spieler springt per <strong>Süd-Launchpad</strong> raus, bricht die Breakbars der Bombardiere (nicht töten nötig) und kommt zurück. 3:04 = <strong>drei Bombardiere</strong> gleichzeitig (Rev: Jade Winds in die Mitte).",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Zane (4:50, Südtor)",
+     "html": "Vorher <strong>Warg-Käfige öffnen</strong> (Wargs zerlegen ihn bei Bleeding). Er teleportiert zum Entferntesten → <strong>eng stacken</strong>. Orange Blind-Feld meiden, nach Süden gehen, damit seine 3 Kegel-Schüsse nicht den Käfig treffen.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Narella (2:47, Westtor)",
+     "html": "<strong>Feuertornados</strong> verfolgen zufällig – ausweichen, Stunbreak/Stabi. Flak auf den Weitesten, Flammenwerfer auf den Nächsten. <strong>Öl-Fässer auf sie werfen</strong> (je 25 Burning, max. 50). Saboteur 2:29 per Bienen-Skill stunnen.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-2-salvation-pass-5.jpg",
+     "caption": "Öl, Bienen, Wargs + Ablageorte"
+    },
+    {
+     "img": "wing-2-salvation-pass-6.jpg",
+     "caption": "Mörser-Spieler draußen"
+    },
+    {
+     "img": "wing-2-salvation-pass-7.jpg",
+     "caption": "Zane am Südtor"
+    },
+    {
+     "img": "wing-2-salvation-pass-8.jpg",
+     "caption": "Narella + Tornados"
+    }
+   ],
+   "details": [
+    {
+     "title": "Timer zum Mitlesen",
+     "items": [
+      {
+       "t": "li",
+       "html": "9:00 Setup · 6:50 Berg · 6:03 Saboteur · 5:05 Mörser · 4:50 Zane · 4:05 Mörser · 3:30 Saboteur"
+      },
+      {
+       "t": "li",
+       "html": "3:04 Mörser (3×) · 2:59 Saboteur · 2:47 Narella · 2:29 Saboteur · 2:15 Mörser · 1:58/1:28/0:58 Saboteure (meist schon tot)"
+      }
+     ]
+    },
+    {
+     "title": "Anreise",
+     "items": [
+      {
+       "t": "li",
+       "html": "Nach Slothasor über Bounce-Pilze auf die Klippe, an Banditen vorbei gleiten, mit Sapper-Bomben aufs Plateau über dem Camp."
+      },
+      {
+       "t": "li",
+       "html": "Der Timer startet, sobald jemand das Plateau verlässt."
+      }
+     ]
+    },
+    {
+     "title": "Gut zu haben",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Pulls, Cleave, CC</strong> – Mesmer mit Focus 4, Doppel-Streitkolben-Banner-Krieger, Power-Alac-Renegade."
+      },
+      {
+       "t": "li",
+       "html": "Nach dem ersten Mörser: 2 Wargs an der Südmauer freilassen, helfen beim Clearen."
+      },
+      {
+       "t": "li",
+       "html": "Ist Narella fast tot, kann der Mörser um 2:15 ignoriert werden; sonst NO-Launchpad nutzen."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Bandit Trio",
+     "url": "https://hardstuck.gg/gw2/guides/w2-salvation-pass/bandit-trio/"
+    },
+    {
+     "text": "Wingman – Bandit Trio",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/trio"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Bandit Trio · Klassendaten: Wingman – Bandit Trio · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 2 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Matthias Gabrel",
+   "cm": false,
+   "subtitle": "Wing 2 · Boss 3. Kein Tank, aber Reflects, Cleanse und Disziplin. Wetter-Phasen bringen jeweils eigene Zusatz-Mechaniken.",
+   "chips": [
+    {
+     "text": "Enrage 10:00",
+     "hot": true
+    },
+    {
+     "text": "Reflects Pflicht",
+     "hot": true
+    },
+    {
+     "text": "Condi-Cleanse",
+     "hot": false
+    },
+    {
+     "text": "Thicket-Waters-Mastery",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "100–80 % Schnee",
+     "desc": "Chill · Eisflächen · „Hadouken“",
+     "color": "#1e40af"
+    },
+    {
+     "label": "80–60 % Hitze",
+     "desc": "bewegen! · Tornados · Giftfeld",
+     "color": "#be123c"
+    },
+    {
+     "label": "60–40 % Regen",
+     "desc": "still stehen · Wolke · Spread (5)",
+     "color": "#047857"
+    },
+    {
+     "label": "40–0 % Abomination",
+     "desc": "Wetter wechselt · alle spreaden · Geister",
+     "color": "#6d28d9"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Bubble: Reflects!",
+     "html": "Blutschild = unverwundbar. Er feuert 20–25 Projektile, <strong>18 müssen reflektiert</strong> werden (Feedback, Wall of Reflection, Firebrand Tome 3). <strong>Keine Projektil-Zerstörung</strong> (Druide Staff 5) und nicht mit dem Körper blocken.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Sacrifice (bis 40 %)",
+     "html": "Ab 9:45 alle 45 s wird ein Spieler feindlich (roter Pfeil) mit Breakbar. <strong>Gemeinsam brechen</strong>. Kein Burst in die Mitte, er ist angreifbar. Die Skills des Opfers wirken gegen die Gruppe – nichts drücken.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Shards / Jump – NICHT reflektieren",
+     "html": "Er springt und dreht sich, verschießt Scherben. <strong>Dodge/Block/Invuln</strong>. Reflektierte Scherben geben ihm +10 % Schaden pro Stück (bis +250 %). Druide Staff 5 / Mesmer Focus 4 negieren sie.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Corruption → Brunnen",
+     "html": "Alle 30 s roter Kreis um einen Spieler: <strong>zum sauberen Brunnen laufen</strong>. Benutzter Brunnen ist 1:30 rot. Früh reingehen, dann ist immer einer frei. Ohne Mastery: Schaden + Knockdown – Healer ansagen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Phasen-Spezial",
+     "html": "<strong>Schnee</strong>: Hadouken-Kugel (50 % HP) dodgen, Chill cleansen. <strong>Hitze</strong>: ständig leicht bewegen; <strong>Giftfeld</strong> an die Wand zwischen zwei Brunnen. <strong>Regen</strong>: möglichst still stehen; 5 Spieler bekommen <strong>Spread</strong> – auseinander, dann stehenbleiben.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Abomination ab 40 %",
+     "html": "Verwandlung mit Fear – <strong>nicht in seiner Hitbox stehen</strong>, sonst down. Wetter rotiert alle 30 s, <strong>alle</strong> bekommen Spread, Scherben quer durch den Raum. <strong>Geister</strong> laufen durch die Arena: seitlich ausweichen (nur blockbar, nicht dodgebar).",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-2-salvation-pass-9.jpg",
+     "caption": "Bubble: Projektile reflektieren"
+    },
+    {
+     "img": "wing-2-salvation-pass-10.jpg",
+     "caption": "Sacrifice brechen"
+    },
+    {
+     "img": "wing-2-salvation-pass-11.jpg",
+     "caption": "Saubere Brunnen"
+    },
+    {
+     "img": "wing-2-salvation-pass-12.jpg",
+     "caption": "Spread: auseinander"
+    }
+   ],
+   "details": [
+    {
+     "title": "Vorbereitung",
+     "items": [
+      {
+       "t": "li",
+       "html": "Reflect-Quellen fest einteilen: Mesmer Feedback, Wächter Wall of Reflection, mehrere Firebrands mit Chapter 3: Valiant Bulwark."
+      },
+      {
+       "t": "li",
+       "html": "Modell-Limit und LOD-Distanz hochdrehen – viele bewegliche Mechaniken."
+      },
+      {
+       "t": "li",
+       "html": "Ohne <strong>Forsaken-Thicket-Waters-Mastery</strong>: Supports warnen oder selbst Heal bereithalten."
+      }
+     ]
+    },
+    {
+     "title": "Einzelheiten",
+     "items": [
+      {
+       "t": "li",
+       "html": "Eisflächen (Schnee) chillen und werfen um – umgehen."
+      },
+      {
+       "t": "li",
+       "html": "Feuertornados (Hitze) CCen und schaden 2,5 s."
+      },
+      {
+       "t": "li",
+       "html": "Sturmwolke (Regen) kreist um die Mitte und gibt Bewegungs-Stacks – bei 10 Stacks Knockdown."
+      },
+      {
+       "t": "li",
+       "html": "Giftfeld fällt auch, wenn der Spieler down geht oder zu lange wartet – nie in der Mitte oder auf einem Brunnen."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Matthias Gabrel",
+     "url": "https://hardstuck.gg/gw2/guides/w2-salvation-pass/matthias-gabrel/"
+    },
+    {
+     "text": "Wingman – Matthias",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/matt"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Matthias Gabrel · Klassendaten: Wingman – Matthias · Klassentipps auf der letzten Seite."
+  }
+ ],
+ "classes": {
+  "meta": "Daten: GW2 Wingman, Classic-Boss-Ansicht, Era „Balance Patch November 2026“, Stand 23.11.2026 · Wing 2 hat keine CMs. Bandit Trio misst DPS nur auf Teilen des Events – die Werte sind daher niedrig.",
+  "tables": [
+   {
+    "title": "Bosse",
+    "head": [
+     "Boss · Modus · Erfolgsquote",
+     "Am häufigsten gespielt (Top 5)",
+     "Höchster Ø-DPS (Top 5, Specs ≥ 0,8 % Anteil)"
+    ],
+    "rows": [
+     [
+      {
+       "name": "Slothasor",
+       "sub": "NM · Erfolg 57,29 %"
+      },
+      "Mechanist 12,81 %, Troubadour 8,59 %, Amalgam 8,44 %, Chronomancer 7,87 %, Ritualist 6,0 %",
+      "Amalgam 20.793, Willbender 19.472, Soulbeast 18.137, Bladesworn 17.925, Antiquary 17.897"
+     ],
+     [
+      {
+       "name": "Bandit Trio",
+       "sub": "NM · Erfolg 91,91 %"
+      },
+      "Mechanist 15,3 %, Chronomancer 9,03 %, Troubadour 8,44 %, Amalgam 5,12 %, Ritualist 5,01 %",
+      "Willbender 5.886, Soulbeast 5.868, Spellbreaker 5.726, Bladesworn 5.667, Antiquary 5.611"
+     ],
+     [
+      {
+       "name": "Matthias",
+       "sub": "NM · Erfolg 71,03 %"
+      },
+      "Mechanist 14,61 %, Troubadour 8,92 %, Chronomancer 8,25 %, Firebrand 6,63 %, Scourge 6,13 %",
+      "Harbinger 21.968, Mechanist 20.833, Firebrand 20.717, Renegade 19.627, Evoker 19.450"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "Stabi + CC",
+       "text": ""
+      },
+      "<strong>Power-Alac-Renegade, Firebrand</strong>",
+      "Hardstuck-Tipp für Sloth: Renegade bringt Breakbar-Schaden + Gruppen-Stabi; Firebrand „Stand Your Ground!“ gegen den Fear."
+     ],
+     [
+      {
+       "badge": "Reflect (Matt)",
+       "text": ""
+      },
+      "<strong>Chronomancer/Troubadour</strong> (<strong>Feedback), Firebrand (Tome</strong> 3), <strong>Wächter (Wall of Reflection</strong>)",
+      "Bubble braucht 18 reflektierte Projektile – Reflects vorab einteilen."
+     ],
+     [
+      {
+       "badge": "Quickness / Alac",
+       "text": ""
+      },
+      "<strong>Troubadour, Chronomancer</strong>, <strong>Mechanist, Firebrand</strong>",
+      "Meistgespielte Supports in allen drei Kämpfen (Mechanist überall vorn)."
+     ],
+     [
+      {
+       "badge": "DPS Sloth/Trio",
+       "text": ""
+      },
+      "<strong>Amalgam, Willbender, Soulbeast</strong>, <strong>Bladesworn, Antiquary</strong>",
+      "Höchster Ø-DPS auf Slothasor; Amalgam dort auch sehr beliebt."
+     ],
+     [
+      {
+       "badge": "DPS Matthias",
+       "text": ""
+      },
+      "<strong>Harbinger, Mechanist, Firebrand</strong>, <strong>Renegade, Evoker</strong>",
+      "Matthias belohnt Condi – Harbinger mit dem höchsten Ø-DPS."
+     ]
+    ]
+   }
+  ],
+  "tip": "<strong>Komp-Tipp</strong>: 2 Supports + 8 DPS. Für Sloth 4 Pilz-Esser und Stabi-Geber festlegen, für Trio einen Saboteur-Spieler (mit Nuhoch-Mastery) und einen Mörser-Spieler, für Matthias mindestens 2–3 Reflect-Quellen.",
+  "intro": "Mechanik-Bezug aus den Hardstuck-Guides, Spielweise als allgemeine Tipps. Bei den neuesten Elite-Specs (Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüf die konkreten Skills im aktuellen Build.",
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Dragonhunter · Willbender · Luminary",
+    "items": [
+     "„Stand Your Ground!“ für den Sloth-Fear.",
+     "Wall of Reflection / Tome 3 für Matthias-Bubble.",
+     "Firebrand Axe 3 zieht Slublings – nicht den eigenen!"
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Chronomancer · Virtuoso · Mirage · Troubadour",
+    "items": [
+     "Feedback = Reflect für Matts Bubble.",
+     "Focus 4 (Pull/Curtain) gegen Slublings <strong>&amp;</strong> Matt-Scherben.",
+     "Virtuoso: Condi-DPS für Matthias."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Scrapper · Holosmith · Amalgam",
+    "items": [
+     "Mechanist: meistgespielt in allen drei Kämpfen.",
+     "Amalgam: Top-DPS auf Slothasor.",
+     "Viel CC für Saboteur-Breakbar und Sloth."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Evoker: guter Condi-DPS auf Matthias.",
+     "Bei Hitze-Phase bewegen, bei Regen still – Rotation anpassen.",
+     "Tempest: Condi-Cleanse für Chill/Corruption-Weg."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Scourge · Reaper · Harbinger · Ritualist",
+    "items": [
+     "Harbinger: höchster Ø-DPS auf Matthias.",
+     "Epidemic = Ranged-Cleave für Slublings.",
+     "Scourge: Barrier + Cleanse im Schnee."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Power-Alac-Renegade: CC + Stabi für Sloth.",
+     "Jade Winds bricht die 3 Bombardiere um 3:04.",
+     "Condi-Renegade stark auf Matthias."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Banner-Krieger (Doppel-Streitkolben) oft Saboteur-Job.",
+     "Viel CC für alle Breakbars.",
+     "Beim Sacrifice keine großen AoE-Bursts in die Mitte."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Druid · Soulbeast · Untamed · Galeshot",
+    "items": [
+     "Druide Staff 5 negiert Matt-Scherben – <strong>nicht bei der Bubble</strong> (zerstört Projektile)!",
+     "Soulbeast: Top-DPS auf Sloth <strong>&amp;</strong> Trio.",
+     "Entangle/Glyph für Adds."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Antiquary: starker DPS auf Sloth/Trio.",
+     "Viele Dodges für Tantrum und Hadouken.",
+     "Mobil – guter Mörser-Spieler bei Trio."
+    ]
+   }
+  ],
+  "title1": "Klassen & Rollen – was laut Wingman funktioniert",
+  "title2": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)"
+ },
+ "wing": 2,
+ "name": "Salvation Pass"
+}

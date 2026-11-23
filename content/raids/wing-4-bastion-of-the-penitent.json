@@ -1,0 +1,1135 @@
+{
+ "slug": "wing-4-bastion-of-the-penitent",
+ "bosses": [
+  {
+   "kicker": "GW2 · RAID WING 4 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Cairn",
+   "cm": false,
+   "subtitle": "Wing 4 · Bastion of the Penitent – Boss 1. Eine lange Phase, kein fester Tank. Fast alles gibt Unseen Burden (–1 % Tempo pro Stack) – Celestial Dash ist dein Freund.",
+   "chips": [
+    {
+     "text": "Enrage 8:00",
+     "hot": true
+    },
+    {
+     "text": "kein Tank (Weitester)",
+     "hot": true
+    },
+    {
+     "text": "Stabi gegen Float",
+     "hot": false
+    },
+    {
+     "text": "keine Reflects!",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "Glenna loslaufen lassen → Boss spawnt",
+     "color": "#9a3412"
+    },
+    {
+     "label": "laufend",
+     "desc": "Shards · Ports · Greens",
+     "color": "#ea580c"
+    },
+    {
+     "label": "ab 7:37",
+     "desc": "Agony alle 20 s",
+     "color": "#1e40af"
+    },
+    {
+     "label": "später",
+     "desc": "Energy Surge · Orbital Sweep",
+     "color": "#b45309"
+    },
+    {
+     "label": "ab 25 %",
+     "desc": "+ Gravity Wave",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Nah am Boss bleiben (Kompass)",
+     "html": "Muster: 2 Autos, dann <strong>Shards</strong> – treffen alle <strong>außerhalb des Kompass-Musters</strong> am Boden (Knockback + Stacks). Eng an Cairn stehen. <strong>Nichts reflektieren</strong> – reflektierte Shards werfen Mitspieler um. (Shader mind. „Mittel“, sonst ist der Kompass unsichtbar.)",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Celestial Dash",
+     "html": "Sonder-Taste: Bodenziel-Sprung mit Evade – funktioniert sogar bei 99 Stacks. Damit zurück zur Gruppe nach Ports und Knockbacks.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Ports (Displacement)",
+     "html": "3 rote Kreise, gelber Rand = du stehst drin. Seitlich raus oder dodgen; erwischt? Sofort <strong>Dash zurück</strong>. Kombiniert sich gefährlich mit Knockbacks.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Greens (Spatial Manipulation)",
+     "html": "Grüne Kreise mit goldenen Kugeln: so viele Spieler rein, wie Kugeln drüber sind. Draußen = viel Schaden, 25 Stacks, Float. Im aktiven Kreis: –25 Stacks. Alternativ <strong>Stabi</strong> gegen den Float (Schaden + Stacks bleiben).",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Shared Agony",
+     "html": "Ab 7:37 alle 20 s trifft es den weitesten Spieler ohne Agony: roter Aura-Kreis, der <strong>bis zu 3 andere</strong> hart trifft. Weg vom Stack, aber im Kompass bleiben; bei Greens zu einem Kreis mit <strong>1 Kugel</strong> dashen. Erste meist ein Healer, dann die anderen Supports.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Surge, Sweep, Gravity Wave",
+     "html": "<strong>Energy Surge</strong>: er teleportiert über die Arena – Pfeil am Boden beachten, dodgen. <strong>Orbital Sweep</strong>: Arm dreht <strong>gegen den Uhrzeigersinn</strong> – auf die Seite im Uhrzeigersinn und dodgen/dashen. Danach immer Greens. <strong>Gravity Wave (&lt; 25</strong> %): nah am Boss = sicher.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-4-bastion-of-the-penitent-1.jpg",
+     "caption": "Shards: im Kompass bleiben"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-2.jpg",
+     "caption": "Green mit Kugel"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-3.jpg",
+     "caption": "Agony weg vom Stack"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-4.jpg",
+     "caption": "Orbital Sweep"
+    }
+   ],
+   "details": [
+    {
+     "title": "Vorbereitung",
+     "items": [
+      {
+       "t": "li",
+       "html": "Ein Spieler bleibt bei Glenna, startet ihren Dialog und gleitet nach. Für CM aktiviert <strong>dieser Spieler</strong> auch den Mote – direkt bevor er springt."
+      },
+      {
+       "t": "li",
+       "html": "Viel <strong>Gruppen-Stabi</strong> spart Greens; Cairn schlägt schnell zu → <strong>Confusion</strong> ist stark (Condi-Mirage, Condi-Mechanist laut Hardstuck)."
+      }
+     ]
+    },
+    {
+     "title": "Unseen Burden",
+     "items": [
+      {
+       "t": "li",
+       "html": "Jeder Stack = –1 % Tempo (max. 99). Im Enrage kann man Stacks nicht mehr entfernen."
+      },
+      {
+       "t": "li",
+       "html": "Greens nach Surge/Sweep haben <strong>keine</strong> Kugeln – jeder Kreis zählt."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Cairn the Indomitable",
+     "url": "https://hardstuck.gg/gw2/guides/w4-bastion-of-the-penitent/cairn-the-indomitable/"
+    },
+    {
+     "text": "Wingman – Cairn",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/cairn"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Cairn the Indomitable · Klassendaten: Wingman – Cairn · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 4 · CHALLENGE MOTE · NUR DAS NEUE",
+   "title": "Cairn",
+   "cm": true,
+   "subtitle": "Kein HP-Plus, nur zwei kleine Änderungen – aber eine davon zwingt dich, den Kampf über ständig zu dashen.",
+   "chips": [
+    {
+     "text": "gleiche HP wie NM",
+     "hot": true
+    },
+    {
+     "text": "Dash alle < 10 s",
+     "hot": true
+    },
+    {
+     "text": "99 Stacks = Stein",
+     "hot": false
+    },
+    {
+     "text": "Stabi-Taktik geht nicht",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "vor dem Pull",
+     "desc": "Wer nach Mote-Aktivierung landet: Dash spammen",
+     "color": "#9a3412"
+    },
+    {
+     "label": "ganzer Kampf",
+     "desc": "Countdown 10 s",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Greens",
+     "desc": "immer reingehen – 99 Stacks versteinern",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Countdown: alle 10 s Celestial Dash",
+     "html": "Jeder hat einen 10-s-Timer. Läuft er ab, <strong>dasht dein Charakter automatisch in Blickrichtung</strong> – evtl. raus aus dem Kompass oder in Ports. Also Dash praktisch <strong>auf Cooldown</strong> einbauen (in Rotationslücken), in eine sichere Richtung.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Petrification bei 99 Stacks",
+     "html": "Mit 99 Unseen Burden bist du nicht nur festgefroren, du kannst <strong>nur noch Dash</strong> nutzen – bis du in einem Green stehst und die Stacks loswirst.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Greens wieder ernst nehmen",
+     "html": "Die NM-Taktik „Stabi gegen den Float und auf dem Boss bleiben“ funktioniert im CM <strong>nicht</strong> mehr – Stacks würden dich versteinern. Kugel-Zahl erfüllen, rein in die Kreise.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Dash-Richtung bewusst wählen",
+     "html": "Vor dem Countdown-Ende in Richtung Boss oder seitlich im Kompass dashen. Nie in Richtung Kante – Knockbacks + Zwangsdash sind die häufigste CM-Todesursache.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Start ohne Unfall",
+     "html": "Wer erst nach der Mote-Aktivierung auf die Plattform kommt, muss bis zum Boss-Spawn <strong>Dash spammen</strong>, sonst schickt ihn der Countdown von der Kante.",
+     "wide": false
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-4-bastion-of-the-penitent-5.jpg",
+     "caption": "Countdown-Dash im CM"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-6.jpg",
+     "caption": "Greens sind Pflicht"
+    }
+   ],
+   "details": [],
+   "sources": [
+    {
+     "text": "Hardstuck – Cairn (Challenge Mode)",
+     "url": "https://hardstuck.gg/gw2/guides/w4-bastion-of-the-penitent/cairn-the-indomitable/#challenge-mode"
+    },
+    {
+     "text": "Wingman – Cairn",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/cairn"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Cairn (Challenge Mode) · Klassendaten: Wingman – Cairn (Reiter Challenge Mote) · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 4 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Mursaat Overseer",
+   "cm": false,
+   "subtitle": "Wing 4 · Boss 2. Der Boss greift selbst nicht an – das Spielbrett ist der Gegner. Drei Sonderrollen: Claim, Protect, Dispel.",
+   "chips": [
+    {
+     "text": "Enrage 6:00",
+     "hot": true
+    },
+    {
+     "text": "3 Sonderrollen",
+     "hot": true
+    },
+    {
+     "text": "Ranged-Cleave",
+     "hot": false
+    },
+    {
+     "text": "Aegis gegen Explosion",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "alle 3 Lichtsäulen genommen",
+     "color": "#9a3412"
+    },
+    {
+     "label": "alle 10 s",
+     "desc": "grüne Felder → Spikes 5 s später",
+     "color": "#ea580c"
+    },
+    {
+     "label": "laufend",
+     "desc": "4 Jade Scouts wandern übers Brett",
+     "color": "#1e40af"
+    },
+    {
+     "label": "75/50/25 %",
+     "desc": "Phasen – gute Gruppen 40–50 s pro Viertel",
+     "color": "#b45309"
+    },
+    {
+     "label": "< 25 %",
+     "desc": "evtl. alle 4 Mittelfelder mit Spikes",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Spikes = Sofort-Tod",
+     "html": "Felder werden <strong>grün</strong>, 5 s später schießen Spikes hoch – nicht evadierbar, nicht blockbar, nicht invulnerbar. Nur <strong>Protect</strong> schützt. Fast immer bleibt mind. ein Mittelfeld frei.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Claim (Boss-Fixate)",
+     "html": "Bodenziel-Skill: orangenes Feld wird eures. Der Boss fixiert diesen Spieler. Aufgabe: <strong>4 Mittelfelder sauber halten</strong> und den Boss so stellen, dass die Gruppe die Scouts mitcleavt (Start: Mitte einer Kante eines sicheren Mittelfelds).",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Protect (Kuppel)",
+     "html": "Bodenziel-Kuppel, die <strong>allen Schaden</strong> blockt (auch Spikes und Explosionen). 180 s Cooldown → meist 1× pro Versuch, ideal für das schwere <strong>&lt; 25</strong> %-Muster. Jade Soldiers fixieren diesen Spieler – er kitet sie weg vom Gruppenfeld.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Dispel",
+     "html": "Entfernt den orangen Schild von einem Scout/Soldier – geht ohne Sichtlinie und über Reichweite hinaus, nur ein Ziel muss ausgewählt sein. Anfangs geschildete Scouts, später geschildete Soldiers.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Jade Scouts cleaven",
+     "html": "4 Scouts wandern übers Brett und drehen sichere Felder um. Getötet pausieren sie und heilen sich. Am Ziel werden sie zu <strong>Jade Soldiers</strong> (Aura, Conditions, stärkerer Boss). Ziel: höchstens <strong>einer nach dem anderen</strong>.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Soldier-Explosion",
+     "html": "Soldiers explodieren beim Tod – mit <strong>Aegis</strong> blocken oder dodgen, aber <strong>nicht in Spikes dodgen</strong>. Orangene Felder ticken heftig und geben Conditions, bis sie geclaimt sind.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-4-bastion-of-the-penitent-7.jpg",
+     "caption": "Spikes auf grünen Feldern"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-8.jpg",
+     "caption": "Claim: Boss folgt dir"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-9.jpg",
+     "caption": "Jade Scout"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-10.jpg",
+     "caption": "CM: blaue Felder"
+    }
+   ],
+   "details": [
+    {
+     "title": "Anreise",
+     "items": [
+      {
+       "t": "li",
+       "html": "Vom Cairn-Plateau nach vorn gleiten, den Weg hoch zu Glenna, Dialog starten."
+      },
+      {
+       "t": "li",
+       "html": "Am Schutthaufen links muss einer stehen, dann die <strong>Schaufel</strong> am Wegende nehmen und den Schutt wegräumen."
+      }
+     ]
+    },
+    {
+     "title": "Sonderrollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Alle drei Skills gehen auch im Down. Stirbt ein Rollenträger ganz, erscheint seine Lichtsäule wieder – andere können sie nehmen."
+      },
+      {
+       "t": "li",
+       "html": "Meist übernehmen Supports die Rollen, Builds sind egal."
+      },
+      {
+       "t": "li",
+       "html": "Spikes laufen im 10-s-Takt: Spawn bei 5 s, Ausbruch 5 s später usw."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Mursaat Overseer",
+     "url": "https://hardstuck.gg/gw2/guides/w4-bastion-of-the-penitent/mursaat-overseer/"
+    },
+    {
+     "text": "Wingman – Mursaat Overseer",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/mo"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Mursaat Overseer · Klassendaten: Wingman – Mursaat Overseer · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 4 · CHALLENGE MOTE · NUR DAS NEUE",
+   "title": "Mursaat Overseer",
+   "cm": true,
+   "subtitle": "+36 % Boss-HP (30 statt 22 Mio.), Jade Soldiers mit fast doppelter HP – und eine neue tödliche Mechanik: Blues.",
+   "chips": [
+    {
+     "text": "Boss 30 Mio. HP",
+     "hot": true
+    },
+    {
+     "text": "Blues alle 30 s",
+     "hot": true
+    },
+    {
+     "text": "Protect schützt nicht vor Blues",
+     "hot": false
+    },
+    {
+     "text": "Mittelfelder Pflicht",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "ab 5:33",
+     "desc": "alle 30 s 4 blaue Felder · 3 s",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Spikes",
+     "desc": "wie im NM",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Überschneidung",
+     "desc": "Blues + Spikes gleichzeitig → Protect in die Mitte",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Blues: rein oder tot",
+     "html": "4 Felder werden blau. Wer bei der Detonation <strong>nicht auf Blau steht, stirbt sofort</strong> – Protect hilft hier nicht. Ab 5:33, dann alle 30 s, 3 s Zeit.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Jeder sieht eigene Blues",
+     "html": "Die Felder sind <strong>client-seitig</strong>: jeder bekommt eines von 4 Mustern (nur gedreht). Jedes Muster enthält ein <strong>Mittel</strong>-und ein Eckfeld → Claim muss die <strong>4 Mittelfelder immer sauber</strong> halten.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Blues und Spikes überlappen",
+     "html": "<strong>Blues zuerst</strong>: detonieren zuerst, danach Zeit für Spikes. <strong>Spikes laden schon &gt; 3 s</strong>: auf die Spikes warten, dann ins Blau dodgen. <strong>Blues kurz nach Spike-Start</strong>: Protect-Spieler setzt die Kuppel sofort <strong>in die Brettmitte</strong>.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Wann droht das?",
+     "html": "Spike-Timing hängt davon ab, wann ihr die Viertel-Schwellen schafft. Bei Gruppen-DPS um 200–220k ist eine Überschneidung im Kampf sehr wahrscheinlich – vorher absprechen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Soldiers sind zäher",
+     "html": "Fast doppelte HP → Scouts noch konsequenter cleaven, damit nie zwei Soldiers gleichzeitig aktiv sind.",
+     "wide": false
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-4-bastion-of-the-penitent-11.jpg",
+     "caption": "Blaue Felder (CM)"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-12.jpg",
+     "caption": "Spikes + Blues kombinieren"
+    }
+   ],
+   "details": [],
+   "sources": [
+    {
+     "text": "Hardstuck – Mursaat Overseer (Challenge Mode)",
+     "url": "https://hardstuck.gg/gw2/guides/w4-bastion-of-the-penitent/mursaat-overseer/#challenge-mode"
+    },
+    {
+     "text": "Wingman – Mursaat Overseer",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/mo"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Mursaat Overseer (Challenge Mode) · Klassendaten: Wingman – Mursaat Overseer (Reiter Challenge Mote) · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 4 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Samarog",
+   "cm": false,
+   "subtitle": "Wing 4 · Boss 3. Wenige, gut sichtbare Mechaniken – aber Positionierung, Knockback-Schutz und viel CC sind Pflicht. Ränder = Speerwand, reingeworfen = tot.",
+   "chips": [
+    {
+     "text": "Enrage 11:00",
+     "hot": true
+    },
+    {
+     "text": "Fixate wechselt",
+     "hot": true
+    },
+    {
+     "text": "viel CC",
+     "hot": false
+    },
+    {
+     "text": "Stabi / Pushes / Immob",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Phase 1 · 100–66 %",
+     "desc": "Swipes · Shockwave · Speere",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Split 66 %",
+     "desc": "Rigom unter Samarog schieben, Guldhem töten",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Phase 2 · 66–33 %",
+     "desc": "+ Betrayal (Kreis-Paare)",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Split 33 %",
+     "desc": "wie oben + Betrayal",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Phase 3 · 33–0 %",
+     "desc": "+ Bludgeon",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Brutalize: alle 10 % CC!",
+     "html": "Bei jedem 10 %-Schritt springt er auf den Fixate, wird immun und bekommt eine <strong>Breakbar</strong>. Gruppe muss brechen, um den Spieler zu retten. Neue Conditions wirken dann nicht – Soft-CC vorher setzen. Fixate heilen verlängert die Zeit.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Knockbacks: hinter ihm stehen",
+     "html": "<strong>Prisoner Sweep</strong>: 2 Bögen vorn – hinter oder hinten in der Hitbox stehen. <strong>Shockwave</strong>: springen oder dodgen; <strong>Stabi</strong> verhindert den Knockback, Block/Aegis nicht. Boss in der <strong>Mitte</strong> halten.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Speere (Spear Impact)",
+     "html": "Alle 20 s füllt sich ein roter Kreis, dann schlägt ein Speer ein und bleibt liegen (Schaden + Conditions). Bei Bedarf <strong>runterhauen</strong> (nicht CC verschwenden), gern im Cleave mit dem Boss.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Splits: Rigom & Guldhem",
+     "html": "Bei 66/33 % zieht er sich in die Westnische zurück. <strong>Rigom (klein) unter Samarog schieben</strong>, damit seine Explosion Guldhems Schild bricht, dann <strong>Guldhem töten</strong>, danach Rigom. Immob hält Rigom dort; Druide kann ihn allein führen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Inevitable Betrayal (ab 66 %)",
+     "html": "Alle 25 s: ein Spieler mit <strong>großem orangem</strong>, einer mit <strong>kleinem grünem</strong> Kreis („Choose your allies wisely“). Groß verlässt die Gruppe und <strong>bleibt stehen</strong>, Klein läuft zu ihm. Andere raus aus dem großen Kreis.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Bludgeon (ab 33 %) & Spear Return",
+     "html": "<strong>Bludgeon</strong>: einzelner Spear-Slam nach vorn (Knockdown) – hinter ihm stehen. <strong>Spear Return</strong>: bei vielen Speeren zieht er alle zu sich (rote Pfeile) – ausweichen.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-4-bastion-of-the-penitent-13.jpg",
+     "caption": "Swipe & Shockwave"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-14.jpg",
+     "caption": "Brutalize: Breakbar"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-15.jpg",
+     "caption": "Rigom unter den Boss"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-16.jpg",
+     "caption": "Betrayal-Paar"
+    }
+   ],
+   "details": [
+    {
+     "title": "Vorbereitung",
+     "items": [
+      {
+       "t": "li",
+       "html": "Tür westlich von MO: anklicken, dann 4 Schutthaufen nach Schlüsseln absuchen – oder ein <strong>Dieb knackt das Schloss</strong>."
+      },
+      {
+       "t": "li",
+       "html": "Power wird bevorzugt (viele kurze Phasen). CC-Utilities einpacken: Sanctuary, Signet of Humility, Basilisk Venom <strong>…</strong>"
+      },
+      {
+       "t": "li",
+       "html": "Stabi: „Stand Your Ground!“, Inspiring Reinforcement."
+      }
+     ]
+    },
+    {
+     "title": "Fixate & Tank",
+     "items": [
+      {
+       "t": "li",
+       "html": "Zuerst der Nächste, danach immer der <strong>Weiteste</strong>. Neuer Fixate nach jeder Breakbar, jedem Split und wenn der Fixate fällt."
+      },
+      {
+       "t": "li",
+       "html": "Aura macht dauerhaft leichten Schaden an allen."
+      },
+      {
+       "t": "li",
+       "html": "Guldhem stunt alle 20 s den Weitesten mit einer AoE – dodgen oder danach heilen."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Samarog",
+     "url": "https://hardstuck.gg/gw2/guides/w4-bastion-of-the-penitent/samarog/"
+    },
+    {
+     "text": "Wingman – Samarog",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/sam"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Samarog · Klassendaten: Wingman – Samarog · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 4 · CHALLENGE MOTE · NUR DAS NEUE",
+   "title": "Samarog",
+   "cm": true,
+   "subtitle": "+10 Mio. HP, keine neuen Mechaniken – aber Speere und Betrayal werden so aggressiv, dass die Gruppe ständig wandern muss.",
+   "chips": [
+    {
+     "text": "+10 Mio. HP",
+     "hot": true
+    },
+    {
+     "text": "Speer alle 5 s",
+     "hot": true
+    },
+    {
+     "text": "Betrayal ab Start",
+     "hot": false
+    },
+    {
+     "text": "Rechteck-Laufweg",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "durch die Speerwand zum Nordstart",
+     "color": "#9a3412"
+    },
+    {
+     "label": "laufend",
+     "desc": "12 Speere → Spear Return",
+     "color": "#ea580c"
+    },
+    {
+     "label": "alle 25 s",
+     "desc": "Betrayal = neuer Speer → weiterziehen",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Splits",
+     "desc": "wenig Platz an der Nische",
+     "color": "#b45309"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Speere bleiben liegen",
+     "html": "Speere fallen <strong>alle 5 s</strong> nach festem Muster, sind <strong>unzerstörbar</strong> und bleiben, bis er sie nach <strong>12 Einschlägen</strong> mit Spear Return einsammelt. Den Boss in der Mitte halten geht nicht mehr.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Betrayal ab Kampfbeginn – Großer ist festgewurzelt",
+     "html": "Der Spieler mit dem großen Kreis kann sich <strong>nicht bewegen, springen oder dodgen</strong>. Klein muss zu ihm. Zusätzlich fällt ein <strong>Speer auf den großen Kreis</strong> – also direkt in die Gruppe.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Laufweg: Rechteck ab Norden",
+     "html": "Gängige Taktik: zwischen den Speeren in einem <strong>Rechteck</strong> wandern, Start am <strong>Nordrand</strong>. Bei jedem Betrayal zieht der Tank den Boss zur nächsten Position, Gruppe dahinter.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Mehr Stabi als im NM",
+     "html": "Der festgewurzelte Spieler ist Sweep/Shockwave schutzlos ausgeliefert → <strong>Stability</strong> großzügig verteilen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Pull-Trick & Splits",
+     "html": "Kampf startet beim Betreten der Arena – <strong>durch die Speerwand</strong> zur Startposition laufen (die Wand macht vor dem Pull keinen Schaden). In Splits ist an der Nische kaum Platz: notfalls abwarten, bis alle 12 Speere liegen und eingesammelt werden.",
+     "wide": false
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-4-bastion-of-the-penitent-17.jpg",
+     "caption": "Rechteck-Laufweg"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-18.jpg",
+     "caption": "Start durch die Speerwand"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-19.jpg",
+     "caption": "Betrayal + Speer"
+    }
+   ],
+   "details": [],
+   "sources": [
+    {
+     "text": "Hardstuck – Samarog (Challenge Mode)",
+     "url": "https://hardstuck.gg/gw2/guides/w4-bastion-of-the-penitent/samarog/#challenge-mode"
+    },
+    {
+     "text": "Wingman – Samarog",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/sam"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Samarog (Challenge Mode) · Klassendaten: Wingman – Samarog (Reiter Challenge Mote) · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 4 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Deimos",
+   "cm": false,
+   "subtitle": "Wing 4 · Endboss. Saul befreien und beschützen, drei Saul-Klone töten, Deimos besiegen. Ein Hand-Kiter hält die Hände von der Gruppe weg.",
+   "chips": [
+    {
+     "text": "Enrage 12:00",
+     "hot": true
+    },
+    {
+     "text": "Hand-Kiter",
+     "hot": true
+    },
+    {
+     "text": "Aegis pro Subgruppe",
+     "hot": false
+    },
+    {
+     "text": "Gleiten (Basics)",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Start",
+     "desc": "Geister stoppen · Ketten im Dämonenreich",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Boss",
+     "desc": "Signet = +200 % Schaden",
+     "color": "#ea580c"
+    },
+    {
+     "label": "75 / 50 / 25 %",
+     "desc": "Green → Saul-Klon",
+     "color": "#b45309"
+    },
+    {
+     "label": "ab 60 %",
+     "desc": "Öle",
+     "color": "#be123c"
+    },
+    {
+     "label": "ab 40 %",
+     "desc": "Geister wieder",
+     "color": "#1e40af"
+    },
+    {
+     "label": "10 %",
+     "desc": "alle ins Dämonenreich",
+     "color": "#6d28d9"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Mind Crush – in die Kuppel",
+     "html": "Etwa alle 40 s zielt er auf alle; nach 5 s geht jeder Getroffene <strong>down</strong>. Saul ruft „Stand in the ward!“ und setzt eine <strong>Kuppel in die Mitte</strong> – reingehen. Block/Aegis geht auch, gibt aber einen Debuff (70 % HP über 10 s).",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Öle (ab 60 %)",
+     "html": "Spawnt am nächsten Spieler (außer Tank). Reintreten <strong>vergrößert</strong> es – voll ausgebreitet = Wipe. <strong>Nie in der Mitte</strong> (Kuppel!) – Tank hält den Boss ab 60 % aus der Mitte. Optional ein Öl-Kiter am Boss.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Hände (Hand-Kiter)",
+     "html": "Alle 10 s 5 Hände unter dem <strong>weitesten</strong> Spieler. Der Kiter stapelt sie sauber in 5er-Gruppen weit weg, braucht viel Sustain + Block/Invuln für Mind Crush. Typisch: Soulbeast, Herald. Saul stellt ihm ein Heil-Banner.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Annihilate („Pizza“)",
+     "html": "Kaskade aus Knockbacks von vorn nach hinten (oranger Kreis in Segmenten). <strong>Nicht nach hinten dodgen</strong> – nach vorn oder im eigenen Segment. Mit Aegis: nur auf <strong>einem</strong> Segment stehen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Saul-Klone (75/50/25 %)",
+     "html": "Green → alle außer Tank und Kiter rein. Klon auf 50 % bringen, oben fertig machen. <strong>Thief</strong> (75 %): Breakbar sonst Boonklau. <strong>Gambler</strong> (50 %): 4 Kopien – die mit <strong>Stab</strong> töten, außen stehen. <strong>Drunkard</strong> (25 %): Breakbar sonst Zufalls-Teleports.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Tears & 10 %-Phase",
+     "html": "Ab 75 % Risse: <strong>drüberlaufen</strong> schließt sie (danach 1 Min. Sperre). 10 %: alle ins Reich – Schläge 1 und 2 nach rechts/links ausweichen, den beidhändigen dritten dodgen (auch der Kiter). Hände + Öle laufen weiter.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-4-bastion-of-the-penitent-20.jpg",
+     "caption": "Mind Crush"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-21.jpg",
+     "caption": "Öl breitet sich aus"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-22.jpg",
+     "caption": "Hände weit weg stapeln"
+    },
+    {
+     "img": "wing-4-bastion-of-the-penitent-23.jpg",
+     "caption": "Annihilate-Pizza"
+    }
+   ],
+   "details": [
+    {
+     "title": "Start & Saul",
+     "items": [
+      {
+       "t": "li",
+       "html": "Kleine (Greed) und große Geister (Pride) laufen zu Saul – <strong>Prides</strong> mit Immob/Cripple/Chill bremsen. Stirbt Saul, ist der Versuch vorbei."
+      },
+      {
+       "t": "li",
+       "html": "Green im Startbereich → Dämonenreich: 4 Statuen mit Ketten zerstören, Flegel-Schwung ausweichen (Stabi verhindert den Knockback nicht)."
+      },
+      {
+       "t": "li",
+       "html": "Etwa 5 s nach Bossstart <strong>Unnatural Signet</strong> (+200 % Schaden, 10 s, ~1×/Min.) – Power-Burst darauf legen."
+      }
+     ]
+    },
+    {
+     "title": "Gruppe & Tank",
+     "items": [
+      {
+       "t": "li",
+       "html": "Pro Subgruppe eine Aegis-Quelle („Advance!“, Mechanist Crisis Zone, Druiden-Tiger). Immob (Vine Surge, Chains of Light) hilft gegen Geister."
+      },
+      {
+       "t": "li",
+       "html": "Tank: jede Klasse, am besten mit Aegis + Blocks. Builds mit langen Animationen oder Zwangsbewegung meiden."
+      }
+     ]
+    },
+    {
+     "title": "Challenge Mode",
+     "items": [
+      {
+       "t": "li",
+       "html": "Hardstuck hat <strong>keinen CM-Abschnitt</strong>. Laut GW2-Wiki: Deimos hat im CM <strong>42 Mio. HP (≈</strong> +17 %), der CM-Erfolg verlangt den Kill <strong>ohne Hilfe des Gefangenen (Saul</strong>)."
+      },
+      {
+       "t": "li",
+       "html": "Rechnet also nicht fest mit Sauls Hilfen (Signet, Banner, Kuppel) – eigene Blocks/Aegis für Mind Crush einplanen und vorab im Squad abklären."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Deimos",
+     "url": "https://hardstuck.gg/gw2/guides/w4-bastion-of-the-penitent/deimos/"
+    },
+    {
+     "text": "Wingman – Deimos",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/dei"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Deimos · Klassendaten: Wingman – Deimos · Klassentipps auf der letzten Seite."
+  }
+ ],
+ "classes": {
+  "meta": "Daten: GW2 Wingman, Classic-Boss-Ansicht, Era „Balance Patch November 2026“, Stand 23.11.2026 · alle vier Bosse mit Normal Mode und Challenge Mote.",
+  "tables": [
+   {
+    "title": "Bosse",
+    "head": [
+     "Boss · Modus · Erfolgsquote",
+     "Am häufigsten gespielt (Top 4)",
+     "Höchster Ø-DPS (Top 4, Specs ≥ 0,8 % Anteil)"
+    ],
+    "rows": [
+     [
+      {
+       "name": "Cairn",
+       "sub": "NM · 77,33 %"
+      },
+      "Mechanist 14,35 %, Troubadour 7,84 %, Chronomancer 7,26 %, Firebrand 5,74 %",
+      "Daredevil 34.909, Harbinger 32.211, Firebrand 31.904, Antiquary 31.707"
+     ],
+     [
+      {
+       "name": "Cairn",
+       "sub": "CM · 87,57 %"
+      },
+      "Troubadour 14,3 %, Harbinger 13,22 %, Mechanist 12,06 %, Antiquary 5,27 %",
+      "Weaver 37.022, Daredevil 34.914, Harbinger 34.188, Spellbreaker 32.805"
+     ],
+     [
+      {
+       "name": "Mursaat Overseer",
+       "sub": "NM · 81,09 %"
+      },
+      "Mechanist 12,96 %, Chronomancer 7,94 %, Troubadour 7,07 %, Firebrand 6,03 %",
+      "Willbender 36.015, Spellbreaker 35.152, Firebrand 34.450, Daredevil 34.220"
+     ],
+     [
+      {
+       "name": "Mursaat Overseer",
+       "sub": "CM · 59,82 %"
+      },
+      "Mechanist 11,68 %, Harbinger 10,75 %, Troubadour 9,56 %, Chronomancer 6,78 %",
+      "Weaver 38.957, Harbinger 37.195, Firebrand 36.386, Spellbreaker 36.051"
+     ],
+     [
+      {
+       "name": "Samarog",
+       "sub": "NM · 81,81 %"
+      },
+      "Mechanist 13,4 %, Chronomancer 8,04 %, Troubadour 6,37 %, Ritualist 5,53 %",
+      "Willbender 21.616, Bladesworn 19.881, Soulbeast 19.063, Daredevil 18.049"
+     ],
+     [
+      {
+       "name": "Samarog",
+       "sub": "CM · 60,12 %"
+      },
+      "Mechanist 13,91 %, Ritualist 11,77 %, Troubadour 10,02 %, Chronomancer 6,77 %",
+      "Willbender 19.582, Ritualist 19.516, Spellbreaker 19.426, Berserker 18.138"
+     ],
+     [
+      {
+       "name": "Deimos",
+       "sub": "NM · 45,29 %"
+      },
+      "Mechanist 13,25 %, Troubadour 7,68 %, Chronomancer 7,26 %, Soulbeast 5,94 %",
+      "Willbender 23.232, Antiquary 21.850, Harbinger 21.510, Renegade 20.613"
+     ],
+     [
+      {
+       "name": "Deimos",
+       "sub": "CM · 54,25 %"
+      },
+      "Mechanist 14,2 %, Troubadour 10,75 %, Ritualist 7,13 %, Chronomancer 5,01 %",
+      "Harbinger 21.645, Deadeye 21.336, Willbender 20.171, Virtuoso 19.707"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "Stabi + Quickness",
+       "text": ""
+      },
+      "<strong>Troubadour, Chronomancer, Firebrand</strong>, <strong>Mechanist</strong>",
+      "Cairn-Greens, Samarog-Knockbacks und Deimos-Pizza – Stabi/Aegis-Supports sind überall gefragt."
+     ],
+     [
+      {
+       "badge": "Condi Cairn/MO",
+       "text": ""
+      },
+      "<strong>Harbinger, Firebrand (Condi), Weaver</strong>, <strong>Mechanist, Mirage</strong>",
+      "Cairn-CM: Harbinger fast so beliebt wie Mechanist; Confusion straft Cairns schnelle Angriffe."
+     ],
+     [
+      {
+       "badge": "Power Sam/Dei",
+       "text": ""
+      },
+      "<strong>Willbender, Spellbreaker, Daredevil</strong>, <strong>Antiquary, Harbinger</strong>",
+      "Samarog = viele kurze Phasen → Power (Hardstuck empfiehlt Spellbreaker/Daredevil)."
+     ],
+     [
+      {
+       "badge": "Hand-Kiter",
+       "text": ""
+      },
+      "<strong>Soulbeast, Herald</strong>",
+      "Hohe Selbstheilung + Blocks/Invuln; Soulbeast ist auf Deimos NM auffällig oft dabei."
+     ],
+     [
+      {
+       "badge": "MO-Rollen",
+       "text": ""
+      },
+      "<strong>Supports übernehmen Claim/Protect/Dispel</strong>",
+      "Keine Build-Vorgaben – wichtig ist Übersicht. Aegis-Quellen gegen Soldier-Explosionen."
+     ]
+    ]
+   }
+  ],
+  "tip": "<strong>Komp-Tipp</strong>: 2 Supports + 8 DPS. Cairn: Agony-Reihenfolge der Supports absprechen. MO: Claim/Protect/Dispel vor dem Pull vergeben. Samarog: Druide oder Immob-Klasse für Rigom. Deimos: Hand-Kiter, ggf. Öl-Kiter fest einteilen.",
+  "intro": "",
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Dragonhunter · Willbender · Luminary",
+    "items": [
+     "<strong>Keine Reflects bei Cairn</strong> (Wall of Reflection, Tome 3).",
+     "„Stand Your Ground!“ für Samarog-Knockbacks.",
+     "„Advance!“ = Aegis für Deimos-Pizza; Chains of Light für Rigom."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Chronomancer · Virtuoso · Mirage · Troubadour",
+    "items": [
+     "Condi-Mirage: Confusion stark auf Cairn.",
+     "Feedback bei Cairn <strong>nicht</strong> nutzen (Shards!).",
+     "Signet of Humility + Focus 4 für Samarog."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Scrapper · Holosmith · Amalgam",
+    "items": [
+     "Condi-Mechanist: Hardstuck-Empfehlung für Cairn.",
+     "Crisis Zone = Gruppen-Aegis bei Deimos.",
+     "Pet-Angriffe beachten bei Rigom-Push."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver: Top-Ø-DPS in Cairn- und MO-CM.",
+     "Beim CM-Countdown Dash in Rotationslücken legen.",
+     "MO: Dodges nie in Spikes."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Scourge · Reaper · Harbinger · Ritualist",
+    "items": [
+     "Harbinger: stark auf Cairn, MO und Deimos-CM.",
+     "Ritualist: auf Sam-CM sehr beliebt und stark.",
+     "Shroud schützt nicht vor Mind Crush – Kuppel nutzen."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Herald: klassischer Deimos-Hand-Kiter.",
+     "Inspiring Reinforcement = Stabi für Sam.",
+     "Vindicator-Dodge nicht nach hinten bei der Pizza."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Spellbreaker: Hardstuck-Tipp für Samarog.",
+     "Viel CC für Brutalize und Thief/Drunkard-Saul.",
+     "Banner/Shouts für Stabi helfen bei Sam."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Druid · Soulbeast · Untamed · Galeshot",
+    "items": [
+     "Soulbeast: Hand-Kiter-Build für Deimos.",
+     "Druide steuert Rigom solo (Glyph, Entangle, Vine Surge).",
+     "White-Tiger-Pet gibt Aegis."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Dieb knackt das Samarog-Tor.",
+     "Daredevil: Top-Ø-DPS Cairn und Sam.",
+     "Basilisk Venom = CC für Brutalize."
+    ]
+   }
+  ],
+  "title1": "Klassen & Rollen – was laut Wingman funktioniert",
+  "title2": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)"
+ },
+ "wing": 4,
+ "name": "Bastion of the Penitent"
+}

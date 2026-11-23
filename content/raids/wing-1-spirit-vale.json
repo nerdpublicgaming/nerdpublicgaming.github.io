@@ -1,0 +1,693 @@
+{
+ "slug": "wing-1-spirit-vale",
+ "bosses": [
+  {
+   "kicker": "GW2 · RAID WING 1 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Vale Guardian",
+   "cm": false,
+   "subtitle": "Wing 1 · Spirit Vale – Boss 1. Drei Farb-Mechaniken (Blau, Rot, Grün), zwei Split-Phasen und ab 66 % ein Boden, der Schaden macht.",
+   "chips": [
+    {
+     "text": "Enrage 8:00",
+     "hot": true
+    },
+    {
+     "text": "Toughness-Tank",
+     "hot": true
+    },
+    {
+     "text": "2–3 Condi-DPS für Rot",
+     "hot": false
+    },
+    {
+     "text": "Boonstrip Pflicht",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Phase 1 · 100–66 %",
+     "desc": "Blues, Seeker, Greens · Edge-Tank SO",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Split 66 %",
+     "desc": "Rot = Condis · Rest Blau + Grün ziehen",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Phase 2 · 66–33 %",
+     "desc": "1 Drittel leuchtet · ab jetzt CC-Phasen",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Split 33 %",
+     "desc": "wie beim ersten Split",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Phase 3 · 33–0 %",
+     "desc": "2 Drittel leuchten · 10 Blues · sicheres Drittel jagen",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Blues (Teleport) – immer ausweichen",
+     "html": "Alle ~10 s erscheinen blaue Felder unter den 5 nächsten Zielen (ab 33 %: 10). Nach 2 s Teleport an eine zufällige Stelle. <strong>Seitlich raus, Dodge, Block oder Invuln</strong> – Felder können sich überlagern. Gelber Bildschirmrand + Sound = du stehst drin.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Seeker (rote Elementare)",
+     "html": "Rote Kugeln, die in kleinem Radius sehr hart treffen. <strong>Knockback/Pull/Immob/Fear</strong> hält sie von der Gruppe fern (Druide: Glyph of the Tides – nicht im Avatar, sonst zieht sie rein!).",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Greens – vorher volles Leben",
+     "html": "Grüner Kreis schrumpft ~5 s, dann <strong>80 % max. HP Schaden</strong> an alle (nicht ausweichbar). Meist wird überheilt: Gruppe voll auffüllen, <strong>Barrier</strong> vorab hilft. Im Split machen 4 Spieler den Green.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Split 66 % / 33 %",
+     "html": "Boss teilt sich in die 3 Wächter. <strong>2–3 Condi-DPS</strong> auf <strong>Rot</strong> (hohe Toughness). Rest auf <strong>Blau</strong> – dessen Blue Pylon Power muss <strong>gestrippt</strong> werden. Ein Healer zieht <strong>Grün</strong> zum Blau-Stack. Vorher Green abwarten + heilen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Magic Storm (CC)",
+     "html": "Nach jedem Split und dann alle 30 s: Breakbar + Energiekugeln, Boss bleibt stehen. <strong>Schnell brechen</strong> – aber ohne Seeker in die Gruppe zu stoßen. Liegt jemand: erst rezzen.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Leuchtender Boden",
+     "html": "Ab 66 % schadet ein Drittel, ab 33 % zwei Drittel; das sichere Feld wandert <strong>im Uhrzeigersinn</strong> (alle ~20 s). Tank zieht vorausschauend mit, die Gruppe folgt eng.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-1-spirit-vale-1.jpg",
+     "caption": "Blues: raus aus dem Feld"
+    },
+    {
+     "img": "wing-1-spirit-vale-2.jpg",
+     "caption": "Seeker wegdrücken"
+    },
+    {
+     "img": "wing-1-spirit-vale-3.jpg",
+     "caption": "Green-Kreis"
+    },
+    {
+     "img": "wing-1-spirit-vale-4.jpg",
+     "caption": "P3: sicheres Drittel jagen"
+    }
+   ],
+   "details": [
+    {
+     "title": "Vorbereitung & Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Boss nimmt erhöhten <strong>Power-Schaden</strong>, aber für den roten Wächter brauchst du 2–3 Condis."
+      },
+      {
+       "t": "li",
+       "html": "<strong>Boonstrip</strong> auf einem Spieler, der nicht zu Rot geht (z. B. Condi-Scourge, Condi-Renegade, oder Sigil of Nullification)."
+      },
+      {
+       "t": "li",
+       "html": "Hoher Heildruck: Burst-Heal und <strong>Barrier</strong> sind Gold wert. Knockbacks (Druide, Tempest) erleichtern die Seeker."
+      }
+     ]
+    },
+    {
+     "title": "Pre-Event",
+     "items": [
+      {
+       "t": "li",
+       "html": "Drei Wächter in einer Reihe, jeder bringt eine Mechanik: <strong>Rot</strong> = Seeker (nur Condi macht Schaden), <strong>Blau</strong> = Greens + Pylon Power (strippen), <strong>Grün</strong> = Blues."
+      },
+      {
+       "t": "li",
+       "html": "Jeder Wächter hat bei 0 % noch eine Breakbar."
+      }
+     ]
+    },
+    {
+     "title": "Tank",
+     "items": [
+      {
+       "t": "li",
+       "html": "Startet meist am <strong>Südost-Rand</strong> (Edge-Tank) – innerhalb der Arena pullen."
+      },
+      {
+       "t": "li",
+       "html": "Boss von der Gruppe wegdrehen. Am Rand <strong>rückwärts dodgen</strong>: die Wand stoppt dich, du bleibst stehen."
+      },
+      {
+       "t": "li",
+       "html": "Wird der Tank teleportiert, läuft der Boss hinterher → Kampf gerät durcheinander."
+      }
+     ]
+    },
+    {
+     "title": "Phase 2 & 3",
+     "items": [
+      {
+       "t": "li",
+       "html": "P2: zuerst leuchtet Nordost (grün), dann Rotation grün → blau → rot. Knapp südlich der Trennlinie stehen, später nördlich."
+      },
+      {
+       "t": "li",
+       "html": "P3: zuerst ist der <strong>Süden</strong> (rot) sicher, danach dreht das sichere Feld weiter – Tank hält den Boss am weitesten entfernten sicheren Rand."
+      },
+      {
+       "t": "li",
+       "html": "Im Split-Stack bei Blau eng stehen, damit Blues keine Greens überdecken."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Vale Guardian",
+     "url": "https://hardstuck.gg/gw2/guides/w1-spirit-vale/vale-guardian/"
+    },
+    {
+     "text": "Wingman – Vale Guardian",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/vg"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Vale Guardian · Klassendaten: Wingman – Vale Guardian · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 1 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Gorseval",
+   "cm": false,
+   "subtitle": "Wing 1 · Boss 2 (nach Spirit Woods). Mit jeder Phase kommt eine Mechanik dazu – DPS-Check über World Eater.",
+   "chips": [
+    {
+     "text": "Enrage 7:00",
+     "hot": true
+    },
+    {
+     "text": "Toughness-Tank",
+     "hot": true
+    },
+    {
+     "text": "CC + Pulls",
+     "hot": false
+    },
+    {
+     "text": "Updraft-Mastery",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Phase 1 · 100–66 %",
+     "desc": "Swipe/Slam · Rampage-CC",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Split 66 %",
+     "desc": "4 Charged Souls töten",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Phase 2 · 66–33 %",
+     "desc": "+ dunkle Orbs (Spectral Darkness)",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Split 33 %",
+     "desc": "4 Charged Souls",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Phase 3 · 33–0 %",
+     "desc": "+ Eier (Ghastly Prisons)",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Slam – hinter dem Boss stehen",
+     "html": "Zwei Autos: <strong>Swipe</strong>, danach immer <strong>Slam</strong> mit Knockback. Hinter Gorseval stehen gegen den Swipe, beim Slam <strong>dodgen</strong> oder <strong>Stability/Aegis</strong>. Tank dreht ihn weg und lässt ihn stehen.",
+     "wide": false
+    },
+    {
+     "n": 2,
+     "title": "Ghastly Rampage (CC-Phase)",
+     "html": "1× pro Phase: Breakbar + <strong>Schadensreflexion</strong>. Schwarze Schleim-Muster explodieren (25 Stacks Torment) – nicht drin stehen, keine Multi-Hit-Skills spammen, <strong>CC drauf</strong>. Taktik „schnell, schnell, langsam“: letzte Bar erst bei ~18 % brechen.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "World Eater = DPS-Check",
+     "html": "Nach dem CC muss die nächste HP-Schwelle (66/33/0 %) fallen, sonst kommt die rote Ultimate. Notfalls: <strong>Wand zerstören</strong> und zu einem <strong>Updraft</strong> gleiten (jeder Updraft nur 1×).",
+     "wide": true
+    },
+    {
+     "n": 4,
+     "title": "Split: Charged Souls",
+     "html": "Bei 66 % und 33 % wird er unverwundbar, 4 Seelen laufen zu ihm. Erreicht eine ihn → World Eater. <strong>Slow/Immob/Chill</strong> drauf, gemeinsam ab Nordwest töten oder Sub 1 Nord / Sub 2 Süd.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Orbs (Spectral Darkness) ab 66 %",
+     "html": "Dunkle Kugeln wachsen. Berühren = 10 Stacks (–10 % Schaden, +10 % erlittener Schaden pro Stack). <strong>Orb zerstören</strong>, goldene Kugeln aufheben (je –5 Stacks). Ranged räumt Orbs nahe Boss und Seelen ab.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Eier (Ghastly Prisons) ab 33 %",
+     "html": "Unter jedem Spieler spawnt ein Gefängnis (nicht dodgebar/blockbar). <strong>Eng stacken, dann seitlich rausgehen</strong>. Gefangen? Skill 1 spammen, die Gruppe cleavt dich frei.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-1-spirit-vale-5.jpg",
+     "caption": "Slam: dodgen oder Stabi"
+    },
+    {
+     "img": "wing-1-spirit-vale-6.jpg",
+     "caption": "World Eater – roter Bereich"
+    },
+    {
+     "img": "wing-1-spirit-vale-7.jpg",
+     "caption": "Orbs zerstören, Gold einsammeln"
+    },
+    {
+     "img": "wing-1-spirit-vale-8.jpg",
+     "caption": "Eier: stacken, seitlich raus"
+    }
+   ],
+   "details": [
+    {
+     "title": "Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Toughness-Tank ohne Spezial-Utilities; <strong>Stability, Pulls, Immob</strong> sind nützlich – Firebrand („Stand Your Ground!“) oder Druide (Staff 4, Entangle) sind typische Tanks."
+      },
+      {
+       "t": "li",
+       "html": "Zwischendurch spawnen Adds, die Spieler umwerfen und Boons strippen – mit <strong>Pulls</strong> (z. B. Focus 4 „Into the Void“) einsammeln."
+      }
+     ]
+    },
+    {
+     "title": "Ablauf",
+     "items": [
+      {
+       "t": "li",
+       "html": "Gorseval steht anfangs in der Mitte; wer eine Linie überschreitet, startet den Kampf."
+      },
+      {
+       "t": "li",
+       "html": "Nach einem Split kann der Tank früher zurück, damit der Boss nicht in den Stack läuft."
+      },
+      {
+       "t": "li",
+       "html": "Beim langsamen letzten CC helfen Schadensnegation und Heal-on-hit gegen die Reflexion."
+      }
+     ]
+    },
+    {
+     "title": "Orbs & Eier",
+     "items": [
+      {
+       "t": "li",
+       "html": "Wer Darkness-Stacks hat: <strong>sofort entfernen</strong> – mit Stacks ist dein Beitrag fast null."
+      },
+      {
+       "t": "li",
+       "html": "Nicht darauf verlassen, dass „jemand anders“ den Orb macht – jeder Ranged hilft."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Gorseval",
+     "url": "https://hardstuck.gg/gw2/guides/w1-spirit-vale/gorseval/"
+    },
+    {
+     "text": "Wingman – Gorseval",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/gors"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Gorseval · Klassendaten: Wingman – Gorseval · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 1 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Sabetha",
+   "cm": false,
+   "subtitle": "Wing 1 · Boss 3. Kein Tank nötig, aber feste Jobs: 2 Kanoniere und ein Flak-Kiter. Fällt die Plattform-HP auf 0, wipet die Gruppe.",
+   "chips": [
+    {
+     "text": "Enrage 9:00",
+     "hot": true
+    },
+    {
+     "text": "kein Tank",
+     "hot": true
+    },
+    {
+     "text": "2 Kanoniere",
+     "hot": false
+    },
+    {
+     "text": "1 Flak-Kiter",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "100–75 %",
+     "desc": "Bomben · Flamewall · Kanonen",
+     "color": "#9a3412"
+    },
+    {
+     "label": "75 % Kernan",
+     "desc": "Shotgun seitlich ausweichen · + Heavy Bombs",
+     "color": "#b45309"
+    },
+    {
+     "label": "75–50 %",
+     "desc": "Sabetha zurück",
+     "color": "#ea580c"
+    },
+    {
+     "label": "50 % Knuckles",
+     "desc": "Breakbar sofort brechen!",
+     "color": "#b45309"
+    },
+    {
+     "label": "25 % Karde",
+     "desc": "Flammenwerfer + Türme",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Flamewall = Sofort-Tod",
+     "html": "Alle 45 s zielt sie mit rotem Pfeil, dann dreht eine Feuerwand <strong>gegen den Uhrzeigersinn 360°</strong>. Nicht dodgebar/blockbar, auch nicht drüber gleiten. Hinter den Pfeil stellen und kurz der Wand folgen. <strong>Vorher rezzen</strong>, keine Zufalls-Teleports, Thugs wegcleaven.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Time Bomb – raus aus dem Stack",
+     "html": "Nächster Spieler (ab 50 %: die 2 nächsten) bekommt eine Bombe, die alle <strong>anderen</strong> hart trifft – auch Downs. Sofort weggehen, explodiert früher als die Animation vermuten lässt. Nicht zu Kanonier/Kiter laufen.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Kanonen: 2 Kanoniere wechseln sich ab",
+     "html": "Alle 30 s Kanone in einer Himmelsrichtung. Ein Sapper wirft die <strong>grüne Bombe</strong> auf den westlichsten Spieler – damit auf das Launchpad mit Kanonier werfen. Debuff <strong>Shell-Shocked</strong> verhindert 2 Kanonen in Folge.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Reihenfolge der Kanonen",
+     "html": "<strong>S – W – N – O – S – N – W – O</strong> (erste bei 8:27). Kanonier 1/3: S, N, S, W · Kanonier 2/4: W, O, N, O. Alternativ: Minimap-Marker + eigener Buffbalken (kein Shell-Shocked = du gehst).",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Flak-Kiter",
+     "html": "Sabetha schießt auf den <strong>weitesten</strong> Spieler Feuerfelder. Ein (meist Ranged-Support) Spieler steht weg vom Stack. Muster: 2 Autos, Flak, Wiederholung. Kiter kann im Westen auch Sapper-Bomben abgreifen und Heavy Bombs kicken.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Mini-Bosse & Heavy Bombs",
+     "html": "Ab <strong>75 % Heavy Bombs</strong> per Interact von der Plattform kicken. <strong>Knuckles</strong>-Breakbar hat höchste Priorität (sonst Flug von der Plattform). Karde: Türme mit Ranged wegräumen. Bei 25 % des Minibosses kehrt Sabetha zurück – evtl. direkt mit Flamewall.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-1-spirit-vale-9.jpg",
+     "caption": "Flamewall – nie durchlaufen"
+    },
+    {
+     "img": "wing-1-spirit-vale-10.jpg",
+     "caption": "Time Bomb: Stack verlassen"
+    },
+    {
+     "img": "wing-1-spirit-vale-11.jpg",
+     "caption": "Kanonen-Reihenfolge"
+    },
+    {
+     "img": "wing-1-spirit-vale-12.jpg",
+     "caption": "Flak-Felder beim Kiter"
+    }
+   ],
+   "details": [
+    {
+     "title": "Positionierung",
+     "items": [
+      {
+       "t": "li",
+       "html": "Gruppe steht immer <strong>zwischen Sabetha und der nächsten Kanone</strong> – das minimiert Laufwege und macht Platz für die Kanoniere."
+      },
+      {
+       "t": "li",
+       "html": "Eng am Boss stacken, damit niemand dem Kiter die Sapper-Bombe „klaut“ – trotzdem bereit sein, sie zu werfen."
+      }
+     ]
+    },
+    {
+     "title": "Kanonen-Details",
+     "items": [
+      {
+       "t": "li",
+       "html": "Kanonier wird hochgeschleudert, zerstört die Kanone, springt zurück."
+      },
+      {
+       "t": "li",
+       "html": "Verpasste Kanone: Backup schicken, der ursprüngliche Kanonier geht <strong>nicht zu spät</strong> (sonst Debuff beim nächsten Sprung)."
+      },
+      {
+       "t": "li",
+       "html": "Kanonen schaden Plattform und Spielern; im Enrage feuern alle 4 gleichzeitig."
+      }
+     ]
+    },
+    {
+     "title": "Adds & Pre-Event",
+     "items": [
+      {
+       "t": "li",
+       "html": "Arsonists (Flammenwerfer), <strong>Thugs</strong> (Knockback – auch in die Wand oder runter), <strong>Sapper</strong> (liefern die grünen Bomben)."
+      },
+      {
+       "t": "li",
+       "html": "Vor dem Boss die Banditen in 3 Abschnitten clearen (Sapper ignorieren), am Launchpad mit einer Sapper-Bombe alle hochschicken."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Sabetha the Saboteur",
+     "url": "https://hardstuck.gg/gw2/guides/w1-spirit-vale/sabetha-the-saboteur/"
+    },
+    {
+     "text": "Wingman – Sabetha",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/sab"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Sabetha the Saboteur · Klassendaten: Wingman – Sabetha · Klassentipps auf der letzten Seite."
+  }
+ ],
+ "classes": {
+  "meta": "Daten: GW2 Wingman, Classic-Boss-Ansicht, Era „Balance Patch November 2026“, Stand 23.11.2026 · Wing 1 hat keine CMs. Prozent = Anteil an allen Spielern in hochgeladenen Logs.",
+  "tables": [
+   {
+    "title": "Bosse",
+    "head": [
+     "Boss · Modus · Erfolgsquote",
+     "Am häufigsten gespielt (Top 5)",
+     "Höchster Ø-DPS (Top 5, Specs ≥ 0,8 % Anteil)"
+    ],
+    "rows": [
+     [
+      {
+       "name": "Vale Guardian",
+       "sub": "NM · Erfolg 74,4 %"
+      },
+      "Mechanist 12,11 %, Troubadour 8,41 %, Chronomancer 6,64 %, Amalgam 5,08 %, Tempest 4,56 %",
+      "Bladesworn 26.214, Conduit 25.255, Antiquary 25.016, Daredevil 23.890, Amalgam 23.358"
+     ],
+     [
+      {
+       "name": "Gorseval",
+       "sub": "NM · Erfolg 93,16 %"
+      },
+      "Mechanist 12,48 %, Troubadour 8,38 %, Chronomancer 7,03 %, Ritualist 5,72 %, Amalgam 5,57 %",
+      "Daredevil 27.437, Bladesworn 25.786, Willbender 25.674, Conduit 25.021, Antiquary 24.873"
+     ],
+     [
+      {
+       "name": "Sabetha",
+       "sub": "NM · Erfolg 70,62 %"
+      },
+      "Mechanist 14,05 %, Troubadour 8,7 %, Chronomancer 5,96 %, Tempest 5,5 %, Ritualist 5,06 %",
+      "Daredevil 31.672, Spellbreaker 30.087, Conduit 29.982, Untamed 29.955, Willbender 29.425"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "Heal-Alac",
+       "text": ""
+      },
+      "<strong>Druide, Tempest, (Scourge</strong>)",
+      "Hardstuck-Empfehlung für VG: Burst-Heal + <strong>Knockbacks gegen Seeker</strong>. Druide auch als Gorseval-Tank beliebt."
+     ],
+     [
+      {
+       "badge": "Quickness",
+       "text": ""
+      },
+      "<strong>Troubadour, Chronomancer, Firebrand</strong>, <strong>Mechanist</strong>",
+      "In allen drei Bossen die meistgespielten Supports/Boon-DPS (Mechanist führt überall)."
+     ],
+     [
+      {
+       "badge": "Power-DPS",
+       "text": ""
+      },
+      "<strong>Daredevil, Bladesworn, Willbender</strong>, <strong>Conduit, Antiquary, Spellbreaker</strong>",
+      "Höchster Ø-DPS über alle drei Bosse; VG und Gorseval sind klar Power-Bosse."
+     ],
+     [
+      {
+       "badge": "Condi für VG-Split",
+       "text": ""
+      },
+      "<strong>Condi-Scourge, Condi-Renegade</strong>, <strong>Harbinger, Virtuoso, Mechanist</strong> (<strong>Condi</strong>)",
+      "2–3 Spieler für den roten Wächter; Scourge/Renegade bringen gleich den <strong>Boonstrip</strong>."
+     ],
+     [
+      {
+       "badge": "Tank / Jobs",
+       "text": ""
+      },
+      "<strong>VG/Gorse: Toughness-Healer</strong> · <strong>Sabetha: Kanoniere = DPS, Kiter</strong> = <strong>Ranged-Support</strong>",
+      "Gorseval-Tank profitiert von <strong>Stability</strong> und <strong>Pulls</strong> (Firebrand, Druide)."
+     ]
+    ]
+   }
+  ],
+  "tip": "<strong>Komp-Tipp</strong>: 2 Heal-Supports (je 1 Quickness + 1 Alacrity) + 8 DPS, bzw. Boon-DPS statt reiner Supports. Für VG zwei Condi-Spieler einplanen, für Sabetha zwei Kanoniere und einen Kiter vorab festlegen.",
+  "intro": "Mechanik-Bezug aus den Hardstuck-Guides, Spielweise als allgemeine Tipps. Bei den neuesten Elite-Specs (Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüf die konkreten Skills im aktuellen Build.",
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Dragonhunter · Willbender · Luminary",
+    "items": [
+     "Firebrand: „Stand Your Ground!“ gegen Gorseval-Slam und Knuckles.",
+     "Aegis vor VG-Blues, Gorse-Slam und Sabethas Bombe.",
+     "Willbender-Teleports: nie Richtung Flamewall."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Scrapper · Holosmith · Amalgam",
+    "items": [
+     "Mechanist: meistgespielt auf allen drei Bossen – Boons oder DPS.",
+     "Magnetic Shield/Inversion schiebt VG-Seeker raus.",
+     "Amalgam/Holo: Power-DPS, auf Gorse-Eier stacken."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Chronomancer · Virtuoso · Mirage · Troubadour",
+    "items": [
+     "Chrono/Troubadour: Quickness – Stacks eng halten für Eier.",
+     "Mirage: <strong>keine Axe-3-Teleports</strong> bei Sabetha (Flamewall)!",
+     "Virtuoso: Condi-Option für VGs roten Wächter."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Tempest: Heal-Alac mit Knockback (Tidal Surge) für Seeker.",
+     "Weaver: viel Bewegung kostet Rotation – Blues früh sehen.",
+     "Barrier vor VG-Greens."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Scourge · Reaper · Harbinger · Ritualist",
+    "items": [
+     "Scourge: Devouring Darkness = <strong>Boonstrip</strong> bei VG, Barrier vor Greens.",
+     "Harbinger: Condi für Rot oder Power auf Gorse.",
+     "Reaper-Shroud schützt vor Seeker-Spitzen nicht – ausweichen."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Condi-Renegade: Banish Enchantment strippt Blue Pylon Power.",
+     "Vindicator-Sprung-Dodge nie in Richtung Flamewall.",
+     "Conduit: starker Power-DPS auf allen W1-Bossen."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: Top-Ø-DPS auf VG – Blues trotzdem dodgen.",
+     "Viel CC für Magic Storm, Gorse-Rampage und Knuckles.",
+     "Spellbreaker: Full Counter blockt Gorse-Slam."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Druid · Soulbeast · Untamed · Galeshot",
+    "items": [
+     "Druide: Glyph of the Tides gegen Seeker – <strong>nicht</strong> im Celestial Avatar.",
+     "Druide als Gorse-Tank: Staff 4 + Entangle.",
+     "Soulbeast/Untamed: stark auf Sabetha."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Daredevil: höchster Ø-DPS auf Gorse und Sabetha.",
+     "Dodge-Spam hilft bei Blues, aber nicht gegen die Flamewall.",
+     "Gute Kanoniere: mobil, viel Ausweichen."
+    ]
+   }
+  ],
+  "title1": "Klassen & Rollen – was laut Wingman funktioniert",
+  "title2": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)"
+ },
+ "wing": 1,
+ "name": "Spirit Vale"
+}

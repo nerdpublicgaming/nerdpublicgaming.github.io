@@ -1,0 +1,650 @@
+{
+ "slug": "wing-8-mount-balrior",
+ "bosses": [
+  {
+   "kicker": "GW2 · RAID WING 8 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Decima",
+   "cm": false,
+   "subtitle": "Wing 8 · Mount Balrior. Spektakulär, aber kaum zufällig: Conduits (Pylone) nicht aufladen, Sparks stoppen, ein Kiter steuert die Pfeile. Kein Tanken nötig.",
+   "chips": [
+    {
+     "text": "Enrage 10:00",
+     "hot": true
+    },
+    {
+     "text": "Kiter mit Teleport",
+     "hot": true
+    },
+    {
+     "text": "Stabi pro Subgruppe",
+     "hot": false
+    },
+    {
+     "text": "Burst-Heal + Barrier",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Phase 1 · 100–75 %",
+     "desc": "Autos → Orange Pfeil → Sprünge → Sparks + Roter Pfeil",
+     "color": "#9a3412"
+    },
+    {
+     "label": "75 % Zwischen",
+     "desc": "Breakbar · Sparks fluten",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Phase 2 · 75–40 %",
+     "desc": "+ 5 Orange Pfeile · Wind",
+     "color": "#ea580c"
+    },
+    {
+     "label": "40 % Zwischen",
+     "desc": "wie oben",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Phase 3 · 40–0 %",
+     "desc": "+ Grüner Pfeil · Wind arenaweit",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Sparks: 10 Charge = Wipe",
+     "html": "Nach dem Sprung (Seismic Crash) lassen aufgeladene Conduits <strong>grüne Kreise</strong> zum Boss wandern. Erreicht einer sie: +1 Charge – <strong>bei 10 wipet die Gruppe</strong>. So viele Spieler reinstellen wie angezeigt, dann frieren sie ein. <strong>Mit Galvanic Sensitivity</strong> (<strong>vom Orange-Pfeil) nicht reinstehen</strong> – tödlicher Tick.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Conduits nicht aufladen",
+     "html": "Conduits (max. 3 Stufen) laden sich durch Pfeile, Blitze und Spreads auf → größere Fläche, größere Sparks. <strong>Doppelt/dreifach geladene Conduits sind der schlimmste Fehler</strong> – bei der Zwischenphasen-Explosion geben sie Exposed + Boss-Stacks.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Roter Pfeil = Sofort-Tod",
+     "html": "Nach beiden Sprüngen zielt sie auf den <strong>Weitesten</strong>: Strahl tötet alles in seiner Bahn. Ziel stellt <strong>einen ungeladenen Conduit zwischen sich und den Boss</strong>. Der <strong>Kiter</strong> zieht das immer – mit Zwei-Wege-Teleport gegen die Zäune (Sand Swell, Shadowstep, Mimic+Blink).",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Orange Pfeile",
+     "html": "Treffen den Weitesten (ab P2 die <strong>5 weitesten</strong>, nummeriert) – Schaden + Galvanic Sensitivity, laden Conduits in der Bahn. Köder stellen den Pfeil <strong>zwischen zwei Conduits</strong>. Alle anderen aus der Bahn. Rote Zone am Boss gibt Harmonic Sensitivity (+~25 % Schaden).",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Sprünge & Wind",
+     "html": "<strong>Seismic Crash</strong>: tief in der Hitbox = tot, danach Knockback → <strong>Stabi</strong> von den Healern oder seitlich dodgen. <strong>Earthrend</strong> trifft nur außen. <strong>Wind</strong> (ab P2, in P3 arenaweit) dreht alle um den Boss – Stabi hebt es auf; Ansage „Violent winds approach!“.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Grüner Pfeil (ab 40 %)",
+     "html": "Zeigt auf einen Rand-Conduit gegenüber dem Kiter: <strong>5 Spieler aus der Boss-Gruppe</strong> müssen drin stehen, sonst Exposed für alle + Conduit lädt sich (2 Spieler = dreifach). Nicht drin dodgen. Während er liegt, springt sie nicht → durch die Hitbox laufen.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-8-mount-balrior-1.jpg",
+     "caption": "Sparks stoppen"
+    },
+    {
+     "img": "wing-8-mount-balrior-2.jpg",
+     "caption": "Roter Pfeil: Conduit als Deckung"
+    },
+    {
+     "img": "wing-8-mount-balrior-3.jpg",
+     "caption": "5 Orange Pfeile"
+    },
+    {
+     "img": "wing-8-mount-balrior-4.jpg",
+     "caption": "Grüner Pfeil: 5 Spieler"
+    }
+   ],
+   "details": [
+    {
+     "title": "Gruppen & Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "Ab Phase 2 zwei Gruppen: <strong>Boss-Gruppe</strong> (Sparks, Grüner Pfeil) und <strong>Pfeil-Köder</strong> (stehen kurz weg, dürfen danach wieder in Melee). Ranged ist keine Pflicht."
+      },
+      {
+       "t": "li",
+       "html": "Healer: Burst-Heal + Barrier (Hardstuck: Heal-Alac-Scourge bei den Ködern), Stabi + Aegis in jeder Subgruppe. 2 Healer + DPS-Kiter (z. B. Virtuoso) oder 3 Healer."
+      }
+     ]
+    },
+    {
+     "title": "Mechaniken im Detail",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Harmonious Thunder</strong>: pro 3 % HP-Verlust ein Stack – lädt beim Pfeil die ungeladenen Conduits nahe dem Weitesten. Kiter steuert so, dass Sparks bei der Boss-Gruppe entstehen."
+      },
+      {
+       "t": "li",
+       "html": "<strong>Spreads</strong>: alle 10 % HP 5 Blitze auf die Nächsten – dodge-/blockbar, max. 3 stacken, nicht rückwärts in einen Conduit laufen."
+      },
+      {
+       "t": "li",
+       "html": "<strong>Zäune</strong> zwischen Conduits stoßen dich zurück, nur Teleports gehen durch. <strong>Zwischenphasen</strong>: Breakbar brechen → 10 s Stun; jeder Spark füllt die Bar wieder. Am Ende stacken, Explosion überheilen."
+      }
+     ]
+    },
+    {
+     "title": "Strategie P2/P3",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Statisch</strong>: Köder bleiben auf einer sicheren Position – einfach für Köder, schwer für Kiter/Boss-Gruppe."
+      },
+      {
+       "t": "li",
+       "html": "<strong>Uhr</strong>: beide Gruppen drehen sich nach jedem aufgeladenen Pfeil um bis zu 90<strong>°</strong> im Uhrzeigersinn – einfacher für Kiter und Boss-Gruppe, braucht mehr DPS."
+      },
+      {
+       "t": "li",
+       "html": "Challenge Mode („Godsquall Decima“, <strong>≈ 87,3</strong> Mio. HP laut Silverhalf-Guide) – Wingman: nur 24,3 % Erfolgsquote."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Decima, the Stormsinger",
+     "url": "https://hardstuck.gg/gw2/guides/w8-mount-balrior/decima-the-stormsinger/"
+    },
+    {
+     "text": "Wingman – Decima",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/deci"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Decima, the Stormsinger · Klassendaten: Wingman – Decima · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 8 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Greer",
+   "cm": false,
+   "subtitle": "Wing 8 · Titan der Fäulnis. Mehrere Gegner gleichzeitig, viele Conditions und CC – aber nach festen Regeln. Stabi, Aegis und Projektil-Schutz sind der Kern.",
+   "chips": [
+    {
+     "text": "Full Power ODER Full Condi",
+     "hot": true
+    },
+    {
+     "text": "Projektil-Schutz",
+     "hot": true
+    },
+    {
+     "text": "Stabi + Aegis",
+     "hot": false
+    },
+    {
+     "text": "10 % = DPS-Check",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "100–65 %",
+     "desc": "Reeg zuerst · Greens · Blobs · Miasma",
+     "color": "#9a3412"
+    },
+    {
+     "label": "65 % Split",
+     "desc": "zu Reeg, Gree heranziehen",
+     "color": "#1e40af"
+    },
+    {
+     "label": "50–35 %",
+     "desc": "wie P1 · Breakbar bei 50 %",
+     "color": "#ea580c"
+    },
+    {
+     "label": "35 % Split",
+     "desc": "Reeg + Gree töten",
+     "color": "#1e40af"
+    },
+    {
+     "label": "35–10 %",
+     "desc": "Triple-Greens · 20 % Breakbar",
+     "color": "#be123c"
+    },
+    {
+     "label": "10 %",
+     "desc": "3 Protolings → Greer fertig",
+     "color": "#6d28d9"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Power oder Condi – nicht mischen",
+     "html": "Die kleinen Titanen geben Boons: <strong>Gree</strong> = Protection, <strong>Reeg</strong> = Resolution. <strong>Power-Gruppen töten Gree, Condi-Gruppen töten Reeg</strong>. Hybrid-Komps funktionieren schlecht – die Wahl bestimmt Startposition und Split-Prioritäten.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Empowering Blasts blocken",
+     "html": "Gree, Ereg und Empowering Beasts schießen Projektile auf Greer → <strong>Empowered</strong> (mehr Schaden). Ein <strong>Bubble-Spieler</strong> (Herald mit Centaur, Firebrand) blockt sie; fehlt der Block, Ansage → Backup mit <strong>Feedback</strong> oder <strong>Corrosive Poison Cloud</strong>.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Blobs of Blight",
+     "html": "Bis zu 3 Kugeln auf die <strong>weitesten</strong> Spieler; trifft eine, bleibt ein Blob liegen, der weiter schießt. Healer <strong>verzerren</strong> sie (Distortion) oder Gruppe dodgt – nie unter einem liegenden Blob stehen bleiben.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Greens (2er / 3er)",
+     "html": "Grüne Kreise brauchen 2 bzw. 3 Spieler. Gescheiterte 3er-Greens geben <strong>Greer</strong> Empowered, 2er geben es dem kleinen Titan → bei Gleichzeitigkeit lieber die 3er lösen. Mit 2 Troubadouren (Tale of the August Queen) im Stack ignorierbar.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Nahkampf-Angriffe",
+     "html": "<strong>Sweep the Mold</strong>: Stabi. <strong>Stomp the Growth</strong>: Aegis/Barrier/Heilung oder springen/dodgen. <strong>Cage of Decay</strong>: Pfeile – seitlich raus, Stabi hilft nicht (pulsierender Knockback). <strong>Enfeebling Miasma</strong>: Kegel zur Wand ködern, dann durch die Hitbox auf die sichere Seite dodgen.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "10 %: Protolings & Tank",
+     "html": "Greer wird unverwundbar, <strong>3 Proto-Greerlings</strong> an zufälligen Orten müssen sterben. Ein <strong>Tank</strong> (Scourge, Specter, Willbender) hält Greer an der Wand, weicht Sweep/Cage seitlich aus, spart Dodges für Stomp, blockt Projektile. Danach knapper DPS-Check mit vielen Empowered-Stacks.",
+     "wide": true
+    }
+   ],
+   "figures": [],
+   "details": [
+    {
+     "title": "Komposition („Cozy“-Strategie)",
+     "items": [
+      {
+       "t": "li",
+       "html": "2 Healer (meist <strong>Troubadour</strong> oder <strong>Chronomancer</strong> – Well of Precognition kontert Stomp), 1 Bubble-Spieler, optional 1 Tank für die 10 %, 6 DPS."
+      },
+      {
+       "t": "li",
+       "html": "Klassen mit Ersatz-Projektilschutz einpacken (Feedback, Corrosive Poison Cloud). Pets/Minions eng am Stack halten – die kleinen Titanen zielen auch auf sie."
+      }
+     ]
+    },
+    {
+     "title": "Ablauf-Tipps",
+     "items": [
+      {
+       "t": "li",
+       "html": "Start rechts auf dem Vorsprung, runter, zwischen Reeg und Wand stehen und ihn bursten. Ein Blocker zieht Greer danach dicht an Reeg heran (aus ~900 Reichweite ködern)."
+      },
+      {
+       "t": "li",
+       "html": "Splits: alle zu Reeg, <strong>ein Spieler</strong> holt Gree heran. Danach auf die Seite von Gree gegenüber Ereg stellen, damit beide im Cleave stehen."
+      },
+      {
+       "t": "li",
+       "html": "Ab 20 %: durch den Boss zur Wand laufen, nach der Breakbar wartet die Gruppe auf eine Animation, dann geht sie nach innen und der Tank behält die Aggro."
+      }
+     ]
+    },
+    {
+     "title": "Hinweis zu Quelle & Modus",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Hardstuck hat keinen Greer-Guide</strong> – diese Seite basiert auf dem Community-Guide von Silverhalf, der den <strong>Challenge Mode („Godspoil Greer“)</strong> beschreibt. Die Mechaniken sind im NM gleich aufgebaut, nur schwächer. Ohne Bilder, weil die nicht von Hardstuck stammen."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Silverhalf – Greer (Strategy Guide)",
+     "url": "https://silverhalf.github.io/mount-balrior/greer/strategy.html"
+    },
+    {
+     "text": "Wingman – Greer",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/greer"
+    }
+   ],
+   "note": "Mechaniken (Hardstuck hat noch keinen Greer-Guide): Silverhalf – Greer (Strategy Guide) · Klassendaten: Wingman – Greer · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 8 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Ura",
+   "cm": false,
+   "subtitle": "Wing 8 · Endboss, Titanin des Dampfes. Konzeptionell einfach, aber viel Koordination: Bloodstone-Splitter rotieren, Geysire zerstören, Breakbars gezielt brechen.",
+   "chips": [
+    {
+     "text": "Enrage 10:00 (+1)",
+     "hot": true
+    },
+    {
+     "text": "Splitter-Rotation",
+     "hot": true
+    },
+    {
+     "text": "extrem viel CC",
+     "hot": false
+    },
+    {
+     "text": "Cleanse + Stabi",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "100–70 %",
+     "desc": "Bubbles · Sprünge · Toxic-Geysire",
+     "color": "#9a3412"
+    },
+    {
+     "label": "70 %",
+     "desc": "Return: alle an neuen Ort",
+     "color": "#b45309"
+    },
+    {
+     "label": "70–40 %",
+     "desc": "stationär · Titanspawn · Sulfuric · Käfig",
+     "color": "#ea580c"
+    },
+    {
+     "label": "40–1 %",
+     "desc": "alle Fähigkeiten",
+     "color": "#be123c"
+    },
+    {
+     "label": "1 % → Heal",
+     "desc": "heilt hoch · 2 Sulfurics · Legendary Ventshots",
+     "color": "#6d28d9"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Bloodstone-Splitter rotieren",
+     "html": "Zwei Splitter am Boden – <strong>beide aufheben startet den Kampf</strong>. Träger bekommt <strong>Deterrence</strong> (immun gegen manche Mechaniken) und die Taste <strong>Dispel</strong>. Dispel legt den Splitter ab und gibt 45 s Sättigung – also <strong>durch den ganzen Squad weiterreichen</strong>. Liegt ein Splitter 4–5 s ungenutzt, pulsiert er Schaden auf alle.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Dispel – wofür?",
+     "html": "<strong>Pressure Blast</strong>: 2 Spieler in Blasen gefangen → per Dispel befreien. <strong>Return</strong>: wirbelt alle herum und teleportiert sie → Dispel befreit. Entfernt <strong>Hardened Shell</strong> von Toxic- und Titanspawn-Geysiren. Transformationen (z. B. Shroud, Photon Forge) können keinen Splitter aufheben.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Toxic Geysire",
+     "html": "Erscheinen in fester Reihenfolge (P1 alle 12 s). Giftfeld wächst. Steht Ura im <strong>ursprünglichen</strong> Radius: Protection, Resolution, Might. Zerstören: <strong>Dispel (Shell weg</strong>) + <strong>Breakbar brechen</strong> – Reihenfolge egal. Power ist gegen Geysire stärker.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Sulfuric & Titanspawn",
+     "html": "<strong>Sulfuric</strong>: zufälliger Spieler bekommt Timer + Superspeed, nach 5 s entsteht dort ein unzerstörbarer Geysir (5 Min.) – <strong>weg vom Boss ablegen</strong>; Schockwelle springen/dodgen. <strong>Titanspawn</strong>: Ura springt (Knockdown) und erschafft einen Geysir, der Adds spawnt – Shell weg und töten.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Breakbar gezielt brechen",
+     "html": "Ura sammelt <strong>Rising Pressure</strong> (mehr Schaden, weniger erlittener Schaden). Brechen setzt das zurück, gibt ihr aber dauerhaft <strong>Titanic Resistance</strong> (künftige Bars schwerer); sie regeneriert schnell. → CC <strong>nur zu abgesprochenen Zeiten</strong> voll reinlegen.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Weitere Angriffe & Finale",
+     "html": "<strong>Autoattack-Kette</strong>: 3 Schläge, der letzte wirft um. <strong>Propel</strong>: Sprung mit schwerem Aufprall. <strong>Steam Prison</strong>: Käfig um einen Spieler, blockt Bewegung, reflektiert Projektile – abseits vom Boss platzieren. Bei 1 % heilt sie hoch, +1 Min. Enrage, 2 Sulfurics gleichzeitig.",
+     "wide": true
+    }
+   ],
+   "figures": [],
+   "details": [
+    {
+     "title": "Komposition",
+     "items": [
+      {
+       "t": "li",
+       "html": "Viel Heilung, Condi-Cleanse, Stabi-Management und <strong>sehr viel CC</strong>. DPS mit guter Mobilität und Cleave sind im Vorteil. Voice-Chat dringend empfohlen."
+      },
+      {
+       "t": "li",
+       "html": "Silverhalf-Strategie: nummerierte Toxic-Geysire, Supports machen möglichst viele Doppel-Ablagen mit den Splittern, Käfig immer weg vom Boss."
+      }
+     ]
+    },
+    {
+     "title": "Hinweis zu Quelle & Modus",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Hardstuck hat keinen Ura-Guide</strong> – Grundlage ist der Silverhalf-Community-Guide zum <strong>Challenge Mode</strong> („<strong>Godscream Ura“)</strong>. Unterschied laut Guide: im CM kommen Toxic-Geysire nach Phase 1 nur alle 24 s (sonst alle 12 s) und regenerieren keine Breakbar. Ura hat außerdem einen <strong>Legendary Mode</strong>."
+      },
+      {
+       "t": "li",
+       "html": "Wingman: Ura-CM nur 11,2 % Erfolgsquote – der härteste CM dieser Sammlung."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Silverhalf – Ura (Mechanics & Strategy)",
+     "url": "https://silverhalf.github.io/mount-balrior/ura/mechanics.html"
+    },
+    {
+     "text": "Wingman – Ura",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/ura"
+    }
+   ],
+   "note": "Mechaniken (Hardstuck hat noch keinen Ura-Guide): Silverhalf – Ura (Mechanics & Strategy) · Klassendaten: Wingman – Ura · Klassentipps auf der letzten Seite."
+  }
+ ],
+ "classes": {
+  "meta": "Daten: GW2 Wingman, Classic-Boss-Ansicht, Era „Balance Patch November 2026“, Stand 23.11.2026 · alle drei Bosse mit Normal Mode und Challenge Mote. Auffällig: im CM ändert sich die Komposition stark (Willbender, Scourge, Troubadour dominieren).",
+  "tables": [
+   {
+    "title": "Bosse",
+    "head": [
+     "Boss · Modus · Erfolgsquote",
+     "Am häufigsten gespielt (Top 4)",
+     "Höchster Ø-DPS (Top 4, Specs ≥ 0,8 % Anteil)"
+    ],
+    "rows": [
+     [
+      {
+       "name": "Greer",
+       "sub": "NM · 57,51 %"
+      },
+      "Mechanist 15,88 %, Troubadour 11,52 %, Harbinger 7,06 %, Chronomancer 6,91 %",
+      "Weaver 29.813, Harbinger 28.507, Daredevil 28.291, Renegade 27.529"
+     ],
+     [
+      {
+       "name": "Greer",
+       "sub": "CM · 20,88 %"
+      },
+      "Troubadour 19,92 %, Willbender 14,91 %, Scourge 14,39 %, Harbinger 7,64 %",
+      "Weaver 34.636, Berserker 33.055, Firebrand 32.794, Willbender 32.782"
+     ],
+     [
+      {
+       "name": "Decima",
+       "sub": "NM · 48,75 %"
+      },
+      "Mechanist 17,09 %, Troubadour 10,96 %, Chronomancer 7,68 %, Scourge 7,58 %",
+      "Spellbreaker 29.326, Harbinger 29.016, Berserker 27.799, Willbender 27.385"
+     ],
+     [
+      {
+       "name": "Decima",
+       "sub": "CM · 24,26 %"
+      },
+      "Scourge 20,48 %, Troubadour 19,46 %, Willbender 13,7 %, Antiquary 7,6 %",
+      "Berserker 30.807, Firebrand 30.634, Harbinger 29.259, Weaver 29.204"
+     ],
+     [
+      {
+       "name": "Ura",
+       "sub": "NM · 52,56 %"
+      },
+      "Mechanist 15,73 %, Troubadour 9,9 %, Chronomancer 7,12 %, Harbinger 6,36 %",
+      "Weaver 32.678, Harbinger 32.650, Daredevil 29.825, Spellbreaker 29.722"
+     ],
+     [
+      {
+       "name": "Ura",
+       "sub": "CM · 11,24 %"
+      },
+      "Willbender 29,81 %, Troubadour 18,38 %, Specter 8,98 %, Scourge 7,3 %",
+      "Antiquary 30.729, Berserker 30.181, Weaver 28.915, Renegade 27.823"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "Heal + Stabi",
+       "text": ""
+      },
+      "<strong>Troubadour, Chronomancer, Scourge</strong> (<strong>Heal-Alac</strong>)",
+      "Troubadour in allen CMs top; Scourge laut Hardstuck ideal für die Decima-Pfeilgruppe (Barrier)."
+     ],
+     [
+      {
+       "badge": "Projektil-Schutz",
+       "text": ""
+      },
+      "<strong>Herald (Centaur), Firebrand, Luminary</strong>, <strong>Vindicator</strong>",
+      "Greer: Empowering Blasts blocken – ohne Bubble wird Greer schnell tödlich."
+     ],
+     [
+      {
+       "badge": "Kiter / Tank",
+       "text": ""
+      },
+      "<strong>Virtuoso (Decima-Kiter), Willbender</strong>, <strong>Scourge, Specter</strong>",
+      "Decima-Kiter braucht Zwei-Wege-Teleport; Willbender im Greer- und Ura-CM extrem verbreitet."
+     ],
+     [
+      {
+       "badge": "Condi-DPS",
+       "text": ""
+      },
+      "<strong>Harbinger, Weaver, Firebrand</strong>, <strong>Scourge, Renegade</strong>",
+      "Greer und Ura sind laut Wingman eher Condi-Bosse; Weaver/Harbinger mit Top-Ø-DPS."
+     ],
+     [
+      {
+       "badge": "Power-DPS",
+       "text": ""
+      },
+      "<strong>Spellbreaker, Berserker, Daredevil</strong>, <strong>Willbender, Antiquary</strong>",
+      "Decima NM: Spellbreaker vorn; Antiquary Top auf Ura-CM."
+     ]
+    ]
+   }
+  ],
+  "tip": "<strong>Komp-Tipp</strong>: Decima: Kiter + zwei Gruppen (Boss / Pfeil-Köder) festlegen. Greer: vorher <strong>Power oder Condi</strong> entscheiden, Bubble-Spieler und 10 %-Tank bestimmen. Ura: Splitter-Reihenfolge und CC-Fenster absprechen – Voice-Chat einplanen.",
+  "intro": "",
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Dragonhunter · Willbender · Luminary",
+    "items": [
+     "Willbender: im Greer-/Ura-CM sehr häufig (DPS + Tank).",
+     "Firebrand/Luminary: Projektil-Schutz für Greer.",
+     "Stabi/Aegis für Decima-Sprünge und Greer-Stomp."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Scrapper · Holosmith · Amalgam",
+    "items": [
+     "Mechanist: meistgespielt in allen NM-Kämpfen.",
+     "Photon Forge: kein Ura-Splitter in der Transformation.",
+     "Pet nah am Stack halten (Greer-Titanen zielen drauf)."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Chronomancer · Virtuoso · Mirage · Troubadour",
+    "items": [
+     "Troubadour: Tale of the August Queen negiert Greer-Greens.",
+     "Chrono: Feedback + Well of Precognition gegen Stomp.",
+     "Virtuoso: guter Decima-Kiter (Mimic + Blink)."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver: Top-Ø-DPS auf Greer und Ura.",
+     "Tornado/Mist Form: kein Ura-Splitter.",
+     "Lange Casts nicht vor Decima-Sprüngen."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Scourge · Reaper · Harbinger · Ritualist",
+    "items": [
+     "Heal-Alac-Scourge: Barrier für Decima-Pfeile.",
+     "Scourge: Celestial-Tank für Greers 10 %.",
+     "Shroud ablegen, bevor du einen Ura-Splitter nimmst."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Herald mit Centaur-Stance: Greer-Bubble.",
+     "Vindicator: Heal-Bubble-Option für Greer.",
+     "Renegade: solider Condi-DPS auf allen drei."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Spellbreaker: Top-Ø-DPS auf Decima NM.",
+     "Viel CC für Ura-Bars und Geysire.",
+     "Berserker: Top auf Decima- und Greer-CM."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Druid · Soulbeast · Untamed · Galeshot",
+    "items": [
+     "Celestial Avatar: kein Ura-Splitter möglich.",
+     "Pets bei Greer passiv/nahe halten.",
+     "Viel CC für Ura sinnvoll."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Specter: Greer-Tank (Shadow Veil, Distracting Throw).",
+     "Shadowstep = Zwei-Wege-Teleport für Decima-Zäune.",
+     "Antiquary: Top-Ø-DPS auf Ura-CM."
+    ]
+   }
+  ],
+  "title1": "Klassen & Rollen – was laut Wingman funktioniert",
+  "title2": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)"
+ },
+ "wing": 8,
+ "name": "Mount Balrior"
+}

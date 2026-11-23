@@ -1,0 +1,774 @@
+{
+ "slug": "wing-6-mythwright-gambit",
+ "bosses": [
+  {
+   "kicker": "GW2 · RAID WING 6 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Conjured Amalgamate",
+   "cm": false,
+   "subtitle": "Wing 6 · Mythwright Gambit – Boss 1. Erst die Arme, dann der Körper. Schwerter und Schilde sammeln, Klatscher überleben – sehr kurze Burn-Phasen, Power lohnt sich.",
+   "chips": [
+    {
+     "text": "Enrage 8:00",
+     "hot": true
+    },
+    {
+     "text": "kein Tank",
+     "hot": true
+    },
+    {
+     "text": "Power-Komp",
+     "hot": false
+    },
+    {
+     "text": "Mount + CC",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Arm 1",
+     "desc": "Slam → Schwerter (rechte Kachel)",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Arm 2",
+     "desc": "Slam → Schilde (Breakbar)",
+     "color": "#ea580c"
+    },
+    {
+     "label": "nach Arm-Kill",
+     "desc": "Orb-Sammelphase",
+     "color": "#047857"
+    },
+    {
+     "label": "Burn",
+     "desc": "Junk Wall → Schilde nutzen",
+     "color": "#be123c"
+    },
+    {
+     "label": "50 %",
+     "desc": "Thunderhead Clap",
+     "color": "#1e40af"
+    },
+    {
+     "label": "25 %",
+     "desc": "beide Arme bei 50 % zurück",
+     "color": "#b45309"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Thunderhead Clap = alle down",
+     "html": "Bei 50 % wird er kurz unverwundbar, dann <strong>klatscht er alle in den Down-State</strong>. Davor <strong>Schild-Taste (Conjured Protection</strong>) nutzen oder „Rebound!“; Notfall: Druiden-Geist (Spirit of Nature) vorab. Schilde dafür aus der Arm-Phase aufheben!",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Slam (Arm-Schlag)",
+     "html": "Der Arm knallt auf eine der zwei mittleren Kacheln (meist rechts starten) – <strong>Knockdown</strong> ohne Dodge, Stabi oder Aegis.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Schwerter",
+     "html": "1. Slam: Schwert-Adds – mit Pulls (Focus 4) bündeln und cleaven. Drüberlaufen = Sonder-Taste <strong>Conjured Slash</strong> (– 50 % Def am Boss/Arm). <strong>Für den zweiten Slam aufheben</strong>, nicht sofort verpulvern.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Schilde & Krieger",
+     "html": "2. Slam: Schild-Adds mit Breakbar (Schwert-Taste bricht sie). Drüberlaufen = <strong>Conjured Protection</strong> – für den Clap. Lebende Schwerter + Schilde laufen zusammen → <strong>Krieger</strong>: viel HP, CC nötig, kann unerfahrene Gruppen wipen. <strong>Verhindern</strong>!",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Orb-Sammelphase",
+     "html": "Nach jedem Arm-Kill: lila Orbs = Schaden, grün mit Strich = <strong>Schwert-Stack</strong>, grün umrandet = <strong>Schild-Stack</strong>. Erreichen sie den Boss, bekommt er Schaden-Buff bzw. Reflexions-Schild. 2+ Sammler: Schwerter von <strong>links</strong>, Schilde von <strong>rechts</strong>.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Junk Wall (Burn)",
+     "html": "Wand rollt von der Seite des toten Arms über die Plattform (und zurück, wenn beide tot). <strong>Schild-Sammler zündet kurz vor dem Treffer</strong>. Schwache Gruppen gehen auf die gegenüberliegende Seite – ein Schild deckt Hin- und Rückweg.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-6-mythwright-gambit-1.jpg",
+     "caption": "Arm-Slam"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-2.jpg",
+     "caption": "Krieger verhindern"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-3.jpg",
+     "caption": "Orbs sammeln"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-4.jpg",
+     "caption": "Clap: Schild vorher"
+    }
+   ],
+   "details": [
+    {
+     "title": "Sammler-Rhythmus",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Schwert-Sammler</strong>: 4 Schwert-Orbs holen, beim 5. die Taste auf den Boss → 5 Stacks auf einmal. Das 2× wiederholen, die letzten 5 für die nächste Arm-Phase behalten."
+      },
+      {
+       "t": "li",
+       "html": "<strong>Schild-Sammler</strong>: Stacks für Wall und Clap aufheben. Orbs sind schnell – nicht hinterherjagen, vorausstellen."
+      },
+      {
+       "t": "li",
+       "html": "Rest der Gruppe bleibt in der Mitte und macht Schaden."
+      }
+     ]
+    },
+    {
+     "title": "25 % & Ende",
+     "items": [
+      {
+       "t": "li",
+       "html": "Beide Arme respawnen mit 50 %: einen töten → Sammelphase, währenddessen Schwerter + DPS auf den zweiten Arm. Jeder Arm-Kill zieht 10 % vom Boss ab."
+      },
+      {
+       "t": "li",
+       "html": "Zu langsam am zweiten Arm → der erste kommt zurück."
+      },
+      {
+       "t": "li",
+       "html": "Alle Spieler (auch Boon-DPS) sollten <strong>Power</strong> spielen: kurze Phasen + Power-Schadensmodifikator."
+      }
+     ]
+    },
+    {
+     "title": "Challenge Mode",
+     "items": [
+      {
+       "t": "li",
+       "html": "Hardstuck und Wiki beschreiben <strong>keine konkreten CM-Änderungen</strong> – im Wiki steht nur der CM-Erfolg „Some Disassembly Required“."
+      },
+      {
+       "t": "li",
+       "html": "Wingman: CM-Erfolgsquote 79,6 % (NM 47,7 %) – die Logs stammen aber v. a. von erfahrenen Gruppen. Bladesworn und Soulbeast führen dort den Ø-DPS an."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Conjured Amalgamate",
+     "url": "https://hardstuck.gg/gw2/guides/w6-mythwright-gambit/conjured-amalgamate/"
+    },
+    {
+     "text": "Wingman – Conjured Amalgamate",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/ca"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Conjured Amalgamate · Klassendaten: Wingman – Conjured Amalgamate · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 6 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Twin Largos",
+   "cm": false,
+   "subtitle": "Wing 6 · Boss 2. Zwei Bosse mit eigenen Movesets: erst gemeinsam Nikare, dann Kenut, danach Split in zwei Gruppen. 10 Stacks Waterlogged = tot.",
+   "chips": [
+    {
+     "text": "2 Min. pro Plattform",
+     "hot": true
+    },
+    {
+     "text": "2 Toughness-Tanks",
+     "hot": true
+    },
+    {
+     "text": "Condi-Cleanse",
+     "hot": false
+    },
+    {
+     "text": "2 starke Healer",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Nikare 100–50 %",
+     "desc": "Blasen · Geysire · Pools · Dashes",
+     "color": "#1e40af"
+    },
+    {
+     "label": "Kenut 100–50 %",
+     "desc": "Steal · Swell · Cyclone · Tornados",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Split 50–25 %",
+     "desc": "Gruppen trennen · Breakbars",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Split 25–0 %",
+     "desc": "Aquatic Aura · Enrage nach erstem Kill",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Waterlogged & Zeitlimit",
+     "html": "Wasser rund um die Plattformen, viele Angriffe und Pools geben <strong>Waterlogged – 10 Stacks = Sofort-Tod</strong>. Jede Plattform hat <strong>2 Minuten</strong>, sonst Wipe. Die Gruppe braucht zwei selbstständige Hälften (je Tank, Heal, Boons).",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Nikare: Blasen & Geysire",
+     "html": "Alle 23 s <strong>kleine orange Kreise</strong> unter allen → 4 s in die Luft. Seitlich raus/dodgen (Aegis blockt nur einen). Gefangen: Stunbreak („Eye of the Storm!“, Crisis Zone). <strong>Große Kreise</strong> (Geysir) unter 2 Spielern: Knockback + Stacks.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Nikare: Pool & Dashes",
+     "html": "Pool auf einem Nicht-Tank (Markierung, langsamer): an <strong>einen Rand</strong> gehen, ablegen, zurück – Pools gesammelt halten. <strong>Vapor Rush</strong>: 2× zum Weitesten, dann zum Tank – Pfeil am Boden lesen, ausweichen.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Kenut: festes 20-s-Muster",
+     "html": "<strong>Vapor Jet</strong>: Teleport zum Weitesten, Rechteck klaut Boons (ein Spieler kann das kiten). <strong>Sea Swell</strong>: oranger Puls, dann Welle mit Launch → <strong>springen/</strong>dodgen, Stabi. <strong>Cyclone Burst</strong>: wenig Schaden, aber Boss bekommt Boons – seitlich ausweichen. 3 Tornados meiden.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Split: Aquatic Barrage (CC)",
+     "html": "Ab 50 % gehen die Subgruppen links/rechts zu je einem Boss. Beide drehen sich mit <strong>Breakbar</strong> und Wasserbolzen – schnell brechen, Projektil-Zerstörung hilft. Ab 25 % beschießen sie auch die andere Plattform (Daze).",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Finale 25–0 %",
+     "html": "<strong>Aquatic Aura</strong>: +2 % erlittener Schaden alle 3 s. Stirbt ein Zwilling, wird der andere <strong>enraged</strong> (Nikares Dash tötet dann fast sofort) → <strong>gleichmäßig runterbringen</strong>. Schnellere Gruppe springt per großem Brunnen rüber.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-6-mythwright-gambit-5.jpg",
+     "caption": "Nikare-Blasen"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-6.jpg",
+     "caption": "Pool am Rand ablegen"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-7.jpg",
+     "caption": "Sea Swell überspringen"
+    }
+   ],
+   "details": [
+    {
+     "title": "Vorher: Sorting and Appraisal",
+     "items": [
+      {
+       "t": "li",
+       "html": "Nach CA links durchs Jackal-Portal. Wöchentlich wechselndes Minispiel: <strong>Ektoplasma</strong> (alle sich teilenden Blobs töten) oder <strong>Minipets</strong> (auf passende Symbole locken, Breakbar, im Strahl schrumpfen)."
+      },
+      {
+       "t": "li",
+       "html": "Danach <strong>Dreg Shark</strong>: Extraktor-Bombe auf seinen Goldhaufen → in die Mitte, <strong>in 5 s brechen</strong>, dann 10 s Schaden."
+      }
+     ]
+    },
+    {
+     "title": "Komposition",
+     "items": [
+      {
+       "t": "li",
+       "html": "Tanks ohne Spezial-Utilities – Firebrand wegen Aegis/Stabi beliebt."
+      },
+      {
+       "t": "li",
+       "html": "Viele Conditions → Cleanse in beiden Gruppen. Schnelle Angriffe → <strong>Confusion</strong> (Mirage, Condi-Mechanist laut Hardstuck)."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Twin Largos",
+     "url": "https://hardstuck.gg/gw2/guides/w6-mythwright-gambit/twin-largos/"
+    },
+    {
+     "text": "Wingman – Twin Largos",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/twins"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Twin Largos · Klassendaten: Wingman – Twin Largos · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 6 · CHALLENGE MOTE · NUR DAS NEUE",
+   "title": "Twin Largos",
+   "cm": true,
+   "subtitle": "+10 % HP für beide Zwillinge – und eine neue Mechanik bei jedem 20 %-Schritt: Aquatic Domain. Einfach, aber tödlich in Kombination.",
+   "chips": [
+    {
+     "text": "+10 % HP",
+     "hot": true
+    },
+    {
+     "text": "80/60/40/20 %",
+     "hot": true
+    },
+    {
+     "text": "runter + zurückgleiten",
+     "hot": false
+    },
+    {
+     "text": "Blasen = Gefahr",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "80 %",
+     "desc": "Aquatic Domain",
+     "color": "#9a3412"
+    },
+    {
+     "label": "60 %",
+     "desc": "Aquatic Domain",
+     "color": "#ea580c"
+    },
+    {
+     "label": "40 %",
+     "desc": "Aquatic Domain",
+     "color": "#1e40af"
+    },
+    {
+     "label": "20 %",
+     "desc": "Aquatic Domain",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Aquatic Domain: runter von der Plattform",
+     "html": "Bei 80/60/40/20 % dreht sich der Boss in der Mitte (ohne Breakbar) und lädt einen wachsenden orangen Kreis. Erreicht er den Rand, sterben <strong>alle auf der Plattform</strong> – nicht blockbar, nicht invulnerbar. <strong>Runterspringen und in einen Brunnen gleiten</strong>, um zurückzukommen.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "HP im Blick behalten",
+     "html": "Der Kreis wächst schnell. Vor jedem 20 %-Schritt <strong>keine langen Animations-Skills</strong> mehr, Weg zur Kante freihalten.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Nicht in den großen Brunnen",
+     "html": "In späteren Phasen schickt dich der <strong>große Brunnen</strong> zur anderen Boss-Plattform – beim Zurückgleiten den richtigen Brunnen wählen.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Blasen + Domain = Tod",
+     "html": "Wer in Nikares Blase hängt, kommt nicht rechtzeitig runter. Hardstuck warnt ausdrücklich: Aquatic Detainment ist im CM besonders gefährlich → <strong>Stunbreak</strong> bereithalten.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-6-mythwright-gambit-8.jpg",
+     "caption": "Runterspringen, zurückgleiten"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-9.jpg",
+     "caption": "Blasen meiden"
+    }
+   ],
+   "details": [],
+   "sources": [
+    {
+     "text": "Hardstuck – Twin Largos (Challenge Mode)",
+     "url": "https://hardstuck.gg/gw2/guides/w6-mythwright-gambit/twin-largos/#challenge-mode"
+    },
+    {
+     "text": "Wingman – Twin Largos",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/twins"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Twin Largos (Challenge Mode) · Klassendaten: Wingman – Twin Largos (Reiter Challenge Mote) · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 6 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Qadim",
+   "cm": false,
+   "subtitle": "Wing 6 · Endboss. Schwebende, wandernde Plattformen, viele Teleports und drei Sonderrollen (Kiter, Lampe, Tank). Einer der verwirrendsten Raid-Kämpfe – dranbleiben lohnt sich.",
+   "chips": [
+    {
+     "text": "Enrage 13:00",
+     "hot": true
+    },
+    {
+     "text": "Kiter · Lampe · Tank",
+     "hot": true
+    },
+    {
+     "text": "viel CC",
+     "hot": false
+    },
+    {
+     "text": "Proximity-Aggro",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Hydra",
+     "desc": "Lampe 1 · Breakbar",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Qadim 100–66 %",
+     "desc": "Pyres · Magma-Elementare",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Destroyer",
+     "desc": "Lampe 2 · sofort CC",
+     "color": "#b45309"
+    },
+    {
+     "label": "Qadim 66–33 %",
+     "desc": "Pyres (1 Plattform gegen Uhrzeigersinn)",
+     "color": "#ea580c"
+    },
+    {
+     "label": "Wyvern",
+     "desc": "Lampe 3 · 2 Tanks",
+     "color": "#6d28d9"
+    },
+    {
+     "label": "33–0 %",
+     "desc": "Sprung/Portal · 15 % Sprung",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Aggro = Nähe – nie näher als der Tank",
+     "html": "<strong>Alle</strong> Gegner fixieren den nächsten Spieler. Wer dem Boss näher ist als der Tank, kann den Versuch zerstören. Wechselt Qadim die Plattform, bekommen die Legendären Gegner einen <strong>roten Kreis</strong>: in 2 s raus, sonst Teleport zu Qadim.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Kiter",
+     "html": "Hält Qadim auf seiner Plattform und tötet die <strong>Lava-Elementare</strong>, bevor sie ihn erreichen (sonst Fiery Empowerment). Leere Plattform = +5 Stacks. Am besten auf dem <strong>blauen</strong> Bereich; Flame Wave dodgen. Typisch: Rifle-Deadeye, auch Daredevil/Scourge.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Lampe",
+     "html": "Vor jeder Legendary-Phase (Start, 66 %, 33 %) gehen 1+ Spieler in die Lampe, räumen Räume auf festen Routen, holen ein <strong>verbündetes Wesen</strong>. Dann zerstört die Gruppe das Lampen-Objekt → das Wesen macht 80 % Schaden am Gegner. Oft Solo-Daredevil (Stab/Kurzbogen).",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Legendary-Gegner",
+     "html": "Muster immer: 2 Autos → Spezial. <strong>Hydra</strong>: Flammenatem, dann Breakbar (sonst Meteore). <strong>Apocalypse Bringer</strong>: <strong>sofort CC</strong> im Hitbox stacken, dann 3 Adds cleaven; Schockwelle springen. <strong>Wyvern</strong>: Matriarch abseits tanken (Spellbreaker), Patriarch-Breakbar hat Vorrang.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Pyres & Qadim",
+     "html": "3 Pyres geben Qadim je einen Boon; ungetötete werfen <strong>Feuerbälle</strong> (Treffer = down, im Down = tot). Häufig: Gruppe teilt sich, 2 Pyres töten, per Portal zurück. Magma-Elementare mit Focus 4 zu Qadim ziehen. Qadim-<strong>Schockwelle springen</strong>, Breakbar nach der 2. Welle brechen.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Letzte Phase",
+     "html": "Nach den Wyvern zu Zommoros<strong>’</strong> Schutzplattform (heilt, cleanst). Per <strong>Mesmer-Portal</strong> oder Sprungrätsel zu Qadim. Zommoros<strong>’</strong> Blase rettet notfalls vor einer verpassten Breakbar. Bei 15 % springt Qadim – Magma-Elementare dort schnell töten.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-6-mythwright-gambit-10.jpg",
+     "caption": "Kiter auf Qadims Plattform"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-11.jpg",
+     "caption": "In der Lampe"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-12.jpg",
+     "caption": "Pyre-Positionen"
+    },
+    {
+     "img": "wing-6-mythwright-gambit-13.jpg",
+     "caption": "Wyvern-Phase"
+    }
+   ],
+   "details": [
+    {
+     "title": "Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Diebe</strong> sind stark: Kiter, Lampe und gestohlene Skills (Magnetic Bomb = CC + Pull, Detonate Plasma)."
+      },
+      {
+       "t": "li",
+       "html": "Tank: jeder, gern <strong>Chronomancer</strong> wegen Portalen. Matriarch-Tank: Spellbreaker (Counterblow, Full Counter) oder Chrono."
+      },
+      {
+       "t": "li",
+       "html": "Lampe so klein wie möglich halten – die Hauptgruppe braucht das CC."
+      }
+     ]
+    },
+    {
+     "title": "Pyres",
+     "items": [
+      {
+       "t": "li",
+       "html": "NW-, SW- und O-Pyre geben je einen Boon: Condi-Gruppen töten den Resistance-, Power-Gruppen den Protection-Pyre, CC-schwache den Stability-Pyre."
+      },
+      {
+       "t": "li",
+       "html": "Beim verbleibenden Pyre kann ein Spellbreaker mit Winds of Disenchantment den Boon während der Breakbar negieren."
+      }
+     ]
+    },
+    {
+     "title": "Challenge Mode",
+     "items": [
+      {
+       "t": "li",
+       "html": "Hardstuck hat <strong>keinen CM-Abschnitt</strong>. Laut Wiki: Qadim, Hydra, Destroyer, Wyvern, Pyres und Magma-Elementare haben im CM <strong>+10 % HP</strong>; neue Mechaniken sind dort nicht beschrieben."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Qadim",
+     "url": "https://hardstuck.gg/gw2/guides/w6-mythwright-gambit/qadim/"
+    },
+    {
+     "text": "Wingman – Qadim",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/q1"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Qadim · Klassendaten: Wingman – Qadim · Klassentipps auf der letzten Seite."
+  }
+ ],
+ "classes": {
+  "meta": "Daten: GW2 Wingman, Classic-Boss-Ansicht, Era „Balance Patch November 2026“, Stand 23.11.2026 · alle drei Bosse mit Normal Mode und Challenge Mote.",
+  "tables": [
+   {
+    "title": "Bosse",
+    "head": [
+     "Boss · Modus · Erfolgsquote",
+     "Am häufigsten gespielt (Top 4)",
+     "Höchster Ø-DPS (Top 4, Specs ≥ 0,8 % Anteil)"
+    ],
+    "rows": [
+     [
+      {
+       "name": "Conjured Amalgamate",
+       "sub": "NM · 47,74 %"
+      },
+      "Mechanist 15,33 %, Troubadour 8,24 %, Chronomancer 6,93 %, Amalgam 6,31 %",
+      "Bladesworn 45.085, Daredevil 42.372, Renegade 40.924, Conduit 40.457"
+     ],
+     [
+      {
+       "name": "Conjured Amalgamate",
+       "sub": "CM · 79,56 %"
+      },
+      "Troubadour 12,23 %, Mechanist 11,62 %, Amalgam 7,61 %, Chronomancer 5,6 %",
+      "Bladesworn 49.189, Soulbeast 48.471, Daredevil 47.968, Vindicator 47.311"
+     ],
+     [
+      {
+       "name": "Twin Largos",
+       "sub": "NM · 73,26 %"
+      },
+      "Mechanist 17,48 %, Troubadour 9,38 %, Chronomancer 8,45 %, Scourge 4,73 %",
+      "Bladesworn 20.241, Soulbeast 20.199, Harbinger 20.051, Firebrand 19.339"
+     ],
+     [
+      {
+       "name": "Twin Largos",
+       "sub": "CM · 73,34 %"
+      },
+      "Mechanist 15,92 %, Troubadour 12,13 %, Chronomancer 6,34 %, Ritualist 6,34 %",
+      "Soulbeast 19.483, Bladesworn 18.895, Dragonhunter 18.744, Daredevil 18.344"
+     ],
+     [
+      {
+       "name": "Qadim",
+       "sub": "NM · 44,35 %"
+      },
+      "Mechanist 15,19 %, Troubadour 10,14 %, Chronomancer 8,78 %, Deadeye 7,35 %",
+      "Conduit 7.963, Vindicator 7.647, Dragonhunter 6.905, Bladesworn 6.796"
+     ],
+     [
+      {
+       "name": "Qadim",
+       "sub": "CM · 31,56 %"
+      },
+      "Troubadour 14,32 %, Mechanist 9,0 %, Reaper 7,33 %, Amalgam 7,26 %",
+      "Berserker 8.015, Vindicator 7.755, Willbender 7.717, Dragonhunter 7.658"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "Power-Burst (CA)",
+       "text": ""
+      },
+      "<strong>Bladesworn, Soulbeast, Daredevil</strong>, <strong>Conduit, Vindicator</strong>",
+      "CA belohnt Power massiv – Top-Ø-DPS in NM und CM."
+     ],
+     [
+      {
+       "badge": "Confusion (Largos)",
+       "text": ""
+      },
+      "<strong>Condi-Mirage/Virtuoso, Condi-Mechanist, Harbinger, Firebrand</strong>",
+      "Schnelle Angriffe der Zwillinge → Confusion; Hardstuck empfiehlt Mirage und Condi-Mechanist."
+     ],
+     [
+      {
+       "badge": "Kiter / Lampe (Qadim)",
+       "text": ""
+      },
+      "<strong>Deadeye, Daredevil, Scourge</strong>",
+      "Deadeye ist auf Qadim auffällig oft vertreten (Kiter); Daredevil Top-Ø-DPS + Solo-Lampe."
+     ],
+     [
+      {
+       "badge": "Supports",
+       "text": ""
+      },
+      "<strong>Troubadour, Mechanist</strong>, <strong>Chronomancer, Amalgam</strong>",
+      "Meistgespielt in allen drei Kämpfen; Chrono zusätzlich als Qadim-Tank mit Portalen."
+     ],
+     [
+      {
+       "badge": "Spezial-Tanks",
+       "text": ""
+      },
+      "<strong>Firebrand (Largos), Spellbreaker</strong> (<strong>Matriarch), Chrono (Qadim</strong>)",
+      "Aegis/Stabi für Largos-Blasen, Counter-Skills gegen Wyvern-Schwünge."
+     ]
+    ]
+   }
+  ],
+  "tip": "<strong>Komp-Tipp</strong>: CA: 2–4 Sammler (Stabi/Aegis) fest einteilen. Largos: zwei selbstständige Subgruppen mit je Tank + Heal. Qadim: Kiter, Lampe, Tank und Matriarch-Tank vorab festlegen, Portal-Mesmer für Pyres und Finale.",
+  "intro": "",
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Dragonhunter · Willbender · Luminary",
+    "items": [
+     "Firebrand: guter Largos-Tank (Aegis gegen Blasen/Geysire).",
+     "„Advance!“/Aegis gegen CA-Slam.",
+     "Dragonhunter: stark auf CA-CM und Largos-CM."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Scrapper · Holosmith · Amalgam",
+    "items": [
+     "Condi-Mechanist: Hardstuck-Tipp für Largos.",
+     "Crisis Zone = Gruppen-Stunbreak für Blasen.",
+     "Amalgam auf CA sehr beliebt."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Chronomancer · Virtuoso · Mirage · Troubadour",
+    "items": [
+     "Focus 4 zieht CA-Schwerter und Qadim-Magma-Elementare.",
+     "Portal Entre: Qadim-Pyres und Finale.",
+     "Condi-Mirage: Confusion auf Largos."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "„Eye of the Storm!“ = Stunbreak für Blasen.",
+     "Bei Largos-CM vor 20 %-Schritten keine langen Casts.",
+     "Tempest: Cleanse für Largos-Conditions."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Scourge · Reaper · Harbinger · Ritualist",
+    "items": [
+     "Scourge: alternativer Qadim-Kiter.",
+     "Harbinger: Top-DPS auf Largos und Qadim.",
+     "Reaper: Top-Ø-DPS <strong>#2</strong> auf Qadim-CM."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Conduit/Vindicator: starke CA-Werte.",
+     "Warding Rift (Staff 3) blockt Schockwellen.",
+     "Renegade: guter Qadim-DPS."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: Top-Ø-DPS auf CA und Largos NM.",
+     "Spellbreaker: Matriarch-Tank, Winds of Disenchantment.",
+     "Viel CC für Hydra-, Destroyer- und Patriarch-Breakbars."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Druid · Soulbeast · Untamed · Galeshot",
+    "items": [
+     "Spirit of Nature als Notfall gegen CA-Clap.",
+     "Soulbeast: Top-DPS auf CA-CM und Largos-CM.",
+     "Druide Staff 5 zerstört Largos-Bolzen."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Rifle-Deadeye: Standard-Qadim-Kiter.",
+     "Daredevil Stab/Kurzbogen: Solo-Lampe.",
+     "Gestohlene Magnetic Bomb = CC + Pull."
+    ]
+   }
+  ],
+  "title1": "Klassen & Rollen – was laut Wingman funktioniert",
+  "title2": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)"
+ },
+ "wing": 6,
+ "name": "Mythwright Gambit"
+}

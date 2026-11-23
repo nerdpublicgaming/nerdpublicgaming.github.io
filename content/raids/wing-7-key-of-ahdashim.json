@@ -1,0 +1,707 @@
+{
+ "slug": "wing-7-key-of-ahdashim",
+ "bosses": [
+  {
+   "kicker": "GW2 · RAID WING 7 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Gate & Cardinal Adina",
+   "cm": false,
+   "subtitle": "Wing 7 · Key of Ahdashim. Gate: Hof einnehmen, Glenna schützen. Adina: Säulen-Kampf – jeder merkt sich seine Säule, Säulen-Köder platzieren neue.",
+   "chips": [
+    {
+     "text": "Adina-Enrage 8:00",
+     "hot": true
+    },
+    {
+     "text": "Toughness-Tank",
+     "hot": true
+    },
+    {
+     "text": "Projektil-Schutz",
+     "hot": false
+    },
+    {
+     "text": "2 Spieler pro Säule",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "Gate",
+     "desc": "4 Kreise einnehmen · 5 Min. oder 3 Djinns",
+     "color": "#047857"
+    },
+    {
+     "label": "Adina Start",
+     "desc": "Palisade (gemountet) → Barrage",
+     "color": "#9a3412"
+    },
+    {
+     "label": "Bossphase",
+     "desc": "Upheaval → Blindheit + Barrage",
+     "color": "#ea580c"
+    },
+    {
+     "label": "75/50/25 %",
+     "desc": "Sandwand gegen Uhrzeigersinn",
+     "color": "#1e40af"
+    },
+    {
+     "label": "danach",
+     "desc": "Hände töten · Brücke",
+     "color": "#b45309"
+    },
+    {
+     "label": "letzte Phase",
+     "desc": "Erosions-Hände spawnen",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Boulder Barrage – hinter deine Säule",
+     "html": "Oranger Kreis wächst bis zum Rand, dann <strong>alle ohne Deckung down</strong>. Jede Säule hält <strong>2 Treffer</strong> → je <strong>2 Spieler pro Säule</strong>. Säulen wandern: vor dem Pull die eigene Säule <strong>relativ zur Tank-Säule</strong> zählen (immer gleiche Richtung).",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Radiant Blindness",
+     "html": "Nach dem Upheaval hebt sie die Arme, ein <strong>Auge</strong> erscheint: wer sie ansieht, ist <strong>20 s blind</strong> (nicht cleansbar). Sofort zur Säule laufen – Barrage folgt direkt. Nicht zerstörte Säulen geben ihr <strong>Pillar Pandemonium</strong> (+20 % Schaden/–20 % erlittener Schaden pro Stack).",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Tectonic Upheaval (Säulen-Köder)",
+     "html": "Die <strong>5 weitesten</strong> Spieler (nicht Tank) bekommen wachsende Kreise, die auf ein Hex einrasten → neue Säule. 5 feste Köder stehen auf <strong>max. Nahkampf-Reichweite</strong>, gehen zurück, warten aufs Einrasten, kommen zurück. Nicht drauf stehen bleiben (tot), nicht zu nah an Adina (Blind für alle).",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Nur für den Tank",
+     "html": "<strong>Perilous Pulse</strong>: oranger Kegel vorn mit Knockback – Tank blockt, alle anderen <strong>nie vor dem Boss</strong>. <strong>Stalagmiten</strong>: Minen hinter dem Tank – nie durchlaufen, sie zerstören den Boden.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Sandwand (75/50/25 %)",
+     "html": "Adina wird unverwundbar, eine Wand von Süd nach Nord dreht <strong>gegen den Uhrzeigersinn</strong> – Berührung = tot. Mitlaufen und im <strong>Nordwesten</strong> stoppen. Die Plattform verändert sich danach.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Hände",
+     "html": "Danach Hände in den Ecken (bei 50/25 % je 2 Paare): <strong>Erosion</strong> (Vulnerability) zuerst töten, <strong>Eruption</strong>-Steine mit <strong>Projektil-Schutz</strong> blocken (Protective Solace, Feedback, Shield of Absorption, Tome 3, Corrosive Poison Cloud) oder dodgen – sonst Knockback in den Treibsand.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-7-key-of-ahdashim-1.jpg",
+     "caption": "Gate: Kreis einnehmen"
+    },
+    {
+     "img": "wing-7-key-of-ahdashim-2.jpg",
+     "caption": "Säulen als Deckung"
+    },
+    {
+     "img": "wing-7-key-of-ahdashim-3.jpg",
+     "caption": "Auge: wegschauen"
+    },
+    {
+     "img": "wing-7-key-of-ahdashim-4.jpg",
+     "caption": "Hände: Projektile blocken"
+    }
+   ],
+   "details": [
+    {
+     "title": "Gate (kurz)",
+     "items": [
+      {
+       "t": "li",
+       "html": "Keine Voraussetzungen, viel CC beschleunigt. Branded-Gegner aus den 4 Kreisen töten oder rausschieben (neue spawnen nach)."
+      },
+      {
+       "t": "li",
+       "html": "Dann Glenna am Tor schützen: <strong>5 Minuten aushalten</strong> oder die <strong>3 Branded Djinns</strong> töten (Breakbar brechen, bursten) – 1–2 Spieler inkl. Healer bleiben bei Glenna."
+      }
+     ]
+    },
+    {
+     "title": "Adina – Vorbereitung",
+     "items": [
+      {
+       "t": "li",
+       "html": "Vorher Erdelementar im Osten: hinter Säulen verstecken (jede zerbrochene Säule = –10 % seiner HP) oder schnell bursten."
+      },
+      {
+       "t": "li",
+       "html": "Außerhalb der Hex-Plattform: Treibsand (Schaden + Blind)."
+      },
+      {
+       "t": "li",
+       "html": "Kurze Phasen → leicht <strong>Power</strong>-lastig (Hardstuck: Power-Virtuoso, Spellbreaker, Soulbeast). Tank mit Blocks/Invuln, z. B. Herald oder Firebrand."
+      }
+     ]
+    },
+    {
+     "title": "Wenn Spieler tot sind",
+     "items": [
+      {
+       "t": "li",
+       "html": "Pro 2 Tote reicht eine Säule weniger → Köder <strong>verschmelzen</strong> Säulen (z. B. 5–6 Lebende = 3 Säulen), um Pandemonium-Stacks zu vermeiden."
+      },
+      {
+       "t": "li",
+       "html": "Ungebrochene Säulen beim nächsten Upheaval durch eine Säule auf ein Nachbar-Hex zerstören."
+      }
+     ]
+    },
+    {
+     "title": "Challenge Mode",
+     "items": [
+      {
+       "t": "li",
+       "html": "Hardstuck hat keinen CM-Abschnitt; laut Wiki hat Adina im CM rund <strong>+10 % HP (≈ 24,9</strong> statt 22,6 Mio.), neue Mechaniken sind nicht beschrieben."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Adina",
+     "url": "https://hardstuck.gg/gw2/guides/w7-key-of-ahdashim/adina/"
+    },
+    {
+     "text": "Wingman – Adina",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/adina"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Adina · Klassendaten: Wingman – Adina · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 7 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Cardinal Sabir",
+   "cm": false,
+   "subtitle": "Wing 7 · Boss 2. Ungewöhnlich: die ganze Gruppe steht VOR dem Boss. Sonder-Taste für CC sammeln, viele koordinierte Breakbars, Zwischenphasen mit Gleiten.",
+   "chips": [
+    {
+     "text": "Enrage 9:00",
+     "hot": true
+    },
+    {
+     "text": "vor dem Boss stacken",
+     "hot": true
+    },
+    {
+     "text": "Updraft-Gleiten",
+     "hot": false
+    },
+    {
+     "text": "LOD / Modell-Limit hoch",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "100–80 %",
+     "desc": "90 %: „Free CC“",
+     "color": "#9a3412"
+    },
+    {
+     "label": "80 % Zwischen",
+     "desc": "Sprungplattformen + 1 Todes-Tornado",
+     "color": "#1e40af"
+    },
+    {
+     "label": "80–60 %",
+     "desc": "Tornados · ab 75 % Tempest",
+     "color": "#ea580c"
+    },
+    {
+     "label": "60 % Zwischen",
+     "desc": "2 Todes-Tornados",
+     "color": "#1e40af"
+    },
+    {
+     "label": "60–0 %",
+     "desc": "Ion Shield (koord. CC) · 50 % Twister + Ecken · 40 % Wisps",
+     "color": "#be123c"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Flash Discharge = euer CC",
+     "html": "Sabirs Autos geben <strong>Violent Currents</strong> (+Schaden). Bei <strong>5 Stacks</strong> gibt es die Sonder-Taste <strong>Flash Discharge</strong>: Teleport + viel Breakbar-Schaden. Deshalb steht die <strong>ganze Gruppe vor ihm</strong>. Tornados berühren löscht alle Stacks.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Free CC (90 %)",
+     "html": "Breakbar, er drückt alle zurück, orange Linien auf dem Boden (Stun + Knockback). <strong>Stacken, ständig auf ihn zulaufen, Flash Discharge auf Cooldown</strong>, alles CC frei. Danach orange Kreise → <strong>verteilen</strong>. Sigil of Paralyzation hilft.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Unbridled Tempest (ab 75 %)",
+     "html": "Pulsierende Kreise, dann eine <strong>tödliche Windwand</strong> (Treffer = down). Drei Auswege: <strong>in einen Tornado</strong> (drüber gleiten), <strong>Flash Discharge</strong> hindurch, oder Tod-verhindernde Skills („Rebound!“). Gefallene sofort rezzen.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Ion Shield (ab 60 %)",
+     "html": "Große, schnell regenerierende Breakbar ohne Rückstoß. Warten, bis <strong>~6 Spieler die Taste</strong> haben (gelber Rahmen im Squad-UI), dann auf Ansage <strong>alle gleichzeitig</strong> Flash Discharge. Nicht gebrochen → wiederholen.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Ab 50 %: Twister & Ecken",
+     "html": "<strong>Titanic Twister</strong>: riesiger oranger Tornado, kreist im Uhrzeigersinn – meiden, Downs sofort rezzen. <strong>Fury of the Storm</strong>: wachsendes oranges Quadrat, <strong>2 Ecken</strong> bekommen Schutzblasen – rechtzeitig hin, sonst down.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Wisps (ab 40 %) & Zwischenphasen",
+     "html": "Auf Seitenplattformen im Westen Wisps (alle 10 % eine mehr, Respawn nach 40 s): <strong>ein Spieler</strong> teleportiert per Taste rüber, bricht + tötet, gleitet per Updraft zurück. Alternativ Projektil-Schutz. <strong>Zwischenphasen</strong>: über Bounce-Plattformen – orange <strong>Todes-Tornados</strong> umgehen.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-7-key-of-ahdashim-5.jpg",
+     "caption": "Free CC"
+    },
+    {
+     "img": "wing-7-key-of-ahdashim-6.jpg",
+     "caption": "Tempest: Tornado nutzen"
+    },
+    {
+     "img": "wing-7-key-of-ahdashim-7.jpg",
+     "caption": "Fury: in die Ecke"
+    }
+   ],
+   "details": [
+    {
+     "title": "Anreise",
+     "items": [
+      {
+       "t": "li",
+       "html": "Vom Leystone Axis nach Westen: Voltaic Wisps cleaven, Kugel durch den Torbogen schieben."
+      },
+      {
+       "t": "li",
+       "html": "Wisps erzeugen Bounce-Plattformen; auf der langen Plattform Tornados als Antrieb nutzen."
+      }
+     ]
+    },
+    {
+     "title": "Allgemein",
+     "items": [
+      {
+       "t": "li",
+       "html": "Tank-Fixate ist nur Formalität – der Tank steht ohnehin im Stack."
+      },
+      {
+       "t": "li",
+       "html": "Ein Mesmer mit Portal kann Zwischenphasen abkürzen (eher in organisierten Gruppen)."
+      },
+      {
+       "t": "li",
+       "html": "Überleben <strong>&gt;</strong> DPS: jeder lebende Spieler zählt für die koordinierten Breakbars."
+      }
+     ]
+    },
+    {
+     "title": "Challenge Mode",
+     "items": [
+      {
+       "t": "li",
+       "html": "Hardstuck hat keinen CM-Abschnitt; laut Wiki hat Sabir im CM rund <strong>+10 % HP (≈ 32,4</strong> statt 29,5 Mio.), neue Mechaniken sind nicht beschrieben."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Cardinal Sabir",
+     "url": "https://hardstuck.gg/gw2/guides/w7-key-of-ahdashim/sabir/"
+    },
+    {
+     "text": "Wingman – Sabir",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/sabir"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Cardinal Sabir · Klassendaten: Wingman – Sabir · Klassentipps auf der letzten Seite."
+  },
+  {
+   "kicker": "GW2 · RAID WING 7 · NORMAL MODE · DAS WICHTIGSTE",
+   "title": "Qadim the Peerless",
+   "cm": false,
+   "subtitle": "Wing 7 · Endboss. Gilt wegen Sonderrollen und zufälliger Mechaniken als schwer: 3 Pylon-Kiter, ein Tether-Tank, Teppich-Platzierung und Feuer-Muster.",
+   "chips": [
+    {
+     "text": "Enrage 12:00",
+     "hot": true
+    },
+    {
+     "text": "3 Pylon-Kiter + Tank",
+     "hot": true
+    },
+    {
+     "text": "Flux Disruptor",
+     "hot": false
+    },
+    {
+     "text": "Boonstrip (20 %)",
+     "hot": false
+    }
+   ],
+   "timeline": [
+    {
+     "label": "100–80 %",
+     "desc": "Pylone brechen · Teppich · Orbs · Skyhammer",
+     "color": "#9a3412"
+    },
+    {
+     "label": "80 % Feuer",
+     "desc": "hochgehoben → Feuer legen",
+     "color": "#be123c"
+    },
+    {
+     "label": "80–60 %",
+     "desc": "+ Poisoned Power · Anomalien",
+     "color": "#ea580c"
+    },
+    {
+     "label": "60–40 %",
+     "desc": "+ Pfeil (Arrow)",
+     "color": "#1e40af"
+    },
+    {
+     "label": "40 / 30 %",
+     "desc": "Pylon N / W zerstört · Bad Tethers",
+     "color": "#b45309"
+    },
+    {
+     "label": "20–0 %",
+     "desc": "Pylon O · alle Disruptor an · Boons strippen",
+     "color": "#6d28d9"
+    }
+   ],
+   "rules": [
+    {
+     "n": 1,
+     "title": "Pylone brechen – sonst Wipe",
+     "html": "Start: Qadim lädt <strong>Ruinous Nova</strong>, bis alle <strong>3 Pylon-Breakbars</strong> gebrochen sind. Gruppe teilt sich auf die Pylone auf – <strong>merk dir deinen Pylon</strong>. Pylon-Kiter tethern sich daran und nehmen Qadim so den Schild. Nur Tank + 3 Kiter aktivieren den <strong>Flux Disruptor</strong>.",
+     "wide": true
+    },
+    {
+     "n": 2,
+     "title": "Force of Retaliation",
+     "html": "Nach dem Brechen (100/80/60 %) und bei 40/30/20 % von einem Pylon aus: Schockwelle mit Knockback – <strong>dodgen oder Stabi</strong>. Nach dem Feuer ist das tödlich, wenn du ins Feuer fliegst.",
+     "wide": false
+    },
+    {
+     "n": 3,
+     "title": "Teppich (Force of Havoc)",
+     "html": "Tank legt nach 3 Autos ein langes Rechteck – sehr viel Schaden. Trifft es einen Pylon, holt Qadim ihn zurück. Visueller Bug: Teppich verschwindet, ist aber <strong>20 s aktiv</strong> – Tank wechselt zwischen zwei Richtungen.",
+     "wide": false
+    },
+    {
+     "n": 4,
+     "title": "Orbs & Skyhammer",
+     "html": "Ab 95 % alle 5 % (bis 40 %, außer 80/60 %) fliegt ein Orb, roter Pfeil zeigt auf 1 von 3 Orten – <strong>Kiter fangen ihn</strong> (oft der links/im Uhrzeigersinn). <strong>Skyhammer</strong>: 3 wachsende Kreise an deiner Position – <strong>Richtung Rand laufen</strong>, Dodge für den letzten großen Kreis aufheben.",
+     "wide": false
+    },
+    {
+     "n": 5,
+     "title": "Feuer bei 80 % und 60 %",
+     "html": "Alle werden hochgehoben, beim Landen entstehen tödliche Feuer unter jedem. „PUG-Feuer“: bei <strong>80 % links</strong> neben dem eigenen Pylon, bei <strong>60 % rechts</strong>. Vorher schon zum Pylon schauen.",
+     "wide": false
+    },
+    {
+     "n": 6,
+     "title": "Ab 60 %: Anomalien, Arrow, Tethers",
+     "html": "<strong>Anomalien</strong> (alle 40 s, ab 40 % alle 30 s) mit Breakbar – über <strong>2 Feuer</strong> brechen, dann sterben sie selbst (Druide oder Krieger). <strong>Arrow</strong>: roter Pfeil verfolgt dich 3×, beim Hände-Senken <strong>springen/dodgen</strong>. Ab <strong>40 % Bad Tethers</strong> verteilen sich – Abstand halten.",
+     "wide": true
+    }
+   ],
+   "figures": [
+    {
+     "img": "wing-7-key-of-ahdashim-8.jpg",
+     "caption": "Teppich"
+    },
+    {
+     "img": "wing-7-key-of-ahdashim-9.jpg",
+     "caption": "Orb fangen"
+    },
+    {
+     "img": "wing-7-key-of-ahdashim-10.jpg",
+     "caption": "PUG-Feuer 80/60 %"
+    },
+    {
+     "img": "wing-7-key-of-ahdashim-11.jpg",
+     "caption": "Anomalie ins Feuer"
+    }
+   ],
+   "details": [
+    {
+     "title": "Rollen",
+     "items": [
+      {
+       "t": "li",
+       "html": "<strong>Pylon-Kiter</strong>: Hardstuck empfiehlt Condi-Scourge; Teleports helfen beim Orb-Fangen. Tether gibt Conditions + 5 % mehr erlittenen Schaden."
+      },
+      {
+       "t": "li",
+       "html": "<strong>Tank</strong>: Firebrand, Chronomancer oder Druide; muss abseits stehen, viel Druck aushalten – Toughness-Ausrüstung empfohlen. Wer zuerst in Reichweite ist (mit Disruptor), wird Tank."
+      },
+      {
+       "t": "li",
+       "html": "<strong>Poisoned Power</strong> (ab 80 %): Breakbar + Strahl auf einen Pylon – in 10 s brechen, sonst ist der Pylon weg."
+      }
+     ]
+    },
+    {
+     "title": "40 % bis Ende",
+     "items": [
+      {
+       "t": "li",
+       "html": "40 %: Qadim fliegt zum <strong>Nord</strong>-Pylon (großes Feuer, Knockback) – Nord-Kiter Disruptor aus, ausweichen. Stack am Feuerrand + „Stand Your Ground!“."
+      },
+      {
+       "t": "li",
+       "html": "Danach nicht in den Kreisen um Qadim/Pylone stehen (Schild-Knockback). 30 %: <strong>West</strong>-Pylon weg, 2 Bad Tethers. 20 %: <strong>Ost</strong>, alle Disruptor zwangsweise an."
+      },
+      {
+       "t": "li",
+       "html": "20 %: regelmäßig Boons strippen (Mind Spike, Feast of Corruption, Banish Enchantment); Gruppe außerhalb des Mittelkreises, bis der Tank die Aggro hat."
+      }
+     ]
+    },
+    {
+     "title": "Challenge Mode",
+     "items": [
+      {
+       "t": "li",
+       "html": "Hardstuck hat keinen CM-Abschnitt; laut Wiki hat Qadim im CM <strong>51 statt ~47,2 Mio. HP</strong>, neue Mechaniken sind nicht beschrieben."
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "text": "Hardstuck – Qadim the Peerless",
+     "url": "https://hardstuck.gg/gw2/guides/w7-key-of-ahdashim/qadim-the-peerless/"
+    },
+    {
+     "text": "Wingman – Qadim the Peerless",
+     "url": "https://gw2wingman.nevermindcreations.de/classic/q2"
+    }
+   ],
+   "note": "Bilder & Mechaniken: Hardstuck – Qadim the Peerless · Klassendaten: Wingman – Qadim the Peerless · Klassentipps auf der letzten Seite."
+  }
+ ],
+ "classes": {
+  "meta": "Daten: GW2 Wingman, Classic-Boss-Ansicht, Era „Balance Patch November 2026“, Stand 23.11.2026 · alle drei Bosse mit Normal Mode und Challenge Mote (Gate hat keine eigene Statistik).",
+  "tables": [
+   {
+    "title": "Bosse",
+    "head": [
+     "Boss · Modus · Erfolgsquote",
+     "Am häufigsten gespielt (Top 4)",
+     "Höchster Ø-DPS (Top 4, Specs ≥ 0,8 % Anteil)"
+    ],
+    "rows": [
+     [
+      {
+       "name": "Adina",
+       "sub": "NM · 33,84 %"
+      },
+      "Mechanist 17,49 %, Troubadour 8,66 %, Chronomancer 7,05 %, Tempest 4,99 %",
+      "Bladesworn 17.927, Soulbeast 17.559, Conduit 16.187, Daredevil 16.177"
+     ],
+     [
+      {
+       "name": "Adina",
+       "sub": "CM · 42,74 %"
+      },
+      "Mechanist 12,78 %, Troubadour 11,91 %, Amalgam 8,41 %, Ritualist 8,33 %",
+      "Antiquary 20.342, Bladesworn 19.485, Soulbeast 18.631, Willbender 18.511"
+     ],
+     [
+      {
+       "name": "Sabir",
+       "sub": "NM · 64,97 %"
+      },
+      "Mechanist 15,36 %, Troubadour 9,15 %, Chronomancer 7,45 %, Amalgam 7,13 %",
+      "Soulbeast 20.606, Amalgam 20.082, Bladesworn 19.210, Willbender 18.550"
+     ],
+     [
+      {
+       "name": "Sabir",
+       "sub": "CM · 72,7 %"
+      },
+      "Mechanist 14,09 %, Troubadour 11,85 %, Amalgam 9,79 %, Ritualist 6,74 %",
+      "Amalgam 22.220, Soulbeast 19.703, Spellbreaker 19.409, Dragonhunter 19.233"
+     ],
+     [
+      {
+       "name": "Qadim the Peerless",
+       "sub": "NM · 47,61 %"
+      },
+      "Scourge 12,62 %, Mechanist 12,2 %, Deadeye 11,3 %, Troubadour 8,6 %",
+      "Daredevil 25.836, Harbinger 23.232, Soulbeast 22.841, Spellbreaker 21.987"
+     ],
+     [
+      {
+       "name": "Qadim the Peerless",
+       "sub": "CM · 47,75 %"
+      },
+      "Scourge 13,36 %, Deadeye 11,72 %, Troubadour 10,4 %, Mechanist 9,35 %",
+      "Daredevil 27.454, Reaper 25.168, Harbinger 24.314, Renegade 23.471"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "Power (Adina/Sabir)",
+       "text": ""
+      },
+      "<strong>Bladesworn, Soulbeast, Antiquary</strong>, <strong>Amalgam, Spellbreaker</strong>",
+      "Kurze Phasen bei Adina; Hardstuck empfiehlt Power-Virtuoso/Spellbreaker/Soulbeast. Amalgam Top auf Sabir."
+     ],
+     [
+      {
+       "badge": "Projektil-Schutz",
+       "text": ""
+      },
+      "<strong>Herald/Renegade (Protective Solace</strong>), <strong>Chrono (Feedback), Firebrand (Tome</strong> 3)",
+      "Adina-Hände und Sabir-Wisps; Herald/Firebrand auch als Adina-Tank."
+     ],
+     [
+      {
+       "badge": "Pylon-Kiter (QtP)",
+       "text": ""
+      },
+      "<strong>Scourge, Deadeye, Virtuoso</strong>",
+      "Scourge ist auf QtP der meistgespielte Spec; Deadeye ebenfalls sehr häufig."
+     ],
+     [
+      {
+       "badge": "Supports",
+       "text": ""
+      },
+      "<strong>Mechanist, Troubadour</strong>, <strong>Chronomancer, Amalgam</strong>",
+      "In allen drei Kämpfen die beliebtesten Supports."
+     ],
+     [
+      {
+       "badge": "Anomalien / Tank QtP",
+       "text": ""
+      },
+      "<strong>Druide oder Krieger</strong> · <strong>Firebrand/Chrono/Druide als Tank</strong>",
+      "Anomalie-Breakbars solo; QtP-Tank braucht viel Sustain."
+     ]
+    ]
+   }
+  ],
+  "tip": "<strong>Komp-Tipp</strong>: Adina: 5 Säulen-Köder (Supports/Ranged) + Säulen-Paare festlegen. Sabir: einen Wisp-Spieler einteilen, Ion-Shield-Ansage durch den Commander. QtP: 3 Pylon-Kiter, Tank, Anomalie-Spieler und Feuer-Seiten vorab klären.",
+  "intro": "",
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Dragonhunter · Willbender · Luminary",
+    "items": [
+     "Tome 3 = Projektil-Schutz gegen Adina-Hände.",
+     "„Stand Your Ground!“ für QtP-Knockbacks am Feuer.",
+     "Firebrand: möglicher QtP-Tank."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Scrapper · Holosmith · Amalgam",
+    "items": [
+     "Amalgam: Top-Ø-DPS auf Sabir (NM+CM).",
+     "Mechanist überall meistgespielt.",
+     "Superspeed hilft beim Skyhammer-Weglaufen."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Chronomancer · Virtuoso · Mirage · Troubadour",
+    "items": [
+     "Power-Virtuoso: Hardstuck-Tipp für Adina.",
+     "Feedback gegen Eruptions-Hände.",
+     "Mind Spike strippt QtP-Boons bei 20 %."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Lange Casts nur ohne Tempest/Barrage in Sicht.",
+     "Weaver: guter Adina-DPS.",
+     "Bei Sabir Tornados für Tempest nutzen."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Scourge · Reaper · Harbinger · Ritualist",
+    "items": [
+     "Condi-Scourge: Hardstuck-Pylon-Kiter für QtP.",
+     "Feast of Corruption strippt QtP-Boons.",
+     "Corrosive Poison Cloud blockt Hand-Projektile."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Protective Solace: Projektil-Schutz (Adina, Wisps).",
+     "Herald: guter Adina-Tank.",
+     "Banish Enchantment für QtP-20 %."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Spellbreaker: Hardstuck-Tipp für Adina.",
+     "Krieger als Anomalie-Brecher bei QtP.",
+     "Bladesworn: Top-DPS Adina NM."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Druid · Soulbeast · Untamed · Galeshot",
+    "items": [
+     "Druide bricht QtP-Anomalien solo (Wyvern-Pet).",
+     "Soulbeast: Top-DPS auf Sabir NM.",
+     "Pet hinter dem Boss halten (Kegel vorn)."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Antiquary: Top-Ø-DPS Adina-CM.",
+     "Deadeye: häufig als QtP-Kiter.",
+     "Daredevil: Top-DPS auf QtP."
+    ]
+   }
+  ],
+  "title1": "Klassen & Rollen – was laut Wingman funktioniert",
+  "title2": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS + Mechaniken)"
+ },
+ "wing": 7,
+ "name": "Key of Ahdashim"
+}
