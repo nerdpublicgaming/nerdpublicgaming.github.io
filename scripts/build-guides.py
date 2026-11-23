@@ -45,6 +45,7 @@ RBADGE = [("heal", "green"), ("support", "blue"), ("quick", "blue"), ("alac", "b
           ("dps", "red"), ("power", "red"), ("condi", "red"), ("burst", "red"), ("confusion", "red")]
 
 e = lambda t: html.escape(str(t or ""), quote=True)
+SUPPORT = "https://www.paypal.com/paypalme/nerdpublicgaming93"   # Spendenlink (Menüpunkt "Unterstütze mich gerne!")
 
 def webify(h):
     """PDF-Verweise an die Webseite anpassen."""
@@ -78,6 +79,7 @@ def header(prefix, active=""):
     <a class="lock-link" href="{prefix}sc-logs/index.html"><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3H9z"/></svg>SC-Logs</a>
     <a href="{prefix}insta.html"{cur if active == "insta" else ""}><span class="nav-long">Phils </span>Insta<span class="nav-long"> inc. Dog-Pics!</span></a>
     <a href="{prefix}index.html#about">Über mich</a>
+    <a class="support-link" href="{SUPPORT}" target="_blank" rel="noopener" title="Unterstütze mich gerne! (PayPal)"><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.9 4.5 6.6 4.5c2.1 0 3.9 1.2 5.4 3.1 1.5-1.9 3.3-3.1 5.4-3.1 3.7 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21z"/></svg><span class="nav-long">Unterstütze mich gerne!</span><span class="nav-short">Unterstützen</span></a>
   </nav>
 </header>'''
 
