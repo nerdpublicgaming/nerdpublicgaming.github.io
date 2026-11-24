@@ -1,0 +1,457 @@
+{
+ "slug": "xunlai-jade-junkyard",
+ "kicker": "GW2 · STRIKECHALLENGEMODE · NURDASNEUE",
+ "title": "Xunlai Jade Junkyard CM",
+ "subtitle": "Ankka · du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "~6 min Enrage je Phase",
+  "Viel CC Pflicht",
+  "Condi-Cleanse",
+  "Ranged-Heal + Rezz"
+ ],
+ "timeline": [
+  {
+   "label": "Phase 1",
+   "desc": "fast alle AoEs one-shotten",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "75 %",
+   "desc": "Zwischenphase: Stacks weg",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Phase 2",
+   "desc": "Ritual: Spites brechen!",
+   "color": "#ea580c"
+  },
+  {
+   "label": "40 %",
+   "desc": "Zwischenphase: Stacks weg",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Phase 3",
+   "desc": "Devouring Void → Sanctuaries",
+   "color": "#b91c1c"
+  },
+  {
+   "label": "P3-Rituale",
+   "desc": "Antipathy frisst Sanctuaries",
+   "color": "#1e3a8a"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Necrotic Ritual: jede Spite brechen",
+   "html": "Jede nicht gebrochene Reanimated Spite gibt Ankka 1 Stack <strong>Power of the Void:</strong> je Stack +25 % Schaden und –25 % erlittener Schaden (multiplikativ). Bei 6 Stacks nimmt sie ~83 % weniger Schaden. Dazu –50 <strong>% Heilung</strong> auf euch (Barrier wirkt voll). <strong>Jeder bringt so viel CC wie möglich.</strong>",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Quaggans: raus – sonst down",
+   "html": "Viel größer als im NM. <strong>Nicht heil-, dodge- oder blockbar</strong> – nur Invuln/Distortion. Rauslaufen, ohne in Snakes oder Hands zu geraten.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Hands: mehr & tödlicher",
+   "html": "<strong>Small Hands:</strong> im Nahkampf bleiben, sonst kommen Extra-AoEs. <strong>Timed Hands:</strong> größer, explodieren, <strong>nicht stapelbar</strong> → nahe der Gruppe an den Rand legen.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Snakeheads sofort töten",
+   "html": "Mehr Köpfe, ihr Knockdown wirft dich in Todesfelder. Nahe Snakes mit Pierce/Epidemic wegräumen. <strong>Ecken meiden</strong> (Lich-Spawn).",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "P3: nur in Sanctuaries überleben",
+   "html": "<strong>Devouring Void</strong> tickt immer stärker. Schutz nur in den 4 Sanctuaries (N/O/S/W). Krait spawnen im Norden → im S, W oder O stacken.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "P3-Ritual: erst Spites, dann Antipathy",
+   "html": "Die Antipathy spawnt am <strong>West-Sanctuary</strong> und frisst eins nach dem anderen im Uhrzeigersinn. Harte CC auf die Spites, langsame AoE-CC drauf, dann Antipathy töten. <strong>Ein verlorenes Sanctuary schadet weniger als Void-Stacks.</strong> Eng stacken: Ankka springt über Spieler (auch Pets/Mechs) – zu nah an der Wand teleportiert sie in die Mitte.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "xunlai-jade-junkyard-1.jpg",
+   "caption": "② Quaggan-Ringe: raus!"
+  },
+  {
+   "img": "xunlai-jade-junkyard-2.jpg",
+   "caption": "③ Timed Hands am Rand"
+  },
+  {
+   "img": "xunlai-jade-junkyard-3.jpg",
+   "caption": "⑤ P3: in die Sanctuaries"
+  },
+  {
+   "img": "xunlai-jade-junkyard-4.jpg",
+   "caption": "⑥ Ankka „leiten“"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Xunlai Jade Junkyard (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/end-of-dragons/xunlai-jade-junkyard-cm/"
+  },
+  {
+   "text": "Wingman – Ankka",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/ankka"
+  }
+ ],
+ "details": [
+  {
+   "title": "Angriffe – was sich ändert",
+   "imgs": [
+    {
+     "img": "xunlai-jade-junkyard-5.jpg",
+     "caption": "Small Hands: nah an Ankka bleiben"
+    },
+    {
+     "img": "xunlai-jade-junkyard-6.jpg",
+     "caption": "Quaggans: nur Invuln/Distortion hilft"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Fast alle Angriffe sind so verstärkt, dass sie <strong>one-shotten</strong>. Unverändert bleibt nur der Pull."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Small Hands:</strong> mehr AoEs; Spieler außerhalb der ersten drei bekommen Zusatz-AoEs."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Timed Hands:</strong> größer und explodieren voll aufgeladen – kein Stapeln mehr. In P3 passen 2 in eine Ecke."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Krait und Lich</strong> machen mehr Schaden; Größe, Tempo und Anzahl wie im NM."
+    },
+    {
+     "t": "li",
+     "html": "Downs nehmen den Explosionsschaden nicht erneut → nach dem Angriff rezzen."
+    },
+    {
+     "t": "li",
+     "html": "Vorsicht mit Down-Pulls: lieber warten, als einen Down in die nächste Explosion zu ziehen."
+    },
+    {
+     "t": "li",
+     "html": "Ablauf der Angriffe pro Phase ist identisch zum NM."
+    }
+   ]
+  },
+  {
+   "title": "Phase 1 & 2",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "Wie NM, aber Quaggans größer und mehr Flächen downen sofort – <strong>jeder Treffer belastet die Heiler.</strong>"
+    },
+    {
+     "t": "li",
+     "html": "<strong>Debilitating Void</strong> halbiert eingehende Heilung, nicht Barrier → Scourge und Mechanist sind starke Heiler."
+    },
+    {
+     "t": "li",
+     "html": "Ab dem ersten Ritual spawnt <strong>Reanimated Hatred</strong> und fixiert Spieler mit wenig HP – AoEs draufwerfen."
+    },
+    {
+     "t": "li",
+     "html": "Verpasste Spites in P1/P2 sind kein Drama: Stacks verfallen bei 75 % und 40 %. Klappt der CC aber gar nicht → /gg und mehr CC mitnehmen."
+    }
+   ]
+  },
+  {
+   "title": "Phase 3 & Leiten",
+   "imgs": [
+    {
+     "img": "xunlai-jade-junkyard-7.jpg",
+     "caption": "4 Sanctuaries in den Himmelsrichtungen"
+    },
+    {
+     "img": "xunlai-jade-junkyard-8.jpg",
+     "caption": "P3-Opener am West-Sanctuary"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Sanctuary-Buff schützt kurz vor der Void – ähnlich Ley-Energy-Buildup, nur stärker."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Lich-Fixate:</strong> nicht sofort wegrennen, nahe der Gruppe kiten. Timed Hands in die Ecken (Lich-Spawn)."
+    },
+    {
+     "t": "li",
+     "html": "Ritual in P3: 3 Spites + Antipathy + Malice (Fear) gleichzeitig. Gefearte Mitspieler befreien."
+    },
+    {
+     "t": "li",
+     "html": "Am Westen starten, auf das Sanctuary warten, dann zwischen Ankka und Sanctuary stellen → sie springt über euch ins Sanctuary."
+    },
+    {
+     "t": "li",
+     "html": "Ankka springt über einen Spieler – <strong>eng stacken</strong> = ihr bestimmt die Richtung. Zu nah an der Wand: Teleport zur Mitte + Small Hands."
+    },
+    {
+     "t": "li",
+     "html": "Title-Run „Gaze into the Void“: in P3 beide Rituale bewusst scheitern lassen (6 Stacks) – braucht ~170–200k Squad-DPS."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Mechanist",
+      "19,2 %"
+     ],
+     [
+      "Virtuoso",
+      "12,4 %"
+     ],
+     [
+      "Troubadour",
+      "8,5 %"
+     ],
+     [
+      "Harbinger",
+      "7,5 %"
+     ],
+     [
+      "Scourge",
+      "7,0 %"
+     ],
+     [
+      "Firebrand",
+      "5,6 %"
+     ],
+     [
+      "Chronomancer",
+      "4,5 %"
+     ],
+     [
+      "Tempest",
+      "4,1 %"
+     ],
+     [
+      "Ritualist",
+      "3,5 %"
+     ],
+     [
+      "Specter",
+      "2,8 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Vindicator",
+      "21.954",
+      "24.748"
+     ],
+     [
+      "Harbinger",
+      "20.145",
+      "25.361"
+     ],
+     [
+      "Mechanist",
+      "19.503",
+      "27.006"
+     ],
+     [
+      "Virtuoso",
+      "19.383",
+      "26.460"
+     ],
+     [
+      "Weaver",
+      "18.967",
+      "23.038"
+     ],
+     [
+      "Antiquary",
+      "18.817",
+      "22.599"
+     ],
+     [
+      "Galeshot",
+      "18.809",
+      "25.989"
+     ],
+     [
+      "Renegade",
+      "18.639",
+      "22.658"
+     ],
+     [
+      "Willbender",
+      "18.607",
+      "23.415"
+     ],
+     [
+      "Daredevil",
+      "18.595",
+      "21.532"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Mechanist, Virtuoso, Harbinger, Firebrand",
+      "Am häufigsten in den CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Vindicator, Weaver, Antiquary, Galeshot, Renegade, Willbender, Daredevil",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Scourge, Chronomancer, Specter",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Luminary, Paragon, Druid",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Firebrand: höchster Top-Wert in den Logs.",
+     "Purging Flames: halbpassiver Cleanse gegen Gift/Torment.",
+     "Aegis gegen Hands-Spitzen."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Mechanist: meistgespielt, Barrier umgeht –50 % Heilung.",
+     "Mech zählt als Sprungziel für Ankka – Position beachten!",
+     "Scrapper-Gyros: Superspeed und Rezz."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Virtuoso: Pierce tötet Snakeheads nebenbei.",
+     "Distortion rettet vor Quaggans.",
+     "Viel CC für Spites mitnehmen."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Tempest: Cleanse + Heilung, Barrier vor Ritualen.",
+     "Weaver/Evoker: starker DPS, aber wenig HP.",
+     "Lange Channels nicht vor Quaggans starten."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Scourge: Epidemic gegen Snakes, Barrier, Down-Pulls.",
+     "Harbinger: hoher Ø-DPS.",
+     "Ritualist: oft gespielt, solider DPS."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Vindicator: höchster Ø-DPS in diesen Logs.",
+     "Banish Enchantment/Staff-CC für Spites.",
+     "Herald: Boons, Ø-DPS eher niedrig."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: Dragon Trigger nur im Sanctuary laden.",
+     "Hammer &amp; Mace: viel CC für die Spites.",
+     "Life Steal ist keine Heilung – wirkt trotz – 50 %."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Galeshot: starker Ø-DPS.",
+     "Pets zählen als Sprungziel – Pet nahe der Gruppe halten.",
+     "Druide: Heiler-Option mit Ranged-Heal."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Deadeye: Ranged-DPS bei Pull und Quaggans.",
+     "Daredevil: viele Dodges gegen Hands.",
+     "Specter: Barrier-Heiler, gut gegen Debilitating Void."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 24.11.2026 · Ankka: Erfolgsquote 62,9 %, Median-Kill 3:43 <strong>min</strong> · Ø-DPS nur Specs mit ≥ 0,5 % Anteil",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman führt <strong>Mechanist</strong> (auch Hardstuck-Empfehlung als Heal-Alac – Barrier ignoriert die Heilungsreduktion), dazu Virtuoso, Harbinger und Scourge. Hardstuck rät zu Condi-Virtuoso/Scourge gegen die Snakeheads und zu Down-Pulls/Rezz-Skills.",
+  "intro": "Mechanik-Bezug aus dem Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

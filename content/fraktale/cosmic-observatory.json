@@ -1,0 +1,439 @@
+{
+ "slug": "cosmic-observatory",
+ "kicker": "GW2 · STRIKECHALLENGEMODE · NURDASNEUE",
+ "title": "Cosmic Observatory CM",
+ "subtitle": "Dagda · du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "10:00 Enrage",
+  "CC Pflicht",
+  "Ranged/Condi stark",
+  "Ally-Effekte anzeigen"
+ ],
+ "timeline": [
+  {
+   "label": "Start",
+   "desc": "Planet Crash: Bar brechen",
+   "color": "#b91c1c"
+  },
+  {
+   "label": "100–75 %",
+   "desc": "Shooting Stars · Nebula · ab 90 %: Fever",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Splits",
+   "desc": "75 / 50 / 25 % · mehr Adds",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "75–50 %",
+   "desc": "NEU: Numbers + 2 Greens",
+   "color": "#ea580c"
+  },
+  {
+   "label": "50–0 %",
+   "desc": "+ Rain of Comets · Planet Crash",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Planet Crash & Demonic Aura",
+   "html": "Der Kampf beginnt mit <strong>Planet Crash:</strong> Bar nicht gebrochen = <strong>Wipe</strong>; jeder Break erhöht die nächste Bar (Planetary Weight). Dagda hat 10 <strong>Stacks Demonic Aura</strong> (je –10 % erlittener Schaden): <strong>Purifying Light</strong> (Spezialaktionstaste) auf Dagda entfernt 5 Stacks – nach 0 Stacks 20 s Pause, dann wieder 10.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Shooting Stars: Ziel stirbt",
+   "html": "Fehlgeschlagen = Ziel <strong>tot</strong> + Infirmity für alle. 5 <strong>Spieler</strong> zwischen Ziel und Dagda; das Ziel geht einen Schritt zurück und bleibt stehen.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Spinning Nebula: nicht blockbar",
+   "html": "Projektile geben Debilitated (bis 3 Stacks) und lassen sich im CM <strong>nicht blocken oder reflektieren</strong>. Pets, Mechs und Minions nahe am Spin sammeln Stacks.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Soul Feast: 5 Pfützen folgen dir",
+   "html": "Ziel kitet sie <strong>weg von der Gruppe</strong>. Jeder Treffer = Residual Anxiety; bei 10 Stacks wird man feindlich (per CC oder Down zurückholen). Alle auf 10 = Fail.",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Neu ab 75 %: Numbers & Greens",
+   "html": "<strong>Charging Constellation:</strong> 5 Ziele, Extreme Vulnerability → weit verteilen (Aegis/Block negiert). <strong>Meteor Crash:</strong> 2 Greens, je 3 <strong>Spieler.</strong>",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Splits & Demonic Blast",
+   "html": "Demonic Blast stößt jetzt alle <strong>durch ein Schadensfeld zur Wand</strong> – sofort raus, ggf. durch die Segmente dodgen. Im Split Elite- und Champion-Tormented (Torment); Champions rufen <strong>immune Phantome</strong> (nur CC tötet sie) und launchen mit Tornados → zwischen den Treppen kämpfen. Ab 50 %: <strong>Demonic Pools</strong> (8 orange Kreise am Rand) geben Residual Anxiety.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "cosmic-observatory-1.jpg",
+   "caption": "① Planet Crash: CC!"
+  },
+  {
+   "img": "cosmic-observatory-2.jpg",
+   "caption": "② Shooting Stars: davorstellen"
+  },
+  {
+   "img": "cosmic-observatory-3.jpg",
+   "caption": "③ Spinning Nebula"
+  },
+  {
+   "img": "cosmic-observatory-4.jpg",
+   "caption": "⑤ verteilen (Fever/Numbers)"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Snow Crows – Cosmic Observatory CM",
+   "url": "https://snowcrows.com/guides/strike-missions/secrets-of-the-obscure/cosmic-observatory-cm"
+  },
+  {
+   "text": "Hardstuck – Cosmic Observatory (NM)",
+   "url": "https://hardstuck.gg/gw2/guides/secrets-of-the-obscure/cosmic-observatory/"
+  },
+  {
+   "text": "Wingman – Dagda",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/dagda"
+  }
+ ],
+ "details_intro": "Hardstuck hat für Cosmic Observatory nur einen Normal-Mode-Guide. Texte nach Snow Crows (CM-Guide) und MetaBattle; die Bilder sind Hardstuck-NM-Standbilder – die Mechaniken sehen gleich aus.",
+ "details": [
+  {
+   "title": "Grundlagen",
+   "imgs": [
+    {
+     "img": "cosmic-observatory-5.jpg",
+     "caption": "Planet Crash zum Kampfstart"
+    },
+    {
+     "img": "cosmic-observatory-6.jpg",
+     "caption": "Shooting Stars: grüner Pfeil durchs Ziel"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Hide Ally Visual Effects auf <strong>Hide None</strong> oder <strong>Only Show Squad</strong> – sonst fehlen Spread- und Stack-Anzeigen."
+    },
+    {
+     "t": "li",
+     "html": "Purifying-Light-Felder (1–5) nicht alle sofort nehmen: der Skill hält 15 s nach dem Aufheben – später sammeln, dann schneller Aura abbauen."
+    },
+    {
+     "t": "li",
+     "html": "Purifying Light tötet auch eine Soul Feast und macht ihr Feld harmlos."
+    },
+    {
+     "t": "li",
+     "html": "Viel CC mitbringen; Stabi hilft in den Splits. Schatten-Effekte runter (Planet Crash blendet)."
+    },
+    {
+     "t": "li",
+     "html": "6,5 s Zeit, mindestens 5 Spieler zwischen Ziel und Dagda zu bringen."
+    },
+    {
+     "t": "li",
+     "html": "Überschneidet es sich mit Purifying Light: Supports ohne Pfeil kümmern sich um die Aura."
+    },
+    {
+     "t": "li",
+     "html": "Starburst ist im Hitbox Nahkampf, außerhalb ein Projektil – am Rand des Hitbox trifft beides."
+    }
+   ]
+  },
+  {
+   "title": "Phasen",
+   "imgs": [
+    {
+     "img": "cosmic-observatory-7.jpg",
+     "caption": "Spinning Nebula: Mitte oder seitlicher Fächer"
+    },
+    {
+     "img": "cosmic-observatory-8.jpg",
+     "caption": "Spreads sauber verteilen"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "100–90 %: Auto → Shooting Stars (2×), dann Nebula. Bei 90 % <strong>Demonic Blast:</strong> zwischen die orangen Segmente; Fehler = Debilitated + 3 Residual Anxiety + Tormented-Add."
+    },
+    {
+     "t": "li",
+     "html": "90–75 %: + Demonic Fever (7 nächste, orange Kreise nicht überlappen)."
+    },
+    {
+     "t": "li",
+     "html": "Nebula kann man mit dem Körper für andere blocken; Distortion verhindert Stacks."
+    },
+    {
+     "t": "li",
+     "html": "75–50 %: Numbers einmal allein, dann Stars, Meteor Crash, Demonic Pools + Nebula, Soul Feast, Fever + Numbers."
+    },
+    {
+     "t": "li",
+     "html": "50–0 %: + Rain of Comets und erneut Planet Crash; 25–0 % wie 50–25 %."
+    },
+    {
+     "t": "li",
+     "html": "Splits: 75 % (4 Adds), 50 % (5), 25 % (7). Soul Feast kann in den Split mitgenommen werden – bis zu 10 Pfützen auf einem Spieler."
+    },
+    {
+     "t": "li",
+     "html": "Laufende Numbers/Stars brechen beim Split meist ab, Fever und Greens lösen trotzdem aus."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Mechanist",
+      "18,1 %"
+     ],
+     [
+      "Virtuoso",
+      "12,3 %"
+     ],
+     [
+      "Troubadour",
+      "8,7 %"
+     ],
+     [
+      "Harbinger",
+      "8,1 %"
+     ],
+     [
+      "Scourge",
+      "7,3 %"
+     ],
+     [
+      "Firebrand",
+      "5,1 %"
+     ],
+     [
+      "Chronomancer",
+      "4,5 %"
+     ],
+     [
+      "Tempest",
+      "4,4 %"
+     ],
+     [
+      "Ritualist",
+      "3,3 %"
+     ],
+     [
+      "Specter",
+      "2,5 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Harbinger",
+      "18.177",
+      "23.307"
+     ],
+     [
+      "Virtuoso",
+      "16.794",
+      "21.565"
+     ],
+     [
+      "Berserker",
+      "16.749",
+      "21.456"
+     ],
+     [
+      "Evoker",
+      "16.722",
+      "21.832"
+     ],
+     [
+      "Antiquary",
+      "16.477",
+      "21.413"
+     ],
+     [
+      "Renegade",
+      "16.282",
+      "20.491"
+     ],
+     [
+      "Mechanist",
+      "15.718",
+      "20.421"
+     ],
+     [
+      "Weaver",
+      "15.468",
+      "18.670"
+     ],
+     [
+      "Firebrand",
+      "15.366",
+      "23.197"
+     ],
+     [
+      "Willbender",
+      "15.315",
+      "20.098"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Mechanist, Virtuoso, Harbinger, Scourge",
+      "Am häufigsten in den CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Berserker, Evoker, Antiquary, Renegade, Weaver, Firebrand, Willbender",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Chronomancer",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Luminary, Paragon, Druid",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Firebrand: hoher Top-Wert, als Heiler/Boon-DPS.",
+     "Aegis negiert Numbers-Treffer.",
+     "Stabi für die Splits (Tornado-Launches)."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Mechanist: meistgespielt – Mech nicht in den Nebula-Spin stellen.",
+     "Mech sammelt Debilitated-Stacks im Nahkampf.",
+     "Scrapper: Gyros für Rezz und CC."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Virtuoso: Ranged-Condi, Distortion gegen Nebula.",
+     "Chrono: Boons + viel CC für Planet Crash.",
+     "Troubadour: dritthäufigster Spec, Heiler."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Evoker: starker Ø-DPS.",
+     "Tempest: Heiler-Option mit Cleanse gegen Torment.",
+     "Wenig HP → Extreme Vuln meiden."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Harbinger: höchster Ø-DPS in diesen Logs.",
+     "Scourge: Barrier + Condi, sehr beliebt.",
+     "Minions sammeln Nebula-Stacks – weg vom Spin."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Renegade: solider Condi-DPS.",
+     "Herald: Boons, Ø eher niedrig.",
+     "Staff/Hammer-CC für Planet Crash."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Berserker: hoher Ø-DPS.",
+     "Hammer &amp; Mace: viel CC für die Bars.",
+     "CC auf Phantome im Split."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Soulbeast/Galeshot: Ranged-DPS.",
+     "Pet in Nebula-Nähe sammelt Debilitated.",
+     "Druide: selten, als Heiler."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Antiquary: hoher Ø-DPS.",
+     "Specter: auch als Heiler gespielt.",
+     "Daredevil: Dodges gegen Blast-Segmente."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 24.11.2026 · Dagda: Erfolgsquote 65,2 %, Median-Kill 4:20 <strong>min</strong> · Ø-DPS nur Specs mit ≥ 0,5 % Anteil",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman führen <strong>Mechanist</strong> und Virtuoso, dazu Harbinger, Scourge und Troubadour als Heiler. Snow Crows: der Kampf bevorzugt <strong>Ranged- und Condi-DPS</strong>, und jeder sollte viel CC mitnehmen.",
+  "intro": "Mechanik-Bezug aus dem Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

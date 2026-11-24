@@ -1,0 +1,458 @@
+{
+ "slug": "old-lions-court",
+ "kicker": "GW2 · STRIKECHALLENGEMODE · NURDASNEUE",
+ "title": "Old Lion’s Court CM",
+ "subtitle": "Watchknight Triumvirate · du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "13:00 Enrage",
+  "CC Pflicht",
+  "Off-Tanks einplanen",
+  "Direkt-Heal stark"
+ ],
+ "timeline": [
+  {
+   "label": "Start",
+   "desc": "Puzzle statt erster DPS-Phase",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "P1 · 100–60 %",
+   "desc": "je 1 Watchknight · Puddles an den Rand",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Puzzle",
+   "desc": "Reihenfolge zufällig",
+   "color": "#ea580c"
+  },
+  {
+   "label": "P2 · 60–20 %",
+   "desc": "2 Bosse aktiv · härteste Phase",
+   "color": "#b91c1c"
+  },
+  {
+   "label": "Puzzle",
+   "desc": "letzte Bar per Ausschluss",
+   "color": "#ea580c"
+  },
+  {
+   "label": "P3 · 20–0 %",
+   "desc": "Bosse getrennt halten",
+   "color": "#1e3a8a"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Puzzle: Danger Zones nur kurz sichtbar – merken!",
+   "html": "Falsche Bar brechen = <strong>Wipe</strong>. <strong>Rot (Vermilion) ist der Anker</strong>, er erscheint zuerst. Grün und Blau decken Rots Safe Zone ganz → <strong>Rot brechen</strong> · Grün halbiert Rots Zone → <strong>Blau brechen</strong> · Grün deckt Rot ganz, Blau nicht → <strong>Grün brechen</strong>. Jeder Boss muss bis zum Ende 1× gebrochen werden.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Empowered: +5 % Schaden je Stack",
+   "html": "Gibt es für Fehler bei großen AoEs: jede getroffene <strong>Welle</strong> von Vermilions Dual Horizon · jeder Spieler in Arsenites <strong>roter AoE</strong> · jeder Spieler im <strong>roten Außenring</strong> von Indigo.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Puddles: größer & bleiben liegen",
+   "html": "Boiling Aether verschwindet erst beim Phasenwechsel. <strong>Am Rand ablegen und übereinander stapeln</strong>, sonst fehlt später der Platz.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Nie eine Puddle in die Mitte",
+   "html": "Indigo ist in der Mitte <strong>verwurzelt</strong> – eine Puddle dort sperrt alle Nahkämpfer aus.",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "CC-Regel für die Danger Zones",
+   "html": "<strong>Vermilion immer umdrehen.</strong> Grün und Blau nur bei Downs oder im Notfall – sonst geraten Pull und Push durcheinander.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "P2: Tanks & Abstand",
+   "html": "Vermilion am <strong>Rand</strong> (Puddles), Arsenite eher in der Mitte. Bei <strong>Indigo + Vermilion</strong> tankt ein zäher Spieler Vermilion am Rand der braunen Tether-Reichweite – nicht ganz außen. Bosse <strong>getrennt halten</strong> (Power Transfer). Heiler behalten die Fixates im Blick.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "old-lions-court-1.jpg",
+   "caption": "① Puzzle-Lösung nach Position"
+  },
+  {
+   "img": "old-lions-court-2.jpg",
+   "caption": "① Drop-In: Zonen blitzen nur kurz"
+  },
+  {
+   "img": "old-lions-court-3.jpg",
+   "caption": "③ Puddles übereinander stapeln"
+  },
+  {
+   "img": "old-lions-court-4.jpg",
+   "caption": "⑤ Vermilions Zone umdrehen"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Old Lion’s Court (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/end-of-dragons/old-lions-court-cm/"
+  },
+  {
+   "text": "Wingman – Old Lion’s Court",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/olc"
+  }
+ ],
+ "details": [
+  {
+   "title": "Puzzle-Phasen",
+   "imgs": [
+    {
+     "img": "old-lions-court-5.jpg",
+     "caption": "Lösung über die Positionen der Bosse"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Im CM startet der Kampf mit einem Puzzle; die Reihenfolge der Puzzles ist <strong>zufällig.</strong>"
+    },
+    {
+     "t": "li",
+     "html": "<strong>Bar brechen</strong> macht die anderen zwei Watchknights unangreifbar – falsche Wahl = Wipe."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Alternative über Positionen:</strong> steht ein Watchknight in der Mitte → Rot brechen · gleichseitiges Dreieck um die Mitte (Rot schaut nach außen) → Grün brechen · sonst Blau."
+    },
+    {
+     "t": "li",
+     "html": "Bars sind im CM größer – zum Üben der Safe Zones braucht man 1–2 Helfer."
+    }
+   ]
+  },
+  {
+   "title": "DPS-Phasen",
+   "imgs": [
+    {
+     "img": "old-lions-court-6.jpg",
+     "caption": "P1: jeder Watchknight einzeln"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Reihenfolge bleibt: <strong>Vermilion → Arsenite → Indigo</strong>; nicht aktive Bosse haben Ley-Woven Shielding."
+    },
+    {
+     "t": "li",
+     "html": "P1 entspricht der NM-Phase 2. Vermilion an den Rand ziehen und für jede Puddle ein Stück weiter."
+    },
+    {
+     "t": "li",
+     "html": "Erreicht ein Boss eine HP-Schwelle, verschwinden aktive Danger Zones."
+    },
+    {
+     "t": "h",
+     "html": "<strong>P2</strong> (60–20 %):"
+    },
+    {
+     "t": "li",
+     "html": "<strong>Vermilion + Arsenite:</strong> alle außer Arsenites Fixate auf Vermilion. Kommt die Disc, zieht Vermilions Fixate den Boss leicht vor, der Disc-Spieler bleibt zum Ablegen stehen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Arsenite + Indigo:</strong> Indigo ist in der Mitte verwurzelt – Arsenite am Rand bewegen. Tri-Bolt trifft oft 3 Spieler; mit Tether die Puddle hinter der Gruppe ablegen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Indigo + Vermilion:</strong> lieber eine Puddle etwas näher zur Mitte setzen als down gehen und einen neuen Fixate erzwingen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>P3</strong> (20–0 %): wie Anfang von P2, aber ohne Danger Zones – keine Puddle auf Indigo."
+    }
+   ]
+  },
+  {
+   "title": "Puddles stapeln & CC",
+   "imgs": [
+    {
+     "img": "old-lions-court-7.jpg",
+     "caption": "Puddle in eine vorhandene legen"
+    },
+    {
+     "img": "old-lions-court-8.jpg",
+     "caption": "CC auf Vermilion schafft Platz"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Indigo-Puddle</strong> (nach dem Spread): du wirst nach dem Ablegen weggeteleportiert – direkt in die alte Puddle stellen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Arsenites Disc:</strong> volle Ausdauer, kurz vor dem Treffer <strong>doppelt in die Puddle und wieder raus dodgen</strong>. Blink &amp; Co. gehen auch."
+    },
+    {
+     "t": "li",
+     "html": "Vermilions und Indigos Zonen decken fast die ganze Arena; umgedrehtes Vermilion verhindert, dass Pull und Push in P2 gleichzeitig kommen."
+    },
+    {
+     "t": "li",
+     "html": "Bei Indigos Zone schnell in die kleine Safe Zone – Dual Horizon darf nicht in der Zone auslösen."
+    },
+    {
+     "t": "li",
+     "html": "Arsenites Zone deckt nur die halbe Arena – Umdrehen hilft kaum, außer Downs liegen drin."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Mechanist",
+      "19,9 %"
+     ],
+     [
+      "Virtuoso",
+      "14,8 %"
+     ],
+     [
+      "Troubadour",
+      "9,0 %"
+     ],
+     [
+      "Scourge",
+      "8,2 %"
+     ],
+     [
+      "Firebrand",
+      "4,4 %"
+     ],
+     [
+      "Harbinger",
+      "4,2 %"
+     ],
+     [
+      "Tempest",
+      "4,1 %"
+     ],
+     [
+      "Chronomancer",
+      "3,9 %"
+     ],
+     [
+      "Ritualist",
+      "3,7 %"
+     ],
+     [
+      "Specter",
+      "3,0 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Galeshot",
+      "22.160",
+      "27.743"
+     ],
+     [
+      "Vindicator",
+      "21.197",
+      "24.837"
+     ],
+     [
+      "Willbender",
+      "20.242",
+      "23.832"
+     ],
+     [
+      "Mechanist",
+      "19.820",
+      "25.674"
+     ],
+     [
+      "Harbinger",
+      "19.516",
+      "23.903"
+     ],
+     [
+      "Virtuoso",
+      "19.439",
+      "26.178"
+     ],
+     [
+      "Soulbeast",
+      "19.319",
+      "24.585"
+     ],
+     [
+      "Amalgam",
+      "18.353",
+      "26.012"
+     ],
+     [
+      "Evoker",
+      "18.333",
+      "25.088"
+     ],
+     [
+      "Weaver",
+      "17.857",
+      "21.953"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Mechanist, Virtuoso, Harbinger, Tempest",
+      "Am häufigsten in den CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Galeshot, Vindicator, Willbender, Soulbeast, Amalgam, Evoker, Weaver",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Scourge, Firebrand",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Paragon, Luminary, Druid",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Firebrand: zweithöchster Top-Wert, als DPS und Heiler gespielt.",
+     "Stabi für Pull/Push-Phasen bereithalten.",
+     "Aegis gegen Dual-Horizon-Wellen."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Mechanist: meistgespielt – Mech hält Uptime beim Puddle-Laufen.",
+     "Amalgam: hoher Ø-DPS.",
+     "Scrapper-Gyros helfen, Puddles sauber zu legen."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Virtuoso: zweithäufigster Spec – Ranged, gut für Off-Tank-Fixates.",
+     "Blink zum Puddle-Stapeln nutzen.",
+     "Chrono/Troubadour: CC für Puzzle-Bars mitnehmen."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Tempest: Hardstuck-Empfehlung für Heal-Alac.",
+     "Evoker: starker Ø-DPS.",
+     "Wenig HP → in P2 keine Fixates am Rand ohne Heiler."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Scourge: beliebt, Barrier gegen Push/Pull-Schaden.",
+     "Harbinger: solider Ø-DPS.",
+     "Reaper-Shroud schützt nicht vor Puddle-Ticks."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Vindicator: hoher Ø-DPS, Sprung-Dodge in/aus Puddles.",
+     "Herald: Boons, aber Ø-DPS niedriger.",
+     "Staff/Hammer-CC fürs Puzzle."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: Dragon Trigger nicht kurz vor einem Puddle laden.",
+     "Viel CC für die Puzzle-Bars.",
+     "Berserker: solider DPS-Pick."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Galeshot: höchster Ø-DPS in diesen Logs.",
+     "Druide: Hardstuck-Empfehlung als Heal-Alac.",
+     "Soulbeast: guter Off-Tank mit Selbstheilung."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Deadeye: Kneel macht stationär – vor Puddles aufstehen.",
+     "Daredevil-Dodges zum Puddle-Stapeln.",
+     "Specter: 3 % Anteil, flexibel einsetzbar."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 24.11.2026 · Old Lion’s Court: Erfolgsquote 63,2 %, Median-Kill 6:52 <strong>min</strong> · Ø-DPS nur Specs mit ≥ 0,5 % Anteil",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman führen <strong>Mechanist</strong> und <strong>Virtuoso</strong> deutlich, Troubadour ist der häufigste Heiler. Hardstuck empfiehlt Heal-Tempest oder Heal-Druid für starke Direktheilung und 1–2 zähe Off-Tanks für P2.",
+  "intro": "Mechanik-Bezug aus dem Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

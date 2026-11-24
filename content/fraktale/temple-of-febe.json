@@ -1,0 +1,438 @@
+{
+ "slug": "temple-of-febe",
+ "kicker": "GW2 · STRIKECHALLENGEMODE · NURDASNEUE",
+ "title": "Temple of Febe CM",
+ "subtitle": "Cerus · du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "10:00 Enrage",
+  "Fallen = Tod",
+  "Portale (Scourge/Mesmer)",
+  "CC für Petrify"
+ ],
+ "timeline": [
+  {
+   "label": "100–80 %",
+   "desc": "Embodiment alle 30 s",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Split 80 %",
+   "desc": "Envy · Rage · Regret empowered",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "80–50 %",
+   "desc": "≥ 2 Aspekte empowered · alle 20 s",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Split 50 %",
+   "desc": "Despair · Gluttony · Malice",
+   "color": "#1e3a8a"
+  },
+  {
+   "label": "50–10 %",
+   "desc": "≥ 4 empowered · alle 15 s",
+   "color": "#ea580c"
+  },
+  {
+   "label": "10–0 %",
+   "desc": "Enraged Smash alle 4 s",
+   "color": "#b91c1c"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Empowered-Stacks sind euer Gegner im letzten 10 %",
+   "html": "Jeder Stack +5 <strong>% Schaden, permanent</strong>. Ab 10 % schlägt Cerus alle 4 s mit <strong>Enraged Smash</strong> (unvermeidbar, +2 Stacks) – je mehr Stacks vorher, desto kürzer überlebt ihr. Quellen: Malice erreicht Cerus (+5) · Spieler im Rage-AoE (+1 je Spieler) · Gluttony-Orb verpasst (+1–3) · Regret verpatzt (+5).",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Petrify: Bar in 7,7 s brechen",
+   "html": "Bei 80 / 50 / 10 %. Nicht gebrochen = <strong>Wipe.</strong> Innerhalb von ~1,4 s gebrochen = gar kein Debuff. Heiler nehmen schwere CC mit.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Split: genau 1 Embodiment töten",
+   "html": "Im CM endet der Split mit dem 1. Kill; Lebende geben ihren Buff an Cerus. Üblich: 80 <strong>% Regret</strong>, 50 <strong>% Gluttony</strong> töten. Nie ein kleines töten – das empowert es!",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Envy & Rage (empowered)",
+   "html": "<strong>Envy:</strong> 2. Wand gegenüber, doppelt so schnell → springen; Corrupt = Boons vom Boss strippen. <strong>Rage:</strong> AoE viel größer → per <strong>Portal</strong> raus (Sand Swell, Portal Entre).",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Despair & Malice (empowered)",
+   "html": "<strong>Despair:</strong> Kreise und Pools doppelt so groß, Pools ignorieren Invuln/Evade → weit weg in Formation ablegen. <strong>Malice:</strong> 3 Adds → per Portal weit weg spawnen, nach Resistance immobilisieren.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Gluttony & Regret (normal) – und nicht runterfallen",
+   "html": "<strong>Gluttony:</strong> 3 große Orbs, jeder muss von 3 <strong>Spielern</strong> geblockt werden (Insatiable-DoT pro Orb); je ein markierter Spieler führt seine Subgruppe auf eine Seite. <strong>Regret:</strong> mindestens 5 <strong>Spieler</strong> ins Green, sonst alle down + 5 Stacks. Wer im CM von der Plattform fällt, ist sofort tot.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "temple-of-febe-1.jpg",
+   "caption": "② Petrify-Tether: Bar brechen"
+  },
+  {
+   "img": "temple-of-febe-2.jpg",
+   "caption": "④ Rage empowered: raus per Portal"
+  },
+  {
+   "img": "temple-of-febe-3.jpg",
+   "caption": "⑤ Despair: Kreise verteilen"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Silverhalf – Temple of Febe CM",
+   "url": "https://silverhalf.github.io/temple-of-febe/mechanics/mechanics.html"
+  },
+  {
+   "text": "Hardstuck – Temple of Febe (NM)",
+   "url": "https://hardstuck.gg/gw2/guides/secrets-of-the-obscure/temple-of-febe/"
+  },
+  {
+   "text": "Wingman – Cerus",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/cerus"
+  }
+ ],
+ "details_intro": "Hardstuck hat für Temple of Febe nur einen Normal-Mode-Guide. Texte nach dem CM-Guide von Silverhalf; die Bilder sind Hardstuck-NM-Standbilder (empowered Varianten).",
+ "details": [
+  {
+   "title": "Ablauf & Splits",
+   "imgs": [
+    {
+     "img": "temple-of-febe-4.jpg",
+     "caption": "Petrify bei jedem Phasenwechsel"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Vier Hauptphasen, zwei Splits. Im Hauptkampf erscheinen Embodiments unverwundbar, führen ihre Mechanik aus und verschwinden."
+    },
+    {
+     "t": "li",
+     "html": "Split: alle 6 Embodiments spawnen, 3 sind empowered (größer). Alle 12 s greift eines an, das 1. ist fast immer Gluttony."
+    },
+    {
+     "t": "li",
+     "html": "Petrify: alle 0,7 s ein Stack (–10 % Schaden/Tempo), bei 10 Stacks 8 s Stun. Bar braucht nur 3600 Schaden."
+    },
+    {
+     "t": "li",
+     "html": "Übergang zu 10 %: laufende Malice-Tether spawnen noch Adds, Despair-Pools vom Embodiment bleiben die ganze Endphase."
+    }
+   ]
+  },
+  {
+   "title": "Aspekte im Detail",
+   "imgs": [
+    {
+     "img": "temple-of-febe-5.jpg",
+     "caption": "Despair: Spreads hinterlassen Pools"
+    },
+    {
+     "img": "temple-of-febe-6.jpg",
+     "caption": "Rage: unvermeidbar, nur Distanz hilft"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Kurz vor dem Füllen dodgen vermeidet Treffer und Pool. Empowered: Invuln gegen den Drop, dann vor dem 1. Tick (~1 s) raus."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Envy</strong> zielt vom Boss aus auf einen zufälligen Spieler → vorher eng stacken, links vorbei und mitlaufen. Jump-Dodge über die schnelle Wand."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Gluttony:</strong> Orbs, die Cerus erreichen, geben ihm Barrier (groß 500k). Durchdodgen zählt nicht als Blocken."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Rage</strong> gibt Exposed + 1 Stack je getroffenem Spieler. Portal außerhalb vorbereiten, auf der Gruppe oder im Boss-Hitbox öffnen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Malice:</strong> Adds haben 30 s Resistance, sind CC-immun und laufen zu Cerus. Am Ostrand spawnen lassen – mehr Zeit zum Töten."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Regret</strong> empowered (3 Greens, je 3 Spieler, nicht überlappen) gibt es nur im Titel-Run „Embodiment of Sin“."
+    }
+   ]
+  },
+  {
+   "title": "Legendary CM (optional)",
+   "imgs": [],
+   "items": [
+    {
+     "t": "li",
+     "html": "Mehr HP (117 statt 95,6 Mio.), Insatiable permanent bei empowered Gluttony, Malices mit mehr HP und Toughness."
+    },
+    {
+     "t": "li",
+     "html": "Regret-Fail tötet den Squad, 2 Stacks Extreme Vulnerability = tot, Enraged Smash gibt 3 statt 2 Stacks."
+    },
+    {
+     "t": "li",
+     "html": "Faustregel: mit mehr als 10 Stacks in die letzten 10 % ist LCM kaum zu schaffen."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Virtuoso",
+      "22,2 %"
+     ],
+     [
+      "Scourge",
+      "16,6 %"
+     ],
+     [
+      "Chronomancer",
+      "11,0 %"
+     ],
+     [
+      "Harbinger",
+      "9,7 %"
+     ],
+     [
+      "Mechanist",
+      "5,7 %"
+     ],
+     [
+      "Antiquary",
+      "5,7 %"
+     ],
+     [
+      "Ritualist",
+      "4,4 %"
+     ],
+     [
+      "Tempest",
+      "3,8 %"
+     ],
+     [
+      "Firebrand",
+      "3,5 %"
+     ],
+     [
+      "Herald",
+      "2,4 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Harbinger",
+      "31.849",
+      "35.295"
+     ],
+     [
+      "Antiquary",
+      "31.834",
+      "36.380"
+     ],
+     [
+      "Virtuoso",
+      "30.854",
+      "36.078"
+     ],
+     [
+      "Berserker",
+      "30.512",
+      "36.116"
+     ],
+     [
+      "Vindicator",
+      "30.244",
+      "31.122"
+     ],
+     [
+      "Weaver",
+      "29.411",
+      "32.540"
+     ],
+     [
+      "Paragon",
+      "29.223",
+      "31.369"
+     ],
+     [
+      "Mechanist",
+      "28.670",
+      "33.658"
+     ],
+     [
+      "Evoker",
+      "28.483",
+      "36.338"
+     ],
+     [
+      "Tempest",
+      "28.134",
+      "29.728"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Virtuoso, Harbinger, Mechanist, Antiquary",
+      "Am häufigsten in den CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Berserker, Vindicator, Weaver, Paragon, Evoker, Tempest",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Scourge",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Chronomancer",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Firebrand: höchster Top-Wert in diesen Logs.",
+     "Aegis gegen Despair-Drop und Malice-DoT.",
+     "Stabi gegen Envy-Corrupt einplanen."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Mechanist: Heiler-/DPS-Option, Mech von der Envy-Wand fernhalten.",
+     "Amalgam: solider DPS.",
+     "Gyros für Rezz in der Endphase."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Virtuoso: meistgespielt – Portal Entre gegen Rage/Malice.",
+     "Chrono: Boons + Feedback gegen kleine Gluttony-Orbs.",
+     "Blink sammelt Orbs schnell (Vorsicht vor Kante)."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver/Evoker: starker Ø-DPS.",
+     "Tempest: Heiler-Option.",
+     "Wenig HP → Empowered-Stacks treffen hart."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Scourge: Sand Swell + Dark Pact/Epidemic für Malices.",
+     "Summon Flesh Golem: schwere CC für Petrify.",
+     "Harbinger: einer der höchsten Ø-DPS."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Renegade: Banish Enchantment strippt Envy-Boons vom Boss.",
+     "Vindicator: Sprung-Dodge über die schnelle Wand.",
+     "Herald: Boons, Ø eher niedrig."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Berserker: hoher Ø-DPS.",
+     "Paragon: „We Will Never Yield!“ hilft bei Greens.",
+     "Viel CC für Petrify."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Kaum Ranger in den Logs – trotzdem spielbar.",
+     "Pet von der Envy-Wand fernhalten (Corrupt).",
+     "Druide: Immobilize für Malices."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Antiquary: Top-Ø-DPS.",
+     "Specter: Immobilize auf Malices.",
+     "Shadowstep nie Richtung Kante."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 24.11.2026 · Cerus: Erfolgsquote 8,2 %, Median-Kill 4:35 <strong>min</strong> · Ø-DPS nur Specs mit ≥ 0,5 % Anteil · Erfolgsquote zählt alle hochgeladenen Versuche",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman führen <strong>Virtuoso</strong> und <strong>Scourge</strong> – beide bringen Portale gegen Rage und Malice (Portal Entre, Sand Swell), Scourge zusätzlich Immobilize für Malices. Chronomancer und Harbinger folgen. Achtung: nur 8,2 % der CM-Logs sind Kills.",
+  "intro": "Mechanik-Bezug aus dem Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

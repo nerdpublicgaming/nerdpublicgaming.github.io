@@ -1,257 +1,359 @@
 [
-  {
-    "title": "Ätherklingen-Versteck CM",
-    "bosses": "Mai Trin · Echo of Scarlet Briar",
-    "mode": "Strike-CM",
-    "summary": "Cleave gibt Exposed, im 33-%-Split Greens für drei Spieler, ab 60 % Deathray-Bomben mit Safe Spot.",
-    "tags": [
-      "Exposed vermeiden",
-      "Greens für genau 3",
-      "Deathray-Bomben"
-    ],
-    "pages": 3,
-    "pdf": "guides/strikes/aetherblade-hideout-cm.pdf",
-    "cover": "assets/guides/aetherblade-hideout.jpg",
-    "updated": "2026-11-21",
-    "url": "strikes/aetherblade-hideout.html",
-    "cat": "strikes"
-  },
-  {
-    "title": "Nightmare CM",
-    "bosses": "M.A.M.A. · Siax · Ensolyss",
-    "mode": "Fraktal-CM",
-    "summary": "Breakbars bei allen drei Bossen, Siax-Veteranen N/O/S/W und Ensolyss' Bullet-Hell bis zum Schild bei 15 %.",
-    "tags": [
-      "Breakbars Pflicht",
-      "Stabi + Aegis",
-      "Bullet-Hell"
-    ],
-    "pages": 3,
-    "pdf": "guides/fraktale/nightmare-cm.pdf",
-    "cover": "assets/guides/nightmare.jpg",
-    "updated": "2026-11-21",
-    "url": "fraktale/nightmare.html",
-    "cat": "fraktale"
-  },
-  {
-    "title": "Shattered Observatory CM",
-    "bosses": "Skorvald · Artsariiv · Arkk",
-    "mode": "Fraktal-CM",
-    "summary": "Augen-Fear, Skorvalds Anomalien und Solar Cyclone, Arkks Reaktor und die wegbrechenden Plattformen.",
-    "tags": [
-      "Auge = wegschauen",
-      "Anomalien im Zeitlimit",
-      "Hypernova"
-    ],
-    "pages": 3,
-    "pdf": "guides/fraktale/shattered-observatory-cm.pdf",
-    "cover": "assets/guides/shattered-observatory.jpg",
-    "updated": "2026-11-21",
-    "url": "fraktale/shattered-observatory.html",
-    "cat": "fraktale"
-  },
-  {
-    "title": "Sunqua Peak CM",
-    "bosses": "Ai, Keeper of the Peak",
-    "mode": "Fraktal-CM",
-    "summary": "Härtere Lichtphase mit Meteor-Wellen, Reset per /gg, dann Fears, Sorrows und Guilt-Tether.",
-    "tags": [
-      "8 Wolken statt 6",
-      "/gg vor Dunkel",
-      "Sorrow-Breakbar"
-    ],
-    "pages": 3,
-    "pdf": "guides/fraktale/sunqua-peak-cm.pdf",
-    "cover": "assets/guides/sunqua-peak.jpg",
-    "updated": "2026-11-21",
-    "url": "fraktale/sunqua-peak.html",
-    "cat": "fraktale"
-  },
-  {
-    "title": "Silent Surf CM",
-    "bosses": "Dolus · Kanaxai",
-    "mode": "Fraktal-CM",
-    "summary": "Dread Visage wegschauen, römische Zahlen verteilen und beim World Cleaver per Grappling Hook rüber.",
-    "tags": [
-      "Fallen = Tod",
-      "Spreaden",
-      "Grappling Hook"
-    ],
-    "pages": 3,
-    "pdf": "guides/fraktale/silent-surf-cm.pdf",
-    "cover": "assets/guides/silent-surf.jpg",
-    "updated": "2026-11-21",
-    "url": "fraktale/silent-surf.html",
-    "cat": "fraktale"
-  },
-  {
-    "title": "Lonely Tower CM",
-    "bosses": "Cerus & Deimos · Eparch",
-    "mode": "Fraktal-CM",
-    "summary": "Eparchs Emotionen bleiben, Orbs nach Farben aufteilen, Rifts bei 65 % und 35 % mit Stall-Gruppe.",
-    "tags": [
-      "Emotionen permanent",
-      "Stall-Spieler",
-      "Viel CC"
-    ],
-    "pages": 3,
-    "pdf": "guides/fraktale/lonely-tower-cm.pdf",
-    "cover": "assets/guides/lonely-tower.jpg",
-    "updated": "2026-11-21",
-    "url": "fraktale/lonely-tower.html",
-    "cat": "fraktale"
-  },
-  {
-    "title": "Kinfall CM",
-    "bosses": "Whispering Shadow",
-    "mode": "Fraktal-CM",
-    "summary": "Frost Wisps klauen Life-Fire, Cryoflash tötet sofort, Spikes alle 0,5 s ab 80 %.",
-    "tags": [
-      "Cryoflash = Tod",
-      "Wisps CCen",
-      "Hailstorm verteilen"
-    ],
-    "pages": 3,
-    "pdf": "guides/fraktale/kinfall-cm.pdf",
-    "cover": "assets/guides/kinfall.jpg",
-    "updated": "2026-11-21",
-    "url": "fraktale/kinfall.html",
-    "cat": "fraktale"
-  },
-  {
-    "title": "Wing 1 · Spirit Vale",
-    "bosses": "Vale Guardian · Gorseval · Sabetha",
-    "mode": "Raid",
-    "summary": "Blues und Splits beim Vale Guardian, World Eater als DPS-Check bei Gorseval, Kanoniere und Flamewall bei Sabetha.",
-    "tags": [
-      "Blues ausweichen",
-      "DPS-Check Gorseval",
-      "Kanoniere festlegen"
-    ],
-    "pages": 4,
-    "pdf": "guides/raids/wing-1-spirit-vale.pdf",
-    "cover": "assets/guides/wing-1-spirit-vale.jpg",
-    "updated": "2026-11-23",
-    "url": "raids/wing-1-spirit-vale.html",
-    "cat": "raids"
-  },
-  {
-    "title": "Wing 2 · Salvation Pass",
-    "bosses": "Slothasor · Bandit Trio · Matthias Gabrel",
-    "mode": "Raid",
-    "summary": "Giftfelder und Pilze bei Slothasor, Käfig schützen im Bandit Trio, Reflects und Corruption bei Matthias.",
-    "tags": [
-      "Gift nie in die Gruppe",
-      "Käfig schützen",
-      "Reflects bei Matthias"
-    ],
-    "pages": 4,
-    "pdf": "guides/raids/wing-2-salvation-pass.pdf",
-    "cover": "assets/guides/wing-2-salvation-pass.jpg",
-    "updated": "2026-11-23",
-    "url": "raids/wing-2-salvation-pass.html",
-    "cat": "raids"
-  },
-  {
-    "title": "Wing 3 · Stronghold of the Faithful",
-    "bosses": "Escort · Keep Construct · Twisted Castle · Xera",
-    "mode": "Raid",
-    "summary": "Glenna durchbringen, Keep Construct mit Burst auf den Kern, Madness im Twisted Castle und Bubble-Timing bei Xera.",
-    "tags": [
-      "Glenna schützen",
-      "Kern-Burst",
-      "Bubble bei Xera"
-    ],
-    "pages": 5,
-    "pdf": "guides/raids/wing-3-stronghold-of-the-faithful.pdf",
-    "cover": "assets/guides/wing-3-stronghold-of-the-faithful.jpg",
-    "updated": "2026-11-23",
-    "url": "raids/wing-3-stronghold-of-the-faithful.html",
-    "cat": "raids"
-  },
-  {
-    "title": "Wing 4 · Bastion of the Penitent",
-    "bosses": "Cairn · Mursaat Overseer · Samarog · Deimos",
-    "mode": "Raid",
-    "summary": "Celestial Dash bei Cairn, Spikes und Rollen bei Mursaat Overseer, CC bei Samarog, Hand-Kiter bei Deimos – plus was in den CMs neu ist.",
-    "tags": [
-      "inkl. CMs",
-      "Dash & Stabi",
-      "Hand-Kiter"
-    ],
-    "pages": 8,
-    "pdf": "guides/raids/wing-4-bastion-of-the-penitent.pdf",
-    "cover": "assets/guides/wing-4-bastion-of-the-penitent.jpg",
-    "updated": "2026-11-23",
-    "url": "raids/wing-4-bastion-of-the-penitent.html",
-    "cat": "raids"
-  },
-  {
-    "title": "Wing 5 · Hall of Chains",
-    "bosses": "Soulless Horror · River of Souls · Statues of Grenth · Dhuum",
-    "mode": "Raid",
-    "summary": "Wände und Tank-Wechsel beim Soulless Horror, Desmina eskortieren, drei Statuen und Greens bei Dhuum – plus Soulless Horror CM.",
-    "tags": [
-      "Wände = Tod",
-      "Desmina eskortieren",
-      "Greens bei Dhuum"
-    ],
-    "pages": 6,
-    "pdf": "guides/raids/wing-5-hall-of-chains.pdf",
-    "cover": "assets/guides/wing-5-hall-of-chains.jpg",
-    "updated": "2026-11-23",
-    "url": "raids/wing-5-hall-of-chains.html",
-    "cat": "raids"
-  },
-  {
-    "title": "Wing 6 · Mythwright Gambit",
-    "bosses": "Conjured Amalgamate · Twin Largos · Qadim",
-    "mode": "Raid",
-    "summary": "Schwerter und Schilde bei der Conjured Amalgamate, Zeitlimit bei den Twin Largos, Kiter, Lampe und Pyres bei Qadim – plus Largos CM.",
-    "tags": [
-      "Power-Burst",
-      "Zeitlimit Largos",
-      "Kiter & Lampe"
-    ],
-    "pages": 5,
-    "pdf": "guides/raids/wing-6-mythwright-gambit.pdf",
-    "cover": "assets/guides/wing-6-mythwright-gambit.jpg",
-    "updated": "2026-11-23",
-    "url": "raids/wing-6-mythwright-gambit.html",
-    "cat": "raids"
-  },
-  {
-    "title": "Wing 7 · Key of Ahdashim",
-    "bosses": "Cardinal Adina · Cardinal Sabir · Qadim the Peerless",
-    "mode": "Raid",
-    "summary": "Säulen und Blindness bei Adina, Flash Discharge als CC bei Sabir, Pylone brechen bei Qadim the Peerless.",
-    "tags": [
-      "Projektil-Schutz",
-      "CC zur richtigen Zeit",
-      "Pylon-Kiter"
-    ],
-    "pages": 4,
-    "pdf": "guides/raids/wing-7-key-of-ahdashim.pdf",
-    "cover": "assets/guides/wing-7-key-of-ahdashim.jpg",
-    "updated": "2026-11-23",
-    "url": "raids/wing-7-key-of-ahdashim.html",
-    "cat": "raids"
-  },
-  {
-    "title": "Wing 8 · Mount Balrior",
-    "bosses": "Decima · Greer · Ura",
-    "mode": "Raid",
-    "summary": "Sparks und Pfeile bei Decima, Power oder Condi bei Greer, Bloodstone-Splitter und viel CC bei Ura.",
-    "tags": [
-      "Sparks = Wipe",
-      "Power oder Condi",
-      "viel CC bei Ura"
-    ],
-    "pages": 4,
-    "pdf": "guides/raids/wing-8-mount-balrior.pdf",
-    "cover": "assets/guides/wing-8-mount-balrior.jpg",
-    "updated": "2026-11-23",
-    "url": "raids/wing-8-mount-balrior.html",
-    "cat": "raids"
-  }
+ {
+  "title": "Ätherklingen-Versteck CM",
+  "bosses": "Mai Trin · Echo of Scarlet Briar",
+  "mode": "Strike-CM",
+  "summary": "Cleave gibt Exposed, im 33-%-Split Greens für drei Spieler, ab 60 % Deathray-Bomben mit Safe Spot.",
+  "tags": [
+   "Exposed vermeiden",
+   "Greens für genau 3",
+   "Deathray-Bomben"
+  ],
+  "pages": 3,
+  "pdf": "guides/strikes/aetherblade-hideout-cm.pdf",
+  "cover": "assets/guides/aetherblade-hideout.jpg",
+  "updated": "2026-11-21",
+  "url": "strikes/aetherblade-hideout.html",
+  "cat": "strikes"
+ },
+ {
+  "title": "Xunlai Jade Junkyard CM",
+  "bosses": "Ankka",
+  "mode": "Strike-CM",
+  "summary": "Fast jede AoE ist tödlich, in den Ritualen jede Spite brechen und in Phase 3 nur in den Sanctuaries überleben.",
+  "tags": [
+   "Spites brechen",
+   "Quaggans = raus",
+   "Sanctuaries"
+  ],
+  "pages": 3,
+  "pdf": "guides/strikes/xunlai-jade-junkyard-cm.pdf",
+  "cover": "assets/guides/xunlai-jade-junkyard.jpg",
+  "updated": "2026-11-24",
+  "url": "strikes/xunlai-jade-junkyard.html",
+  "cat": "strikes"
+ },
+ {
+  "title": "Kaineng Overlook CM",
+  "bosses": "Minister Li · Elite-Garde",
+  "mode": "Strike-CM",
+  "summary": "Kein Geländer mehr: Cleave nur mit Stabi, Greens für drei, Numbers sauber ablegen und den Mech immer tanken.",
+  "tags": [
+   "Knockback = Fall-Tod",
+   "Stabi beim Cleave",
+   "Greens für 3"
+  ],
+  "pages": 3,
+  "pdf": "guides/strikes/kaineng-overlook-cm.pdf",
+  "cover": "assets/guides/kaineng-overlook.jpg",
+  "updated": "2026-11-24",
+  "url": "strikes/kaineng-overlook.html",
+  "cat": "strikes"
+ },
+ {
+  "title": "Harvest Temple CM",
+  "bosses": "Dragonvoid",
+  "mode": "Strike-CM",
+  "summary": "Reds, Greens und Spreads mit fester Zuteilung, Dauer-Boon-Rip auf jeden Drachen und Purification ohne Fehler.",
+  "tags": [
+   "Boon-Rip Pflicht",
+   "Feste Zuteilung",
+   "Fallen = Tod"
+  ],
+  "pages": 3,
+  "pdf": "guides/strikes/harvest-temple-cm.pdf",
+  "cover": "assets/guides/harvest-temple.jpg",
+  "updated": "2026-11-24",
+  "url": "strikes/harvest-temple.html",
+  "cat": "strikes"
+ },
+ {
+  "title": "Old Lion’s Court CM",
+  "bosses": "Watchknight Triumvirate",
+  "mode": "Strike-CM",
+  "summary": "Start mit Puzzle: Danger Zones merken und die richtige Bar brechen, Puddles am Rand stapeln, Bosse getrennt halten.",
+  "tags": [
+   "Puzzle merken",
+   "Puddles stapeln",
+   "Off-Tanks"
+  ],
+  "pages": 3,
+  "pdf": "guides/strikes/old-lions-court-cm.pdf",
+  "cover": "assets/guides/old-lions-court.jpg",
+  "updated": "2026-11-24",
+  "url": "strikes/old-lions-court.html",
+  "cat": "strikes"
+ },
+ {
+  "title": "Cosmic Observatory CM",
+  "bosses": "Dagda",
+  "mode": "Strike-CM",
+  "summary": "Planet Crash zum Start brechen, Shooting Stars blocken, ab 75 % zusätzlich Numbers und Greens.",
+  "tags": [
+   "Planet Crash CC",
+   "Davorstellen",
+   "Verteilen"
+  ],
+  "pages": 3,
+  "pdf": "guides/strikes/cosmic-observatory-cm.pdf",
+  "cover": "assets/guides/cosmic-observatory.jpg",
+  "updated": "2026-11-24",
+  "url": "strikes/cosmic-observatory.html",
+  "cat": "strikes"
+ },
+ {
+  "title": "Temple of Febe CM",
+  "bosses": "Cerus",
+  "mode": "Strike-CM",
+  "summary": "Empowered-Stacks klein halten, Petrify schnell brechen, im Split genau ein Embodiment töten.",
+  "tags": [
+   "Stacks sparen",
+   "Petrify-Breakbar",
+   "Portale"
+  ],
+  "pages": 3,
+  "pdf": "guides/strikes/temple-of-febe-cm.pdf",
+  "cover": "assets/guides/temple-of-febe.jpg",
+  "updated": "2026-11-24",
+  "url": "strikes/temple-of-febe.html",
+  "cat": "strikes"
+ },
+ {
+  "title": "Nightmare CM",
+  "bosses": "M.A.M.A. · Siax · Ensolyss",
+  "mode": "Fraktal-CM",
+  "summary": "Breakbars bei allen drei Bossen, Siax-Veteranen N/O/S/W und Ensolyss' Bullet-Hell bis zum Schild bei 15 %.",
+  "tags": [
+   "Breakbars Pflicht",
+   "Stabi + Aegis",
+   "Bullet-Hell"
+  ],
+  "pages": 3,
+  "pdf": "guides/fraktale/nightmare-cm.pdf",
+  "cover": "assets/guides/nightmare.jpg",
+  "updated": "2026-11-21",
+  "url": "fraktale/nightmare.html",
+  "cat": "fraktale"
+ },
+ {
+  "title": "Shattered Observatory CM",
+  "bosses": "Skorvald · Artsariiv · Arkk",
+  "mode": "Fraktal-CM",
+  "summary": "Augen-Fear, Skorvalds Anomalien und Solar Cyclone, Arkks Reaktor und die wegbrechenden Plattformen.",
+  "tags": [
+   "Auge = wegschauen",
+   "Anomalien im Zeitlimit",
+   "Hypernova"
+  ],
+  "pages": 3,
+  "pdf": "guides/fraktale/shattered-observatory-cm.pdf",
+  "cover": "assets/guides/shattered-observatory.jpg",
+  "updated": "2026-11-21",
+  "url": "fraktale/shattered-observatory.html",
+  "cat": "fraktale"
+ },
+ {
+  "title": "Sunqua Peak CM",
+  "bosses": "Ai, Keeper of the Peak",
+  "mode": "Fraktal-CM",
+  "summary": "Härtere Lichtphase mit Meteor-Wellen, Reset per /gg, dann Fears, Sorrows und Guilt-Tether.",
+  "tags": [
+   "8 Wolken statt 6",
+   "/gg vor Dunkel",
+   "Sorrow-Breakbar"
+  ],
+  "pages": 3,
+  "pdf": "guides/fraktale/sunqua-peak-cm.pdf",
+  "cover": "assets/guides/sunqua-peak.jpg",
+  "updated": "2026-11-21",
+  "url": "fraktale/sunqua-peak.html",
+  "cat": "fraktale"
+ },
+ {
+  "title": "Silent Surf CM",
+  "bosses": "Dolus · Kanaxai",
+  "mode": "Fraktal-CM",
+  "summary": "Dread Visage wegschauen, römische Zahlen verteilen und beim World Cleaver per Grappling Hook rüber.",
+  "tags": [
+   "Fallen = Tod",
+   "Spreaden",
+   "Grappling Hook"
+  ],
+  "pages": 3,
+  "pdf": "guides/fraktale/silent-surf-cm.pdf",
+  "cover": "assets/guides/silent-surf.jpg",
+  "updated": "2026-11-21",
+  "url": "fraktale/silent-surf.html",
+  "cat": "fraktale"
+ },
+ {
+  "title": "Lonely Tower CM",
+  "bosses": "Cerus & Deimos · Eparch",
+  "mode": "Fraktal-CM",
+  "summary": "Eparchs Emotionen bleiben, Orbs nach Farben aufteilen, Rifts bei 65 % und 35 % mit Stall-Gruppe.",
+  "tags": [
+   "Emotionen permanent",
+   "Stall-Spieler",
+   "Viel CC"
+  ],
+  "pages": 3,
+  "pdf": "guides/fraktale/lonely-tower-cm.pdf",
+  "cover": "assets/guides/lonely-tower.jpg",
+  "updated": "2026-11-21",
+  "url": "fraktale/lonely-tower.html",
+  "cat": "fraktale"
+ },
+ {
+  "title": "Kinfall CM",
+  "bosses": "Whispering Shadow",
+  "mode": "Fraktal-CM",
+  "summary": "Frost Wisps klauen Life-Fire, Cryoflash tötet sofort, Spikes alle 0,5 s ab 80 %.",
+  "tags": [
+   "Cryoflash = Tod",
+   "Wisps CCen",
+   "Hailstorm verteilen"
+  ],
+  "pages": 3,
+  "pdf": "guides/fraktale/kinfall-cm.pdf",
+  "cover": "assets/guides/kinfall.jpg",
+  "updated": "2026-11-21",
+  "url": "fraktale/kinfall.html",
+  "cat": "fraktale"
+ },
+ {
+  "title": "Wing 1 · Spirit Vale",
+  "bosses": "Vale Guardian · Gorseval · Sabetha",
+  "mode": "Raid",
+  "summary": "Blues und Splits beim Vale Guardian, World Eater als DPS-Check bei Gorseval, Kanoniere und Flamewall bei Sabetha.",
+  "tags": [
+   "Blues ausweichen",
+   "DPS-Check Gorseval",
+   "Kanoniere festlegen"
+  ],
+  "pages": 4,
+  "pdf": "guides/raids/wing-1-spirit-vale.pdf",
+  "cover": "assets/guides/wing-1-spirit-vale.jpg",
+  "updated": "2026-11-23",
+  "url": "raids/wing-1-spirit-vale.html",
+  "cat": "raids"
+ },
+ {
+  "title": "Wing 2 · Salvation Pass",
+  "bosses": "Slothasor · Bandit Trio · Matthias Gabrel",
+  "mode": "Raid",
+  "summary": "Giftfelder und Pilze bei Slothasor, Käfig schützen im Bandit Trio, Reflects und Corruption bei Matthias.",
+  "tags": [
+   "Gift nie in die Gruppe",
+   "Käfig schützen",
+   "Reflects bei Matthias"
+  ],
+  "pages": 4,
+  "pdf": "guides/raids/wing-2-salvation-pass.pdf",
+  "cover": "assets/guides/wing-2-salvation-pass.jpg",
+  "updated": "2026-11-23",
+  "url": "raids/wing-2-salvation-pass.html",
+  "cat": "raids"
+ },
+ {
+  "title": "Wing 3 · Stronghold of the Faithful",
+  "bosses": "Escort · Keep Construct · Twisted Castle · Xera",
+  "mode": "Raid",
+  "summary": "Glenna durchbringen, Keep Construct mit Burst auf den Kern, Madness im Twisted Castle und Bubble-Timing bei Xera.",
+  "tags": [
+   "Glenna schützen",
+   "Kern-Burst",
+   "Bubble bei Xera"
+  ],
+  "pages": 5,
+  "pdf": "guides/raids/wing-3-stronghold-of-the-faithful.pdf",
+  "cover": "assets/guides/wing-3-stronghold-of-the-faithful.jpg",
+  "updated": "2026-11-23",
+  "url": "raids/wing-3-stronghold-of-the-faithful.html",
+  "cat": "raids"
+ },
+ {
+  "title": "Wing 4 · Bastion of the Penitent",
+  "bosses": "Cairn · Mursaat Overseer · Samarog · Deimos",
+  "mode": "Raid",
+  "summary": "Celestial Dash bei Cairn, Spikes und Rollen bei Mursaat Overseer, CC bei Samarog, Hand-Kiter bei Deimos – plus was in den CMs neu ist.",
+  "tags": [
+   "inkl. CMs",
+   "Dash & Stabi",
+   "Hand-Kiter"
+  ],
+  "pages": 8,
+  "pdf": "guides/raids/wing-4-bastion-of-the-penitent.pdf",
+  "cover": "assets/guides/wing-4-bastion-of-the-penitent.jpg",
+  "updated": "2026-11-23",
+  "url": "raids/wing-4-bastion-of-the-penitent.html",
+  "cat": "raids"
+ },
+ {
+  "title": "Wing 5 · Hall of Chains",
+  "bosses": "Soulless Horror · River of Souls · Statues of Grenth · Dhuum",
+  "mode": "Raid",
+  "summary": "Wände und Tank-Wechsel beim Soulless Horror, Desmina eskortieren, drei Statuen und Greens bei Dhuum – plus Soulless Horror CM.",
+  "tags": [
+   "Wände = Tod",
+   "Desmina eskortieren",
+   "Greens bei Dhuum"
+  ],
+  "pages": 6,
+  "pdf": "guides/raids/wing-5-hall-of-chains.pdf",
+  "cover": "assets/guides/wing-5-hall-of-chains.jpg",
+  "updated": "2026-11-23",
+  "url": "raids/wing-5-hall-of-chains.html",
+  "cat": "raids"
+ },
+ {
+  "title": "Wing 6 · Mythwright Gambit",
+  "bosses": "Conjured Amalgamate · Twin Largos · Qadim",
+  "mode": "Raid",
+  "summary": "Schwerter und Schilde bei der Conjured Amalgamate, Zeitlimit bei den Twin Largos, Kiter, Lampe und Pyres bei Qadim – plus Largos CM.",
+  "tags": [
+   "Power-Burst",
+   "Zeitlimit Largos",
+   "Kiter & Lampe"
+  ],
+  "pages": 5,
+  "pdf": "guides/raids/wing-6-mythwright-gambit.pdf",
+  "cover": "assets/guides/wing-6-mythwright-gambit.jpg",
+  "updated": "2026-11-23",
+  "url": "raids/wing-6-mythwright-gambit.html",
+  "cat": "raids"
+ },
+ {
+  "title": "Wing 7 · Key of Ahdashim",
+  "bosses": "Cardinal Adina · Cardinal Sabir · Qadim the Peerless",
+  "mode": "Raid",
+  "summary": "Säulen und Blindness bei Adina, Flash Discharge als CC bei Sabir, Pylone brechen bei Qadim the Peerless.",
+  "tags": [
+   "Projektil-Schutz",
+   "CC zur richtigen Zeit",
+   "Pylon-Kiter"
+  ],
+  "pages": 4,
+  "pdf": "guides/raids/wing-7-key-of-ahdashim.pdf",
+  "cover": "assets/guides/wing-7-key-of-ahdashim.jpg",
+  "updated": "2026-11-23",
+  "url": "raids/wing-7-key-of-ahdashim.html",
+  "cat": "raids"
+ },
+ {
+  "title": "Wing 8 · Mount Balrior",
+  "bosses": "Decima · Greer · Ura",
+  "mode": "Raid",
+  "summary": "Sparks und Pfeile bei Decima, Power oder Condi bei Greer, Bloodstone-Splitter und viel CC bei Ura.",
+  "tags": [
+   "Sparks = Wipe",
+   "Power oder Condi",
+   "viel CC bei Ura"
+  ],
+  "pages": 4,
+  "pdf": "guides/raids/wing-8-mount-balrior.pdf",
+  "cover": "assets/guides/wing-8-mount-balrior.jpg",
+  "updated": "2026-11-23",
+  "url": "raids/wing-8-mount-balrior.html",
+  "cat": "raids"
+ }
 ]

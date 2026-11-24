@@ -19,7 +19,8 @@ CATS = [
      "guides": ["nightmare", "shattered-observatory", "sunqua-peak", "silent-surf", "lonely-tower", "kinfall"]},
     {"key": "strikes", "name": "Strikes", "label": "Strike-CM", "mode": "Strike Challenge Mode", "players": "10 Spieler",
      "intro": "Die Challenge Modes der Strike Missions (10 Spieler).",
-     "guides": ["aetherblade-hideout"]},
+     "guides": ["aetherblade-hideout", "xunlai-jade-junkyard", "kaineng-overlook", "harvest-temple", "old-lions-court",
+                "cosmic-observatory", "temple-of-febe"]},
     {"key": "raids", "name": "Raids", "label": "Raid", "mode": "Raid", "players": "10 Spieler",
      "intro": "Alle Raid-Wings mit jedem Boss (10 Spieler).",
      "guides": ["wing-1-spirit-vale", "wing-2-salvation-pass", "wing-3-stronghold-of-the-faithful", "wing-4-bastion-of-the-penitent",
@@ -29,7 +30,9 @@ CAT_OF = {g: c for c in CATS for g in c["guides"]}
 ABOUT = {"cm": "Für alle, die den Normal Mode kennen: Jeder Guide beginnt mit dem, was im Challenge Mode neu ist, danach kommen alle Mechaniken im Detail und Klassentipps.",
          "raids": "Ein Guide pro Wing: zu jedem Boss erst das Wichtigste, dann die Details zum Nachschlagen – bei Bossen mit Challenge Mode zusätzlich, was im CM neu ist. Am Ende Klassen, Rollen und Klassentipps."}
 ORDER = [g for c in CATS for g in c["guides"]]
-SHORT = {"aetherblade-hideout": "Ätherklingen-Versteck", "nightmare": "Nightmare", "shattered-observatory": "Shattered Observatory",
+SHORT = {"aetherblade-hideout": "Ätherklingen-Versteck", "xunlai-jade-junkyard": "Xunlai Jade Junkyard", "kaineng-overlook": "Kaineng Overlook",
+         "harvest-temple": "Harvest Temple", "old-lions-court": "Old Lion’s Court", "cosmic-observatory": "Cosmic Observatory",
+         "temple-of-febe": "Temple of Febe", "nightmare": "Nightmare", "shattered-observatory": "Shattered Observatory",
          "sunqua-peak": "Sunqua Peak", "silent-surf": "Silent Surf", "lonely-tower": "Lonely Tower", "kinfall": "Kinfall",
          "wing-1-spirit-vale": "Wing 1 · Spirit Vale", "wing-2-salvation-pass": "Wing 2 · Salvation Pass",
          "wing-3-stronghold-of-the-faithful": "Wing 3 · Stronghold of the Faithful", "wing-4-bastion-of-the-penitent": "Wing 4 · Bastion of the Penitent",
@@ -141,7 +144,10 @@ def guide_html(g, prev, nxt):
     img = lambda n: f"{P}assets/fraktale/{n}"
     cat = CAT_OF[s]
     pdf = f"{P}guides/{cat['key']}/{s}-cm.pdf"
-    hard = next((x["url"] for x in g["sources"] if "hardstuck" in x["url"]), "")
+    cmsrc = next((x for x in g["sources"] if "hardstuck" in x["url"] and "(NM)" not in x["text"]), None) \
+        or next((x for x in g["sources"] if " CM" in x["text"] and "wingman" not in x["url"]), None)
+    hard = cmsrc["url"] if cmsrc else ""
+    hard_name = cmsrc["text"].split(" – ")[0] if cmsrc else ""
     chips = "".join(f"<li>{e(c)}</li>" for c in g["chips"])
     tl = "".join(f'<li style="--c:{t["color"]}"><b>{e(t["label"])}</b><span>{e(t["desc"])}</span></li>' for t in g["timeline"])
     rules = "".join(f'<article class="rule parchment{" wide" if r["wide"] else ""}"><span class="rn">{r["n"]}</span><div><h3>{e(r["title"])}</h3><p>{webify(r["html"])}</p></div></article>' for r in g["rules"])
@@ -187,7 +193,7 @@ def guide_html(g, prev, nxt):
     <ul class="chips">{chips}</ul>
     <div class="g-actions">
       <a class="btn btn-gold" href="{pdf}" target="_blank" rel="noopener"><svg class="btn-bg" aria-hidden="true" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M6 34 C40 14 90 10 150 12 C230 8 300 6 352 14 C380 18 396 26 392 36 C386 48 330 52 260 50 C190 52 110 54 50 50 C20 48 2 44 6 34Z"/></svg>Als PDF (zum Ausdrucken)</a>
-      {f'<a class="ghost" href="{e(hard)}" rel="noopener">Ganzer Guide auf Hardstuck →</a>' if hard else ""}
+      {f'<a class="ghost" href="{e(hard)}" rel="noopener">Ganzer Guide auf {e(hard_name)} →</a>' if hard else ""}
     </div>
   </div>
 </section>
@@ -203,7 +209,8 @@ def guide_html(g, prev, nxt):
 </section>
 
 <section class="band band-dark" id="details">
-  <h2 class="brush">Details zum Nachschlagen</h2>
+  <h2 class="brush">Details zum Nachschlagen</h2>{f"""
+  <p class="meta">{e(g["details_intro"])}</p>""" if g.get("details_intro") else ""}
   <div class="dets">{det}</div>
 </section>
 
@@ -340,7 +347,7 @@ def card(g, href):
   <span class="open">Guide öffnen →</span>
 </a>'''
 
-SRC_NOTE = '''<p class="fine srcs">Mechaniken nach den Guides von <a href="https://hardstuck.gg/gw2/guides/" rel="noopener">Hardstuck</a>,
+SRC_NOTE = '''<p class="fine srcs">Mechaniken nach den Guides von <a href="https://hardstuck.gg/gw2/guides/" rel="noopener">Hardstuck</a>{extra},
     Klassendaten von <a href="https://gw2wingman.nevermindcreations.de/" rel="noopener">GW2 Wingman</a>.</p>'''
 
 def empty_note(c):
@@ -362,7 +369,7 @@ def overview(c, gs):
 <nav class="toc scroll band cat-tabs" aria-label="Kategorien">{tabs}</nav>
 <section class="band">
   <div class="ovs">{cards}</div>
-  {SRC_NOTE if gs else ""}
+  {SRC_NOTE.format(extra=' (Cosmic Observatory: <a href="https://snowcrows.com/" rel="noopener">Snow Crows</a>, Temple of Febe: <a href="https://silverhalf.github.io/temple-of-febe/" rel="noopener">Silverhalf</a>)' if c["key"] == "strikes" else "") if gs else ""}
 </section>'''
     return page(f'{c["name"]} – GW2 Guides', f'Guild Wars 2 {c["name"]}: kompakte Guides auf Deutsch – was im Challenge Mode neu ist, Mechaniken, Klassentipps.', "../", body)
 
@@ -388,7 +395,7 @@ def hub(by_cat):
 </section>
 <nav class="toc scroll band cat-tabs" aria-label="Kategorien">{tabs}</nav>
 {secs}
-<section class="band">{SRC_NOTE}</section>'''
+<section class="band">{SRC_NOTE.format(extra=", Snow Crows und Silverhalf")}</section>'''
     return page("GW2 Guides", "Guild Wars 2 Guides auf Deutsch: Fraktale, Strikes und Raids.", "../", body)
 
 def redirect(target):
@@ -431,8 +438,8 @@ if __name__ == "__main__":
     open(os.path.join(ROOT, "guides", "index.html"), "w", encoding="utf-8").write(hub(by_cat))
     # alte Adressen von Guides, die die Kategorie gewechselt haben, weiterleiten
     for c in CATS:
-        if c["key"] != "strikes": continue  # nur Guides, die früher unter Fraktale lagen
-        for s in c["guides"]:
+        if c["key"] != "strikes": continue
+        for s in ["aetherblade-hideout"]:  # nur Guides, die früher unter Fraktale lagen
             open(os.path.join(ROOT, "fraktale", s + ".html"), "w", encoding="utf-8").write(redirect(f"../{c['key']}/{s}.html"))
     sync_headers()
     print("OK:", ", ".join(f'{c["name"]} {len(by_cat[c["key"]])}' for c in CATS), "+ Übersichten, Menü aktualisiert")

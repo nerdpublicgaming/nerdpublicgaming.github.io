@@ -1,0 +1,454 @@
+{
+ "slug": "kaineng-overlook",
+ "kicker": "GW2 · STRIKECHALLENGEMODE · NURDASNEUE",
+ "title": "Kaineng Overlook CM",
+ "subtitle": "Minister Li & Elite-Garde · du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "16:00 Enrage",
+  "Kein Geländer = Fall-Tod",
+  "Stabi je Subgruppe",
+  "Voice empfohlen"
+ ],
+ "timeline": [
+  {
+   "label": "Li · 100–66 %",
+   "desc": "Greens ab Start · 5 Numbers",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Trio",
+   "desc": "Enforcer kiten · Pools · Ghosts",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Li · 66–33 %",
+   "desc": "4 große Spreads · 2× Green",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Mech + Sniper",
+   "desc": "Ricochet · Equalize = Corrupt",
+   "color": "#b91c1c"
+  },
+  {
+   "label": "Li · 33–0 %",
+   "desc": "alles überlappt: Spread → Green → Numbers",
+   "color": "#1e3a8a"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Cleave: nicht dodge- oder blockbar – Stabi oder dahinter",
+   "html": "Im CM fehlt das Geländer, Knockback = <strong>Tod</strong>. Li cleavt ~5 s nach dem Aufladen ohne Telegraph. Wer nicht hinter dem Boss steht (Spread, Green), braucht <strong>Stabi:</strong> „Stand Your Ground!“, Mantra of Liberation/Concentration – in <strong>beiden</strong> Subgruppen.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Greens überall: je 3 Spieler",
+   "html": "Weniger als 3 im Kreis → <strong>ganzer Squad down</strong>. Green-Träger bleibt mit der Gruppe hinter dem Boss. Dieselben Spieler dürfen mehrere Greens abdecken.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Numbers: 5 Ziele, 2. Treffer = Tod",
+   "html": "Explosion gibt Extreme Vulnerability und legt eine <strong>tödliche rote AoE</strong>. Treffer einfach tanken (nicht dodgen – sonst falsche Ablage), an <strong>flachen Kanten</strong> ablegen, nicht in Ecken.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Trio: Kiter, Pools, Ghosts",
+   "html": "<strong>Enforcer</strong> am Spawn kiten (Virtuoso/Scourge). <strong>Mindblade:</strong> 2 Spieler legen je 5 tödliche Pools an die kurzen Seiten. <strong>Ghosts:</strong> Überlappung = Tod.",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Spreads: 4 große Kreise",
+   "html": "Die 4 nächsten Spieler; in 2 Kreisen = down. Genau <strong>einer</strong> darf bei der Gruppe bleiben. Stabi beim Cleave zünden.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Mech Rider & Sniper: Equalize steuern, Mech immer tanken",
+   "html": "Über 20 Stacks <strong>Equalization Matrix</strong> → Boon-Corrupt (Fear!) → Cleanses bereit, gezielt bei den Mech-Numbers auslösen. Der Mech braucht <strong>immer einen Tank</strong>, sonst Barrage + Jade Lob. <strong>Ricochet:</strong> nicht blockbar, 3 Schüsse – nie in den roten Kreis des Ziels; Ziel geht in die Ecke, Heiler überheilen. <strong>Snipe:</strong> erst Green auflösen, dann Zip Line und CC.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "kaineng-overlook-1.jpg",
+   "caption": "③ Numbers verteilen"
+  },
+  {
+   "img": "kaineng-overlook-2.jpg",
+   "caption": "④ Mindblade-Pools ablegen"
+  },
+  {
+   "img": "kaineng-overlook-3.jpg",
+   "caption": "⑤ Li-Spread in der Ecke"
+  },
+  {
+   "img": "kaineng-overlook-4.jpg",
+   "caption": "⑥ Ricochet-Ziel überheilen"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Kaineng Overlook (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/end-of-dragons/kaineng-overlook-cm/"
+  },
+  {
+   "text": "Wingman – Minister Li",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/li"
+  }
+ ],
+ "details": [
+  {
+   "title": "Minister Li · 100–66 % & Trio",
+   "imgs": [
+    {
+     "img": "kaineng-overlook-5.jpg",
+     "caption": "Numbers: Wellen in aufsteigender Reihenfolge"
+    },
+    {
+     "img": "kaineng-overlook-6.jpg",
+     "caption": "Positionen im Trio (Hardstuck-Grafik)"
+    },
+    {
+     "img": "kaineng-overlook-7.jpg",
+     "caption": "Ritualist: 5 bzw. 4 Ghosts + 2 Greens"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Muster wie NM, plus Green: Green+Cleave Mitte → Dash Ecke → Green+Cleave zur Mitte → Dash Mitte → Numbers."
+    },
+    {
+     "t": "li",
+     "html": "Unmarkierte Spieler sind sicher, auch wenn eine Welle durch sie läuft – Abstand zu Markierten halten."
+    },
+    {
+     "t": "li",
+     "html": "Nach dem Ablegen der AoE einfach rausgehen – der Schaden setzt verzögert ein."
+    },
+    {
+     "t": "li",
+     "html": "Reihenfolge: <strong>Mindblade</strong> (Ritualist mitcleaven) → Ritualist → Enforcer. Mindblade und Enforcer nicht tethern lassen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Bladestorm:</strong> 2 Schichten (außen, dann rot innen); Fireballs geben Debilitated → hinter den schwarzen Linien oder beim Ritualist stehen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Slam:</strong> trifft im CM den ganzen Squad – verteilen; in 2 AoEs = down."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Unstable Bladestorms:</strong> 6 wandernde AoEs mit Infirmity – rausgehen, zurück-dodgen."
+    },
+    {
+     "t": "li",
+     "html": "5 Ghosts: Gruppe bleibt am Ritualist-Spawn, Kiter bringt Enforcer zur Gegenseite. 4 Ghosts: in einen Safe Spot unter einem Ghost."
+    },
+    {
+     "t": "li",
+     "html": "Lightning Storm strippt Boons – ausweichen, Firebrand gibt Aegis per Tome."
+    }
+   ]
+  },
+  {
+   "title": "Li · 66–33 % · Mech Rider & Sniper",
+   "imgs": [
+    {
+     "img": "kaineng-overlook-8.jpg",
+     "caption": "Spread + Cleave in der Ecke"
+    },
+    {
+     "img": "kaineng-overlook-9.jpg",
+     "caption": "Mech: Spread + 2 Greens beim Pushback"
+    },
+    {
+     "img": "kaineng-overlook-10.jpg",
+     "caption": "Snipe: rote Linie = Sofort-Tod"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Ablauf: Dash Ecke → 2× Green+Cleave → Dash Ecke → Spread+Cleave (2×), dann Mitte + Numbers."
+    },
+    {
+     "t": "li",
+     "html": "Supports können die Spreads gezielt ködern, Boons geben und dann raus."
+    },
+    {
+     "t": "li",
+     "html": "Gruppe startet beim <strong>Sniper</strong> – außerhalb der ~400er Pushback-Reichweite; Mech von dort aus Range schlagen."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Minen</strong> mit Blocks/Dodges abräumen. Mech-Numbers: Float, 2. Treffer = Tod → verteilen, dodgen/blocken."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Tank:</strong> vor dem Mech, Richtung obere Plattform drehen; nach dem 1. von 2 Autos kurz umpositionieren."
+    },
+    {
+     "t": "li",
+     "html": "Sniper teleportiert auf eine Ecke mit Zip Line; Bar brechen, sonst tötet der Laser alle in der Linie."
+    },
+    {
+     "t": "li",
+     "html": "Green zuerst in der Ecke nächst zum Sniper auflösen – auf der Zip Line zählt man nicht als „im Green“."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Li 33–0 %:</strong> Reihenfolge immer Spread → Green → Numbers; Stabi für Green+Spread+Cleave sparen."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Virtuoso",
+      "22,7 %"
+     ],
+     [
+      "Mechanist",
+      "17,3 %"
+     ],
+     [
+      "Troubadour",
+      "9,4 %"
+     ],
+     [
+      "Scourge",
+      "6,1 %"
+     ],
+     [
+      "Tempest",
+      "4,8 %"
+     ],
+     [
+      "Firebrand",
+      "4,7 %"
+     ],
+     [
+      "Chronomancer",
+      "4,3 %"
+     ],
+     [
+      "Harbinger",
+      "3,8 %"
+     ],
+     [
+      "Deadeye",
+      "2,5 %"
+     ],
+     [
+      "Specter",
+      "2,5 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Galeshot",
+      "32.450",
+      "37.271"
+     ],
+     [
+      "Deadeye",
+      "30.226",
+      "41.109"
+     ],
+     [
+      "Weaver",
+      "30.154",
+      "30.732"
+     ],
+     [
+      "Virtuoso",
+      "29.102",
+      "38.004"
+     ],
+     [
+      "Mechanist",
+      "28.916",
+      "38.372"
+     ],
+     [
+      "Willbender",
+      "28.649",
+      "36.104"
+     ],
+     [
+      "Berserker",
+      "27.787",
+      "35.990"
+     ],
+     [
+      "Harbinger",
+      "26.605",
+      "35.715"
+     ],
+     [
+      "Renegade",
+      "25.228",
+      "32.046"
+     ],
+     [
+      "Amalgam",
+      "24.707",
+      "30.400"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Virtuoso, Mechanist, Scourge, Tempest",
+      "Am häufigsten in den CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Galeshot, Deadeye, Weaver, Willbender, Berserker, Harbinger, Renegade",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Boon-DPS / flexibel",
+       "text": ""
+      },
+      "Firebrand",
+      "Große Spanne zwischen Ø und Top-DPS → als Support und als (Boon-)DPS gespielt."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Paragon, Luminary, Druid, Catalyst",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Heal-Firebrand: Mantra of Liberation + Stalwart Speed = Stabi.",
+     "Chapter 4 + Purging Flames kontert Equalize-Corrupt.",
+     "Signet of Mercy: Ranged-Rezz beim Ricochet."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Mechanist: zweithäufigster Spec, hoher Ø-DPS.",
+     "Scrapper: Function Gyro rezzt das Ricochet-Ziel.",
+     "Mech ist kein Mech-Rider-Tank – du musst vorne stehen."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Virtuoso: idealer Enforcer-Kiter und Mech-Tank.",
+     "Blink holt Mech-Fixate schnell zurück.",
+     "Mantra/Blink nie Richtung Kante."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Tempest: Heiler-Option, Static Shield räumt Minen.",
+     "Wenig HP → Extreme Vuln besonders tödlich.",
+     "Lange Channels nicht vor Cleave/Numbers."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Scourge: Barrier + Sand Swell, Signet of Undeath.",
+     "Harbinger: solider Ø-DPS.",
+     "Shades cleaven Mindblade und Ritualist."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Renegade/Vindicator: guter Ø-DPS.",
+     "Herald: Boons, Ø-DPS niedriger.",
+     "Sprung-Dodge nicht über die Kante."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Berserker/Bladesworn: hoher Ø-DPS.",
+     "Dragon Trigger stationär – nicht vor Cleave.",
+     "Viel CC für den Snipe."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Galeshot: höchster Ø-DPS in diesen Logs.",
+     "Pet stört nicht, aber Longbow-Knockback Richtung Mitte.",
+     "Druide: selten, als Heiler."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Deadeye: zweithöchster Ø-DPS.",
+     "Kneel macht stationär – vor Numbers aufstehen.",
+     "Shadowstep nie Richtung Kante."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 24.11.2026 · Minister Li: Erfolgsquote 28,3 %, Median-Kill 6:57 <strong>min</strong> · Ø-DPS nur Specs mit ≥ 0,5 % Anteil",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman führen <strong>Virtuoso</strong> (Pierce, 1200 Range – Hardstuck-Tipp für Kiter/Mech-Tank) und Mechanist. Hardstuck empfiehlt Heal-Firebrand und Condi-Scourge für Ranged-Heal und Barrier beim Ricochet; Stabi muss in beiden Subgruppen verfügbar sein.",
+  "intro": "Mechanik-Bezug aus dem Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}

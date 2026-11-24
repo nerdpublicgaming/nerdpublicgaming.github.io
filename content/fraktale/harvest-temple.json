@@ -1,0 +1,464 @@
+{
+ "slug": "harvest-temple",
+ "kicker": "GW2 · STRIKECHALLENGEMODE · NURDASNEUE",
+ "title": "Harvest Temple CM",
+ "subtitle": "Dragonvoid · du kennst den Normal Mode? Dann reicht diese Seite.",
+ "chips": [
+  "2 min je Drache",
+  "Fallen = Tod",
+  "Boon-Rip Pflicht",
+  "Viel CC + Voice"
+ ],
+ "timeline": [
+  {
+   "label": "Purif. I",
+   "desc": "Melters · Wand = Wipe",
+   "color": "#7c2d12"
+  },
+  {
+   "label": "Jormag",
+   "desc": "Reds · Greens · Spreads",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Primordus",
+   "desc": "Bite & Chin = Tod",
+   "color": "#b91c1c"
+  },
+  {
+   "label": "Kralk",
+   "desc": "fast wie NM",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Purif. II · Mordre",
+   "desc": "Bees · 3 Shock Waves",
+   "color": "#ea580c"
+  },
+  {
+   "label": "Zhaitan",
+   "desc": "Scream nicht dodgebar",
+   "color": "#b91c1c"
+  },
+  {
+   "label": "Soo-Won",
+   "desc": "Swipe tötet · Goliath",
+   "color": "#1e3a8a"
+  }
+ ],
+ "rules": [
+  {
+   "n": 1,
+   "title": "Die drei Koordinations-Mechaniken",
+   "html": "<strong>Reds:</strong> 2 nächste zur Mitte, größer und bleiben die ganze Phase → die beiden Heal-Mechanists kiten und stapeln sie (nur evade, kein Block/Invuln). <strong>Greens:</strong> 2 Spieler je Kreis, sonst Wipe – auf den Audio-Cue warten. <strong>Spreads:</strong> 7 nächste zur Mitte, 2 Kreise = down. Feste Zuteilung, jeden Pull gleich.",
+   "wide": true
+  },
+  {
+   "n": 2,
+   "title": "Boon-Rip auf jeden Drachen",
+   "html": "Alle Drachen spawnen mit Boons und bekommen sie <strong>alle 20 s neu</strong>. Konstant strippen (Virtuoso, z. B. Throw Mine) – feste Mechaniken als Timing-Cue nutzen.",
+   "wide": false
+  },
+  {
+   "n": 3,
+   "title": "Purification: jeder Fehler wiped",
+   "html": "Herz-AoEs downen sofort. 6 <strong>Extra-Melters</strong> pro Phase. Herz trifft Melter oder Wand → <strong>Squad tot</strong>. Kreise bremsen weniger → stärker gegenpushen.",
+   "wide": false
+  },
+  {
+   "n": 4,
+   "title": "Primordus: Bite & Chin töten",
+   "html": "Bite + Magmafeld = Tod, nur rauslaufen (Spreads beachten). Chin: nur invulnbar → Safe Spot <strong>östlich</strong> am Boss.",
+   "wide": false
+  },
+  {
+   "n": 5,
+   "title": "Mordremoth & Zhaitan",
+   "html": "<strong>3 Shock Waves</strong> springen (Knockback ignoriert Block). <strong>Scream:</strong> nicht dodge-/blockbar, Fear ignoriert Stabi → vorher Barrier + Protection, danach Stunbreak + Cleanse.",
+   "wide": false
+  },
+  {
+   "n": 6,
+   "title": "Soo-Won: Swipe tötet alles, Phase 2 ohne HP-Sprung",
+   "html": "<strong>Swipe</strong> tötet auch Pets und Mechs → Mech vorher zurückrufen. Paw- und Tail-Slam-Wellen springen oder dodgen. Reds bleiben bis zum Kampfende. <strong>Soo-Won II</strong> startet bei 50 % (nicht 33 %), dazu <strong>Goliath + Obliterator:</strong> sofort fokussieren – springt der Goliath auf den Boss, ist der Pull meist vorbei.",
+   "wide": true
+  }
+ ],
+ "figures": [
+  {
+   "img": "harvest-temple-1.jpg",
+   "caption": "④ Primordus-Bite: raus!"
+  },
+  {
+   "img": "harvest-temple-2.jpg",
+   "caption": "⑤ Mordremoth-Shock-Wave springen"
+  },
+  {
+   "img": "harvest-temple-3.jpg",
+   "caption": "⑤ Zhaitan-Scream"
+  },
+  {
+   "img": "harvest-temple-4.jpg",
+   "caption": "⑥ Soo-Won-Swipe + Spreads"
+  }
+ ],
+ "sources": [
+  {
+   "text": "Hardstuck – Harvest Temple (CM) Guide",
+   "url": "https://hardstuck.gg/gw2/guides/end-of-dragons/harvest-temple-cm/"
+  },
+  {
+   "text": "Wingman – Dragonvoid",
+   "url": "https://gw2wingman.nevermindcreations.de/classic/va"
+  }
+ ],
+ "details_intro": "Hardstuck geht von 2 Heal-Alac-Mechanists (HAM), 2 Portal-Virtuosos und 2 Quickness-Heralds aus; Condi-DPS wird nicht empfohlen (Drachen haben weniger Toughness).",
+ "details": [
+  {
+   "title": "Grundlagen & Purification",
+   "imgs": [
+    {
+     "img": "harvest-temple-5.jpg",
+     "caption": "Greens: 2 pro Kreis"
+    },
+    {
+     "img": "harvest-temple-6.jpg",
+     "caption": "Purification I: Herz schieben"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "Zuteilung meist: HAMs westliches Green, Virtuosos östliches, Heralds das nahe Green."
+    },
+    {
+     "t": "li",
+     "html": "Greens wandern mit der wachsenden Void-Fläche Richtung Rand."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Stealth</strong> beim Phasenwechsel (Mass Invisibility): Adds laufen gebündelt zur Gruppe – stillstehen, Pets einholen."
+    },
+    {
+     "t": "li",
+     "html": "Boss erst töten, wenn die nächste Koordinations-Mechanik gespawnt ist – sonst buggen die Übergänge."
+    },
+    {
+     "t": "li",
+     "html": "5 Melters im SO, 1 von der Gegenseite – mit einem schwachen Cleave-Skill alle treffen (Bloodlust-Stacks)."
+    },
+    {
+     "t": "li",
+     "html": "Void Empowerment alle 10 s = Enrage der Purification; Titel Voidwalker: jedes Herz vor 3 Stacks."
+    },
+    {
+     "t": "li",
+     "html": "Am letzten Kreis bekommt das Herz eine Bar – alle brechen. Portal am Südrand spart den Laufweg zu Jormag."
+    }
+   ]
+  },
+  {
+   "title": "Die Drachen",
+   "imgs": [
+    {
+     "img": "harvest-temple-7.jpg",
+     "caption": "Reds: HAMs stapeln beide Pools"
+    },
+    {
+     "img": "harvest-temple-8.jpg",
+     "caption": "Primordus-Chin: Safe Spot im Osten"
+    },
+    {
+     "img": "harvest-temple-9.jpg",
+     "caption": "Zhaitan: Giants zuerst, Scream überleben"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "<strong>Jormag:</strong> Breath immer im Boss-Hitbox umgehen; Frost Meteor macht den Boden rutschig – nicht abrutschen. Töten spätestens beim 2. Spread."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Primordus:</strong> 20 s Pause nach Jormag, dann Bite + Spreads. Spieler ohne Teleport gehen vorne, Teleporter warten auf die Spread-Explosion."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Kralkatorrik:</strong> fast NM; Beams geben Infirmity, Meteore – Stabi bereit, wenn Brandbombers leben."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Purif. II:</strong> Time Caster (Projektile reflektieren/zerstören), Bees nur ausweichen, Zhaitan-Pools weiträumig meiden."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Mordremoth:</strong> nicht während Shock Wave töten – eine unsichtbare Welle läuft weiter."
+    },
+    {
+     "t": "li",
+     "html": "Drei Champion Void Giants sofort mit CC + Burst. Zhaitan ist erst nach dem 1. Green angreifbar."
+    },
+    {
+     "t": "li",
+     "html": "Scream: HAMs zünden Over Shield + Barrier Burst und sparen <strong>Crisis Zone</strong> genau dafür. Danach erst Gift cleansen, dann heilen."
+    }
+   ]
+  },
+  {
+   "title": "Soo-Won",
+   "imgs": [
+    {
+     "img": "harvest-temple-10.jpg",
+     "caption": "Soo-Won II: Goliath + Obliterator"
+    }
+   ],
+   "items": [
+    {
+     "t": "li",
+     "html": "P1: HAMs können wegen der Reds keine Greens nehmen – 2 DPS übernehmen. Reds gegen den Uhrzeigersinn NO → NW am Rand."
+    },
+    {
+     "t": "li",
+     "html": "Nicht vor Paw/Tail-Slam phasen – sonst spawnen die Greens in P2 asynchron."
+    },
+    {
+     "t": "li",
+     "html": "<strong>Void Amalgamate:</strong> Ping-Pong zwischen zwei Subgruppen; Projektile reflektieren (Protective Solace), gegen den Uhrzeigersinn strafen."
+    }
+   ]
+  }
+ ],
+ "classes": {
+  "tables": [
+   {
+    "title": "Am häufigsten gespielt (CM)",
+    "head": [
+     "Spec",
+     "Anteil"
+    ],
+    "rows": [
+     [
+      "Virtuoso",
+      "21,8 %"
+     ],
+     [
+      "Vindicator",
+      "11,2 %"
+     ],
+     [
+      "Herald",
+      "10,7 %"
+     ],
+     [
+      "Mechanist",
+      "8,0 %"
+     ],
+     [
+      "Troubadour",
+      "7,2 %"
+     ],
+     [
+      "Amalgam",
+      "6,3 %"
+     ],
+     [
+      "Tempest",
+      "4,7 %"
+     ],
+     [
+      "Chronomancer",
+      "4,3 %"
+     ],
+     [
+      "Paragon",
+      "4,0 %"
+     ],
+     [
+      "Scrapper",
+      "4,0 %"
+     ]
+    ]
+   },
+   {
+    "title": "Höchster Ø-DPS (CM)",
+    "head": [
+     "Spec",
+     "Ø DPS",
+     "Top"
+    ],
+    "rows": [
+     [
+      "Willbender",
+      "31.571",
+      "32.594"
+     ],
+     [
+      "Dragonhunter",
+      "30.532",
+      "30.918"
+     ],
+     [
+      "Scrapper",
+      "29.025",
+      "33.985"
+     ],
+     [
+      "Renegade",
+      "28.652",
+      "31.677"
+     ],
+     [
+      "Reaper",
+      "28.118",
+      "29.401"
+     ],
+     [
+      "Spellbreaker",
+      "27.643",
+      "30.647"
+     ],
+     [
+      "Bladesworn",
+      "27.628",
+      "31.720"
+     ],
+     [
+      "Antiquary",
+      "27.284",
+      "29.505"
+     ],
+     [
+      "Amalgam",
+      "26.973",
+      "32.957"
+     ],
+     [
+      "Vindicator",
+      "25.260",
+      "33.867"
+     ]
+    ]
+   },
+   {
+    "title": "Rollen-Empfehlung (abgeleitet aus Beliebtheit + Ø-DPS)",
+    "head": [
+     "Rolle",
+     "Specs",
+     "Warum"
+    ],
+    "rows": [
+     [
+      {
+       "badge": "DPS",
+       "text": "sicher & beliebt"
+      },
+      "Virtuoso, Vindicator, Herald, Mechanist",
+      "Am häufigsten in den CM-Logs – bewährt für diese Mechaniken."
+     ],
+     [
+      {
+       "badge": "DPS",
+       "text": "hoher Schaden"
+      },
+      "Willbender, Dragonhunter, Scrapper, Renegade, Reaper, Spellbreaker, Bladesworn",
+      "Höchster Ø-DPS; brauchen saubere Uptime trotz Mechaniken."
+     ],
+     [
+      {
+       "badge": "Heal-Support",
+       "text": ""
+      },
+      "Troubadour, Tempest, Chronomancer, Paragon",
+      "Ø-DPS unter 3,5k → in CM-Logs praktisch nur als Heiler/Support."
+     ]
+    ]
+   }
+  ],
+  "profs": [
+   {
+    "name": "Wächter",
+    "specs": "Firebrand · Luminary · Willbender · Dragonhunter",
+    "items": [
+     "Luminary/Firebrand: Stabi-Burst für Primordus-Bite und Shock Waves.",
+     "Protective Solace (Wächter) zerstört Projektile.",
+     "Willbender-Dashes nie Richtung Kante."
+    ]
+   },
+   {
+    "name": "Ingenieur",
+    "specs": "Mechanist · Amalgam · Scrapper · Holosmith",
+    "items": [
+     "Heal-Mechanist (HAM): Reds kiten, Crisis Zone für den Scream sparen.",
+     "Mech vor dem Swipe zurückrufen!",
+     "Elixir S: Invuln für Shock Wave beim Red-Ablegen."
+    ]
+   },
+   {
+    "name": "Mesmer",
+    "specs": "Virtuoso · Chronomancer · Troubadour · Mirage",
+    "items": [
+     "Virtuoso: meistgespielt – Portale, Boon-Rip, Mass Invisibility.",
+     "Vicious Expression für Boon-Rip.",
+     "Troubadour: Heiler-Option, Stabi-Timing beachten."
+    ]
+   },
+   {
+    "name": "Elementarmagier",
+    "specs": "Tempest · Weaver · Catalyst · Evoker",
+    "items": [
+     "Weaver: Hardstuck-DPS-Empfehlung.",
+     "Lange Channels nie vor Bite/Chin starten.",
+     "Tempest: als Heiler in den Logs selten."
+    ]
+   },
+   {
+    "name": "Nekromant",
+    "specs": "Ritualist · Scourge · Reaper · Harbinger",
+    "items": [
+     "Reaper: Hardstuck-DPS, Soul Spiral schiebt Herzen stark.",
+     "Shroud schützt nicht vor Sofort-Tod-Mechaniken.",
+     "Harbinger/Scourge: Condi wird nicht empfohlen."
+    ]
+   },
+   {
+    "name": "Widergänger",
+    "specs": "Renegade · Vindicator · Herald · Conduit",
+    "items": [
+     "Vindicator: zweithäufigster Spec.",
+     "Herald: Quickness + Centaur-/Dwarf-Stance.",
+     "Sprung-Dodge über Shock Waves."
+    ]
+   },
+   {
+    "name": "Krieger",
+    "specs": "Berserker · Spellbreaker · Bladesworn · Paragon",
+    "items": [
+     "Bladesworn: Hardstuck-DPS, Dragon Trigger nicht vor Mechaniken.",
+     "Spellbreaker: Winds of Disenchantment als Boon-Rip.",
+     "Paragon: in den Logs als Support."
+    ]
+   },
+   {
+    "name": "Waldläufer",
+    "specs": "Soulbeast · Untamed · Galeshot · Druid",
+    "items": [
+     "Soulbeast: Whirling Defense gegen Time-Caster-Projektile.",
+     "Pet einholen vor Phasenwechsel (Stealth).",
+     "Pet stirbt beim Swipe."
+    ]
+   },
+   {
+    "name": "Dieb",
+    "specs": "Daredevil · Deadeye · Specter · Antiquary",
+    "items": [
+     "Daredevil: hoher Ø-DPS, aber selten gespielt.",
+     "Kneel (Deadeye) lenkt Minions um – vorher aufstehen.",
+     "Specter: kaum gespielt."
+    ]
+   }
+  ],
+  "meta": "Daten: GW2 Wingman, <strong>Challenge Mode</strong>, „Balance Patch November 2026“, Stand 24.11.2026 · Dragonvoid: Erfolgsquote 3,7 %, Median-Kill 7:43 <strong>min</strong> · Ø-DPS nur Specs mit ≥ 0,5 % Anteil · Erfolgsquote zählt alle hochgeladenen Versuche",
+  "tip": "<strong>Komp-Tipp:</strong> Laut Wingman dominieren <strong>Virtuoso</strong>, Vindicator und Herald – genau die Hardstuck-Komp (2 HAM, 2 Virtuoso mit Portalen, 2 Quickness-Herald, Power-DPS wie Bladesworn, Soulbeast, Vindicator, Weaver, Reaper). Achtung: nur 3,7 % der CM-Logs sind Kills, die Zahlen stammen großteils aus Versuchen.",
+  "intro": "Mechanik-Bezug aus dem Guide; die Klassenhinweise sind allgemeine Spieltipps. Für die neuesten Elite-Specs (z. B. Troubadour, Ritualist, Paragon, Luminary, Conduit, Evoker, Antiquary, Galeshot, Amalgam) gelten v. a. die Klassen-Grundregeln – prüfe die konkreten Skills im aktuellen Build."
+ }
+}
