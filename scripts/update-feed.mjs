@@ -25,7 +25,27 @@ async function saveThumb(url, name) {
     return file;
   } catch (e) {
     console.warn('Thumbnail fehlgeschlagen:', url, e.message);
-    return '';
+    // vorhandenes Bild behalten statt es zu verlieren
+    return await readFile(file).then(() => file, () => '');
+  }
+}
+
+// Bei einem Fehler (YouTube/Twitch nicht erreichbar) bleibt der alte Stand stehen –
+// dessen Vorschaubilder müssen dann auch erhalten bleiben bzw. neu geladen werden.
+async function keepOldThumbs(list, kind) {
+  for (const it of list || []) {
+    if (kind === 'yt') {
+      it.thumb = await saveThumb(`https://i.ytimg.com/vi/${it.id}/hqdefault.jpg`, `yt-${it.id}`) || it.thumb;
+    } else if (it.thumb) {
+      keep.add(it.thumb.split('/').pop());
+    }
+  }
+}
+
+async function retry(fn, tries = 3) {
+  for (let i = 1; ; i++) {
+    try { return await fn(); }
+    catch (e) { if (i >= tries) throw e; console.warn(`Versuch ${i} fehlgeschlagen (${e.message}) – nochmal …`); await new Promise(r => setTimeout(r, 4000 * i)); }
   }
 }
 
@@ -89,8 +109,9 @@ async function twitch() {
 }
 
 const feed = { updated: new Date().toISOString(), live: old.sample ? null : old.live, videos: old.sample ? [] : old.videos, clips: old.sample ? [] : old.clips };
-try { feed.videos = await youtube(); } catch (e) { console.error(e.message); }
-try { const t = await twitch(); if (t) Object.assign(feed, t); } catch (e) { console.error(e.message); }
+try { feed.videos = await retry(youtube); } catch (e) { console.error(e.message); await keepOldThumbs(feed.videos, 'yt'); }
+try { const t = await twitch(); if (t) Object.assign(feed, t); else await keepOldThumbs(feed.clips, 'clip'); }
+catch (e) { console.error(e.message); await keepOldThumbs(feed.clips, 'clip'); }
 
 // ---------- Instagram ----------
 // Zwei Wege, je nachdem welches Secret gesetzt ist:
