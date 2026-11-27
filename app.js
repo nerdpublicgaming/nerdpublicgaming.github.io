@@ -26,6 +26,10 @@
     f.allowFullscreen = true;
     f.title = 'Twitch-Stream von NerdPublic Gaming';
     $('player').replaceChildren(f);
+    const c = document.createElement('iframe');
+    c.src = `https://www.twitch.tv/embed/${CHANNEL}/chat?parent=${encodeURIComponent(host)}&darkpopout`;
+    c.title = 'Twitch-Chat von NerdPublic Gaming';
+    $('chat').replaceChildren(c);
   });
 
   // ---- Live-Status ----

@@ -64,9 +64,24 @@ img{max-width:100%;display:block}
 .btn:hover .btn-bg{transform:scale(1.05,1.12)}
 
 /* HERO */
-.hero{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(24px,4vw,56px);align-items:center;max-width:none}
+.hero{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(24px,3vw,40px);max-width:none}
 .hero>*{margin:0;max-width:none}
 .hero{max-width:calc(1240px + 10vw);margin-inline:auto;padding-inline:max(5vw,16px)}
+/* Kopf: Logo | Titel | Status + Buttons */
+.hero-text{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(18px,3vw,40px);align-items:center}
+.hero-title h1{margin-top:0}
+.hero-title .tagline{margin-bottom:0}
+.hero-side .cta{padding-left:0}
+/* Stream + Chat nebeneinander */
+.stage{display:grid;grid-template-columns:minmax(0,1fr) clamp(300px,24vw,380px);gap:clamp(18px,2vw,28px);align-items:stretch}
+.chat{display:flex;flex-direction:column}
+.chat-inner{position:relative;flex:1;min-height:0;background:#0e0e10;overflow:hidden}
+.chat-inner iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.chat-wait{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:20px;text-align:center;
+  background:radial-gradient(closest-side,rgba(58,44,28,.35),rgba(0,0,0,.8))}
+.chat-head{margin:0;font:700 clamp(17px,1.8vw,21px) var(--head);color:var(--gold)}
+.chat-wait .fine{margin:0;max-width:22em}
+.chat-pop{display:block;padding:8px 2px 0;font-size:13px;color:var(--gold);text-align:right}
 .crest{width:clamp(96px,12vw,150px);height:auto;filter:drop-shadow(0 0 24px rgba(242,106,42,.45))}
 h1{font:800 clamp(38px,5.2vw,64px)/1.02 var(--head);margin:18px 0 10px;text-wrap:balance;
   text-shadow:0 2px 0 #000,0 0 30px rgba(242,106,42,.35)}
@@ -177,6 +192,10 @@ h2{font:700 clamp(26px,3.2vw,36px)/1.1 var(--head);margin:0}
 
 @media(max-width:900px){
   .hero{grid-template-columns:minmax(0,1fr)}
+  .hero-text{grid-template-columns:auto minmax(0,1fr)}
+  .hero-side{grid-column:1/-1}
+  .stage{grid-template-columns:minmax(0,1fr)}
+  .chat-inner{flex:none;height:460px}
   .videos{grid-template-columns:repeat(2,minmax(0,1fr))}
   .nav .brand span{display:none}
 }
