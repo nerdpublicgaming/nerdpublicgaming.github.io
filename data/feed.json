@@ -1,9 +1,16 @@
 {
-  "updated": "2026-11-27T04:20:06.510Z",
+  "updated": "2026-11-27T22:46:27.220Z",
   "live": {
     "isLive": false
   },
   "videos": [
+    {
+      "id": "bknXmkaqCLk",
+      "title": "[ger/eng] [SC]-Supremecommanders!  No Caps, Just Progress 👑 | Ich muss raid leaden OMG!",
+      "published": "2026-11-27T19:09:38+00:00",
+      "views": 3,
+      "thumb": "data/thumbs/yt-bknXmkaqCLk.jpg"
+    },
     {
       "id": "wkM2IC_H8p8",
       "title": "[ger/eng] [SC]-Supremecommanders!  No Caps, Just Progress 👑 | Endless Summer Farm und Dailys!",
@@ -52,13 +59,6 @@
       "published": "2026-09-19T19:55:22+00:00",
       "views": 75,
       "thumb": "data/thumbs/yt-FGdnvshdhz4.jpg"
-    },
-    {
-      "id": "7CBbt8q63TU",
-      "title": "[ger/eng] Grinding Legendaries until I lose my mind 💎",
-      "published": "2026-08-30T19:05:38+00:00",
-      "views": 68,
-      "thumb": "data/thumbs/yt-7CBbt8q63TU.jpg"
     }
   ],
   "clips": []
