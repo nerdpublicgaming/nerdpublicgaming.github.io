@@ -1,0 +1,53 @@
+{
+ "channels": {
+  "beta": {
+   "version": "0.9.0",
+   "label": "0.9 Beta",
+   "date": "2026-11-28",
+   "notes": [
+    "Erste Beta-Version für Tester",
+    "Abend-Auswertung aus deinen arcdps-Logs mit Wingman-Vergleich, PDFs und Discord-Text",
+    "Live-Meter für den zweiten Monitor (mit dem Nexus-Addon NPG Live Bridge 1.1)",
+    "Live-Meter: Klick auf einen Spieler zeigt Skills, Kennzahlen und DPS-Kurve",
+    "Live-Meter: Boon-Tabelle (Erhalten, Erzeugt für Gruppe und Squad)",
+    "Golem-Training mit Bestwerten, Verlauf und Benchmark-Zielen",
+    "Updates direkt im Programm und Fehlerbericht per Knopf (Einstellungen → Über & Updates)"
+   ],
+   "runtime": 1,
+   "app": {
+    "url": "downloads/0.9.0/app-0.9.0.zip",
+    "sha256": "f493d530f9beb6afa5cff1cc89fb8c626ad9894afdf061c66ecf2ea8dd3ed26c",
+    "size": 275036
+   },
+   "full": {
+    "url": "downloads/0.9.0/NPG-Log-Analyzer-0.9.0.zip",
+    "sha256": "bc005ddd4595499e467b5c0400b69acb9b9eab9b9cdeb9db8d59559a5e15a880",
+    "size": 11556480
+   }
+  }
+ },
+ "addon": {
+  "version": "1.1",
+  "url": "downloads/0.9.0/NPG_LiveBridge.dll",
+  "sha256": "8dbc5f265b639264c17238d5b42eeaf2cb6a683379dac685fc74d7ea6cb9e5b7",
+  "size": 75264
+ },
+ "history": [
+  {
+   "version": "0.9.0",
+   "label": "0.9 Beta",
+   "date": "2026-11-28",
+   "channel": "beta",
+   "notes": [
+    "Erste Beta-Version für Tester",
+    "Abend-Auswertung aus deinen arcdps-Logs mit Wingman-Vergleich, PDFs und Discord-Text",
+    "Live-Meter für den zweiten Monitor (mit dem Nexus-Addon NPG Live Bridge 1.1)",
+    "Live-Meter: Klick auf einen Spieler zeigt Skills, Kennzahlen und DPS-Kurve",
+    "Live-Meter: Boon-Tabelle (Erhalten, Erzeugt für Gruppe und Squad)",
+    "Golem-Training mit Bestwerten, Verlauf und Benchmark-Zielen",
+    "Updates direkt im Programm und Fehlerbericht per Knopf (Einstellungen → Über & Updates)"
+   ]
+  }
+ ],
+ "updated": "2026-11-28T21:00:24"
+}

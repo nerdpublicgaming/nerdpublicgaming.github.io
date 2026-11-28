@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NPG Log Analyzer – NerdPublic Gaming</title>
+<meta name="description" content="NPG Log Analyzer: Abend-Auswertung deiner Guild-Wars-2-Logs, Live-Meter mit Boon-Tabelle und Golem-Training – Beta.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="../assets/favicon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../guide.css">
+<style>
+.la-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:26px;align-items:start}
+.la-box{padding:22px 26px}
+.la-box h2{font:700 22px var(--head);margin:0 0 10px;color:var(--red2)}
+.la-box h3{font:700 16px var(--head);margin:18px 0 6px;color:var(--brown)}
+.la-box p,.la-box li{line-height:1.6}
+.la-box ol,.la-box ul{padding-left:20px;margin:6px 0}
+.la-box code{background:rgba(43,31,20,.1);padding:1px 6px;border-radius:4px;font-size:.92em}
+.la-ver{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.la-ver b{font:800 30px var(--head);color:var(--red2)}
+.la-ver span{color:var(--brown2)}
+.la-dl{display:flex;flex-direction:column;gap:14px;margin:16px 0 6px}
+.la-dl .btn{width:100%}
+.la-small{font-size:13.5px;color:var(--brown2)}
+.la-sha{font:12px/1.4 ui-monospace,Consolas,monospace;word-break:break-all;color:var(--brown2)}
+.la-feat{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 22px;list-style:none;padding:0!important}
+.la-feat li{padding-left:22px;position:relative}
+.la-feat li::before{content:"◆";position:absolute;left:0;color:var(--red);font-size:12px;top:4px}
+.la-hist article{border-top:1px solid rgba(90,70,48,.25);padding:10px 0}
+.la-hist article:first-child{border-top:0}
+.la-hist h3{margin:0 0 4px}
+.la-tag{display:inline-block;font:600 11px var(--body);text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:10px;background:var(--red);color:#fff;margin-left:6px;vertical-align:middle}
+.la-tag.stabil{background:var(--gold2)}
+.la-note{border-left:4px solid var(--gold2);padding:8px 14px;background:rgba(168,123,44,.1);margin:12px 0}
+@media (max-width:900px){.la-grid{grid-template-columns:1fr}.la-feat{grid-template-columns:1fr}}
+</style>
+</head>
+<body class="guide-page">
+<header class="nav">
+  <a class="brand" href="../index.html" aria-label="NerdPublic Gaming – Start">
+    <img src="../assets/logo-round.png" alt="" width="44" height="44">
+    <span>NerdPublic <b>Gaming</b></span>
+  </a>
+  <nav class="links" aria-label="Hauptmenü">
+    <a href="../index.html#stream">Stream</a>
+    <a href="../index.html#videos">Videos</a>
+    <a href="../index.html#clips">Clips</a>
+    <div class="dd">
+      <button type="button" class="dd-btn" aria-expanded="false" aria-controls="ddMenu">GW2 Guides <span aria-hidden="true">▾</span></button>
+      <div class="dd-menu" id="ddMenu">
+        <a class="dd-all" href="../guides/index.html">Alle GW2-Guides</a>
+        <div class="dd-groups"><div class="dd-group"><a class="dd-head" href="../fraktale/index.html">Fraktale</a><a href="../fraktale/nightmare.html">Nightmare CM</a><a href="../fraktale/shattered-observatory.html">Shattered Observatory CM</a><a href="../fraktale/sunqua-peak.html">Sunqua Peak CM</a><a href="../fraktale/silent-surf.html">Silent Surf CM</a><a href="../fraktale/lonely-tower.html">Lonely Tower CM</a><a href="../fraktale/kinfall.html">Kinfall CM</a></div><div class="dd-group"><a class="dd-head" href="../strikes/index.html">Strikes</a><a href="../strikes/aetherblade-hideout.html">Ätherklingen-Versteck CM</a><a href="../strikes/xunlai-jade-junkyard.html">Xunlai Jade Junkyard CM</a><a href="../strikes/kaineng-overlook.html">Kaineng Overlook CM</a><a href="../strikes/harvest-temple.html">Harvest Temple CM</a><a href="../strikes/old-lions-court.html">Old Lion’s Court CM</a><a href="../strikes/cosmic-observatory.html">Cosmic Observatory CM</a><a href="../strikes/temple-of-febe.html">Temple of Febe CM</a></div><div class="dd-group"><a class="dd-head" href="../raids/index.html">Raids</a><a href="../raids/wing-1-spirit-vale.html">Wing 1 · Spirit Vale</a><a href="../raids/wing-2-salvation-pass.html">Wing 2 · Salvation Pass</a><a href="../raids/wing-3-stronghold-of-the-faithful.html">Wing 3 · Stronghold of the Faithful</a><a href="../raids/wing-4-bastion-of-the-penitent.html">Wing 4 · Bastion of the Penitent</a><a href="../raids/wing-5-hall-of-chains.html">Wing 5 · Hall of Chains</a><a href="../raids/wing-6-mythwright-gambit.html">Wing 6 · Mythwright Gambit</a><a href="../raids/wing-7-key-of-ahdashim.html">Wing 7 · Key of Ahdashim</a><a href="../raids/wing-8-mount-balrior.html">Wing 8 · Mount Balrior</a></div></div>
+      </div>
+    </div>
+    <a class="lock-link" href="../sc-logs/index.html"><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3H9z"/></svg>SC-Logs</a>
+    <a href="../insta.html"><span class="nav-long">Phils </span>Insta<span class="nav-long"> inc. Dog-Pics!</span></a>
+    <a href="../index.html#about">Über mich</a>
+    <a class="support-link" href="https://www.paypal.com/paypalme/nerdpublicgaming93" target="_blank" rel="noopener" title="Unterstütze mich gerne! (PayPal)"><svg class="lk" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.9 4.5 6.6 4.5c2.1 0 3.9 1.2 5.4 3.1 1.5-1.9 3.3-3.1 5.4-3.1 3.7 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21z"/></svg><span class="nav-long">Unterstütze mich gerne!</span><span class="nav-short">Unterstützen</span></a>
+  </nav>
+</header>
+<main>
+<div class="crumbs band"><a href="../index.html">Start</a> › <span>NPG Log Analyzer</span></div>
+<section class="g-hero band">
+  <div class="g-hero-in">
+    <p class="kick">Guild Wars 2 · Werkzeug · Beta</p>
+    <h1>NPG Log Analyzer</h1>
+    <p class="sub">Wertet eure Raid-, Strike- und Fraktal-Abende aus deinen arcdps-Logs aus – mit Wingman-Vergleich, PDFs und Discord-Text. Dazu ein Live-Meter für den zweiten Monitor mit Skill-Ansicht und Boon-Tabelle und ein Golem-Training mit Bestwerten. Läuft lokal auf deinem PC, ohne KI.</p>
+  </div>
+</section>
+
+<section class="band">
+<div class="la-grid">
+  <div class="la-box parchment">
+    <h2>Was das Programm kann</h2>
+    <ul class="la-feat">
+      <li><b>Abend auswerten:</b> alle Versuche, Schaden und Anteil, Entwicklung pro Versuch, Vergleich mit dem GW2-Wingman-Klassen-Median.</li>
+      <li><b>Zwei PDFs + Discord-Text:</b> Einseiter für die Gruppe und ausführlicher Bericht.</li>
+      <li><b>Live-Meter:</b> DPS in Klassenfarben auf dem zweiten Monitor, Klick auf einen Namen zeigt Skills, Kennzahlen und DPS-Kurve.</li>
+      <li><b>Boon-Tabelle live:</b> Uptime pro Spieler und wer wie viel Quickness, Alacrity &amp; Co. für Gruppe und Squad erzeugt.</li>
+      <li><b>Golem-Training:</b> Bestwert, Trend, Benchmark-Ziel pro Spec und Rotation gegen deinen besten Versuch.</li>
+      <li><b>Langzeit:</b> Spieler-Entwicklung, Abzeichen, Kill-Zeiten pro Boss, Vergleich zweier Logs.</li>
+    </ul>
+
+    <h2 style="margin-top:22px">Installation</h2>
+    <ol>
+      <li>ZIP herunterladen und <b>komplett entpacken</b> (z.&nbsp;B. nach <code>Dokumente\NPG Log Analyzer</code>).</li>
+      <li><code>NPG Log Analyzer.exe</code> starten. Zeigt Windows „Der Computer wurde durch Windows geschützt“: <b>Weitere Informationen → Trotzdem ausführen</b> (das Programm ist nicht signiert).</li>
+      <li>Voraussetzung: Windows 10/11 mit Microsoft Edge, in GW2 <b>arcdps</b> mit Elite Insights (die .html-Auswertungen liegen neben den Logs). Liegt dein arcdps-Ordner woanders: im Programm unter Einstellungen eintragen.</li>
+    </ol>
+    <h3>Live-Meter einrichten (Nexus-Addon)</h3>
+    <ol>
+      <li>Spiel beenden.</li>
+      <li><code>NPG_LiveBridge.dll</code> (liegt im ZIP unter <code>nexus-addon</code> oder rechts einzeln) in den Ordner <code>&lt;Guild Wars 2&gt;\addons\</code> kopieren – dort, wo auch deine anderen Nexus-Addons liegen.</li>
+      <li>Spiel starten, Nexus öffnen (<b>Strg + O</b>) → Addons → <b>NPG Live Bridge</b> laden. arcdps muss laufen.</li>
+      <li>Im Programm: Seitenleiste → <b>Live-Meter</b>, „Eigenes Fenster ↗“ für den zweiten Monitor.</li>
+    </ol>
+    <p class="la-small">Das Addon zeichnet nichts im Spiel und schickt die Kampfdaten nur an das Programm auf deinem PC. Daten gibt es – wie bei arcdps – nur für deinen Squad.</p>
+
+    <h3>Updates</h3>
+    <p>Das Programm schaut beim Start hier nach einer neuen Version. Installiert wird erst, wenn du auf <b>„Jetzt aktualisieren“</b> klickst – Einstellungen und Verlauf bleiben erhalten. Startet eine neue Version nicht, holt das Programm automatisch die vorige zurück. Neue Versionen der DLL zeigt das Live-Meter an, die tauschst du selbst.</p>
+
+    <h3 id="fehler">Fehler melden</h3>
+    <p>Im Programm: <b>Einstellungen → Über &amp; Updates → „Fehlerbericht erstellen“</b>. Es entsteht eine ZIP-Datei auf deinem Desktop (Protokoll, Version, Windows-Version; Schlüssel, Token und Webhooks sind unkenntlich gemacht). Schick sie mir zusammen mit einer kurzen Beschreibung, was du gemacht hast – am besten auf dem Weg, über den du den Beta-Link bekommen hast.</p>
+  </div>
+
+  <div>
+    <div class="la-box parchment" id="download">
+      <h2>Download</h2>
+      <div class="la-ver"><b id="la-version">…</b><span id="la-date"></span></div>
+      <div class="la-dl">
+        <a class="btn btn-red" id="la-full" href="#"><svg class="btn-bg" aria-hidden="true" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M6 34 C40 14 90 10 150 12 C230 8 300 6 352 14 C380 18 396 26 392 36 C386 48 330 52 260 50 C190 52 110 54 50 50 C20 48 2 44 6 34Z"/></svg>Programm herunterladen</a>
+        <a class="btn btn-gold" id="la-dll" href="#"><svg class="btn-bg" aria-hidden="true" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M6 34 C40 14 90 10 150 12 C230 8 300 6 352 14 C380 18 396 26 392 36 C386 48 330 52 260 50 C190 52 110 54 50 50 C20 48 2 44 6 34Z"/></svg>Nur die DLL (Nexus-Addon)</a>
+      </div>
+      <p class="la-small" id="la-sizes"></p>
+      <details class="la-small"><summary>Prüfsummen (SHA-256)</summary><p class="la-sha" id="la-sha"></p></details>
+      <div class="la-note la-small">Beta-Version: Es kann noch hier und da haken. Bitte Fehler melden – danke fürs Testen!</div>
+      <p class="la-small">Lost Ark ist im Programm als <b>Vorschau</b> enthalten (Auswertung aus LOA Logs, Vergleichswerte nur per Einfügen).</p>
+    </div>
+    <div class="la-box parchment la-hist" style="margin-top:22px">
+      <h2>Was ist neu</h2>
+      <div id="la-hist"><p class="la-small">Lade …</p></div>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+<footer class="foot band">
+  <p>© <span class="year">2026</span> NerdPublic Gaming · <a href="../impressum.html">Impressum</a> · <a href="../datenschutz.html">Datenschutz</a></p>
+  <p class="fine">Guild Wars 2 ist eine Marke von ArenaNet, LLC. Diese Seite ist ein Fanprojekt und steht in keiner Verbindung zu ArenaNet oder NCSOFT.</p>
+  <p class="fine">Quellen im Programm: arcdps (deltaconnected), Elite Insights, GW2 Wingman, dps.report, offizielle Guild-Wars-2-API, Nexus (Raidcore).</p>
+</footer>
+<script src="../nav.js"></script>
+<script>
+(async () => {
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const de = (d) => d ? d.split("-").reverse().join(".") : "";
+  const mb = (b) => (b / 1e6).toLocaleString("de-DE", { maximumFractionDigits: 1 }) + " MB";
+  try {
+    const v = await (await fetch("version.json?t=" + Date.now(), { cache: "no-store" })).json();
+    const ch = v.channels || {};
+    const cur = [ch.stabil, ch.beta].filter(Boolean).sort((a, b) => (b.date || "").localeCompare(a.date || ""))[0];
+    if (!cur) throw 0;
+    document.getElementById("la-version").textContent = cur.label || cur.version;
+    document.getElementById("la-date").textContent = "vom " + de(cur.date);
+    document.getElementById("la-full").href = cur.full.url;
+    if (v.addon) document.getElementById("la-dll").href = v.addon.url;
+    document.getElementById("la-sizes").textContent = `Programm ${mb(cur.full.size)} (ZIP) · NPG Live Bridge ${v.addon ? v.addon.version : ""}`;
+    document.getElementById("la-sha").innerHTML = `Programm: ${esc(cur.full.sha256)}<br>DLL: ${esc(v.addon ? v.addon.sha256 : "")}`;
+    document.getElementById("la-hist").innerHTML = (v.history || []).map((h) => `<article><h3>${esc(h.label || h.version)}<span class="la-tag ${h.channel === "stabil" ? "stabil" : ""}">${h.channel === "stabil" ? "Stabil" : "Beta"}</span></h3>
+      <p class="la-small" style="margin:0 0 4px">${de(h.date)}</p><ul>${(h.notes || []).map((n) => `<li>${esc(n)}</li>`).join("")}</ul></article>`).join("");
+  } catch (e) {
+    document.getElementById("la-version").textContent = "–";
+    document.getElementById("la-hist").innerHTML = '<p class="la-small">Versionsinfos konnten nicht geladen werden.</p>';
+  }
+})();
+</script>
+</body>
+</html>
