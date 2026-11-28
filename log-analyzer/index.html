@@ -33,10 +33,14 @@
 .la-tag{display:inline-block;font:600 11px var(--body);text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:10px;background:var(--red);color:#fff;margin-left:6px;vertical-align:middle}
 .la-tag.stabil{background:var(--gold2)}
 .la-note{border-left:4px solid var(--gold2);padding:8px 14px;background:rgba(168,123,44,.1);margin:12px 0}
+.la-lang{display:inline-flex;border:1px solid rgba(227,183,90,.45);border-radius:8px;overflow:hidden;margin-top:14px}
+.la-lang button{background:none;border:0;color:var(--muted);font:700 13px var(--body);padding:6px 12px;cursor:pointer}
+.la-lang button.on{background:rgba(227,183,90,.2);color:var(--text)}
+body[data-lang="de"] .l-en,body[data-lang="en"] .l-de{display:none!important}
 @media (max-width:900px){.la-grid{grid-template-columns:1fr}.la-feat{grid-template-columns:1fr}}
 </style>
 </head>
-<body class="guide-page">
+<body class="guide-page" data-lang="de">
 <header class="nav">
   <a class="brand" href="../index.html" aria-label="NerdPublic Gaming – Start">
     <img src="../assets/logo-round.png" alt="" width="44" height="44">
@@ -63,15 +67,17 @@
 <div class="crumbs band"><a href="../index.html">Start</a> › <span>NPG Log Analyzer</span></div>
 <section class="g-hero band">
   <div class="g-hero-in">
-    <p class="kick">Guild Wars 2 · Werkzeug · Beta</p>
+    <p class="kick"><span class="l-de">Guild Wars 2 · Werkzeug · Beta</span><span class="l-en">Guild Wars 2 · Tool · Beta</span></p>
     <h1>NPG Log Analyzer</h1>
-    <p class="sub">Wertet eure Raid-, Strike- und Fraktal-Abende aus deinen arcdps-Logs aus – mit Wingman-Vergleich, PDFs und Discord-Text. Dazu ein Live-Meter für den zweiten Monitor mit Skill-Ansicht und Boon-Tabelle und ein Golem-Training mit Bestwerten. Läuft lokal auf deinem PC, ohne KI.</p>
+    <p class="sub l-en">Analyzes your raid, strike and fractal evenings from your arcdps logs – with Wingman comparison, PDFs and Discord text. Plus a live meter for the second monitor with skill view and boon table, and golem training with personal bests. Runs locally on your PC, without AI. Available in German and English.</p>
+    <p class="sub l-de">Wertet eure Raid-, Strike- und Fraktal-Abende aus deinen arcdps-Logs aus – mit Wingman-Vergleich, PDFs und Discord-Text. Dazu ein Live-Meter für den zweiten Monitor mit Skill-Ansicht und Boon-Tabelle und ein Golem-Training mit Bestwerten. Läuft lokal auf deinem PC, ohne KI. Auf Deutsch und Englisch.</p>
+    <div class="la-lang" role="group" aria-label="Sprache / Language"><button data-l="de">Deutsch</button><button data-l="en">English</button></div>
   </div>
 </section>
 
 <section class="band">
 <div class="la-grid">
-  <div class="la-box parchment">
+  <div class="la-box parchment l-de">
     <h2>Was das Programm kann</h2>
     <ul class="la-feat">
       <li><b>Abend auswerten:</b> alle Versuche, Schaden und Anteil, Entwicklung pro Versuch, Vergleich mit dem GW2-Wingman-Klassen-Median.</li>
@@ -104,21 +110,57 @@
     <p>Im Programm: <b>Einstellungen → Über &amp; Updates → „Fehlerbericht erstellen“</b>. Es entsteht eine ZIP-Datei auf deinem Desktop (Protokoll, Version, Windows-Version; Schlüssel, Token und Webhooks sind unkenntlich gemacht). Schick sie mir zusammen mit einer kurzen Beschreibung, was du gemacht hast – am besten auf dem Weg, über den du den Beta-Link bekommen hast.</p>
   </div>
 
+  <div class="la-box parchment l-en">
+    <h2>What the program does</h2>
+    <ul class="la-feat">
+      <li><b>Analyze evening:</b> all attempts, damage and share, development per attempt, comparison with the GW2 Wingman class median.</li>
+      <li><b>Two PDFs + Discord text:</b> a one-pager for the group and a detailed report.</li>
+      <li><b>Live meter:</b> DPS in class colors on the second monitor, click a name to see skills, key figures and DPS curve.</li>
+      <li><b>Live boon table:</b> uptime per player and who generates how much quickness, alacrity &amp; co. for group and squad.</li>
+      <li><b>Golem training:</b> personal best, trend, benchmark target per spec and rotation vs. your best attempt.</li>
+      <li><b>Long term:</b> player development, badges, kill times per boss, comparison of two logs.</li>
+    </ul>
+
+    <h2 style="margin-top:22px">Installation</h2>
+    <ol>
+      <li>Download the ZIP and <b>extract it completely</b> (e.g. to <code>Documents\NPG Log Analyzer</code>).</li>
+      <li>Start <code>NPG Log Analyzer.exe</code>. If Windows shows “Windows protected your PC”: <b>More info → Run anyway</b> (the program is not signed).</li>
+      <li>Requirements: Windows 10/11 with Microsoft Edge, in GW2 <b>arcdps</b> with Elite Insights (the .html reports are next to the logs). If your arcdps folder is somewhere else: enter it in the program's settings.</li>
+      <li>Language: follows Windows on first start – switch with <b>DE | EN</b> at the bottom left of the sidebar.</li>
+    </ol>
+    <h3>Set up the live meter (Nexus addon)</h3>
+    <ol>
+      <li>Close the game.</li>
+      <li>Copy <code>NPG_LiveBridge.dll</code> (in the ZIP under <code>nexus-addon</code> or separately on the right) into the folder <code>&lt;Guild Wars 2&gt;\addons\</code> – where your other Nexus addons are.</li>
+      <li>Start the game, open Nexus (<b>Ctrl + O</b>) → Addons → load <b>NPG Live Bridge</b>. arcdps must be running.</li>
+      <li>In the program: sidebar → <b>Live meter</b>, “Own window ↗” for the second monitor.</li>
+    </ol>
+    <p class="la-small">The addon draws nothing in the game and only sends the combat data to the program on your PC. Like arcdps, it only has data for your squad.</p>
+
+    <h3>Updates</h3>
+    <p>The program checks this page for a new version on start. Nothing is installed until you click <b>“Update now”</b> – settings and history are kept. If a new version doesn't start, the program automatically restores the previous one. The live meter tells you about new DLL versions; you replace the DLL yourself.</p>
+
+    <h3>Report a bug</h3>
+    <p>In the program: <b>Settings → About &amp; updates → “Create bug report”</b>. This creates a ZIP file on your desktop (log, version, Windows version; keys, tokens and webhooks are masked). Send it to me with a short description of what you did – ideally the same way you got the beta link.</p>
+    <p class="la-small">Boss, skill and mechanic names come from your logs: with a German game client they are German, with an English client English.</p>
+  </div>
+
   <div>
     <div class="la-box parchment" id="download">
       <h2>Download</h2>
       <div class="la-ver"><b id="la-version">…</b><span id="la-date"></span></div>
       <div class="la-dl">
-        <a class="btn btn-red" id="la-full" href="#"><svg class="btn-bg" aria-hidden="true" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M6 34 C40 14 90 10 150 12 C230 8 300 6 352 14 C380 18 396 26 392 36 C386 48 330 52 260 50 C190 52 110 54 50 50 C20 48 2 44 6 34Z"/></svg>Programm herunterladen</a>
-        <a class="btn btn-gold" id="la-dll" href="#"><svg class="btn-bg" aria-hidden="true" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M6 34 C40 14 90 10 150 12 C230 8 300 6 352 14 C380 18 396 26 392 36 C386 48 330 52 260 50 C190 52 110 54 50 50 C20 48 2 44 6 34Z"/></svg>Nur die DLL (Nexus-Addon)</a>
+        <a class="btn btn-red" id="la-full" href="#"><svg class="btn-bg" aria-hidden="true" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M6 34 C40 14 90 10 150 12 C230 8 300 6 352 14 C380 18 396 26 392 36 C386 48 330 52 260 50 C190 52 110 54 50 50 C20 48 2 44 6 34Z"/></svg><span class="l-de">Programm herunterladen</span><span class="l-en">Download program</span></a>
+        <a class="btn btn-gold" id="la-dll" href="#"><svg class="btn-bg" aria-hidden="true" viewBox="0 0 400 60" preserveAspectRatio="none"><path d="M6 34 C40 14 90 10 150 12 C230 8 300 6 352 14 C380 18 396 26 392 36 C386 48 330 52 260 50 C190 52 110 54 50 50 C20 48 2 44 6 34Z"/></svg><span class="l-de">Nur die DLL (Nexus-Addon)</span><span class="l-en">DLL only (Nexus addon)</span></a>
       </div>
       <p class="la-small" id="la-sizes"></p>
-      <details class="la-small"><summary>Prüfsummen (SHA-256)</summary><p class="la-sha" id="la-sha"></p></details>
-      <div class="la-note la-small">Beta-Version: Es kann noch hier und da haken. Bitte Fehler melden – danke fürs Testen!</div>
-      <p class="la-small">Lost Ark ist im Programm als <b>Vorschau</b> enthalten (Auswertung aus LOA Logs, Vergleichswerte nur per Einfügen).</p>
+      <details class="la-small"><summary><span class="l-de">Prüfsummen</span><span class="l-en">Checksums</span> (SHA-256)</summary><p class="la-sha" id="la-sha"></p></details>
+      <div class="la-note la-small"><span class="l-de">Beta-Version: Es kann noch hier und da haken. Bitte Fehler melden – danke fürs Testen!</span><span class="l-en">Beta version: things may still break here and there. Please report bugs – thanks for testing!</span></div>
+      <p class="la-small l-de">Lost Ark ist im Programm als <b>Vorschau</b> enthalten (Auswertung aus LOA Logs, Vergleichswerte nur per Einfügen).</p>
+      <p class="la-small l-en">Lost Ark is included as a <b>preview</b> (analysis from LOA Logs, comparison values only by pasting).</p>
     </div>
     <div class="la-box parchment la-hist" style="margin-top:22px">
-      <h2>Was ist neu</h2>
+      <h2><span class="l-de">Was ist neu</span><span class="l-en">What's new</span></h2>
       <div id="la-hist"><p class="la-small">Lade …</p></div>
     </div>
   </div>
@@ -133,25 +175,36 @@
 <script src="../nav.js"></script>
 <script>
 (async () => {
+  const pick = new URLSearchParams(location.search).get("lang") || (() => { try { return localStorage.getItem("npg-la-lang"); } catch (e) { return null; } })()
+    || ((navigator.language || "de").toLowerCase().startsWith("de") ? "de" : "en");
+  const setLang = (l) => { document.body.dataset.lang = l; document.documentElement.lang = l; document.querySelectorAll(".la-lang button").forEach((b) => b.classList.toggle("on", b.dataset.l === l)); try { localStorage.setItem("npg-la-lang", l); } catch (e) {} render(); };
+  let V = null;
+  const EN = () => document.body.dataset.lang === "en";
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  const de = (d) => d ? d.split("-").reverse().join(".") : "";
-  const mb = (b) => (b / 1e6).toLocaleString("de-DE", { maximumFractionDigits: 1 }) + " MB";
-  try {
-    const v = await (await fetch("version.json?t=" + Date.now(), { cache: "no-store" })).json();
+  const de = (d) => d ? (EN() ? d.split("-").reverse().join("/") : d.split("-").reverse().join(".")) : "";
+  const mb = (b) => (b / 1e6).toLocaleString(EN() ? "en-GB" : "de-DE", { maximumFractionDigits: 1 }) + " MB";
+  function render() {
+    const v = V; if (!v) return;
     const ch = v.channels || {};
     const cur = [ch.stabil, ch.beta].filter(Boolean).sort((a, b) => (b.date || "").localeCompare(a.date || ""))[0];
     if (!cur) throw 0;
     document.getElementById("la-version").textContent = cur.label || cur.version;
-    document.getElementById("la-date").textContent = "vom " + de(cur.date);
+    document.getElementById("la-date").textContent = (EN() ? "from " : "vom ") + de(cur.date);
     document.getElementById("la-full").href = cur.full.url;
     if (v.addon) document.getElementById("la-dll").href = v.addon.url;
-    document.getElementById("la-sizes").textContent = `Programm ${mb(cur.full.size)} (ZIP) · NPG Live Bridge ${v.addon ? v.addon.version : ""}`;
-    document.getElementById("la-sha").innerHTML = `Programm: ${esc(cur.full.sha256)}<br>DLL: ${esc(v.addon ? v.addon.sha256 : "")}`;
-    document.getElementById("la-hist").innerHTML = (v.history || []).map((h) => `<article><h3>${esc(h.label || h.version)}<span class="la-tag ${h.channel === "stabil" ? "stabil" : ""}">${h.channel === "stabil" ? "Stabil" : "Beta"}</span></h3>
-      <p class="la-small" style="margin:0 0 4px">${de(h.date)}</p><ul>${(h.notes || []).map((n) => `<li>${esc(n)}</li>`).join("")}</ul></article>`).join("");
+    document.getElementById("la-sizes").textContent = `${EN() ? "Program" : "Programm"} ${mb(cur.full.size)} (ZIP) · NPG Live Bridge ${v.addon ? v.addon.version : ""}`;
+    document.getElementById("la-sha").innerHTML = `${EN() ? "Program" : "Programm"}: ${esc(cur.full.sha256)}<br>DLL: ${esc(v.addon ? v.addon.sha256 : "")}`;
+    document.getElementById("la-hist").innerHTML = (v.history || []).map((h) => `<article><h3>${esc(h.label || h.version)}<span class="la-tag ${h.channel === "stabil" ? "stabil" : ""}">${h.channel === "stabil" ? (EN() ? "Stable" : "Stabil") : "Beta"}</span></h3>
+      <p class="la-small" style="margin:0 0 4px">${de(h.date)}</p><ul>${((EN() && h.notes_en && h.notes_en.length ? h.notes_en : h.notes) || []).map((n) => `<li>${esc(n)}</li>`).join("")}</ul></article>`).join("");
+  }
+  document.querySelectorAll(".la-lang button").forEach((b) => b.onclick = () => setLang(b.dataset.l));
+  setLang(pick);
+  try {
+    V = await (await fetch("version.json?t=" + Date.now(), { cache: "no-store" })).json();
+    render();
   } catch (e) {
     document.getElementById("la-version").textContent = "–";
-    document.getElementById("la-hist").innerHTML = '<p class="la-small">Versionsinfos konnten nicht geladen werden.</p>';
+    document.getElementById("la-hist").innerHTML = EN() ? '<p class="la-small">Version info could not be loaded.</p>' : '<p class="la-small">Versionsinfos konnten nicht geladen werden.</p>';
   }
 })();
 </script>

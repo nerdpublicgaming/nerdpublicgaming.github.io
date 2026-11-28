@@ -1,38 +1,59 @@
 {
  "channels": {
   "beta": {
-   "version": "0.9.0",
-   "label": "0.9 Beta",
+   "version": "0.9.1",
+   "label": "0.9.1 Beta",
    "date": "2026-11-28",
    "notes": [
-    "Erste Beta-Version für Tester",
-    "Abend-Auswertung aus deinen arcdps-Logs mit Wingman-Vergleich, PDFs und Discord-Text",
-    "Live-Meter für den zweiten Monitor (mit dem Nexus-Addon NPG Live Bridge 1.1)",
-    "Live-Meter: Klick auf einen Spieler zeigt Skills, Kennzahlen und DPS-Kurve",
-    "Live-Meter: Boon-Tabelle (Erhalten, Erzeugt für Gruppe und Squad)",
-    "Golem-Training mit Bestwerten, Verlauf und Benchmark-Zielen",
-    "Updates direkt im Programm und Fehlerbericht per Knopf (Einstellungen → Über & Updates)"
+    "Sprache wählbar: Deutsch oder Englisch (unten links DE | EN oder in den Einstellungen) – auf Englisch ist alles englisch, auch PDFs, Discord-Text und Live-Meter",
+    "Neu in der Seitenleiste: NPG-Logo, „Kauf mir einen Kaffee“ und Links zu Twitch, YouTube und Homepage",
+    "Der Knopf „Download-Seite“ funktioniert jetzt",
+    "Englische Anleitung README.txt im Paket"
+   ],
+   "notes_en": [
+    "Choose your language: German or English (DE | EN at the bottom left or in the settings) – in English everything is English, including PDFs, Discord text and live meter",
+    "New in the sidebar: NPG logo, “Buy me a coffee” and links to Twitch, YouTube and the homepage",
+    "The “Download page” button works now",
+    "English guide README.txt in the package"
    ],
    "runtime": 1,
    "app": {
-    "url": "downloads/0.9.0/app-0.9.0.zip",
-    "sha256": "f493d530f9beb6afa5cff1cc89fb8c626ad9894afdf061c66ecf2ea8dd3ed26c",
-    "size": 275036
+    "url": "downloads/0.9.1/app-0.9.1.zip",
+    "sha256": "af585a8568901db48dbe4dcc01d996383d4d1f2661b222e6dda88befac9ca300",
+    "size": 335449
    },
    "full": {
-    "url": "downloads/0.9.0/NPG-Log-Analyzer-0.9.0.zip",
-    "sha256": "bc005ddd4595499e467b5c0400b69acb9b9eab9b9cdeb9db8d59559a5e15a880",
-    "size": 11556480
+    "url": "downloads/0.9.1/NPG-Log-Analyzer-0.9.1.zip",
+    "sha256": "e94e6a06ff3bf2cfb0edb30f0ac8be774877c44fdef9635d6f64a03b34ff1cda",
+    "size": 11619063
    }
   }
  },
  "addon": {
   "version": "1.1",
-  "url": "downloads/0.9.0/NPG_LiveBridge.dll",
+  "url": "downloads/0.9.1/NPG_LiveBridge.dll",
   "sha256": "8dbc5f265b639264c17238d5b42eeaf2cb6a683379dac685fc74d7ea6cb9e5b7",
   "size": 75264
  },
  "history": [
+  {
+   "version": "0.9.1",
+   "label": "0.9.1 Beta",
+   "date": "2026-11-28",
+   "channel": "beta",
+   "notes": [
+    "Sprache wählbar: Deutsch oder Englisch (unten links DE | EN oder in den Einstellungen) – auf Englisch ist alles englisch, auch PDFs, Discord-Text und Live-Meter",
+    "Neu in der Seitenleiste: NPG-Logo, „Kauf mir einen Kaffee“ und Links zu Twitch, YouTube und Homepage",
+    "Der Knopf „Download-Seite“ funktioniert jetzt",
+    "Englische Anleitung README.txt im Paket"
+   ],
+   "notes_en": [
+    "Choose your language: German or English (DE | EN at the bottom left or in the settings) – in English everything is English, including PDFs, Discord text and live meter",
+    "New in the sidebar: NPG logo, “Buy me a coffee” and links to Twitch, YouTube and the homepage",
+    "The “Download page” button works now",
+    "English guide README.txt in the package"
+   ]
+  },
   {
    "version": "0.9.0",
    "label": "0.9 Beta",
@@ -46,8 +67,17 @@
     "Live-Meter: Boon-Tabelle (Erhalten, Erzeugt für Gruppe und Squad)",
     "Golem-Training mit Bestwerten, Verlauf und Benchmark-Zielen",
     "Updates direkt im Programm und Fehlerbericht per Knopf (Einstellungen → Über & Updates)"
+   ],
+   "notes_en": [
+    "First beta version for testers",
+    "Evening analysis from your arcdps logs with Wingman comparison, PDFs and Discord text",
+    "Live meter for the second monitor (with the Nexus addon NPG Live Bridge 1.1)",
+    "Live meter: click a player to see skills, key figures and DPS curve",
+    "Live meter: boon table (received, generated for group and squad)",
+    "Golem training with personal bests, history and benchmark targets",
+    "Updates directly in the program and bug report by button (Settings → About & updates)"
    ]
   }
  ],
- "updated": "2026-11-28T21:00:24"
+ "updated": "2026-11-28T21:34:00"
 }
